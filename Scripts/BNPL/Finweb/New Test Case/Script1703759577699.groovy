@@ -40,3 +40,7 @@ WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Addr
 
 WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
 
+WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
+
