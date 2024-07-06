@@ -21,12 +21,14 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-operations-uat.m2pfintech.com/signin')
 
+WebUI.maximizeWindow()
+
+WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 
+    10)
+
 WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), UserName)
 
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), Password)
+
 WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/button_Login'))
-
-WebUI.callTestCase(findTestCase('Operational_Dashboard/Create_SoleTrader_Merchant'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setEncryptedText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), 
-    Password)
 
