@@ -33,119 +33,121 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
     'navishas')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Username_password'), 'Admin@1234')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@1234')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('C:/Users/I1675/Downloads/Occupation_Mapping_LOS.xlsx', 'Sheet1', 
-    true)
+Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('C:/Users/I1675/Downloads/Copy of Occupation_Mapping_LOS.xlsx', 'Sheet1', 
+    true) //Here ExcelFactory is a class and getExcelDatawithDefaultSheet is a static method and Object is class and excelData is objectname
+		//change the path when its run in another local system
 
 try {
 
-//change the path when its run in another local system
-for (int row = 1; row <= excelData.getRowNumbers(); row++) {
+
+for (int row = 1; row <= excelData.getRowNumbers(); row++) // row 0 in excel is is header //for loop incrementation
+	{
 	
-	String firstName = excelData.getValue('Fir_Nam', row)
+	String firstName = excelData.getValue('Fir_Nam', row)//getting the firstName row from excel
 	
-	String lastName = excelData.getValue('Las_Nam', row)
+	String lastName = excelData.getValue('Las_Nam', row)//getting the lastName row from excel
 	
-	String nicId = excelData.getValue('nat_id', row)
+	String nicId = excelData.getValue('nat_id', row)//getting the nationalId row from excel
 	
 	//String town = excelData.getValue("dis_desc", row)
 	
-	String mobileNo = excelData.getValue('Mob_No', row)
+	String mobileNo = excelData.getValue('Mob_No', row)//getting the mobile numbers row from excel
     
-	String occType = excelData.getValue('Occupation_Type', row)
+	String occType = excelData.getValue('Occupation_Type', row)//getting the Occupation Type row from excel
 	
-	String businessType = excelData.getValue('Business_Type', row)
+	String businessType = excelData.getValue('Business_Type', row)//getting the Business Type row from excel
 
-    String empType = excelData.getValue('Employer_Type', row)
+    String empType = excelData.getValue('Employer_Type', row)//getting the Employer Type row from excel
 
-    String indType = excelData.getValue('Industry_Type', row)
+    String indType = excelData.getValue('Industry_Type', row)//getting the Industry Type row from excel
 
-    String secType = excelData.getValue('Sector_Type', row)
+    String secType = excelData.getValue('Sector_Type', row)//getting the sector Type row from excel
 
-    String jobType = excelData.getValue('Job_Type', row)
+    String jobType = excelData.getValue('Job_Type', row)//getting the Job Type row from excel
 
-    String jobTitles = excelData.getValue('Job_Titles', row)
+    String jobTitles = excelData.getValue('Job_Titles', row)//getting the Job Titles row from excel
 
     try {
 		
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Add New Lead'), 20)
+		WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Lead'), 20)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Add New Lead'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Lead'))
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Register_BNPL'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Register_BNPL'))
 		
-		WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Get Details From_firstName'),
-			firstName)
+		WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'),
+			firstName) 
 		
 		WebUI.delay(4)
 		
-		WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Last_Name'),
+		WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Last_Name'),
 			lastName)
 		
-		WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/span_Gender'), 5)
+		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 5)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Last Name_mat-select-arrow ng-tns-c88-21'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Last Name_mat-select-arrow ng-tns-c88-21'))
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Male'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Male'))
 		
-		WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Mobile_Number'), mobileNo)
+		WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Mobile_Number'), mobileNo)
 		
-		WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/span_DOB'), 5)
+		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_DOB'), 5)
 		
-		WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Date_Of_Birth'), "11 Jul 1982")
+		WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Date_Of_Birth'), "11 Jul 1982")
 		
-		WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/div_Marital Status'))
+		WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_Marital Status'))
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Married'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married'))
 		
-		WebUI.scrollToElement(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Identifier_Selection'),0)
+		WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Identifier_Selection'),0)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/Select_Identifier_Selection'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/Select_Identifier_Selection'))
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/Select_NIC'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/Select_NIC'))
 		
-		WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_NIC'), nicId)
+		WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), nicId)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Create Lead'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create Lead'))
 		
 		WebUI.delay(8, FailureHandling.OPTIONAL)
 		
-		WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
+		WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
 		
-		/*/WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Search'))
+		/*/WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Search'))
 		
-		WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))/*/
+		WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))/*/
 		
-		WebUI.waitForElementClickable(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Activity_Complete'),
+		WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Activity_Complete'),
 			5, FailureHandling.OPTIONAL)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Activity_Complete'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Activity_Complete'))
 		
-		WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'),
+		WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'),
 			5, FailureHandling.OPTIONAL)
 		
-		/*/WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'))
+		/*/WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'))
 		
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Business AddressAddress Type'))
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Business AddressAddress Type'))
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_Residential Address'))
+		WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_Residential Address'))
 		
-		WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'),
+		WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'),
 			'asdfasdf')
 		
-		WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Town'), 0)
+		WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Town'), 0)
 		
-		WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'),town)
+		WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'),town)
 				
 		WebUI.delay(3, FailureHandling.OPTIONAL)
 		
@@ -168,8 +170,8 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 			System.out.println("Error: Town '" + town + "' is not present in the dropdown")
 		}
 		
-		String district = WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_District_mat-select-value-17'))
-		String country = WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Country_mat-select-value-19'))
+		String district = WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_District_mat-select-value-17'))
+		String country = WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Country_mat-select-value-19'))
 	
 		System.out.println("District selected: " + district)
 	
@@ -177,34 +179,35 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 	
 		WebUI.delay(1, FailureHandling.OPTIONAL)
 		
-		WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop'), 0)
+		WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop'), 0)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Save2'))/*/
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Save2'))/*/
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Activity_Complete'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Activity_Complete'))
 		
 		WebUI.delay(10)
 		
-		WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Skip_Task_button'))
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Skip_Task_button'))
 	
 				       
-		WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+		WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
             10, FailureHandling.OPTIONAL)
 		
-		WebUI.scrollToElement(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Scroll_to_emp'), 5)
+		WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Scroll_to_emp'), 5)
 
-        WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+        WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
             FailureHandling.OPTIONAL)
 
         WebUI.delay(2)
 
-        List<WebElement> options = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))  ////span[contains(text(),'Employed')]/parent::mat-option/parent::div[@role='listbox']
+        List<WebElement> options = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span")) //using List method options are saved in the WebElement name options
 
-		System.out.println("Number of options found: " + options.size())
+		System.out.println("Number of options found: " + options.size()) // getting the size of the list
 		
-		for (WebElement option : options) {
+		for (WebElement option : options) //adding WebElement and object name and in for loop
+			{
 			
-			String optionText = option.getText().trim()
+			String optionText = option.getText().trim() // trim is used to eliminate spaces in the get text
 			System.out.println("Option text: " + optionText)
 		}
 		
@@ -216,21 +219,24 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 			String optionText = option.getText().trim()
 			System.out.println("Option text: " + optionText)
 			
-            if (optionText.contains(occType)) {
+            if (optionText.contains(occType)) //using if condition getting the excel value and click when its matched with the list of options
+				{
                 
-				option.click()
+				option.click() //from a list of option one option is matched with the excel value and the value is clicked
 
                 optionFound = true;
 
                 System.out.println(('Success: Occupation \'' + occType) + '\' is selected')
 				
-				executeSalaried(driver, occType, businessType, empType, indType, secType, jobType, jobTitles)
-
+				executeSalaried(driver, occType, businessType, empType, indType, secType, jobType, jobTitles)    //existing code excution are added in a seperate method excuteSalaried
+																												//call this method when need to execute the existing code
                 break
             }
         }
-			
-			if(!optionFound) {
+			//this is for excel value and list of option is not matched
+		
+			if(!optionFound) 
+				{
 				
 				WebUI.refresh(FailureHandling.OPTIONAL)
 				
@@ -239,16 +245,16 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 			//driver.findElement(By.xpath("//mat-option/span[text()='Employed Full Time']")).click()
 			
 			
-			WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'),
+			WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'),
 				5, FailureHandling.OPTIONAL)
 			
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'))
 			
 			WebUI.delay(3)
 			
-			WebUI.scrollToElement(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Scroll_to_emp'), 5)
+			WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Scroll_to_emp'), 5)
 			
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
 			
 			WebUI.delay(1)
 			
@@ -274,98 +280,110 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 			if (occType.equals('Pensioner') || occType.equals('Unemployed')) {
 				
 				WebUI.delay(3)
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
-				WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Dividend_textbox'), "10000")
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+				WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Dividend_textbox'), "10000")
 				WebUI.delay(2)
 				WebUI.scrollToPosition(1633, 821)
-				WebUI.waitForElementClickable(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Salary_Income'), 10, FailureHandling.OPTIONAL)
-				WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Salary_Income'), "10000", FailureHandling.OPTIONAL)
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Unemployed_Pensioner'))
+				WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Salary_Income'), 10, FailureHandling.OPTIONAL)
+				WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Salary_Income'), "10000", FailureHandling.OPTIONAL)
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Unemployed_Pensioner'))
 				WebUI.delay(2)
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_scroll_to_deductions'),
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_scroll_to_deductions'),
 					5)
-				WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'), 10, FailureHandling.OPTIONAL)
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'))
+				WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'), 10, FailureHandling.OPTIONAL)
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'))
 				WebUI.delay(3)
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
 							5)
-				WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
+				WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
 					5, FailureHandling.OPTIONAL)
 
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
 
 				WebUI.delay(10, FailureHandling.OPTIONAL)
-				WebUI.waitForElementClickable(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Activity_Complete'), 20)
-				WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Activity_Complete'))
-				WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'),
+				WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Activity_Complete'), 20)
+				WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Activity_Complete'))
+				WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'),
 					5, FailureHandling.OPTIONAL)
 		
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'))
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'))
 				
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 				
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
+				WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
 				
-				WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'))
+				WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'))
 
 				WebUI.delay(4, FailureHandling.OPTIONAL)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
+					30)
+				
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Dividend'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 				
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
+					30)
 				
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 				
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_other'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_other'),
+					30)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
-					0)
-
-				WebUI.delay(1, FailureHandling.OPTIONAL)
-
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_business'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_count'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_business'),
+					30)
+
+				WebUI.delay(1, FailureHandling.OPTIONAL)
+
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_count'),
+					30)
 
 				WebUI.delay(1, FailureHandling.OPTIONAL)
 				
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
-					0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
+					30)
+				
+				WebUI.delay(1, FailureHandling.OPTIONAL)
+				
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIB_Income'),
+					30)
+				WebUI.delay(1, FailureHandling.OPTIONAL)
+				
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_maritalStatusGender'),
+					30)
 				
 				WebUI.delay(2, FailureHandling.OPTIONAL)
 
-				String occupationCode = WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
+				String occupationCode = WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
 					FailureHandling.STOP_ON_FAILURE)
 
 				System.out.println('The Occupation Code is: ' + occupationCode)
 				
 				WebUI.delay(3)
 				
-				WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
+				WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
 							
 			}
 				
@@ -392,6 +410,8 @@ catch (IOException e) {
 	e.printStackTrace();
 }
 
+//calling excuteSalaried as a method and excuting all existing code
+
 private void executeSalaried(WebDriver driver, String occType, String businessType, String empType, String indType, String secType, String jobType, String jobTitles) 
 
 {
@@ -403,7 +423,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 	
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Business_Type_Select'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Business_Type_Select'))
 			
 			List<WebElement> options0 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 			
@@ -434,7 +454,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 	
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Employer_Select'), FailureHandling.OPTIONAL)
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Employer_Select'), FailureHandling.OPTIONAL)
 	
 			List<WebElement> options01 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 			
@@ -472,7 +492,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 	
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
 	
 			WebUI.delay(2)
 	
@@ -500,7 +520,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 	
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
 	
 			WebUI.delay(2)
 	
@@ -528,11 +548,11 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 			
-			WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Years_in_Occupation'),'7')
+			WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Years_in_Occupation'),'7')
 			
 			WebUI.delay(2)
 	
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
 	
 			List<WebElement> options4 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 	
@@ -558,7 +578,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 			WebUI.delay(2)
 			
-			WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
+			WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
 	
 			List<WebElement> options5 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 	
@@ -586,117 +606,135 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 			
 				WebUI.delay(4)
 			
-				WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/scroll_Emp_Details'), 0)
+				WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/scroll_Emp_Details'), 0)
 				
-				WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'),
+				WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'),
 					5, FailureHandling.OPTIONAL)
 			
-				 WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+				 WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
 	
-						WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Rs_mat-input-6_Basic_Inc'),
+						WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Rs_mat-input-6_Basic_Inc'),
 							'12000')
 						
 						WebUI.delay(3)
 						
 						WebUI.scrollToPosition(1602, 900)
 						
-						WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'),
+						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'),
 							5, FailureHandling.OPTIONAL)
 	
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
 								
 						
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/scroll_Expense_Details'), 0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/scroll_Expense_Details'), 0)
 	
-						WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'),
+						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'),
 							5)
 	
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
 	
 	
 						WebUI.delay(2, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
 							0)
 	
-						WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
+						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
 							5, FailureHandling.OPTIONAL)
 	
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
 	
 						WebUI.delay(10, FailureHandling.OPTIONAL)
 	
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
 	
-						WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'),
+						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'),
 							5, FailureHandling.OPTIONAL)
+						
+						WebUI.delay(4, FailureHandling.OPTIONAL)
 				
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'))
+						WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'))
 						
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 						
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
+						WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
 						
-						WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'))
-	
+						WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'))
+						
+						//WebUI.refresh()
+					
+						//WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Loan App Scorecard'))
+						
 						WebUI.delay(4, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
+							30)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Dividend'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 						
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
+							30)
 						
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 						
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_other'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_other'),
+							30)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
-							0)
-	
-						WebUI.delay(1, FailureHandling.OPTIONAL)
-	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_business'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 	
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_count'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_business'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_count'),
+							30)
 	
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 						
-						WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
-							0)
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
+							30)
+						
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIB_Income'),
+							30)
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_maritalStatusGender'),
+							30)
 						
 						WebUI.delay(2, FailureHandling.OPTIONAL)
 	
-						String occupationCode = WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
+						String occupationCode = WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
 							FailureHandling.STOP_ON_FAILURE)
 	
 						System.out.println('The Occupation Code is: ' + occupationCode)
 						
 						WebUI.delay(3)
 						
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
 				}
 				
 				if(occType.equals("Self employed No Permit") || occType.equals("Self employed With Permit"))
@@ -704,7 +742,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 					{
 						WebUI.delay(2)
 				
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Business_Type_Select'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Business_Type_Select'))
 						
 						List<WebElement> options00 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 						
@@ -733,7 +771,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 						WebUI.delay(2)
 				
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
 				
 						WebUI.delay(2)
 				
@@ -761,7 +799,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 						WebUI.delay(2)
 				
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
 				
 						WebUI.delay(2)
 				
@@ -789,11 +827,11 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 						WebUI.delay(2)
 						
-						WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Years_in_Occupation'),'7')
+						WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Years_in_Occupation'),'7')
 						
 						WebUI.delay(2)
 				
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
 				
 						List<WebElement> options004 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 				
@@ -819,11 +857,11 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 						WebUI.delay(2)
 						
-						WebUI.scrollToElement(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_scroll_to_Job_Titles'), 5)
+						WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_scroll_to_Job_Titles'), 5)
 						
-						WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'), 10)
+						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'), 10)
 						
-						WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
 				
 						List<WebElement> options005 = driver.findElements(By.xpath("//div[@role='listbox']/mat-option/span"))
 				
@@ -852,116 +890,128 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 							WebUI.delay(4)
 						
-							WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/scroll_Emp_Details'), 0)
+							WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/scroll_Emp_Details'), 0)
 							
-							WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'),
+							WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'),
 								5, FailureHandling.OPTIONAL)
 						
-							 WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+							 WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
 				
-									WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Salary_Income'),
+									WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Salary_Income'),
 										'12000')
 									
 									WebUI.delay(3)
 									
 									WebUI.scrollToPosition(1602, 900)
 									
-									WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'),
+									WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'),
 										5, FailureHandling.OPTIONAL)
 				
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
 											
 									
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_scroll_To_Deductions'), 5)
+									WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/input_scroll_To_Deductions'), 5)
 				
-									WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'),
+									WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'),
 										5)
 				
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
 				
 									WebUI.delay(2, FailureHandling.OPTIONAL)
 				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
+									WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'),
 										0)
 				
-									WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
+									WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'),
 										5, FailureHandling.OPTIONAL)
 				
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
 				
 									WebUI.delay(10, FailureHandling.OPTIONAL)
 				
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
 				
-									WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'),
+									WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'),
 										5, FailureHandling.OPTIONAL)
 							
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_PEP'))
 									
 									WebUI.delay(1, FailureHandling.OPTIONAL)
 									
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
+									WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
 									
-									WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/button_Initiate_Scorecard'))
+									WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'))
 				
 									WebUI.delay(4, FailureHandling.OPTIONAL)
 				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-									
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
-										0)
-									
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-									
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_other'),
-										0)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_business'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-				
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_count'),
-										0)
-				
-									WebUI.delay(1, FailureHandling.OPTIONAL)
-									
-									WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
-										0)
-									
-									WebUI.delay(2, FailureHandling.OPTIONAL)
-				
-									String occupationCode = WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
-										FailureHandling.STOP_ON_FAILURE)
-				
-									System.out.println('The Occupation Code is: ' + occupationCode)
+									WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIBArrears'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_CustomerType'),
+							30)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Dividend'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_basicincome'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_intercept'),
+							30)
+						
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_other'),
+							30)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_industryAvg'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_fixedAlowance'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_business'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+	
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_count'),
+							30)
+	
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Rental'),
+							30)
+						
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_MCIB_Income'),
+							30)
+						WebUI.delay(1, FailureHandling.OPTIONAL)
+						
+						WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_maritalStatusGender'),
+							30)
+						
+						WebUI.delay(2, FailureHandling.OPTIONAL)
+	
+						String occupationCode = WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_OccupationCod'),
+							FailureHandling.STOP_ON_FAILURE)
+	
+						System.out.println('The Occupation Code is: ' + occupationCode)
 									
 									WebUI.delay(3)
 									
-									WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
+									WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Button'))
 							}
 								
 				

@@ -122,7 +122,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 
 		WebUI.delay(2)
 
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Employer_Select'), FailureHandling.OPTIONAL)
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Employer_Select'), FailureHandling.OPTIONAL)
 
 		List<WebElement> options1 = driver.findElements(By.xpath('/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/mat-option/span'))
 
@@ -149,7 +149,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 		
 		WebUI.delay(2)
 
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Industry_select'), FailureHandling.OPTIONAL)
 
 		WebUI.delay(2)
 
@@ -177,7 +177,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 		
 		WebUI.delay(2)
 
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Sector_Arrow_Select'))
 
 		WebUI.delay(2)
 
@@ -205,7 +205,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 		
 		WebUI.delay(2)
 
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Type_Select'))
 
 		List<WebElement> options4 = driver.findElements(By.xpath('/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/mat-option/span'))
 
@@ -231,7 +231,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 		
 		WebUI.delay(2)
 
-		WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
+		WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Job_Titles_Select'))
 
 		List<WebElement> options5 = driver.findElements(By.xpath('/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/mat-option/span'))
 

@@ -900,7 +900,7 @@
       <name>KYC_Document1</name>
    </variable>
    <variable>
-      <defaultValue>'C:\\Users\\I1675\\Downloads\\dummy.pdf'</defaultValue>
+      <defaultValue>'C:\\\\Users\\\\I1675\\\\Downloads\\\\dummy (1).pdf'</defaultValue>
       <description></description>
       <id>f8cafde6-13b6-465d-801d-d7ebff0b76d6</id>
       <masked>false</masked>

@@ -6,12 +6,11 @@
    <elementGuidId>c3752c83-ca57-4e5b-9040-5b299b202cbe</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//label[@id='mat-form-field-label-35']/mat-label/span</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//label[@id='mat-form-field-label-35']/mat-label/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +21,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fef369f0-3461-496c-86e9-a6ea523c5185</webElementGuid>
+      <webElementGuid>cd45c60d-d7d0-47c3-adac-6e4d7384c739</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +29,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-tooltip-trigger mr-0.5 break-words truncate</value>
-      <webElementGuid>9fe422c4-8883-4634-9dbe-b53a93f1d12f</webElementGuid>
+      <webElementGuid>1fe6e409-d7b4-4a0c-98a5-57567773fc1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +37,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>cdk-describedby-message-17</value>
-      <webElementGuid>201c661b-1015-438d-9487-4a2b405d6410</webElementGuid>
+      <webElementGuid>ef6673d4-974a-44ec-8ea0-ee717bd485df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Locality</value>
-      <webElementGuid>65430551-5bc1-4910-b015-7420f8f80578</webElementGuid>
+      <webElementGuid>0ce9c753-a8b3-4096-b1c3-4e8671d2c4db</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-form-field-label-35&quot;)/mat-label[@class=&quot;helper-text-label ng-tns-c33-43 ng-star-inserted&quot;]/span[@class=&quot;mat-tooltip-trigger mr-0.5 break-words truncate&quot;]</value>
-      <webElementGuid>47ac8b04-c109-481a-9a81-9c7396d424c4</webElementGuid>
+      <webElementGuid>58cabe58-8915-4c19-a8ed-8c51dfa396a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//label[@id='mat-form-field-label-35']/mat-label/span</value>
-      <webElementGuid>0d69fe50-cb8a-4dd2-9843-ba483c4dc408</webElementGuid>
+      <webElementGuid>6a0ed75b-04a1-40e4-a1df-1529391e6ec1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/following::span[4]</value>
-      <webElementGuid>3fb031da-b9dc-4111-8d82-1027088f9c07</webElementGuid>
+      <webElementGuid>b7411e3d-2ae3-4ba3-b4f5-567f42f92597</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='District'])[1]/following::span[5]</value>
-      <webElementGuid>13f573d7-2aae-4a35-9dbc-92d5cf27a390</webElementGuid>
+      <webElementGuid>35c87a84-abeb-4db3-ba72-f745397d04b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[6]/preceding::span[1]</value>
-      <webElementGuid>0c091e76-bb52-414f-b4bb-dad875b1602b</webElementGuid>
+      <webElementGuid>6cd2f423-b772-455d-8527-5be01d199879</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub-Locality'])[1]/preceding::span[4]</value>
-      <webElementGuid>59d2604c-b6f1-4dd1-8519-03dd7ea1791f</webElementGuid>
+      <webElementGuid>bc240598-cebc-42ef-8cbc-02767a980cac</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Locality']/parent::*</value>
-      <webElementGuid>e8e2006d-4a17-4597-9160-54ae79a250f8</webElementGuid>
+      <webElementGuid>4c41df4d-5403-404b-841e-cdd87b08494f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/mat-form-field/div/div/div/span/label/mat-label/span</value>
-      <webElementGuid>c78ec996-dd5d-4146-aa36-540eb56516aa</webElementGuid>
+      <webElementGuid>fa4bb7ab-9dd2-4e15-9436-8919fcbc9621</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Locality' or . = 'Locality')]</value>
-      <webElementGuid>ea61d4fb-d53e-491f-b3c7-46b97075231a</webElementGuid>
+      <webElementGuid>e9b9e872-b8bb-4dad-888f-8d6778a2cc99</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

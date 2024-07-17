@@ -8,7 +8,7 @@ for(int row = 1; row <= excelData.getRowNumbers(); row++) {
     try {
         // Click on the dropdown arrow only if it hasn't been clicked before
         if (!defaultOptionClicked) {
-            WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
+            WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
 
             // Delay for options to load
             WebUI.delay(3)
@@ -39,7 +39,7 @@ for(int row = 1; row <= excelData.getRowNumbers(); row++) {
             driver.findElement(By.xpath("//body/app-root[1]/layout[1]/empty-layout[1]/div[1]/div[1]/app-view-workflow[1]/div[1]/div[2]/div[2]/div[1]/div[2]/div[1]/div[1]/div[1]/div[1]/app-dynamic-form-component[1]/mat-stepper[1]/div[2]/div[1]/form[1]/fieldset[1]/div[1]/mat-radio-group[1]/mat-radio-button[2]/label[1]/span[1]/span[1]")).click()
 
             // Click on the dropdown again to open it
-            WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
+            WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
 
             // Delay for options to load
             WebUI.delay(2)

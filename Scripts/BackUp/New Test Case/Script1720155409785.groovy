@@ -37,29 +37,29 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
     'navishas')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'), 
+WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'), 
     5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'))
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/div_Loan Application'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/div_Loan Application'))
 
 WebUI.delay(1, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/input_BNPLCC_mat-input-19'), '000000000003130')
+WebUI.setText(findTestObject('LOS/Search/Page_Finweb - Brancho/input_BNPLCC_mat-input-19'), '000000000003130')
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Search'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Search'))
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
@@ -139,7 +139,7 @@ try {
 
             try {
 				
-                WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+                WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
                     FailureHandling.OPTIONAL)
 
                 WebUI.delay(2)
@@ -166,14 +166,14 @@ try {
 					//driver.findElement(By.xpath("//mat-option/span[text()='Employed Full Time']")).click()
 					
 					
-					WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'),
+					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'),
 						5, FailureHandling.OPTIONAL)
 					
-					WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'))
+					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'))
 					
 					WebUI.delay(3)
 					
-					WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
+					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
 					
 					WebUI.delay(1)
 					
@@ -191,89 +191,89 @@ try {
                 
                 if ((occType.equals('Employed Contractual') || occType.equals('Employed Full Time')) || occType.equals('Employed Part Time')) {
 					
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Basic_Salary'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Basic_Salary'), 
                         String.valueOf(basicIncome))
 
                     System.out.println(('Success: Basic Income \'' + basicIncome) + '\'')
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Fixed_alowance'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Fixed_alowance'), 
                         String.valueOf(fixedAlowance))
 
                     System.out.println(('Success: Fixed Alowance \'' + fixedAlowance) + '\'')
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Variable_Alowance'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Variable_Alowance'), 
                         String.valueOf(variableAlowance))
 
                     System.out.println(('Success: Variable Alowance \'' + variableAlowance) + '\'')
 
                     WebUI.delay(3)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Back_Button_next to save'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Back_Button_next to save'))
 
-                    WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
                         5, FailureHandling.OPTIONAL)
 				
                 }
                 
                 if (occType.equals('Self employed No Permit') || occType.equals('Self employed With Permit')) {
                     
-					WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Industry_Average'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Industry_Average'), 
                         String.valueOf(industryAverage))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Salary_Income'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Salary_Income'), 
                         String.valueOf(salaryAlowance))
 
                     WebUI.delay(1)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Self_Emp'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Self_Emp'))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Business_Expenses'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Business_Expenses'), 
                         String.valueOf(businessExpenses))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Other_Income'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Other_Income'), 
                         String.valueOf(otherIncome))
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Text_Rent_IfAny'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Text_Rent_IfAny'), 
                         5)
 					
 					WebUI.delay(2)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_button_next_toSave'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_button_next_toSave'))
 					
 					WebUI.delay(1)
 					
-                    WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'), 
+                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'), 
                         6, FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'))
 					
-					WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
+					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
 						5, FailureHandling.OPTIONAL)
 					
                 }
 				
 				if(occType.equals("Pensioner") || occType.equals("Unemployed")) {
 					
-					WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'))
+					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'))
 					
-					WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Dividend'), 
+					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Dividend'), 
                         String.valueOf(dividendIncome))
 					
-					WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Rental_Income'),
+					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Rental_Income'),
 						String.valueOf(rentalIncome))
 					
-					WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/textbox_Other'),
+					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Other'),
 						String.valueOf(other))
 					
 					WebUI.delay(2)
 					
-					WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Pensioner_Back_Button'))		
+					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Pensioner_Back_Button'))		
 				
-					WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
+					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
 						5, FailureHandling.OPTIONAL)
 					
 					

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-4']/div</value>
+         <value>//mat-label[contains(text(),'Documents - KYC ')]/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f3c7f43a-d970-4a40-ad2f-32ca3ce86d9b</webElementGuid>
+      <webElementGuid>db2b403b-2433-4943-94ed-61b65af04400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-trigger ng-tns-c90-11</value>
-      <webElementGuid>9310a09a-469a-4933-887e-333a0bdb7826</webElementGuid>
+      <webElementGuid>e5fe39d0-ef63-4061-a96f-aaab8cf2c487</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-4&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c90-11&quot;]</value>
-      <webElementGuid>d6f6e2fb-7c59-4dff-b83c-af3dd8bbdb57</webElementGuid>
+      <webElementGuid>31c5d3c1-752d-402c-9d0a-7b4457dbece6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-4']/div</value>
-      <webElementGuid>a03e336c-475b-4456-9a71-0184141b0503</webElementGuid>
+      <webElementGuid>e9e3bc4c-fc76-4fcb-abd9-1567f9eda568</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Identifier'])[1]/following::div[5]</value>
-      <webElementGuid>249f9683-b64d-4149-a9db-e8fb95866d99</webElementGuid>
+      <webElementGuid>68172aa9-dbbe-4ae2-a4ad-c2a89203d527</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Document'])[1]/following::div[5]</value>
-      <webElementGuid>e46c5d51-ba9c-438c-b764-7d13071930af</webElementGuid>
+      <webElementGuid>5bf8b1c8-0a7d-44c5-9f51-98cb6eac22bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - KYC - Sole Trader'])[1]/preceding::div[4]</value>
-      <webElementGuid>cd6f331f-fedc-4032-9fed-4ffb67580621</webElementGuid>
+      <webElementGuid>85b84142-4d1e-4667-82aa-0d041aa1bcd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/preceding::div[8]</value>
-      <webElementGuid>823268ed-f176-47d4-a5f0-1edef9f99091</webElementGuid>
+      <webElementGuid>164b336e-27f1-4d5a-a087-8c8da8b39329</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div</value>
-      <webElementGuid>8138a844-5896-4e21-9aab-5d8d7f0d1497</webElementGuid>
+      <webElementGuid>69028f3d-2e47-4cc5-92ea-6dc81d1981f9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

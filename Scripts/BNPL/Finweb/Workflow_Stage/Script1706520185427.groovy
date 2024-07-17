@@ -17,40 +17,40 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'), 
+WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'), 
     10, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_KYC'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_KYC'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Add New Address'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Business AddressAddress Type'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Business AddressAddress Type'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_Residential Address'))
+WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_Residential Address'))
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'), 
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'), 
     'asdfasdf')
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Town'), 0)
+WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Town'), 0)
 
-WebUI.waitForElementVisible(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'), 
+WebUI.waitForElementVisible(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'), 
     5, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'), 'port')
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Ownership Type_mat-input-3'), 'port')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_PORT LOUIS SOUTH'))
+WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_PORT LOUIS SOUTH'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'), 
+WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'), 
     5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
+WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Activity Complete_Address_Details'), 
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity Complete_Address_Details'), 
     FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Skip_button'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip_button'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.callTestCase(findTestCase('BNPL/Finweb/Employment_Details_Income_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 

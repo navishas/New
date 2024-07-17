@@ -76,7 +76,10 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save'))
 
-WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_Primary_Contact'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Business Details_business_name'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Business Details_business_name'), 
     Name_Of_Person)
@@ -123,9 +126,11 @@ WebUI.delay(5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Business Contact Details_mat-select-value-25'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Owner'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Owner_Business_Contact_Details'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Title_name'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_title_dropdown'))
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_MR_Title_Business_Contact_Details'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Title_name'), 
     Business_FirstName)
@@ -133,17 +138,19 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Sol
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input__last_name'), 
     Business_LastName)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Phone Number_mat-select-trigger ng-tns-c90-83'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.setText(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_phoneNumber'), 
+    Business_PhoneNumber)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/span_Mauritius'), 5)
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Nationality'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Mauritius'))
+
+WebUI.setText(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Email'), Email_2)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Email_residential_address_line_1'), 
     Address_Line_2)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_District'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_District - Copy'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_PORT LOUIS'))
 
@@ -155,17 +162,21 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_CASSIS 1'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Business_Contact_Details'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_Business_Contact_details'))
+
+WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Settlement Bank Details_mat-select-value-39'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Settlement Bank Details_mat-select-value-39'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_ABC BANKING CORPORATION'))
 
-WebUI.sendKeys(findTestObject('Page_Operations Dashboard/input__acc_no'), Account_Number)
+WebUI.setText(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input__acc_no'), 
+    Account_Number)
 
-WebUI.sendKeys(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input__reEnter_acc_no'), 
+WebUI.setText(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input__reEnter_acc_no'), 
     ReEnter_AccountNo)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input__acc_holder_name'), 
@@ -177,7 +188,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Settlement_Bank_Details'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_Settlement_Bank_Details'))
 
@@ -187,26 +198,27 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Business Registration Card'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Documents Sole Trader'))
-
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/h2_Add New Identifier'), 5)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Documents Sole Trader'), 
+    5)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Documents Sole Trader_ID Number'), 
     Document_Name)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Drag And Drop Files Here'), 0)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Drag And Drop Files Here'), 
+    5)
 
-WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
+WebUI.delay(2)
+
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Upload File'), 
+    Path)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Business_Document'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_Business_Documents'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_KYC'))
-
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Add New Identifier_mat-select-trigger n_1df9e8'), 5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Add New Identifier_mat-select-trigger n_1df9e8'))
 
@@ -220,19 +232,25 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_National ID - Recto'))
 
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Document_Name_KYC_Document'), 
+    5)
+
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Documents - KYC - Sole Trader-Sub Typ_3d47b4'), 
     Document_Name1)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Documents'), 5)
+WebUI.delay(2)
 
-WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Upload File_KYC_Documents'), 
+    Path)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_KYC_Document'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_Reviewer_Documents'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_KYC_Documents'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/h2_Add New Identifier_Reviewer_Documents'), 
-    0)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_Reviewer_Documents'), 
+    10, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_Reviewer_Documents'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Add New Identifier_mat-select-value-11'))
 
@@ -242,37 +260,35 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Sol
     Document_Name2)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Documents_Reviewer_Document'), 
-    0)
+    5)
 
 WebUI.uploadFile(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Upload File_Reviewer_Document'), 
     Path)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Reviewer_Document'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Submit For Review'))
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_H4YMsz4oh2'))
-
-WebUI.delay(4)
-
-WebUI.refresh()
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Submit For Review (1)'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Submit For Review'))
 
 WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/label_Manage Payment Method'), 
     5)
 
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_payment_Methods'), 
+    5)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add Payment Method'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'), 
+    'Buy')
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/li_Buy Now Pay Later'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_Issuer'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_All_PrivateSwitchBase-input css-1m9pwf3'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Payment MethodSelect Payment MethodInst_0e834a'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Issuer_dropdown'))
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Issuer_dropdown - Copy'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Min Amt_min'), 
     '50')
@@ -288,32 +304,38 @@ WebUI.delay(10)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Product_Config'))
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/button_MDR'), 5)
+WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_MDR'), 
+    10, FailureHandling.OPTIONAL)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/span_Fee Details'), 5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_MDR'), 
+    5)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/span_No fee has been added yet'), 5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_Fee Details'), 
+    5)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add Fee'))
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/span_No fee has been added yet'), 
+    5)
 
-WebUI.waitForElementVisible(findTestObject('Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'), 
-    10)
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add Fee'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Payment Method_Add_Fee'), 
+    10, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Payment Method_Add_Fee'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/li_Buy Now Pay Later'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Network_Add_New_Fee'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/li_All'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Add_Fee_Issuer'))
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/li_Buy Now Pay Later'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_All_PrivateSwitchBase-input css-1m9pwf3'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_All_PrivateSwitchBase-input css-1m9pwf3'))
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Select Payment Method_checkboxes-tags-demo'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Fee_Details_Fee_Type'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/li_Flat'))
 
@@ -324,15 +346,17 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleT
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Commission'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Edit'))
-
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Subcription'))
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Edit'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Settlement_Cycle'))
 
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_SMS_Notification'))
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Edit'))
 
-WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_SMS_Notification'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Report_Settings'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Submit For Review_Reviewer_Documents'))
 
@@ -341,7 +365,7 @@ WebUI.delay(10)
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Accept Application_Reviewer_Documents'))
 
 WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Screening Details_mat-select-value-19'), 
-    10)
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Screening Details_mat-select-value-19 (1)'))
 

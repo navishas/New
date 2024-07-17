@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <value>//button/span[text()=' Next Steps ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>9b2d6f32-c8f8-4080-a5da-37f7d53226c2</webElementGuid>
+      <webElementGuid>14c3b4fa-6dfa-4637-9eaa-d541b4f59547</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>56d3b57b-28f1-482d-85d7-601beb81603e</webElementGuid>
+      <webElementGuid>aa2500e7-4b59-4f4b-81b5-d2b73594db4c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Next Steps </value>
-      <webElementGuid>0e829584-1190-4252-a1d9-60b714aa3384</webElementGuid>
+      <webElementGuid>24929a41-08e1-442e-a6df-c39b8336ba33</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>7bef5255-a36d-4623-8978-9d090723e544</webElementGuid>
+      <webElementGuid>71aa0256-b7c7-414d-a73a-8d1b6abff614</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>6b6a3537-60a5-44b0-8a8b-3a74c959887f</webElementGuid>
+      <webElementGuid>7799d8ea-3b61-42bf-8194-2bcb1ce59e77</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mauritius'])[1]/following::button[3]</value>
-      <webElementGuid>e2a7a165-51e7-41cc-b788-2cdea485f094</webElementGuid>
+      <webElementGuid>93b67c95-37b1-42ad-9b28-0ef32f2650cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::button[3]</value>
-      <webElementGuid>991ed990-8e73-4e67-820c-637c2f8be00e</webElementGuid>
+      <webElementGuid>dfd8ad43-eacf-4d9f-a859-be1596394216</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/preceding::button[1]</value>
-      <webElementGuid>d72cb29f-71d4-4d7c-a710-f7629ca42e8e</webElementGuid>
+      <webElementGuid>1770cbc9-2c52-469c-881e-231ece282524</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>a8b5354f-4b75-424a-b4ed-9943dc53ebe5</webElementGuid>
+      <webElementGuid>7bf2b73b-6e6d-4685-bb4c-28c544697f9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Next Steps ' or . = ' Next Steps ')]</value>
-      <webElementGuid>72c23d8e-8443-4f86-ba08-ba1bfe13007f</webElementGuid>
+      <webElementGuid>6dff9792-3d68-4c55-b44d-0b86ff27d214</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

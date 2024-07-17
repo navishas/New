@@ -6,12 +6,12 @@
    <elementGuidId>0ac1a66e-e139-44d0-9638-0e1accf30cf6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#outlined-adornment-weight</value>
+         <key>XPATH</key>
+         <value>//input[contains(@id,'outlined')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='outlined-adornment-weight']</value>
+         <key>CSS</key>
+         <value>#outlined-adornment-weight</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a778146b-635d-401e-9a20-f7e23c082153</webElementGuid>
+      <webElementGuid>9421391d-decd-4690-bf17-04cb1541d205</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>id</name>
       <type>Main</type>
       <value>outlined-adornment-weight</value>
-      <webElementGuid>69410c60-c1be-45fc-b6b7-e6a15d103458</webElementGuid>
+      <webElementGuid>5c71ab0a-b497-4eb1-96a2-8f25c36ccbd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>name</name>
       <type>Main</type>
       <value>feeValue</value>
-      <webElementGuid>6c91174a-d188-4302-899c-71b0b46473b9</webElementGuid>
+      <webElementGuid>d9f11810-718e-44f4-8a1b-af489728d296</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Enter</value>
-      <webElementGuid>bb50c584-7773-4811-829a-e4cfa76a74bf</webElementGuid>
+      <webElementGuid>4c77335f-b022-48f4-8f7d-6412b604a466</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fb7fbd4b-888a-4447-971b-292f6e3a1562</webElementGuid>
+      <webElementGuid>e29c8a95-7ba8-4b48-88ed-471f89dcdc60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input css-1x5jdmq</value>
-      <webElementGuid>8e01277b-38b9-462e-844a-4603bc13ded5</webElementGuid>
+      <webElementGuid>4151eda4-af30-423b-9916-537df0cc8048</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;outlined-adornment-weight&quot;)</value>
-      <webElementGuid>3f3d3bef-b49a-4bc9-9198-51d0b70c6eff</webElementGuid>
+      <webElementGuid>26009cd6-1e7b-456d-a271-006144ea5458</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='outlined-adornment-weight']</value>
-      <webElementGuid>e5a3067c-5845-4d26-a71d-9ce6ea1dec4d</webElementGuid>
+      <webElementGuid>4d04864b-64c3-4932-a051-09d83541f5a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>3a95b373-c579-4120-92d6-f93c474a28b2</webElementGuid>
+      <webElementGuid>0ff9eb58-5ddc-4c38-a5b7-03a1ee696e13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'outlined-adornment-weight' and @name = 'feeValue' and @placeholder = 'Enter' and @type = 'text']</value>
-      <webElementGuid>a37114a3-128b-4346-8779-ef17a9391b96</webElementGuid>
+      <webElementGuid>58464dc8-e29e-4c2b-8786-1d00c5271917</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

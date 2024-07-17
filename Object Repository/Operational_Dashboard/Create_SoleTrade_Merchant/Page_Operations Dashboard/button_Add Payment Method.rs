@@ -6,12 +6,12 @@
    <elementGuidId>921d7165-9ac6-420f-a3a3-76694447685a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.proceed-button.onboarding-button-primary.false.css-1ujsas3</value>
+         <key>XPATH</key>
+         <value>//button[@type='button' and contains(text(),'+ Add Pay')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[15]</value>
+         <key>CSS</key>
+         <value>button.MuiButtonBase-root.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.MuiButton-root.MuiButton-text.MuiButton-textPrimary.MuiButton-sizeMedium.MuiButton-textSizeMedium.proceed-button.onboarding-button-primary.false.css-1ujsas3</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>deaff5b4-019b-4f7f-8ecf-91dae4b34f99</webElementGuid>
+      <webElementGuid>47b8d05f-2b8f-4074-aa23-39e14f736b48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium proceed-button onboarding-button-primary false css-1ujsas3</value>
-      <webElementGuid>5168ad8b-bbfe-48a6-bb87-2da82978a77d</webElementGuid>
+      <webElementGuid>dc3c50d1-d1b1-4ad8-8114-87faa788101d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>2f1f9458-ea5c-4de7-a654-18a47ef86570</webElementGuid>
+      <webElementGuid>929bd1c6-1d0e-4834-80b8-56b9d93c656b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>06507f33-4a56-48bb-bce1-45c00257fb71</webElementGuid>
+      <webElementGuid>734dc74f-59dd-4002-a038-a750e198e4bb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>text</name>
       <type>Main</type>
       <value>+ Add Payment Method</value>
-      <webElementGuid>f3afae71-88ec-4a8b-beb9-f72700b4b825</webElementGuid>
+      <webElementGuid>51e1583a-e531-4930-96b2-15f169e50a69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootReact&quot;)/section[@class=&quot;main-app-container&quot;]/div[@class=&quot;app-container&quot;]/div[1]/div[@class=&quot;ant-card merchant-onboarding ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[@class=&quot;ant-card-body screen-height-container&quot;]/section[@class=&quot;fee-details-table-container&quot;]/section[@class=&quot;fee-details-table-no-fee-container&quot;]/div[@class=&quot;fee-details-table-no-fee-body&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium proceed-button onboarding-button-primary false css-1ujsas3&quot;]</value>
-      <webElementGuid>8252f9ff-54d7-4025-b639-8851ddd7e346</webElementGuid>
+      <webElementGuid>03b1eb87-cb91-4044-b25a-f5d1f0bba748</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[15]</value>
-      <webElementGuid>b48605ab-9bbf-4a8b-83b4-f18bda2369a6</webElementGuid>
+      <webElementGuid>7890db27-4404-4ada-b060-a5e715132a2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div[2]/div[2]/section/section/div/button</value>
-      <webElementGuid>1fbd4dc6-58ef-43a1-b97c-6989343daf04</webElementGuid>
+      <webElementGuid>f563c464-bd00-4ba6-b3a0-e4440d120207</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method are not added yet'])[1]/following::button[1]</value>
-      <webElementGuid>cbd305a3-8369-4207-9b46-5bbefb1d9def</webElementGuid>
+      <webElementGuid>509e4e60-07fd-4314-a9a8-5c3b4a0a2f3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manage Payment Method'])[1]/following::button[1]</value>
-      <webElementGuid>d2897eb6-9cec-4290-9cfc-07567355fdd9</webElementGuid>
+      <webElementGuid>21b9ce34-0ba4-44e6-bc98-2acf0f2e6c40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Payment Method'])[1]/preceding::button[1]</value>
-      <webElementGuid>40cdac6a-e381-46b8-ab85-d3bc34a98762</webElementGuid>
+      <webElementGuid>498ef3fc-e27a-44e0-b862-af7d6b8a3c0b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Network'])[1]/preceding::button[2]</value>
-      <webElementGuid>72b7cab0-3303-4c20-95a4-e8b3b6eba107</webElementGuid>
+      <webElementGuid>0547c542-ee64-4de2-9231-c5c4c270830d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='+ Add Payment Method']/parent::*</value>
-      <webElementGuid>32e1cdd8-a593-4ada-b5cd-d9dee9afba56</webElementGuid>
+      <webElementGuid>ce416cfe-80c1-432b-af72-a6d261458ad8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/div/button</value>
-      <webElementGuid>eec8bd0b-4b38-46f9-9e34-d448c9a4dec6</webElementGuid>
+      <webElementGuid>832e3c91-9145-4da4-9b20-a8fd841d98cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = '+ Add Payment Method' or . = '+ Add Payment Method')]</value>
-      <webElementGuid>c45298cb-9652-4e13-ab63-3f091dd216fd</webElementGuid>
+      <webElementGuid>1bde80bd-1d54-4c1e-abe4-c3c7d7424b3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-17']/span</value>
+         <value>//div[@role='listbox']/mat-option/span[contains(text(),'Recto')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>6193ad2c-55a9-43f4-bc29-1062c8dc05f2</webElementGuid>
+      <webElementGuid>582265b0-ac00-4c03-bdbc-17ad33d36abb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>4f16c65e-dfd6-45fb-960d-9039d2cb5a29</webElementGuid>
+      <webElementGuid>cf583f4c-53ae-4d50-a086-7922d8f89d74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>National ID - Recto*</value>
-      <webElementGuid>4743aeaa-32f9-44f6-aee2-519145015b6a</webElementGuid>
+      <webElementGuid>f133d60d-9eb8-4031-9870-feaff83d7fb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-17&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>7e40ae9c-acdd-402b-b1ec-abdc848c5732</webElementGuid>
+      <webElementGuid>3da6f35d-2dd0-4801-8d85-3f660ee2a0ae</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-17']/span</value>
-      <webElementGuid>66f01b9b-b2ff-4e64-a993-08653e15bb88</webElementGuid>
+      <webElementGuid>c7f7613c-202e-4484-a4b1-cf8bb517a2cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>bef57a65-1f72-4435-abd7-4ed4e8fa42b7</webElementGuid>
+      <webElementGuid>8e7abe53-6d89-41a8-acb5-d0df2a8cecb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/following::span[6]</value>
-      <webElementGuid>4543e592-d7cf-4492-862f-83d42918eefb</webElementGuid>
+      <webElementGuid>5f5a230c-88fd-4522-b34d-47d01d4ca6fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='National ID- Verso*'])[1]/preceding::span[1]</value>
-      <webElementGuid>16089ae0-85db-4cd8-9f67-e13ab61c2233</webElementGuid>
+      <webElementGuid>d912e757-7832-4c45-a6f0-c8d076e3393e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-17', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/preceding::span[2]</value>
-      <webElementGuid>d12c98fd-1707-49ff-b79d-c69683710fe4</webElementGuid>
+      <webElementGuid>476d7c8d-1ec1-4a38-9a80-0d6f91bb5959</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='National ID - Recto*']/parent::*</value>
-      <webElementGuid>ee5ad83a-b701-4137-877f-3b43a57bf906</webElementGuid>
+      <webElementGuid>64166dc9-1173-4382-8e38-8cabba97b4d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>de94290f-e7e6-403f-96ed-fdaf8dd019ad</webElementGuid>
+      <webElementGuid>cb0419b1-b83c-41e1-80f0-68633f8d0047</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'National ID - Recto*' or . = 'National ID - Recto*')]</value>
-      <webElementGuid>fd6fc97e-d80f-4164-8ce2-14b4d5fd8b21</webElementGuid>
+      <webElementGuid>e4daaecc-d629-4f04-9bba-4a3d4dda36a6</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

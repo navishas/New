@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-10']/span</value>
+         <value>//div[@role='listbox']/mat-option/span[contains(text(),'Identity Doc')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>18a6ec89-aca3-4ce5-986a-947f4b8fec0a</webElementGuid>
+      <webElementGuid>6a0c9783-9431-48de-a171-8c62e1a797e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>01e3236a-dfdf-475a-9f2e-0dccca54b9e4</webElementGuid>
+      <webElementGuid>cf6db59e-ee2b-402b-8f89-d3dc339cff8f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Identity Documents*</value>
-      <webElementGuid>86aec01f-e6bd-4deb-9a15-24f72cf7dddb</webElementGuid>
+      <webElementGuid>a5b049bf-7ba8-4c71-8913-78c74afd6e4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-10&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>3e89524d-9c9d-4fe8-9bde-e7a949dc226e</webElementGuid>
+      <webElementGuid>37ceb1a9-7b57-4e1b-a9fb-d3415363b97d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-10']/span</value>
-      <webElementGuid>dea6913b-0eab-4517-a055-3b1471f77809</webElementGuid>
+      <webElementGuid>4a9242a9-1c6d-4a6b-953e-085e456b731b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>bddea1a3-3152-4db5-8ec7-01f22d69453c</webElementGuid>
+      <webElementGuid>a50fdaa1-8e81-426a-a4cf-23b24b5c782c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/following::span[6]</value>
-      <webElementGuid>39cf8eea-b7d3-4b2f-b815-a3584997d02a</webElementGuid>
+      <webElementGuid>24756461-ced4-4d26-8279-db193d85bfe3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Owner (Dated less than 3 Month)*'])[1]/preceding::span[1]</value>
-      <webElementGuid>249bde10-60e2-4ebb-8ce2-6164f01871b2</webElementGuid>
+      <webElementGuid>ceff8997-61a9-4f30-bffc-b92ad4202aee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*'])[1]/preceding::span[2]</value>
-      <webElementGuid>a3154216-ce9c-41d6-a1d7-7cc60c9aa7f7</webElementGuid>
+      <webElementGuid>0fc01cbd-5e16-4021-a967-1879c644b2c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Identity Documents*']/parent::*</value>
-      <webElementGuid>9f5e6fc7-511a-4e09-a41f-23bca68e199a</webElementGuid>
+      <webElementGuid>acf19cd8-cc97-496a-ada2-511de8050c82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>f8b986b5-5df2-47ed-a4e1-5d1cb78575a4</webElementGuid>
+      <webElementGuid>2b6c8d28-cc5b-4c4f-8b3e-7578a241b6a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Identity Documents*' or . = 'Identity Documents*')]</value>
-      <webElementGuid>05c4fc5c-521e-467f-aa27-bd5468b28c68</webElementGuid>
+      <webElementGuid>7a4f50c6-858f-4ba7-8299-0e0de0d88994</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

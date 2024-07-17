@@ -21,40 +21,40 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Customers'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Customers'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Add New Customer'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Customer'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Individual'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Individual'))
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Basic Information_mat-input-60'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Basic Information_mat-input-60'), 
     'test')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Last Name_mat-input-63'), 'qa')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Last Name_mat-input-63'), 'qa')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Date Of Birth_mat-select-value-93'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Date Of Birth_mat-select-value-93'), 
     '1/24/2006')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Male (1)'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Male (1)'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Gender_mat-select-value-95'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Gender_mat-select-value-95'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Married (1)'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married (1)'))
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_MobileNumber'), '51209473')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_MobileNumber'), '51209473')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Identifier Selection_mat-input-68'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Identifier Selection_mat-input-68'), 
     'R1106824600386')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Would you like to add advance details_m_15add7'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Would you like to add advance details_m_15add7'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Create'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Okay'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Okay'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Add New Lead (1)'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Lead (1)'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Register for BNPL'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Register for BNPL'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Create Lead (1)'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create Lead (1)'))
 

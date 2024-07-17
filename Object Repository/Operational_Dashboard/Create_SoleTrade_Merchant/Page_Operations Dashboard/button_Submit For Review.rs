@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <value>//button/span[text()=' Submit For Review ']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5444433a-a387-4bff-9165-8df3bd5aa08b</webElementGuid>
+      <webElementGuid>f88cce3b-6613-4fa7-ab87-5201624b163c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>886b51c9-43b2-4725-82ed-6be74d600cbf</webElementGuid>
+      <webElementGuid>1f286252-a731-4c48-9bce-f9b42c404209</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Submit For Review </value>
-      <webElementGuid>7ebbacd0-b589-4095-b962-4da6537547c9</webElementGuid>
+      <webElementGuid>a69fb50c-f3b6-4ab1-b570-5b54927e2c58</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>827f02e8-0fa4-439a-a89f-8bfd78de9568</webElementGuid>
+      <webElementGuid>03bfea3b-3b24-4d2b-b2f6-24d33b97d95c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>a4ee587c-c8d7-48ff-81f7-12924c47f522</webElementGuid>
+      <webElementGuid>69a4994b-a024-4b35-a2a1-77767873a5a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::button[1]</value>
-      <webElementGuid>3a00a398-9ddc-4d10-a991-7b330a24f955</webElementGuid>
+      <webElementGuid>da6a818f-f5ea-4266-bcfa-9e6273dcabeb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::button[1]</value>
-      <webElementGuid>5ce862e0-e102-441e-8f15-720451291099</webElementGuid>
+      <webElementGuid>3a6e64d2-8663-45e4-a7b4-673b3b08796d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/preceding::button[1]</value>
-      <webElementGuid>346aaa97-d69d-4f68-9347-bbfecec4112b</webElementGuid>
+      <webElementGuid>42d08ddc-f9b4-484b-8304-e3dcd5fe5e18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>87d3c5d5-c5b3-40b5-92b7-2e771fb2ac49</webElementGuid>
+      <webElementGuid>eecf690e-85c2-43ac-81a0-f2fe95b2a436</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Submit For Review ' or . = ' Submit For Review ')]</value>
-      <webElementGuid>93ae8a94-0b31-496b-a512-d079b6d192e2</webElementGuid>
+      <webElementGuid>955e4670-51b6-4b11-9a01-1a0a08abcd2c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -18,123 +18,123 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 //Pep Declaration
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Completed_PEP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Completed_PEP'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Completed_PEP'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Completed_PEP'), FailureHandling.STOP_ON_FAILURE)
 //LoanApp ScoreCard
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Complete_LoanAppScoreCard'), 
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Complete_LoanAppScoreCard'), 
     FailureHandling.STOP_ON_FAILURE)
 //Application Review
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Complete_Application_Review'), 
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity_Complete_Application_Review'), 
     FailureHandling.STOP_ON_FAILURE)
 //Limit Generation
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Usage_Limit'), '1500')
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Usage_Limit'), '1500')
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_in_Limit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_in_Limit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_next_Billing_Details_Limit'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_next_Billing_Details_Limit'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_BillingDetails_Next'), 
+WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_BillingDetails_Next'), 
     10)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_BillingDetails_Next'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_BillingDetails_Next'))
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_DueDetails_Next'),
+WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_DueDetails_Next'),
 	10)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_DueDetails_Next'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_DueDetails_Next'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_AddCharge_Save'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/LimitGeneration_AddCharge_Save'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_LimitGeneration_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_LimitGeneration_ActivityComplete'))
 
 //Bank details
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_addbankDetails'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_addbankDetails'))
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Bank_Name'), "MauBank")
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Bank_Name'), "MauBank")
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Mobileno_linked_Bank'), "50392840")
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Mobileno_linked_Bank'), "50392840")
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Bank_Account_no'), "")
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Bank_Account_no'), "")
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Confirm_Bank_Account'), "")
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Confirm_Bank_Account'), "")
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save_AddDetails_Bank_Details'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save_AddDetails_Bank_Details'))
 
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_BankAcc_ActivityComplete'), 20)
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_BankAcc_ActivityComplete'), 20)
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_BankAcc_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_BankAcc_ActivityComplete'))
 
 //Sanction letter Upload 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_add_new_Document'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_add_new_Document'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Select_DocumentCategory'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Select_DocumentCategory'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Select_DocumentCategory'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Select_DocumentCategory'))
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/Select_Document_Category_Option'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Select_Document_Category_Option'))
 
-WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Document_Name'), 'Sanction Letter')
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Document_Name'), 'Sanction Letter')
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop'), 20)
+WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop'), 20)
 
-WebUI.uploadFile(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop/Upload_file_Sanction_Letter'), 'C:/Users/I1675/Downloads/dummy.pdf')
+WebUI.uploadFile(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Drag_Drop/Upload_file_Sanction_Letter'), 'C:/Users/I1675/Downloads/dummy.pdf')
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save_Sanction_Letter_Upload'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save_Sanction_Letter_Upload'))
 
 Thread.sleep(3000);
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_SanctionLetter_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_SanctionLetter_ActivityComplete'))
 
 WebUI.refresh()
 
 Thread.sleep(5000);
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_ApplicationReview_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_ApplicationReview_ActivityComplete'))
 
 Thread.sleep(5000);
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Post_Disbursal_Limit_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Post_Disbursal_Limit_ActivityComplete'))
 
 Thread.sleep(5000);
 
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Lead_Preview_ActivityComplete'))
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Lead_Preview_ActivityComplete'))
 
 /*
- * WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/
+ * WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/
  * Page_Finweb - Brancho/button_Approve_Limit_Approval'), 20)
  * 
- * WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb -
+ * WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb -
  * Brancho/button_Approve_Limit_Approval'))
  * 
  * Thread.sleep(3000);
  * 
- * WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb -
+ * WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb -
  * Brancho/button_LimitApproval_ActivityComplete'))
  */
 
 
 //Next tab applicants
 
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Applicants_tab'), 20)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Applicants_tab'))
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Applicants_tab'), 20)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Applicants_tab'))
 Thread.sleep(3000);
 
 //Pendencies
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Pendencies_tab'), 20)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Pendencies_tab'))
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Pendencies_tab'), 20)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Pendencies_tab'))
 Thread.sleep(3000);
 
 //Document List
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Document_List_tab'), 20)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Document_List_tab'))
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Document_List_tab'), 20)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Document_List_tab'))
 Thread.sleep(3000);
 
 //Notes
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Notes_tab'), 20)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Notes_tab'))
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Notes_tab'), 20)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Notes_tab'))
 Thread.sleep(3000);
 
 //Action Logs
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Action_Logs_tab'), 20)
-WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Action_Logs_tab'))
+WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Action_Logs_tab'), 20)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Action_Logs_tab'))
 Thread.sleep(3000);
 

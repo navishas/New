@@ -6,12 +6,12 @@
    <elementGuidId>1969f9d9-178c-421b-936e-dc728a4438ce</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#checkboxes-tags-demo-option-0</value>
+         <key>XPATH</key>
+         <value>//ul[@id='checkboxes-tags-demo-listbox']/li[text()= 'Buy Now Pay Later']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='checkboxes-tags-demo-option-0']</value>
+         <key>CSS</key>
+         <value>#checkboxes-tags-demo-option-0</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>ca40d50d-f908-4c27-b669-b5f068d7dd63</webElementGuid>
+      <webElementGuid>a9723759-8ec7-480c-ad50-03dcafb7d3c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>da73e148-03cf-473e-8e0d-9075907649db</webElementGuid>
+      <webElementGuid>bebc5a0d-076f-44b4-a0ee-f94f650bd5d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>be473a12-09b6-4224-83bc-2a5e8053f5d8</webElementGuid>
+      <webElementGuid>5bba344b-0971-453c-93e5-3c40b7a2ed6f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkboxes-tags-demo-option-0</value>
-      <webElementGuid>f9e94405-6277-41d8-b8de-12c5dde3bf0c</webElementGuid>
+      <webElementGuid>27118548-d2f5-4b0b-89ac-8586ddb58ba2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>d106d1ae-d632-41b7-99d8-0f2df0c01127</webElementGuid>
+      <webElementGuid>b1c4c75c-6e2c-4271-af42-ea346ea8fc30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f70fe0bb-44c3-4bf3-a366-6d466f5ab60f</webElementGuid>
+      <webElementGuid>6886151d-6848-48d4-8035-a95674f8623c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>69155578-8c60-4183-a4b0-171aa14baac4</webElementGuid>
+      <webElementGuid>32865a4f-3100-44d9-9945-bfef4cf0db07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiAutocomplete-option Mui-focused</value>
-      <webElementGuid>d20c42c6-f027-480f-8e0e-0883e4ce5c5e</webElementGuid>
+      <webElementGuid>de2e3b05-fd20-4193-9622-9794410d6b82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Buy Now Pay Later</value>
-      <webElementGuid>c5398f99-e89a-4778-b16d-a3ce1eeda04f</webElementGuid>
+      <webElementGuid>3140e2f2-268c-4d53-8baa-1f976120a2ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkboxes-tags-demo-option-0&quot;)</value>
-      <webElementGuid>c34cd4f8-5b08-4a28-a71e-2a638ff394ea</webElementGuid>
+      <webElementGuid>708884c6-8c30-4509-a3ae-28b9f98daa65</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='checkboxes-tags-demo-option-0']</value>
-      <webElementGuid>c2d71a9f-6b60-4709-8684-15dd36976d6d</webElementGuid>
+      <webElementGuid>716d7da4-db60-4911-b607-55e5e9dd6a1f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='checkboxes-tags-demo-listbox']/li</value>
-      <webElementGuid>6e523d94-3938-4556-b234-e785edbc9b46</webElementGuid>
+      <webElementGuid>2acca70c-3577-4faa-b727-e3c098d4fe86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'checkboxes-tags-demo-option-0', '&quot;', ')')])[1]/following::li[1]</value>
-      <webElementGuid>60aba958-7cb6-48df-860d-23139a0c7ac7</webElementGuid>
+      <webElementGuid>96dbbc0c-ee27-4a84-ab5d-30aeca5f1c34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::li[1]</value>
-      <webElementGuid>41f2efb4-463d-4984-8470-665e11684f85</webElementGuid>
+      <webElementGuid>02ba3e5f-8420-4db8-9811-3ac315e3c2dd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Buy Now Pay Later']/parent::*</value>
-      <webElementGuid>35688b73-2f91-480a-8246-3b6b5c529165</webElementGuid>
+      <webElementGuid>bce47690-4176-4fa0-a074-23c3163bde31</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/ul/li</value>
-      <webElementGuid>89eeb9a9-80da-4fa5-9e8e-06d558d302a6</webElementGuid>
+      <webElementGuid>6efc212c-9d10-4f1c-b99d-2a7214711ba3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'checkboxes-tags-demo-option-0' and (text() = 'Buy Now Pay Later' or . = 'Buy Now Pay Later')]</value>
-      <webElementGuid>cf2f2b68-d43b-456c-b039-787b0cd97f0c</webElementGuid>
+      <webElementGuid>a6e268ff-60d2-45c7-acd0-b5a858da4df0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

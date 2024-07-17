@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mat-select-value-15']</value>
+         <value>//span[text()='Settlement Currency']/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>e5d62e6e-2b03-4c3d-bf78-89aba5f21d6b</webElementGuid>
+      <webElementGuid>85a7eb1e-b1f6-4669-a162-a7af9d03cd0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-value ng-tns-c90-28</value>
-      <webElementGuid>368c4745-e04a-4558-b8a2-6bf29a177d88</webElementGuid>
+      <webElementGuid>64a774bb-5bf4-4a49-8db4-d566495ca2f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-select-value-15</value>
-      <webElementGuid>38a5c13f-db53-4498-909c-513fe0547936</webElementGuid>
+      <webElementGuid>13634dd9-32fb-4003-b540-8a4d13f935ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-value-15&quot;)</value>
-      <webElementGuid>93fd8b38-458c-4736-a9cf-435ae020e2d6</webElementGuid>
+      <webElementGuid>b9603049-ea01-4f0f-941d-1e2817261ad1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-select-value-15']</value>
-      <webElementGuid>313e390e-e54c-426d-b2e3-bc19ca609ef5</webElementGuid>
+      <webElementGuid>50625ef3-2d4c-4dce-ad82-4d19f91968eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-14']/div/div</value>
-      <webElementGuid>b24d257c-f525-46cf-8349-a1d8483c0bfd</webElementGuid>
+      <webElementGuid>3ca73675-2e15-4bb2-b38b-ec9b6323054b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Branch'])[1]/following::div[10]</value>
-      <webElementGuid>37898b18-a4fa-442c-b893-89ed575b312a</webElementGuid>
+      <webElementGuid>d8ca8a2c-a6f9-4686-8b22-691af3292fc8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::div[18]</value>
-      <webElementGuid>db821e45-697e-486c-9732-ff3c0e890893</webElementGuid>
+      <webElementGuid>8611326d-dad6-4305-b569-83a31042e2e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Settlement Currency'])[1]/preceding::div[3]</value>
-      <webElementGuid>8a93329a-17f3-4262-9338-4c3d9d1b2bf6</webElementGuid>
+      <webElementGuid>44b4f082-0681-4e27-9c35-a0b0e80fc09a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[5]/preceding::div[3]</value>
-      <webElementGuid>981bb2af-1b4f-496f-a7f5-25ae793e3bc4</webElementGuid>
+      <webElementGuid>e716a918-0890-4898-81aa-0040217cc497</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[6]/mat-form-field/div/div/div/mat-select/div/div</value>
-      <webElementGuid>ee832f37-a7eb-4b43-9687-37ded0e6a2a4</webElementGuid>
+      <webElementGuid>13d439a5-ed2f-4af6-a724-b7716784ef29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mat-select-value-15']</value>
-      <webElementGuid>26231a58-4bff-4971-84f4-1fc8ad64f278</webElementGuid>
+      <webElementGuid>8988ae29-4497-4f2c-9626-3327f46b4311</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

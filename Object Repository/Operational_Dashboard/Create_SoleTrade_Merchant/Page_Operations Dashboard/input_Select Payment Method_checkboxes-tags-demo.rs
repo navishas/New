@@ -6,12 +6,12 @@
    <elementGuidId>70a83cdc-642c-4cfc-8f46-a272cca74560</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#checkboxes-tags-demo</value>
+         <key>XPATH</key>
+         <value>(//input[@role='combobox'])[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='checkboxes-tags-demo']</value>
+         <key>CSS</key>
+         <value>#checkboxes-tags-demo</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>0538f9df-806f-47ba-b5f8-c3b67f71b5d2</webElementGuid>
+      <webElementGuid>0c59d894-49dc-4c3b-be81-bdaa66fa2759</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0979162a-f133-44c1-8ca9-cbf7a3155fb7</webElementGuid>
+      <webElementGuid>a3adbd7f-9b1e-4ecc-b08d-35f669c10568</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>22727abc-01ae-42f0-857d-75e66e8a4bbf</webElementGuid>
+      <webElementGuid>f5dd7bc6-0e64-455a-9449-e607eebc7ad3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkboxes-tags-demo</value>
-      <webElementGuid>0ee19b69-cfe1-4c1f-9bcb-53299a65f596</webElementGuid>
+      <webElementGuid>3e363cec-2e36-474b-937e-8b3f5b441038</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Search to Select</value>
-      <webElementGuid>4c3ab975-c042-4be4-b5dc-55d6ef750885</webElementGuid>
+      <webElementGuid>97b80dcf-1c61-4f66-97c4-130773f5abd6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>b9c598ea-d205-46fe-88f8-80f1cbf11aa8</webElementGuid>
+      <webElementGuid>a35d2d94-f801-4d2e-881f-c4bb13c1f4c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-b52kj1</value>
-      <webElementGuid>b95831ce-8322-491e-bcc8-84eafa5541bd</webElementGuid>
+      <webElementGuid>76381912-1d28-42df-bc93-53d37e01287e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>aria-autocomplete</name>
       <type>Main</type>
       <value>list</value>
-      <webElementGuid>900e8370-943a-4164-80e2-24ddf2cdb5b6</webElementGuid>
+      <webElementGuid>90c4dd0f-0bc8-4d1a-8254-ba15b69f0e69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>aria-expanded</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>01b17e96-571d-47bd-853f-d3de8ba58776</webElementGuid>
+      <webElementGuid>50641aff-70fd-4653-a3b9-9d3598b1ad88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>autocapitalize</name>
       <type>Main</type>
       <value>none</value>
-      <webElementGuid>9f0369c6-3c75-4bce-974d-3c06e87baa40</webElementGuid>
+      <webElementGuid>f3b82603-7ebe-4313-9f96-e572849efa70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>spellcheck</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>21732827-9fcd-470f-a4d0-fdb5d5e8876b</webElementGuid>
+      <webElementGuid>4145e855-5c86-460e-be92-1139aa7f248d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>role</name>
       <type>Main</type>
       <value>combobox</value>
-      <webElementGuid>bf601803-9286-4da5-ae9e-3726f97384e5</webElementGuid>
+      <webElementGuid>14d77df7-3d6d-40bd-a5ad-b4515ff4fbee</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>checkboxes-tags-demo-listbox</value>
-      <webElementGuid>07a68919-9677-4683-85d4-5e36d6d1be00</webElementGuid>
+      <webElementGuid>e772a024-81b5-4f03-a0f8-326fbb3659ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkboxes-tags-demo&quot;)</value>
-      <webElementGuid>513cc9b6-96e7-4000-8bbe-1139258ece4d</webElementGuid>
+      <webElementGuid>558f3b03-afa8-42f9-acda-ad93e8a3ca6f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='checkboxes-tags-demo']</value>
-      <webElementGuid>5697e807-c10d-4295-98b9-2c7f3ab89e91</webElementGuid>
+      <webElementGuid>26f0d829-8d76-4756-b04a-469fc77c5cca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>160f0f60-c147-410a-ba0e-697898765377</webElementGuid>
+      <webElementGuid>4f71fdba-3660-4f87-8aad-235043a3d8a8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'checkboxes-tags-demo' and @placeholder = 'Search to Select' and @type = 'text']</value>
-      <webElementGuid>f1bfa995-c987-4d0d-8175-31be070ded1b</webElementGuid>
+      <webElementGuid>7cc0aac9-02db-4424-a2b7-c00fdfd62566</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

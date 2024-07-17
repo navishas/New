@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/app-root/layout/empty-layout/div/div/app-view-workflow/div/div/div/div/div[2]/div/div</value>
+         <value>//span[text()='Bank Name']/ancestor::span/preceding-sibling::mat-select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>f4c5a19a-11fa-4d1c-8530-4952ae175a5f</webElementGuid>
+      <webElementGuid>0e6031f7-26b2-4b38-a1a6-c3a61406f489</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-full overflow-auto relative h-full</value>
-      <webElementGuid>d69adbb9-e778-4377-a0d7-024bebe68193</webElementGuid>
+      <webElementGuid>b9e3064d-ee24-43f0-8127-650e91b587f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
         
             
         Primary Next Steps  Start Over </value>
-      <webElementGuid>fb88d203-acd5-45bf-80a2-fafb7274e720</webElementGuid>
+      <webElementGuid>f3cec625-eff7-451e-9721-b11ac89e4b41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootReact&quot;)/section[@class=&quot;main-app-container&quot;]/div[@class=&quot;app-container&quot;]/div[1]/div[@class=&quot;ant-card merchant-onboarding ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[2]/div[1]/div[@class=&quot;angularComponent&quot;]/div[@class=&quot;client-workflow-module&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/empty-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full&quot;]/div[@class=&quot;flex flex-col flex-auto&quot;]/app-view-workflow[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col w-full bg-card ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto&quot;]/div[@class=&quot;flex flex-auto&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/div[@class=&quot;w-10/12 flex&quot;]/div[@class=&quot;w-full flex h-full&quot;]/div[@class=&quot;w-full overflow-auto relative h-full&quot;]</value>
-      <webElementGuid>651d395a-c3af-4374-895f-e299adbd2629</webElementGuid>
+      <webElementGuid>3d0b6034-1e69-4738-9253-2cfe338f5cab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div/div/div/app-root/layout/empty-layout/div/div/app-view-workflow/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>7d80fb0f-9966-4cdf-9f18-d96ee067318b</webElementGuid>
+      <webElementGuid>825b81ba-fd2e-4db7-add5-73cdddb01185</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::div[3]</value>
-      <webElementGuid>ddb4df6a-e09a-4f8b-b70b-840869f29041</webElementGuid>
+      <webElementGuid>9f241221-0d81-47de-8b88-4a9bbb999d50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Categorization'])[1]/following::div[6]</value>
-      <webElementGuid>8bd2383a-04bf-44b5-93e1-c2054183de21</webElementGuid>
+      <webElementGuid>2f0701a3-9638-4e27-9db8-5ad33951b97b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//app-view-workflow/div/div/div/div/div[2]/div/div</value>
-      <webElementGuid>99a90f47-3819-4e6d-b5cc-eb04468a641d</webElementGuid>
+      <webElementGuid>3182f4e8-646a-491c-9fa9-9ff657d628fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -185,6 +185,6 @@
         
             
         Primary Next Steps  Start Over ')]</value>
-      <webElementGuid>9a99b250-6375-4f56-9b5d-963057ca2a86</webElementGuid>
+      <webElementGuid>fa4cfdb6-ef53-4101-a89c-ccfce7e1b092</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

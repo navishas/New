@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <value>//button/span[text()=' Next Steps ']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3ff44e3c-93b6-4220-b017-a7f7692dc242</webElementGuid>
+      <webElementGuid>dc35123d-03e1-4157-863b-48fec24dca34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>8b39b1c8-1ff9-4413-af28-3cea92db88c2</webElementGuid>
+      <webElementGuid>04a265f1-76fc-4b00-9631-52af016e9784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Next Steps </value>
-      <webElementGuid>560690f8-4460-4180-a317-d6135f28eba3</webElementGuid>
+      <webElementGuid>8680ee70-e4d8-43a4-8ea4-facd824fb249</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>3469369e-0e67-4a82-91cb-4ef6d0d83833</webElementGuid>
+      <webElementGuid>62c58eb8-68ac-4621-9dce-d33371b12e83</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>74833aa8-a72e-46da-899e-db949cb7b1d7</webElementGuid>
+      <webElementGuid>981a4d7c-4f2d-4349-bfbc-2d743f0e379f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='dsfsd'])[1]/following::button[3]</value>
-      <webElementGuid>efcac6a7-3d44-4e3a-97e1-6562ca7d56d9</webElementGuid>
+      <webElementGuid>45a1d91f-fd11-4c1d-b68b-df914583bccf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Additional Comments'])[1]/following::button[3]</value>
-      <webElementGuid>67bdb36a-18e6-415d-a179-ba1d6717c7a1</webElementGuid>
+      <webElementGuid>0c60c1d2-152e-4648-a6b6-fb6df2b21860</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>559982dd-574b-4a74-8695-08178b957faf</webElementGuid>
+      <webElementGuid>0d0677fb-4af4-46e4-a542-a20f076a8cfc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Next Steps ' or . = ' Next Steps ')]</value>
-      <webElementGuid>d37d1bd1-ae8a-43a9-974f-d0113a491fce</webElementGuid>
+      <webElementGuid>cfa5571d-e93b-46a7-bcab-7bc997ecd83a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

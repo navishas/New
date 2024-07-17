@@ -21,48 +21,48 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
-WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 'navishas')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 'navishas')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Username_password'), 'Admin@1234')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@1234')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Add New Lead'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Lead'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Register for BNPL'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Register for BNPL'))
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Get Details From_firstName'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'), 
     'anno')
 
-WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Last_Name'), 'tester')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Last_Name'), 'tester')
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/span_Gender'), 0)
+WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 0)
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/div_Last Name_mat-select-arrow ng-tns-c88-21'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Last Name_mat-select-arrow ng-tns-c88-21'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Male'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Male'))
 
-WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Mobile_Number'), '51980219')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Mobile_Number'), '51980219')
 
-WebUI.scrollToElement(findTestObject('Finweb_Windows/Page_Finweb - Brancho/span_DOB'), 0)
+WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_DOB'), 0)
 
-WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_DOB'), '11 Jul 1982')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_DOB'), '11 Jul 1982')
 
-WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/div_Marital Status'))
+WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_Marital Status'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Married'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married'))
 
-WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_Identifier_Selection'))
+WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/input_Identifier_Selection'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_NIC'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_NIC'))
 
-WebUI.setText(findTestObject('Finweb_Windows/Page_Finweb - Brancho/input_NIC'), 'R0709944203629')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), 'R0709944203629')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/span_Create Lead'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create Lead'))
 
 WebUI.delay(8, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Finweb_Windows/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
 
 WebUI.callTestCase(findTestCase('BNPL/Finweb/Workflow_Stage'), [:], FailureHandling.STOP_ON_FAILURE)
 

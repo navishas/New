@@ -34,33 +34,33 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
     'navishas')
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Page_Finweb - Brancho/button_Sign in'))
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
 WebUI.maximizeWindow()
 
-WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'), 
+WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'), 
     5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'))
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/div_Loan Application'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/div_Loan Application'))
 
 WebUI.delay(1, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/input_BNPLCC_mat-input-19'), '000000000003080')
+WebUI.setText(findTestObject('LOS/Search/Page_Finweb - Brancho/input_BNPLCC_mat-input-19'), '000000000003080')
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Search'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Search'))
 
-WebUI.click(findTestObject('Finweb_Windows/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))
+WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
-//WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Edit_Emp_Details'))
+//WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Edit_Emp_Details'))
 
 WebDriver driver = DriverFactory.getWebDriver()
 
@@ -76,7 +76,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
         String columnValue = excelData.getValue(columnName, row)
 
         try {
-            WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+            WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
                 FailureHandling.OPTIONAL)
 
             WebUI.delay(3)
@@ -94,51 +94,51 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 
                     System.out.println(('Success: Occupation \'' + columnValue) + '\' is selected')
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/span_Job Type'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Job Type'), 
                         0)
 
                     WebUI.delay(2, FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
 
-                    WebUI.setText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/input_Rs_mat-input-6_Basic_Inc'), 
+                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Rs_mat-input-6_Basic_Inc'), 
                         '12000')
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_income_Details'))
 
-                    WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'), 
+                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'), 
                         5)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Exp_Details'))
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/mat-label_Upload new document_Emp_Details'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/mat-label_Upload new document_Emp_Details'), 
                         0)
 
                     WebUI.delay(2, FailureHandling.OPTIONAL)
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Supported formats .png, .jpg, .jpeg, .pdf (Max. 5 MB)'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Supported formats .png, .jpg, .jpeg, .pdf (Max. 5 MB)'), 
                         0)
 
                     WebUI.delay(2, FailureHandling.OPTIONAL)
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/p_Select from uploaded documents_Emp_Details'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/p_Select from uploaded documents_Emp_Details'), 
                         0)
 
                     WebUI.delay(2, FailureHandling.OPTIONAL)
 
-                    WebUI.scrollToElement(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'), 
+                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Drag And Drop Files Here_Empy_Details'), 
                         0)
 
-                    WebUI.waitForElementClickable(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'), 
+                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'), 
                         5, FailureHandling.OPTIONAL)
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Save'))
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
 
-                    WebUI.click(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/button_Skip Task (1)'))
+                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip Task (1)'))
 
-                    WebUI.getText(findTestObject('Finweb_Windows/Workflow_Stage/Page_Finweb - Brancho/div_SEN_Occ_Code'))
+                    WebUI.getText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_SEN_Occ_Code'))
 
                     break
                 }

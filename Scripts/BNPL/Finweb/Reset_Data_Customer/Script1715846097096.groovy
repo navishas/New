@@ -21,27 +21,27 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-uat.finflux.io/leads')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/span_Customers'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/span_Customers'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/p_JAYSON RUNGASAMY'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/p_JAYSON RUNGASAMY'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/span_Add_mat-expansion-indicator ng-tns-c20_5a259f'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/span_Add_mat-expansion-indicator ng-tns-c20_5a259f'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/svg'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/svg'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/button_Delete'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/button_Delete'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/mat-icon_more_vert'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/mat-icon_more_vert'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/button_Update'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/button_Update'))
 
-WebUI.clearText(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/input_Old Mobile Number 55003006_mobileNumber'), 
+WebUI.clearText(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/input_Old Mobile Number 55003006_mobileNumber'), 
     FailureHandling.STOP_ON_FAILURE)
 
-WebUI.setText(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/input_Old Mobile Number 55003006_mobileNumber'), 
+WebUI.setText(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/input_Old Mobile Number 55003006_mobileNumber'), 
     '55003001')
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/span_Update'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/span_Update'))
 
-WebUI.click(findTestObject('Object Repository/Finweb_Windows/Customer/Page_Finweb - Brancho/span_Close'))
+WebUI.click(findTestObject('Object Repository/LOS/Customer/Page_Finweb - Brancho/span_Close'))
 

@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-15']/span</value>
+         <value>//div[@role='listbox']/mat-option/span[contains(text(),'National Identity')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e665e88f-2b5c-4f29-9771-b392e542f323</webElementGuid>
+      <webElementGuid>288f941d-f808-4dfe-85f9-e5b78e564427</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>337a40f5-1227-4d77-8f6a-abd72636a73e</webElementGuid>
+      <webElementGuid>5cdd0123-5946-4f72-8300-b5a334383d32</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>National Identity Card*</value>
-      <webElementGuid>a8e06c2b-8dc1-425d-8421-62f90823bb5b</webElementGuid>
+      <webElementGuid>96a9281e-6672-4a28-9711-1f17391bf62c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-15&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>27e9a7f4-6432-45a0-971d-0584175db6e5</webElementGuid>
+      <webElementGuid>a0e3a892-9cff-4f8f-a36f-79f21a0c1cdf</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-15']/span</value>
-      <webElementGuid>c812a48f-e093-41c9-b82c-e60fd1aba36f</webElementGuid>
+      <webElementGuid>1d47bf35-58ef-4e96-a0d4-4c467f2ff1c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>a6cce159-050a-47d2-bfd2-0c600351a803</webElementGuid>
+      <webElementGuid>eb92deae-b284-4397-915c-14c883d69592</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/following::span[6]</value>
-      <webElementGuid>a3a0b186-1cb7-4a57-b50f-f47c19d2f1ce</webElementGuid>
+      <webElementGuid>40307557-7ed3-4174-af3d-7aaccc6f5697</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Passport'])[1]/preceding::span[1]</value>
-      <webElementGuid>3fad7603-7b46-4ba5-ab05-686d7b6d8b49</webElementGuid>
+      <webElementGuid>787a2e5e-f0e4-4036-b4c7-2ecb371a89e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-15', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/preceding::span[2]</value>
-      <webElementGuid>f5b22578-032a-4882-b3ed-2ad9b088f6e1</webElementGuid>
+      <webElementGuid>9209733c-2b6a-4a2b-9b2f-68f8cd2e84c8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='National Identity Card*']/parent::*</value>
-      <webElementGuid>f2805547-1d1a-41fc-afe0-492ab9bb663c</webElementGuid>
+      <webElementGuid>403fac0f-8910-4f32-9904-ad7cdf9be37c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>51c4785e-7f65-4b37-9b2e-e0238d0f48f1</webElementGuid>
+      <webElementGuid>e034c8bf-e222-40fa-acb6-3420b1f1b309</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'National Identity Card*' or . = 'National Identity Card*')]</value>
-      <webElementGuid>8fa18f77-fb82-4ca2-9b67-253fbb445908</webElementGuid>
+      <webElementGuid>f269e730-c173-43bb-b749-bfe53751b1bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
