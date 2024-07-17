@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Years_in_Occupation</name>
+   <name>div_Issuer_dropdown - Copy</name>
    <tag></tag>
-   <elementGuidId>212c2b70-c00c-44c5-863a-8a21fe359b68</elementGuidId>
+   <elementGuidId>b7ba741d-cc47-4a1e-9aeb-51adc15acd75</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-label[contains(text(),'Years')]/ancestor::span/parent::div/div/div/input</value>
+         <value>(//button[@type='button'])[28]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

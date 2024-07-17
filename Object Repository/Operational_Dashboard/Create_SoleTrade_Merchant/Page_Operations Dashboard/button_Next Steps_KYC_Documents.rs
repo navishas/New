@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Next Steps_Settlement_Bank_Details - Copy</name>
+   <name>button_Next Steps_KYC_Documents</name>
    <tag></tag>
    <elementGuidId>acd13c46-5f80-45e8-a351-255662eb34c5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-flat-button.cdk-focused.cdk-mouse-focused</value>
+         <key>XPATH</key>
+         <value>//button/span[text()=' Next Steps ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-flat-button.cdk-focused.cdk-mouse-focused</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>1d8b35ef-1500-44e1-8a36-46fdd4f8bac6</webElementGuid>
+      <webElementGuid>51185724-a250-4e82-909b-52bf3e82c6af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>d5017a18-fa58-4fc8-9778-4bdcbab4cd3e</webElementGuid>
+      <webElementGuid>6802077c-6a3e-461f-a19c-309848c911e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Next Steps </value>
-      <webElementGuid>12742646-9a1b-401e-9124-4bdeb8c498e6</webElementGuid>
+      <webElementGuid>3640829e-d2f6-4ad6-86d9-6df1a50c70e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>2972e2df-8f8e-4e6c-a6e2-47cbcd8706f6</webElementGuid>
+      <webElementGuid>2bb76310-2bda-4182-92bb-04fa49201c20</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>38dd6dd9-617a-41b6-a35c-b580fe64943d</webElementGuid>
+      <webElementGuid>726b6525-a507-4f26-a102-c2df830161e8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mauritius'])[1]/following::button[3]</value>
-      <webElementGuid>d0efb965-c55b-4b49-a914-ece37d7aac72</webElementGuid>
+      <webElementGuid>199f5bbd-b0e1-427c-b33c-106b5776d7ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::button[3]</value>
-      <webElementGuid>84d5f5a7-50f0-4bd9-ae1b-4099f7089fbb</webElementGuid>
+      <webElementGuid>073e71de-08cb-4c3a-b126-cb426dabeb14</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/preceding::button[1]</value>
-      <webElementGuid>b8d315f4-84c5-45a3-8309-84660a451899</webElementGuid>
+      <webElementGuid>5624c171-d169-47df-8eb2-005f776404c0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>04590362-4539-4381-9d15-86c520c25569</webElementGuid>
+      <webElementGuid>d132ac0f-bdd6-488b-8217-3633c0ac6f8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Next Steps ' or . = ' Next Steps ')]</value>
-      <webElementGuid>ec0ae6e7-818e-43a2-8ee0-d44318be3dca</webElementGuid>
+      <webElementGuid>faba903f-6dfb-403f-8bfd-438c38270961</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

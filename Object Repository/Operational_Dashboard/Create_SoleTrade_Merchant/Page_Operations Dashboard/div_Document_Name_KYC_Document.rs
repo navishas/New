@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_other</name>
+   <name>div_Document_Name_KYC_Document</name>
    <tag></tag>
-   <elementGuidId>8494f0a2-fe86-455e-8ec1-ed30d5201d65</elementGuidId>
+   <elementGuidId>ddf3cbf2-714a-45a7-96ed-27a66ebf042c</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[text()='Queries']/parent::button/ancestor::workflow-step-header/following-sibling::div[1]/div/app-credit-scorecard/div/div/app-scorcard-input-output/div[2]/div/ul/li[28]/div[contains(text(),'oth')]</value>
+         <value>//mat-label[contains(text(),'Name')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

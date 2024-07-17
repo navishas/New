@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_basicincome</name>
+   <name>div_title_dropdown</name>
    <tag></tag>
-   <elementGuidId>148efc27-7169-471c-87d9-914b4012b00a</elementGuidId>
+   <elementGuidId>db01d07e-2334-4407-ab7e-1d08ae88376f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//p[text()='Queries']/parent::button/ancestor::workflow-step-header/following-sibling::div[1]/div/app-credit-scorecard/div/div/app-scorcard-input-output/div[2]/div/ul/li[17]/div[contains(text(),'basic')]</value>
+         <value>//span[text()='Title']/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
       <entry>
          <key>BASIC</key>

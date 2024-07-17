@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Skip Task_PEP_Declaration</name>
+   <tag></tag>
+   <elementGuidId>d3f7e01c-4923-4962-9223-592be8b2bcd3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-stroked-button</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='actionButtons']/div/div/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>cd654872-4323-4d23-936d-91983c26317a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button</value>
+      <webElementGuid>1e4ac082-e1c7-4362-91ed-9dfb429369cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Skip Task </value>
+      <webElementGuid>8b176241-16ca-4f3a-9a1c-1bd673a47ddf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;actionButtons&quot;)/div[@class=&quot;flex justify-end px-4 border-t ng-star-inserted&quot;]/div[@class=&quot;py-3 pe-4 ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button&quot;]</value>
+      <webElementGuid>6608661d-724e-41f5-aa30-ea831d2f3ee4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='actionButtons']/div/div/button</value>
+      <webElementGuid>09ec3f7c-5540-4cff-a1d1-3c1603169981</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add'])[1]/following::button[1]</value>
+      <webElementGuid>929af6aa-2642-42a5-8cfa-b67a3be785e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Navisha Sukurdeep'])[1]/following::button[5]</value>
+      <webElementGuid>4e331683-0817-47a0-b842-4d81a4161cb8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Activity Complete'])[1]/preceding::button[1]</value>
+      <webElementGuid>39f1b42f-911d-4c39-9852-df55829c6554</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/button</value>
+      <webElementGuid>453eab07-6e2f-434f-bdbd-32c1fe4c8085</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Skip Task ' or . = ' Skip Task ')]</value>
+      <webElementGuid>a780b91d-95ea-461d-ab8f-7261d86893e5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
