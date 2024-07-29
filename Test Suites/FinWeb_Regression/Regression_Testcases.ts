@@ -29,7 +29,7 @@
       <guid>7443fc9a-8223-497e-ae66-11433d8f9e2d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BNPL/Finweb/Employment_Details_Income_Details</testCaseId>
+      <testCaseId>Test Cases/BackUp/Employment_Details_Income_Details</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
