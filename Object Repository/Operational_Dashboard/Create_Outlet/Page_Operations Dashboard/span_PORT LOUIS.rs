@@ -6,12 +6,12 @@
    <elementGuidId>b4ea3b5b-ded1-4e41-8167-2d7ce8dc0d3e</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-24 > span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option[7]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-24']/span</value>
+         <key>CSS</key>
+         <value>#mat-option-24 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>43b3d666-d665-48c1-970a-f2642d98a020</webElementGuid>
+      <webElementGuid>ce9f00d4-1e3b-47b7-8e7f-6e4c0df0989a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>b6339eb1-9e9d-4ca5-aab0-a9662620455b</webElementGuid>
+      <webElementGuid>09c7107d-706b-45cf-a9a6-361cd53fd505</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> PORT LOUIS </value>
-      <webElementGuid>c1d866bd-965d-4af5-b1fa-9f74bb1d6b32</webElementGuid>
+      <webElementGuid>78a2c0f4-4d17-4cfc-9d66-cc7500fc2957</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-24&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>a25d94cd-6015-4a30-9254-328336994d29</webElementGuid>
+      <webElementGuid>0c3bf49a-f549-4f5e-9900-a2883a6bbd7c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-24']/span</value>
-      <webElementGuid>7ff3e400-9729-4534-ba02-59b4b6009f64</webElementGuid>
+      <webElementGuid>186053cf-1a7c-4af4-b146-5492f27efefb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PLAINES WILHEMS'])[1]/following::span[1]</value>
-      <webElementGuid>6ecc709e-2330-4511-b7f2-c72d82cba1f4</webElementGuid>
+      <webElementGuid>ae69035b-95a9-448d-959d-a0f6f323fe2c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PAMPLEMOUSSES'])[1]/following::span[2]</value>
-      <webElementGuid>3e3571e5-c84a-4f91-a5e6-f0d778d3788d</webElementGuid>
+      <webElementGuid>770b07e3-af8f-4572-8d9b-776de2143142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RIV. DU REMPART'])[1]/preceding::span[1]</value>
-      <webElementGuid>544dad1e-0b39-41b9-8555-4acbec5b8226</webElementGuid>
+      <webElementGuid>0fd5c003-3288-4776-877e-7e72af4d677d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='RODRIGUES'])[1]/preceding::span[2]</value>
-      <webElementGuid>a8f5d3d6-49b6-449c-93ec-73c37c2e3e66</webElementGuid>
+      <webElementGuid>ca2af522-7984-4dd4-8cc4-7ed7a331b86c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='PORT LOUIS']/parent::*</value>
-      <webElementGuid>a91acd19-3270-40ff-ab37-3bb02c8ca8fc</webElementGuid>
+      <webElementGuid>df7fe9ee-db82-4494-959e-21c457aeb416</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[7]/span</value>
-      <webElementGuid>3cb687a6-c849-45be-bdbd-bfa6fcc520ff</webElementGuid>
+      <webElementGuid>6882cad9-e78e-4117-96d4-8b93af0b105f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' PORT LOUIS ' or . = ' PORT LOUIS ')]</value>
-      <webElementGuid>5ae7634f-bc69-4379-8879-17a5b6f6eee4</webElementGuid>
+      <webElementGuid>5db25d41-5dd9-4ed0-a60f-80037e8e910b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

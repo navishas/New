@@ -6,12 +6,12 @@
    <elementGuidId>7a608a80-e96f-4324-ac74-5b3dc420f37c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.mat-select-trigger.ng-tns-c90-124</value>
+         <key>XPATH</key>
+         <value>//span[text()='Risk Category']/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-38']/div</value>
+         <key>CSS</key>
+         <value>div.mat-select-trigger.ng-tns-c90-124</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>1fc8d645-b8eb-4c05-b814-02be1ee081bc</webElementGuid>
+      <webElementGuid>e30eb3a4-2575-40d0-8633-34fb6b6ad143</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-trigger ng-tns-c90-124</value>
-      <webElementGuid>b0049dc9-d7d9-49d0-8623-df79c0054c88</webElementGuid>
+      <webElementGuid>f5039aad-7628-4fd9-90a2-4f09ce5e266e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-38&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c90-124&quot;]</value>
-      <webElementGuid>bd2674fb-1fa9-470b-a207-8c6f5881d910</webElementGuid>
+      <webElementGuid>a402d1f0-3fb8-4ee4-8d49-4ddadfe8869e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-38']/div</value>
-      <webElementGuid>21fb2d5f-1b4e-45d2-b66b-0905c1eb2041</webElementGuid>
+      <webElementGuid>b9b62b51-a923-46ec-84cd-9f5633cf30b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchant Categorization'])[2]/following::div[15]</value>
-      <webElementGuid>b23f935a-8363-490f-8413-7dd61df24b93</webElementGuid>
+      <webElementGuid>e840fa8e-ae54-4d9c-909f-c657fd2dd96a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::div[22]</value>
-      <webElementGuid>64cae9d9-a7de-4941-8060-9f092944e37b</webElementGuid>
+      <webElementGuid>8368d363-a61a-489e-9ffc-0f82611c740a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Risk Category'])[1]/preceding::div[4]</value>
-      <webElementGuid>750b85cf-f5a6-4f38-89c0-5ace1e660afd</webElementGuid>
+      <webElementGuid>efcc928b-d195-4ebe-8860-831d3307d7fe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/preceding::div[4]</value>
-      <webElementGuid>0b0d54c4-4c07-4fc9-a205-5d4af5944014</webElementGuid>
+      <webElementGuid>85f4822e-cae1-4378-86c2-c85358562f79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div</value>
-      <webElementGuid>13c00e20-e27c-4986-9ba9-13c08b781174</webElementGuid>
+      <webElementGuid>e28b885a-4336-40bb-8068-48ca62aa22b2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

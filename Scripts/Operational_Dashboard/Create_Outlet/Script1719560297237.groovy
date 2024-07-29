@@ -19,16 +19,25 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_New Merchant'))
 
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Select_Merchant'))
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Outlet'))
 
-WebUI.setText(findTestObject('Page_Operations Dashboard/input_Parent Merchant ID_rc_select_1'), Sole_Trader)
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Parent Merchant ID_rc_select_1'), 
+    Sole_Trader)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_GAMM corp  -  EsHmFC1wHC'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Select_Parent_Merchant'), 
+    FailureHandling.STOP_ON_FAILURE)
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/a_Submit'))
 
-WebUI.waitForElementPresent(findTestObject('Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'), 
-    10)
+WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Merchant_Representative'), 
+    30, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Merchant_Representative'), 
+    10, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'))
 
@@ -38,8 +47,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Title_name'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Title_name'), 
-    Name)
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Name'), Name)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__email'), 
     Email)
@@ -47,30 +55,32 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Out
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__phone_number'), 
     PhoneNumber)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__mat-select-value-5'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__CountryCode'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_230'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__address_line'), 
     Address_Line)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__mat-select-value-7'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__District'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_PORT LOUIS'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__mat-select-value-9'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__Locality'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_CASSIS'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__mat-select-value-11'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__Sub_Locality'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_CASSIS 1'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__mat-select-value-13'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__Nationality'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Mauritius'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Primary_Contact_Details'))
+
+WebUI.delay(3, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps'))
 
@@ -102,22 +112,24 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__goods_and_services_description'), 
     Description_Goods_Services)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/span_Nature of Business (As per BRN)_1'), 5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Min Transaction Value'), 
+    5)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/span_Min Transaction Value'), 5)
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Outlet'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_Outlet_Details'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps'))
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Settlement Bank Details_selection'), 
+    30, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Settlement Bank Details_mat-select-value-25'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Settlement Bank Details_selection'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_ABC BANKING CORPORATION'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__acc_no'), 
     Account_Number)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__reEnter_acc_no'), 
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__reEnter_acc_no'), 
     ReEnter_AccountNo)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__acc_holder_name'), 
@@ -127,12 +139,12 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_MUR'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Settlement_Bank_Details'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_Settlement_Bank_Details'))
 
 WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
-    10)
+    30)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'))
 
@@ -143,13 +155,15 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents Outlet_ID Number'), 
     Document_Name)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Drag And Drop Files Here'), 5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Document_Name_Business_Doc'), 
+    10, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Upload File_Business_Doc'), 
+    Path)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_1'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Business_Document_Outlet'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_Business_Document'))
 
 WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document_01'), 
     10)
@@ -168,13 +182,18 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - KYC - Outlet - Sub Type_I_e7d96f'), 
     Document_Name1)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Drag And Drop Files Here'), 10)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Document_Name_KYC_Doc'), 
+    10, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Upload File_KYC_Doc'), 
+    Path)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save (1)'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_KYC_Doc'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps (1)'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_KYC_Document'))
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document (1)'), 
+    30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document (1)'))
 
@@ -185,11 +204,13 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - Additional_ID Number'), 
     Document_Name2)
 
-WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Drag And Drop Files Here'), 5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Document_Name_Reviewer_Doc'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Upload File_Reviewer_Doc'), 
+    Path)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save (1)'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Reviewer_Doc'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'))
 
@@ -242,7 +263,7 @@ WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Drag And Dro
 
 WebUI.uploadFile(findTestObject('Page_Operations Dashboard/button_Upload File'), Path)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save (1)'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_KYC_Doc'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps (1)'))
 

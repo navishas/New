@@ -6,12 +6,12 @@
    <elementGuidId>b0ee9769-216e-4b25-beac-6062e77ed830</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-228 > span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option[5]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-228']/span</value>
+         <key>CSS</key>
+         <value>#mat-option-228 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0cebce35-6a7b-43d9-86ed-6abef0f513c7</webElementGuid>
+      <webElementGuid>41a7571c-c6f0-404b-b3cb-445cca3f816f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>0f9cb685-d1b9-4612-89a1-9c17ca05585b</webElementGuid>
+      <webElementGuid>a4eb33c3-0fff-400b-9edc-7b037ecf7f5f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> CASSIS </value>
-      <webElementGuid>b5f185b3-e1bf-4d5d-ab48-9c2576fa8bbd</webElementGuid>
+      <webElementGuid>98773e81-cb2f-4955-94f8-6e3a319efaa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-228&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>16892d73-45ad-4895-8c66-4c9feb7af6de</webElementGuid>
+      <webElementGuid>891d4185-2ee7-4be3-8e62-7cd518145208</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-228']/span</value>
-      <webElementGuid>0664d193-e870-4adf-85dc-6c47af8cc729</webElementGuid>
+      <webElementGuid>b2d194e1-c746-4de4-9ace-6af162e70732</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BOULEVARD VICTORIA'])[1]/following::span[1]</value>
-      <webElementGuid>b988ef19-eb7c-4c69-8f2d-10989a324498</webElementGuid>
+      <webElementGuid>3bbe927e-ec69-4c83-8227-390cf39c5d15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BORSTAL'])[1]/following::span[2]</value>
-      <webElementGuid>9cc0656a-6b3f-4e59-b4a3-85226077558c</webElementGuid>
+      <webElementGuid>2cdc4ae0-c889-45b5-a17b-8d9b57232bc3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CHAMPS DE MARS'])[1]/preceding::span[1]</value>
-      <webElementGuid>0e806bfd-b655-440d-8b85-a32d60f4a053</webElementGuid>
+      <webElementGuid>e68e4070-63f6-41c1-9c4b-4b2dc4796f4d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CHINA TOWN'])[1]/preceding::span[2]</value>
-      <webElementGuid>804311d1-2fd9-41bc-ad58-65be493daad3</webElementGuid>
+      <webElementGuid>f84809ea-e96f-47c1-b87e-2bc6b360bbcc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CASSIS']/parent::*</value>
-      <webElementGuid>204feeca-ad37-4806-864f-9315e768a0ac</webElementGuid>
+      <webElementGuid>3a22ecd8-2984-49b0-93ba-e5c4cda76955</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[5]/span</value>
-      <webElementGuid>69dd90a4-ccb3-4710-bd01-297685979f98</webElementGuid>
+      <webElementGuid>aa049750-7bc7-4b85-ba9e-9e5778290b7d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' CASSIS ' or . = ' CASSIS ')]</value>
-      <webElementGuid>51bc7752-3d61-44eb-a0ea-784ee9668d73</webElementGuid>
+      <webElementGuid>98a547d5-b360-4590-9729-4d420f127106</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

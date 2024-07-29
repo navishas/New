@@ -6,12 +6,12 @@
    <elementGuidId>e1a995bc-97b7-4bd8-8435-b0cd2f3560f2</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-option-488 > span.mat-option-text</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//mat-option[@id='mat-option-488']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-488 > span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>a78f10c1-7684-4837-b798-c367bdc44d65</webElementGuid>
+      <webElementGuid>9d5ffa59-8a0f-45f9-9c4e-5e4067b05146</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>d6f7cb11-62a5-4907-8dc9-16153b1ee671</webElementGuid>
+      <webElementGuid>b2b410d1-49c4-403f-92d5-66dfdb5c16bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>VAT Certificate</value>
-      <webElementGuid>ee91abf7-c4f2-4adb-b857-d799f582ba0a</webElementGuid>
+      <webElementGuid>8e2b6b86-1d7a-45b8-a000-57ff56d9c8ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-488&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>aa0e8c5c-be7d-492c-95bf-f13bf3c81dd4</webElementGuid>
+      <webElementGuid>5720cf7a-dd71-4e68-8096-c0920c20d71c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-488']/span</value>
-      <webElementGuid>e7cbebd1-3d6f-4f01-a97a-066e1d919f61</webElementGuid>
+      <webElementGuid>aff83d2c-8d42-4174-a86a-920dd2026703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Certificate of Incorporation'])[1]/following::span[1]</value>
-      <webElementGuid>1f5d8c9d-42f9-46e7-84f9-d744e9d438ff</webElementGuid>
+      <webElementGuid>8ad34d87-bbb2-4e1b-ae88-3868ca40bd41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Registration Number'])[1]/following::span[2]</value>
-      <webElementGuid>af5aa2ff-de04-4813-b60c-126b2561697e</webElementGuid>
+      <webElementGuid>1995006a-be93-4dbc-8cd5-368a26d5c008</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Trade License'])[1]/preceding::span[1]</value>
-      <webElementGuid>f45f4ad7-f927-4965-ade6-45488b466249</webElementGuid>
+      <webElementGuid>cc4537f8-5b2e-40d9-a70d-82065b1f7890</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Compliance Report'])[1]/preceding::span[2]</value>
-      <webElementGuid>efe27708-c6f4-4b94-ae2a-3c18ba3c52e0</webElementGuid>
+      <webElementGuid>f4ba76cf-d953-4b5b-ab3c-26578dd3b86c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='VAT Certificate']/parent::*</value>
-      <webElementGuid>72079183-df8b-4343-98ea-6bac57326bcd</webElementGuid>
+      <webElementGuid>336728bc-285d-4877-be12-3e5052a58c3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[3]/span</value>
-      <webElementGuid>8833117e-474d-4ca2-a246-13abcc2bb453</webElementGuid>
+      <webElementGuid>814cb6dd-5684-4381-a094-2435cb9475aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'VAT Certificate' or . = 'VAT Certificate')]</value>
-      <webElementGuid>69ad9c77-e7ec-485a-b766-dc523ce0e645</webElementGuid>
+      <webElementGuid>68a8d389-5766-43c0-9009-3a40994e91c5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

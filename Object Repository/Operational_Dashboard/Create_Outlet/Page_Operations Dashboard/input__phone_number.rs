@@ -6,12 +6,12 @@
    <elementGuidId>e1b034e3-787f-4617-ab05-2a1f21fa56a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#phone_number</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Phone')]/ancestor::span/preceding-sibling::input</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@id='phone_number']</value>
+         <key>CSS</key>
+         <value>#phone_number</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>de741c24-7776-49ac-b8a7-69579c7dbad7</webElementGuid>
+      <webElementGuid>fc7b9351-4d62-4c3f-a6a1-c791db96dd21</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>91a8ff54-e936-4d5d-a48b-e7a3a2e9de93</webElementGuid>
+      <webElementGuid>4b1970c8-1057-4db4-9425-d72bff6086d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-8 ng-untouched cdk-text-field-autofill-monitored ng-dirty ng-valid</value>
-      <webElementGuid>e9d562de-7d8b-4123-b79b-4d19c1e7839b</webElementGuid>
+      <webElementGuid>5591378a-51f0-48d5-ba4e-80f5167f8bc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>16abd447-ca4c-4b93-ad65-129f99100c68</webElementGuid>
+      <webElementGuid>63813573-1b08-4109-9d49-9153c0061117</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>phone_number</value>
-      <webElementGuid>d2352ddb-14b6-4530-b3ff-d4532c947a46</webElementGuid>
+      <webElementGuid>28397f61-9036-4688-b523-26ac90ba734e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>ad131982-1085-4bf9-8ca4-b1bed2022569</webElementGuid>
+      <webElementGuid>4c2b1587-821d-4f4d-9daa-f17605e7e259</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e2692865-9cb8-4803-ae74-15893c9f26ae</webElementGuid>
+      <webElementGuid>0ea21dbe-d703-40c4-8d85-1a4938cefac0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;phone_number&quot;)</value>
-      <webElementGuid>b1b44522-b3a5-42d7-9bf0-11b42eb58833</webElementGuid>
+      <webElementGuid>906a74d4-8dd1-4382-bd4c-b1c3e1df47c4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='phone_number']</value>
-      <webElementGuid>bd290f26-9d7b-4721-85fa-b98861b43824</webElementGuid>
+      <webElementGuid>991a1a6d-37d4-4fba-add4-0b291c1cee83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[5]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>00d3761d-6662-478a-8ace-6a86f58d00de</webElementGuid>
+      <webElementGuid>5c93f179-7c80-4648-a620-82a1a2a1e508</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>f38f837a-aadb-46bd-a9cb-6ce49e4dac55</webElementGuid>
+      <webElementGuid>5e7c8678-d998-4d94-848f-2f25aae7ae48</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'phone_number']</value>
-      <webElementGuid>50f4c98c-27b5-450c-bf05-a3661505a7f5</webElementGuid>
+      <webElementGuid>bc61a370-b7e5-48d5-96c5-796ea85ac96d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
