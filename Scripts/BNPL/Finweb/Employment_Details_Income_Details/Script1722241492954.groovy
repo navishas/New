@@ -138,6 +138,7 @@ try {
             Cell rentalCell = row.getCell(20)
 
             Cell otherCell = row.getCell(25)
+			
 
             System.out.println((((((((('Row ' + (rowIndex + 1)) + ': occType=') + occType) + ', basicIncomeCell=') + basicIncomeCell) + 
                 ', fixedAllowanceCell=') + fixedAllowanceCell) + ', variableAllowanceCell=') + variableAllowanceCell)
