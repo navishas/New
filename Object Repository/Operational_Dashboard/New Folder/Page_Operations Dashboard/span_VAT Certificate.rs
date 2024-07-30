@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_VAT Certificate</name>
+   <tag></tag>
+   <elementGuidId>818992b0-d0bd-4637-8fff-e5af15fd9d3b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-29']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-29 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fad254ed-1060-4140-96f0-ce5318180677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>a5d0b1e4-9751-4d1b-89c2-e76da02d5e53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VAT Certificate </value>
+      <webElementGuid>38b8c8b8-5f34-4d1b-8eeb-2acca89a83aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-29&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>b16d557d-1d93-47f9-b2f4-123a104e430c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-29']/span</value>
+      <webElementGuid>0069865e-ebdb-4882-82ce-ec8ea381486d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>82f2319a-ab24-4036-acb7-c7824429e9fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'VAT Certificate ' or . = 'VAT Certificate ')]</value>
+      <webElementGuid>c993d1a2-5f28-4681-aad4-532483404b1b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-select-trigger ng-tns-c90-3</name>
+   <tag></tag>
+   <elementGuidId>0a21fdc1-b0cc-44e3-8bee-fcaaaab25ddc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-select[@id='mat-select-0']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-select-trigger.ng-tns-c90-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>17298b9b-37bf-42bc-89d8-cbdaf7222745</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-trigger ng-tns-c90-3</value>
+      <webElementGuid>afe26fc0-5890-4163-9cf2-0a2b8cfc0f17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-0&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c90-3&quot;]</value>
+      <webElementGuid>e4835d44-2dd9-456e-98d8-71ad9439000f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-0']/div</value>
+      <webElementGuid>548c4653-ed00-42ef-8b23-ae8f438fc3eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-select/div</value>
+      <webElementGuid>0d57f5e2-452a-4200-bf11-7a03d80e4695</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

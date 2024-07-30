@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Edit</name>
+   <name>button_Edit_Report_Settings</name>
    <tag></tag>
-   <elementGuidId>e2f33489-05b9-4695-b81f-bd32c554d0c7</elementGuidId>
+   <elementGuidId>d164383c-6b9b-4467-8476-f580d21dc81e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[3]/div[6]/div[2]/div[2]/button</value>
+         <value>(//button[text()='Edit'])</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a1ecbcdb-6d03-4ae7-9cc2-8b54ff73cd66</webElementGuid>
+      <webElementGuid>f137c3b8-d225-4616-832d-b47cb08b7722</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0759f893-59bc-424b-9a56-f1881b0028a4</webElementGuid>
+      <webElementGuid>4ed4de49-1d28-422e-82d3-817de93702ad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-btn onboarding-button-primary ant-btn-primary</value>
-      <webElementGuid>e98c1063-2c4c-4c21-85b7-8f5dc03a9280</webElementGuid>
+      <webElementGuid>44147d17-15c2-430a-b360-337142ded4ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Edit</value>
-      <webElementGuid>e14e0e14-6b3b-4f22-a93c-bdec080cc14f</webElementGuid>
+      <webElementGuid>ad84bd19-a360-4f86-8eca-bb52286bd386</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootReact&quot;)/section[@class=&quot;main-app-container&quot;]/div[@class=&quot;app-container&quot;]/div[1]/div[@class=&quot;ant-card merchant-onboarding ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active screen-height-container-with-tabs&quot;]/div[2]/div[@class=&quot;tab-screen-footer display-flex-style&quot;]/button[@class=&quot;ant-btn onboarding-button-primary ant-btn-primary&quot;]</value>
-      <webElementGuid>e8bf25f9-8822-46d9-9a0b-d1f5cf2eb12f</webElementGuid>
+      <webElementGuid>efbc6951-ca18-48e2-b8e0-1ec92188f98d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[40]</value>
-      <webElementGuid>fe9dedc0-4732-4c75-a19a-d03079f279bf</webElementGuid>
+      <webElementGuid>5802565e-7918-448c-8294-6c9a2c88e2ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[3]/div[6]/div[2]/div[2]/button</value>
-      <webElementGuid>a8684ce1-0644-4964-84ea-aea6ad09d4ba</webElementGuid>
+      <webElementGuid>5c5247e7-0993-422b-97b3-c3bea1510f9e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div[2]/button</value>
-      <webElementGuid>2356809f-9e4c-489e-ba3f-220308991f0b</webElementGuid>
+      <webElementGuid>13720559-88f3-4fe1-96d1-abe5f812cae9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>fcdc1e69-f238-4c02-b7d1-eeb0cbd1b28f</webElementGuid>
+      <webElementGuid>783dda02-ae26-4635-adbc-155155387738</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

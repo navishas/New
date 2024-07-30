@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Next Steps</name>
+   <tag></tag>
+   <elementGuidId>9bbdb45e-3d9f-4fdf-9cc0-800d877d60f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='actionButtonDiv']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-flat-button.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>925bb698-7b82-42b5-9140-58050001308d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>6934a56e-4e2d-470e-9761-c79d16644e79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Next Steps </value>
+      <webElementGuid>061f80f7-e3f9-41f2-ad4f-463253d11b73</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;actionButtonDiv&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>b1d5be50-dd10-4fe9-afd8-9816a3b45c61</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='actionButtonDiv']/div/button</value>
+      <webElementGuid>131aa0e2-3aaa-4c3e-98dc-c1a1e318f996</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>5d24271a-d077-4657-af59-cc0aa7151fb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Next Steps ' or . = ' Next Steps ')]</value>
+      <webElementGuid>eb9ebf0d-2e54-4d9d-88d1-83dac389a1aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

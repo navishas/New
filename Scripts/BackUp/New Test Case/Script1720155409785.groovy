@@ -35,264 +35,147 @@ import java.io.IOException as IOException
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
+WebUI.navigateToUrl('https://cim-operations-uat.m2pfintech.com/signin')
 
-WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
-    'navishas')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_email'), 
+    'pratik.jain@m2pfintech.com')
 
-WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
+WebUI.setEncryptedText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_password'), 
+    'cvW8qx4B2o1WegCEDy41Xg==')
 
-WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
+WebUI.sendKeys(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_password'), 
+    Keys.chord(Keys.ENTER))
 
-WebUI.maximizeWindow()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_2'))
 
-WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'), 
-    5, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_JkjEi7aHgy'))
 
-WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Reports_mat-button-wrapper'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Submit For Review'))
 
-WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/div_Loan Application'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/rect'))
 
-WebUI.delay(1, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_No'))
 
-WebUI.setText(findTestObject('LOS/Search/Page_Finweb - Brancho/input_BNPLCC_mat-input-19'), '000000000003130')
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/rect'))
 
-WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Search'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Yes'))
 
-WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_4kdOHwXpNh'))
 
-WebUI.delay(4, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/div_mat-select-trigger ng-tns-c90-3'))
 
-WebDriver driver = DriverFactory.getWebDriver()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_AFRASIA BANK LTD'))
 
-String excelFilePath = 'C:/Users/I1675/Downloads/New folder (4)/Income_BNPL.xlsx'
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputacc_no'), 
+    '8989899')
 
-boolean defaultOptionClicked = false;
+WebUI.setEncryptedText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputreEnter_acc_no'), 
+    '9FiCf6Urdp8=')
 
-try {
-	
-    FileInputStream fis = new FileInputStream(excelFilePath)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputacc_holder_name'), 
+    'jayram')
 
-    Workbook workbook = new XSSFWorkbook(fis)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/divmat-select-value-3'))
 
-    for (int sheetIndex = 0; sheetIndex < workbook.getNumberOfSheets(); sheetIndex++) {
-        Sheet sheet = workbook.getSheetAt(sheetIndex)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_MUR'))
 
-        for (int rowIndex = 1; rowIndex <= sheet.getLastRowNum(); rowIndex++) {
-            Row row = sheet.getRow(rowIndex)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Save'))
 
-            if (row == null) {
-                continue
-            }
-            
-            String occType = row.getCell(0).getStringCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Next Steps'))
 
-            Cell basicIncomeCell = row.getCell(1)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Next Steps'))
 
-            Cell fixedAllowanceCell = row.getCell(2)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Add New Document'))
 
-            Cell variableAllowanceCell = row.getCell(5)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/divmat-select-value-5'))
 
-            Cell industryAllowanceCell = row.getCell(11)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Business Registration Card'))
 
-            Cell salaryAllowanceCell = row.getCell(17)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ID Number'), 
+    'uiui')
 
-            Cell businessExpensesCell = row.getCell(14)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Upload File'))
 
-            Cell otherIncomeCell = row.getCell(24)
-			
-			Cell dividendCell = row.getCell(20)
-			
-			Cell rentalCell = row.getCell(19)
-			
-			Cell otherCell = row.getCell(21)	
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Save_1'))
 
-            System.out.println((((((((('Row ' + (rowIndex + 1)) + ': occType=') + occType) + ', basicIncomeCell=') + basicIncomeCell) + 
-                ', fixedAllowanceCell=') + fixedAllowanceCell) + ', variableAllowanceCell=') + variableAllowanceCell)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Next Steps'))
 
-            if ((((((basicIncomeCell == null) || (fixedAllowanceCell == null)) || (variableAllowanceCell == null)) || (industryAllowanceCell == 
-            null)) || (businessExpensesCell == null)) || (otherIncomeCell == null) || (dividendCell == null) || (rentalCell == null) || (otherCell == null)) {
-                System.out.println('Error: Null cell found in row ' + (rowIndex + 1))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Add New Document'))
 
-                continue
-            }
-            
-            double basicIncome = basicIncomeCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/divmat-select-value-7'))
 
-            double fixedAlowance = fixedAllowanceCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Proof of Address of Place of Business'))
 
-            double variableAlowance = variableAllowanceCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ID Number_1'))
 
-            double industryAverage = industryAllowanceCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/divmat-select-value-9'))
 
-            double salaryAlowance = salaryAllowanceCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_CWA - Place Of Business'))
 
-            double businessExpenses = businessExpensesCell.getNumericCellValue()
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ID Number_1'), 
+    'jkjlkjl')
 
-            double otherIncome = otherIncomeCell.getNumericCellValue()
-			
-			double dividendIncome = dividendCell.getNumericCellValue()
-			
-			double rentalIncome = dividendCell.getNumericCellValue()
-			
-			double other = otherCell.getNumericCellValue()
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Upload File'))
 
-            try {
-				
-                WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
-                    FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Save'))
 
-                WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Next Steps'))
 
-                List<WebElement> options = driver.findElements(By.xpath('/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/mat-option/span'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Add New Document'))
 
-                boolean optionFound = false
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/divmat-select-value-11'))
 
-                for (WebElement option : options) {
-                    if (option.getText().contains(occType)) {
-                        option.click()
-                        optionFound = true
-                        System.out.println(('Success: Occupation \'' + occType) + '\' is selected')
-                        break;
-                    }
-                }
-                
-                if (!optionFound) {
-					
-					WebUI.refresh(FailureHandling.OPTIONAL)			
-						
-					//driver.findElement(By.xpath("//span[text()='Employed Contractual']")).click()
-					
-					//driver.findElement(By.xpath("//mat-option/span[text()='Employed Full Time']")).click()
-					
-					
-					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'),
-						5, FailureHandling.OPTIONAL)
-					
-					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Radio_button_No'))
-					
-					WebUI.delay(3)
-					
-					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'))
-					
-					WebUI.delay(1)
-					
-					List<WebElement> options2 = driver.findElements(By.xpath('/html[1]/body[1]/div[3]/div[2]/div[1]/div[1]/div[1]/mat-option/span'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_VAT Certificate'))
 
-                    for (WebElement currentOption : options2) {
-                        if (currentOption.getText().contains(occType)) {
-                            currentOption.click()
-                            System.out.println(('Success: Occupation \'' + occType) + '\' is selected')
-							
-                        }
-                    }
-					
-                }
-                
-                if ((occType.equals('Employed Contractual') || occType.equals('Employed Full Time')) || occType.equals('Employed Part Time')) {
-					
-                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ID Number_1_2'), 
+    'vv')
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Basic_Salary'), 
-                        String.valueOf(basicIncome))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/span_Upload File'))
 
-                    System.out.println(('Success: Basic Income \'' + basicIncome) + '\'')
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Save'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Fixed_alowance'), 
-                        String.valueOf(fixedAlowance))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Submit For Review'))
 
-                    System.out.println(('Success: Fixed Alowance \'' + fixedAlowance) + '\'')
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_ant-switch'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Variable_Alowance'), 
-                        String.valueOf(variableAlowance))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ant-checkbox-input'))
 
-                    System.out.println(('Success: Variable Alowance \'' + variableAlowance) + '\'')
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ant-checkbox-input'))
 
-                    WebUI.delay(3)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ant-checkbox-input'))
 
-                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Back_Button_next to save'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Save_1'))
 
-                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
-                        5, FailureHandling.OPTIONAL)
-				
-                }
-                
-                if (occType.equals('Self employed No Permit') || occType.equals('Self employed With Permit')) {
-                    
-					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Employm_Detail'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Refund'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Industry_Average'), 
-                        String.valueOf(industryAverage))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Add Fee'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Salary_Income'), 
-                        String.valueOf(salaryAlowance))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputcheckboxes-tags-demo'))
 
-                    WebUI.delay(1)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/li_Buy Now Pay Later'))
 
-                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_Self_Emp'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputcheckboxes-tags-demo'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Business_Expenses'), 
-                        String.valueOf(businessExpenses))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/li_All'))
 
-                    WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Other_Income'), 
-                        String.valueOf(otherIncome))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/inputcheckboxes-tags-demo'))
 
-                    WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Text_Rent_IfAny'), 
-                        5)
-					
-					WebUI.delay(2)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ant-checkbox-input'))
 
-                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_button_next_toSave'))
-					
-					WebUI.delay(1)
-					
-                    WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'), 
-                        6, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_ant-checkbox-input'))
 
-                    WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Back_Income_page'))
-					
-					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
-						5, FailureHandling.OPTIONAL)
-					
-                }
-				
-				if(occType.equals("Pensioner") || occType.equals("Unemployed")) {
-					
-					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Next_button_Pensioner'))
-					
-					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Dividend'), 
-                        String.valueOf(dividendIncome))
-					
-					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Rental_Income'),
-						String.valueOf(rentalIncome))
-					
-					WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/textbox_Other'),
-						String.valueOf(other))
-					
-					WebUI.delay(2)
-					
-					WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/Pensioner_Back_Button'))		
-				
-					WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'),
-						5, FailureHandling.OPTIONAL)
-					
-					
-					}
-            }
-            catch (StaleElementReferenceException e) {
-                System.out.println('StaleElementReferenceException occurred: ' + e.getMessage())
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/div_'))
 
-                continue
-            } 
-            catch (NoSuchElementException e) {
-                System.out.println('NoSuchElementException occurred: ' + e.getMessage())
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/li_Flat'))
 
-                continue
-            } 
-        }
-    }
-}
-catch (IOException e) {
-    e.printStackTrace()
-} 
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/input_feeValue'), 
+    '5000')
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Submit'))
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Save_1'))
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Edit'))
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/New Folder/Page_Operations Dashboard/button_Save_1'))
 
