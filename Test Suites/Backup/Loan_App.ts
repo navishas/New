@@ -25,7 +25,7 @@
             <runConfigurationId>Android</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Mobile_Regression/Loan_Application_Mobile</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Backup/Loan_Application_Mobile</testSuiteEntity>
       </TestSuiteRunConfiguration>
       <TestSuiteRunConfiguration>
          <configuration>
@@ -35,7 +35,7 @@
             <runConfigurationId>Chrome</runConfigurationId>
          </configuration>
          <runEnabled>true</runEnabled>
-         <testSuiteEntity>Test Suites/Mobile_Regression/Admin_Portal</testSuiteEntity>
+         <testSuiteEntity>Test Suites/Backup/Admin_Portal</testSuiteEntity>
       </TestSuiteRunConfiguration>
    </testSuiteRunConfigurations>
 </TestSuiteCollectionEntity>

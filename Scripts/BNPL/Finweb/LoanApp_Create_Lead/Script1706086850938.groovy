@@ -61,7 +61,3 @@ WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Cre
 
 WebUI.delay(8, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
-
-WebUI.callTestCase(findTestCase('BNPL/Finweb/Workflow_Stage'), [:], FailureHandling.STOP_ON_FAILURE)
-
