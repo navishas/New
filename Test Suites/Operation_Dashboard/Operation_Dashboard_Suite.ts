@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>3d8ac013-8807-4041-a56b-42e30495cfb5</testSuiteGuid>
    <testCaseLink>
-      <guid>97d36220-c9e0-429a-b8bf-a99e016f6c56</guid>
+      <guid>b91943ec-2f4e-4af4-81c0-5bf00a7e852a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Login</testCaseId>
@@ -31,7 +31,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>459c0b15-a532-43e3-ad79-f81ca42903b0</guid>
+      <guid>abc26daa-9b9c-402a-bb8e-f504b1191baf</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Create_SoleTrader_Merchant</testCaseId>
@@ -404,7 +404,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>a483413e-ef09-40d9-a7ea-343874d40c13</guid>
+      <guid>8f03c8b5-dcdb-4425-8bce-22a38afe6ee5</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Create_Outlet</testCaseId>
@@ -513,7 +513,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>1b58a3bb-e93a-4033-b6d0-a9bc30a2e755</guid>
+      <guid>04ddc961-0d36-4b82-8ceb-e258dee62c5f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Create_QR_Code</testCaseId>

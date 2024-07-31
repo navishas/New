@@ -20,6 +20,12 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
+WebUI.click(findTestObject('Operational_Dashboard/Create_QR/Page_Operations Dashboard/button_Approved_Tab'), FailureHandling.OPTIONAL)
+
+String merchantID = WebUI.getText(findTestObject('Operational_Dashboard/Create_QR/Page_Operations Dashboard/div_GetMerchantID'))
+
+WebUI.delay(2, FailureHandling.OPTIONAL)
+
 WebUI.switchToWindowTitle('Operations Dashboard')
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_QR/Page_Operations Dashboard/span_Payment Tools'))
@@ -31,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_QR/Pa
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_QR/Page_Operations Dashboard/div_Select Merchant Id'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_QR/Page_Operations Dashboard/input_Select Merchant Id_ant-select-search__field'), 
-    Outlet_Name)
+    merchantID.trim())
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_QR/Page_Operations Dashboard/li_Bakers choice - 0Be9FC19Ul'))
 
@@ -56,11 +62,7 @@ String qrCode = WebUI.getText(findTestObject('Object Repository/Operational_Dash
 
 String merchantName = WebUI.getText(findTestObject('Operational_Dashboard/Create_QR/Page_Operations Dashboard/div_getMerchantName'))
 
-String greenColor = '[32m'
+System.out.println('QR Code Created Successfully: ' + qrCode)
 
-String resetColor = '[0m'
-
-System.out.println((('QR Code Created Successfully: ' + greenColor) + qrCode) + resetColor)
-
-System.out.println((('Merchant Name: ' + greenColor) + merchantName) + resetColor)
+System.out.println('Merchant Name: ' + merchantName)
 
