@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>GroupMerchant_Onboarding</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c08776c9-e319-4595-bd5d-5afcc7d19560</testCaseGuid>
+</TestCaseEntity>

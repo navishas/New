@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_(An OTP will be shared to validate)_P_e128db</name>
+   <tag></tag>
+   <elementGuidId>3dd04434-2e3d-4bed-9452-ba24b09b3c97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'tel']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.PhoneInputInput</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>74623f64-428b-4fb3-9915-f19ef9786d66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>4c4abc28-db07-4933-b39d-bae57227a4a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>f0cdf533-27ca-4b38-adba-aff22846643c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PhoneInputInput</value>
+      <webElementGuid>9c500085-56ad-4e53-8d1c-7c4f91f72726</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>+230 5</value>
+      <webElementGuid>74271887-8584-479c-8be0-3bd52dff3bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-div-login&quot;]/div[@class=&quot;right-div-login&quot;]/div[@class=&quot;right-sub-div-login&quot;]/div[@class=&quot;input-container&quot;]/div[@class=&quot;phone-input-signup&quot;]/div[@class=&quot;PhoneInput PhoneInput--focus&quot;]/input[@class=&quot;PhoneInputInput&quot;]</value>
+      <webElementGuid>9686a78a-af36-410f-aae0-b44d91abc966</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='+230 5']</value>
+      <webElementGuid>c8078d61-684c-48eb-be28-63a0e753a5a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[6]/div/div/input</value>
+      <webElementGuid>e24cf83a-a457-41e0-8015-f1b8d070dabd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/input</value>
+      <webElementGuid>173fd431-8097-408b-a9f3-f09fa08bf8c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'tel']</value>
+      <webElementGuid>4f011078-129a-45f3-8c2a-ac57152d3ba2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

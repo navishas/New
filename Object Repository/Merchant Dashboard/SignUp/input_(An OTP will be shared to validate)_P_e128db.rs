@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_(An OTP will be shared to validate)_P_e128db</name>
+   <tag></tag>
+   <elementGuidId>7e1f9720-2c8b-4b8b-9abc-80cb0ae7c714</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@type = 'tel']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.PhoneInputInput</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>7d381987-dcf5-4399-bf07-07f08c1044f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>43041401-5e42-431e-8026-5d39e1ef4155</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>autocomplete</name>
+      <type>Main</type>
+      <value>tel</value>
+      <webElementGuid>3c789f31-bc9d-4a01-864e-fffd6039f92c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>PhoneInputInput</value>
+      <webElementGuid>e5920006-28eb-4d1c-aae7-ee9e68965b81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>+230 5</value>
+      <webElementGuid>5b03d010-0315-4ed0-92fd-5df75c2d676c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-div-login&quot;]/div[@class=&quot;right-div-login&quot;]/div[@class=&quot;right-sub-div-login&quot;]/div[@class=&quot;input-container&quot;]/div[@class=&quot;phone-input-signup&quot;]/div[@class=&quot;PhoneInput PhoneInput--focus&quot;]/input[@class=&quot;PhoneInputInput&quot;]</value>
+      <webElementGuid>c3bd0390-788e-464a-939f-18cdc1602e54</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//input[@value='+230 5']</value>
+      <webElementGuid>4adb8d7b-ce1b-4638-933f-ac40e8a16513</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div/div[6]/div/div/input</value>
+      <webElementGuid>fc54a21a-a127-4a6a-a67b-09a5b71ec882</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/div/div/input</value>
+      <webElementGuid>d09e99ea-32d3-4050-8f34-055d8c66ff77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'tel']</value>
+      <webElementGuid>be0f463d-c5ed-40ea-8b28-8ada6d463432</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

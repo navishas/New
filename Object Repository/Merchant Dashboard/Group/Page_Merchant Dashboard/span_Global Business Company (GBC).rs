@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Global Business Company (GBC)</name>
+   <tag></tag>
+   <elementGuidId>fdd14106-5027-498a-aa87-455ccb35d759</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-255']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-255 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8879a019-df59-43ed-964a-5a8ff582b80f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>af9bb805-540d-4281-aed7-ab71c9df26f3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Global Business Company (GBC) </value>
+      <webElementGuid>031d6b68-f0b9-43af-8975-cb62a9284e6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-255&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>49d1593a-89f7-40e7-b277-72b6a1f59863</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-255']/span</value>
+      <webElementGuid>534f3b36-9ed0-4a6c-af4b-e54120ef0a7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Authorized Company (AC)'])[1]/following::span[1]</value>
+      <webElementGuid>bed8237d-5019-4440-aed1-66033e886139</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Domestic Company (DC)'])[1]/following::span[2]</value>
+      <webElementGuid>2b77b6b6-c2c5-4acb-ad6f-fdf108ba94a4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Protected Cell Company (PCC)'])[1]/preceding::span[1]</value>
+      <webElementGuid>f2f871e8-2ec4-4115-baca-46a9cd5233ec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Private Limited Company'])[1]/preceding::span[2]</value>
+      <webElementGuid>816e1c19-c83e-4b02-a9c5-348ed8551fb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Global Business Company (GBC)']/parent::*</value>
+      <webElementGuid>1dc73ae5-f2c8-4e5d-a366-8b38abed535f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>35a54484-740a-4603-99a1-feeb46efe379</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Global Business Company (GBC) ' or . = ' Global Business Company (GBC) ')]</value>
+      <webElementGuid>3f0a0496-a263-445b-801b-fafca77cc272</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
