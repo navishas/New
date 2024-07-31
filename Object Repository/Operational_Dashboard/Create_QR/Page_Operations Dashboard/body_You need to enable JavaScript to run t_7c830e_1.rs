@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>body_You need to enable JavaScript to run t_7c830e_1</name>
+   <tag></tag>
+   <elementGuidId>b1c731a8-19e7-49a5-9759-32dcfd9cf97d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>body.full-layout</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//body</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>body</value>
+      <webElementGuid>7493b303-65e0-4bf0-80ab-ce27d829eb96</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>full-layout</value>
+      <webElementGuid>7a244605-4166-40b7-a3c5-e8bbfd636477</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>You need to enable JavaScript to run this app.PPratik Jainpratik.jain@m2pfintech.comCIM FinanceLogoutMerchantsTransactionsSettlement &amp; PayoutRefundsBulk UploadsEMIManage Users &amp; RolesAccountingPayment ToolsManage QRPlatform SettingsPowered ByManage QR+ Create QRSearch ByQr Code IdSearch By​​S.No QR Code ID Merchant Name &amp; MID Additional Display Text Purpose Store Identifier Payments Status Action 1OuPukewFRaBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive2jAqugaLEhEBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive3QUDmP9P2kTBakers choiceMID: 8ulw79V9ujNANANAView PaymentsActive4zXgh6TnBocMMC ClothingMID: 9Wc54Yzki4NANANAView PaymentsActive5WbNekanZEyDAR JewelsMID: OWqC5Z6YC7NANANAView PaymentsActive6pu2l8Pg7vASM CothingMID: x2MeLYi0RBNANANAView PaymentsActive7Ap0B48wKvEFashion HouseMID: W0PfNYK0X0House FashionNANAView PaymentsActive8XqUik2Pz3lFashion HouseMID: W0PfNYK0X0NANANAView PaymentsActive10​&lt;&lt; First&lt;1>Last >>document.addEventListener(&quot;DOMContentLoaded&quot;,(function(){const e=localStorage.getItem(&quot;loader&quot;),t=(document.getElementById(&quot;loader-container&quot;),document.getElementById(&quot;loader-image&quot;));e&amp;&amp;t&amp;&amp;(t.src=e,t.style.maxHeight=&quot;500px&quot;)}))id(&quot;menu-&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-esi9ax&quot;]Qr Code IdMerchant IdMerchant Name</value>
+      <webElementGuid>bd268c31-9d90-4b37-8e20-e127f381f8b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;full-layout&quot;]</value>
+      <webElementGuid>3ecf09d3-fcff-48ae-99c2-922aa47cc970</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//body</value>
+      <webElementGuid>fc7ebb75-6cc2-487e-8f4c-fcca7d71b388</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//body[(text() = 'You need to enable JavaScript to run this app.PPratik Jainpratik.jain@m2pfintech.comCIM FinanceLogoutMerchantsTransactionsSettlement &amp; PayoutRefundsBulk UploadsEMIManage Users &amp; RolesAccountingPayment ToolsManage QRPlatform SettingsPowered ByManage QR+ Create QRSearch ByQr Code IdSearch By​​S.No QR Code ID Merchant Name &amp; MID Additional Display Text Purpose Store Identifier Payments Status Action 1OuPukewFRaBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive2jAqugaLEhEBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive3QUDmP9P2kTBakers choiceMID: 8ulw79V9ujNANANAView PaymentsActive4zXgh6TnBocMMC ClothingMID: 9Wc54Yzki4NANANAView PaymentsActive5WbNekanZEyDAR JewelsMID: OWqC5Z6YC7NANANAView PaymentsActive6pu2l8Pg7vASM CothingMID: x2MeLYi0RBNANANAView PaymentsActive7Ap0B48wKvEFashion HouseMID: W0PfNYK0X0House FashionNANAView PaymentsActive8XqUik2Pz3lFashion HouseMID: W0PfNYK0X0NANANAView PaymentsActive10​&lt;&lt; First&lt;1>Last >>document.addEventListener(&quot;DOMContentLoaded&quot;,(function(){const e=localStorage.getItem(&quot;loader&quot;),t=(document.getElementById(&quot;loader-container&quot;),document.getElementById(&quot;loader-image&quot;));e&amp;&amp;t&amp;&amp;(t.src=e,t.style.maxHeight=&quot;500px&quot;)}))id(&quot;menu-&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-esi9ax&quot;]Qr Code IdMerchant IdMerchant Name' or . = 'You need to enable JavaScript to run this app.PPratik Jainpratik.jain@m2pfintech.comCIM FinanceLogoutMerchantsTransactionsSettlement &amp; PayoutRefundsBulk UploadsEMIManage Users &amp; RolesAccountingPayment ToolsManage QRPlatform SettingsPowered ByManage QR+ Create QRSearch ByQr Code IdSearch By​​S.No QR Code ID Merchant Name &amp; MID Additional Display Text Purpose Store Identifier Payments Status Action 1OuPukewFRaBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive2jAqugaLEhEBakers choiceMID: 0Be9FC19UlNANANAView PaymentsActive3QUDmP9P2kTBakers choiceMID: 8ulw79V9ujNANANAView PaymentsActive4zXgh6TnBocMMC ClothingMID: 9Wc54Yzki4NANANAView PaymentsActive5WbNekanZEyDAR JewelsMID: OWqC5Z6YC7NANANAView PaymentsActive6pu2l8Pg7vASM CothingMID: x2MeLYi0RBNANANAView PaymentsActive7Ap0B48wKvEFashion HouseMID: W0PfNYK0X0House FashionNANAView PaymentsActive8XqUik2Pz3lFashion HouseMID: W0PfNYK0X0NANANAView PaymentsActive10​&lt;&lt; First&lt;1>Last >>document.addEventListener(&quot;DOMContentLoaded&quot;,(function(){const e=localStorage.getItem(&quot;loader&quot;),t=(document.getElementById(&quot;loader-container&quot;),document.getElementById(&quot;loader-image&quot;));e&amp;&amp;t&amp;&amp;(t.src=e,t.style.maxHeight=&quot;500px&quot;)}))id(&quot;menu-&quot;)/div[@class=&quot;MuiBackdrop-root MuiBackdrop-invisible MuiModal-backdrop css-esi9ax&quot;]Qr Code IdMerchant IdMerchant Name')]</value>
+      <webElementGuid>44b50c18-4e66-4a00-9f54-98991b4dabf6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Face To Face</name>
+   <name>div_Add New Identifier_Additional_Reviewer_Doc</name>
    <tag></tag>
-   <elementGuidId>b6bd35ab-5b91-43af-a851-b94c19ed01a3</elementGuidId>
+   <elementGuidId>8e332bb2-9bfd-401a-bd26-867bc2d30ce3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='listbox']/mat-option[1]</value>
+         <value>//mat-label[contains(text(),'Additional')]/ancestor::span/preceding-sibling::mat-select</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <value>#mat-select-value-35</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,95 +21,95 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
-      <webElementGuid>611dc559-085d-4a68-b4c3-94d4bf5372e6</webElementGuid>
+      <value>div</value>
+      <webElementGuid>0d8f975d-6d47-48bb-9607-9a1ecce404f9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-option-text</value>
-      <webElementGuid>5596a8c8-7d21-4d64-8403-bf304008aa6b</webElementGuid>
+      <value>mat-select-value ng-tns-c90-103</value>
+      <webElementGuid>3740b922-40ff-4ec1-9402-4cd4b98bbd59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
+      <name>id</name>
       <type>Main</type>
-      <value> Face To Face </value>
-      <webElementGuid>90b8cf9f-78bd-4676-af52-ce2b277a00d1</webElementGuid>
+      <value>mat-select-value-35</value>
+      <webElementGuid>7e6c2d27-4750-4cdf-8566-9e932e538e04</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-option-252&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>fade4771-492c-4e52-a9a3-65c34a42650a</webElementGuid>
+      <value>id(&quot;mat-select-value-35&quot;)</value>
+      <webElementGuid>4230cede-5e6f-4d6d-b4b7-240f77611f2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='mat-select-value-35']</value>
+      <webElementGuid>95321730-5fec-44a8-9b40-665e25fafa6e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-option[@id='mat-option-252']/span</value>
-      <webElementGuid>644842b6-d239-4fc0-87ab-74337f8919a8</webElementGuid>
+      <value>//mat-select[@id='mat-select-34']/div/div</value>
+      <webElementGuid>929c2c63-5631-4405-a4b1-111ca5d4aca5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-252', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[1]</value>
-      <webElementGuid>4b04a470-c8c6-49a4-8511-bf4d57b54af9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Identifier'])[1]/following::div[6]</value>
+      <webElementGuid>fed9e44a-9257-4d94-96b9-df62afb3a151</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>c70bb506-4fa3-4286-91f1-0dcdf2699b81</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Document'])[1]/following::div[6]</value>
+      <webElementGuid>aa60f10c-9a68-4d68-b461-7e7e4aaf5145</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Internet'])[1]/preceding::span[1]</value>
-      <webElementGuid>7993d295-6891-4cb3-a360-c1ae142f2b0d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - Additional'])[1]/preceding::div[3]</value>
+      <webElementGuid>d5376bf6-0217-409a-96c1-9a267945914f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outlet Type'])[2]/preceding::span[2]</value>
-      <webElementGuid>a25383dd-8441-4d3f-ada3-854c45c324cf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Face To Face']/parent::*</value>
-      <webElementGuid>41a54d33-6b97-477c-be1c-7aaf3aee5ad5</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/preceding::div[7]</value>
+      <webElementGuid>920346b0-3f9b-4caf-a2b3-ba43234c79ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-option/span</value>
-      <webElementGuid>954b39dd-479d-4960-9cfd-7918c7affa67</webElementGuid>
+      <value>//mat-select/div/div</value>
+      <webElementGuid>1bf367ac-a683-49e4-9047-270074a479d6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = ' Face To Face ' or . = ' Face To Face ')]</value>
-      <webElementGuid>c974c495-35be-41f6-b24c-9e80b2e0a525</webElementGuid>
+      <value>//div[@id = 'mat-select-value-35']</value>
+      <webElementGuid>2fef79eb-a77c-4ff0-9d15-304b99f3d088</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

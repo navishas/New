@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_Add New Identifier_mat-select-value-29</name>
+   <name>div_Documents - KYC - Outlet_SubType</name>
    <tag></tag>
-   <elementGuidId>86bd330f-35e0-4f88-89c5-4f28daae6697</elementGuidId>
+   <elementGuidId>acc09410-ed6d-479f-8dc8-75e934ede241</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-select-value-29</value>
+         <key>XPATH</key>
+         <value>//mat-label[contains(text(),'Sub')]/ancestor::span/preceding-sibling::mat-select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-29']</value>
+         <key>CSS</key>
+         <value>#mat-select-value-33</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,71 +22,71 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4c624187-bcf6-42ae-bfc1-2a63c5356309</webElementGuid>
+      <webElementGuid>1df20a80-69f7-474c-9eb2-20fe4733dd96</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-select-value ng-tns-c90-113</value>
-      <webElementGuid>6e1d9d5d-cb38-4d73-b07d-06a0a1c4a695</webElementGuid>
+      <value>mat-select-value ng-tns-c90-99</value>
+      <webElementGuid>ed111b31-152d-4216-be1d-0f097aa8ad16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>mat-select-value-29</value>
-      <webElementGuid>eef6e1b5-746b-4650-bcf1-db1e013cb6e6</webElementGuid>
+      <value>mat-select-value-33</value>
+      <webElementGuid>5dd250e4-a2ee-41d3-883a-5878c6f0fe0e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-select-value-29&quot;)</value>
-      <webElementGuid>7097a1c8-d7f7-480c-a45c-38fdb90a1923</webElementGuid>
+      <value>id(&quot;mat-select-value-33&quot;)</value>
+      <webElementGuid>30f2884b-ae54-4c9d-8f66-b8e4057249c9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//div[@id='mat-select-value-29']</value>
-      <webElementGuid>45b4c0e7-9359-46d7-8a45-9b60dba15dfe</webElementGuid>
+      <value>//div[@id='mat-select-value-33']</value>
+      <webElementGuid>3ffad68b-fe77-4f0b-b5b2-55de023e9520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//mat-select[@id='mat-select-28']/div/div</value>
-      <webElementGuid>1cb21b46-8ad9-4a89-a999-475c7db18912</webElementGuid>
+      <value>//mat-select[@id='mat-select-32']/div/div</value>
+      <webElementGuid>3c60ac9f-e47a-4c76-b6a0-f2e33dc439a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Identifier'])[1]/following::div[6]</value>
-      <webElementGuid>c1d91bac-5049-4876-b548-993333641c98</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - KYC - Outlet'])[1]/following::div[10]</value>
+      <webElementGuid>2553e97f-f320-44bb-99eb-2c8e516be0c1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Document'])[1]/following::div[6]</value>
-      <webElementGuid>f7b947ee-6168-402c-8c39-058183d21e02</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Place of Business'])[1]/following::div[12]</value>
+      <webElementGuid>1eccccfa-a3e4-4023-8a4a-3692d6ac76b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents Outlet'])[1]/preceding::div[3]</value>
-      <webElementGuid>3994292e-65b2-4dae-ac89-42688112f992</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - KYC - Outlet - Sub Type'])[1]/preceding::div[3]</value>
+      <webElementGuid>990a0bb4-ea39-4a22-8b85-38aebb6f021f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,22 +94,22 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/preceding::div[7]</value>
-      <webElementGuid>4d2c3c66-135e-453d-b3de-ae884fe16b0a</webElementGuid>
+      <webElementGuid>97136228-dab0-44be-b604-995c9a8e357d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//mat-select/div/div</value>
-      <webElementGuid>21ea2893-d333-4423-8155-f74271ee32bf</webElementGuid>
+      <value>//div[2]/mat-form-field/div/div/div/mat-select/div/div</value>
+      <webElementGuid>6109e95e-e696-4cdb-9e1c-a66c61d3e18c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//div[@id = 'mat-select-value-29']</value>
-      <webElementGuid>cd9cf22a-b2d9-4a26-adc4-37ac36313e50</webElementGuid>
+      <value>//div[@id = 'mat-select-value-33']</value>
+      <webElementGuid>7dac4ff4-416c-45b2-96c6-7af1a4c7eba8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

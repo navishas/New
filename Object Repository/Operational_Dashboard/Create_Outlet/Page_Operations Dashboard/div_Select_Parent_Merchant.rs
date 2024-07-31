@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[4]/div/div/div[2]/div/div/div/div/div</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Outlet'])[8]/following::div[11]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>52e21fb7-0c52-4fe0-9bcb-beb99daaa559</webElementGuid>
+      <webElementGuid>b6fe2155-f84c-4465-987a-b635d9e82e14</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-select-item-option-content</value>
-      <webElementGuid>43fe17d3-efd9-4817-b96d-246058fb84c2</webElementGuid>
+      <webElementGuid>da39d24b-93a4-4e48-a418-c67f1c65d871</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GAMM corp  -  EsHmFC1wHC</value>
-      <webElementGuid>f4592e13-44f3-4b67-85a7-3718826ce236</webElementGuid>
+      <webElementGuid>fa7d1712-fd0d-4a16-8876-5d0a7a03080f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;full-layout&quot;]/div[5]/div[@class=&quot;ant-select-dropdown css-qgg3xn ant-select-dropdown-placement-topLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
-      <webElementGuid>53f27ab8-78e0-437b-98a3-53683d833c33</webElementGuid>
+      <webElementGuid>05b4c1fd-1240-4291-abf0-c34fd8cf8006</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='i78GrkruaL'])[1]/following::div[6]</value>
-      <webElementGuid>f6e9d6bb-5604-43f2-afd3-3d2d6db7fd0c</webElementGuid>
+      <webElementGuid>e1061be6-d6bd-4284-a648-0a96daa76d3b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EsHmFC1wHC'])[1]/following::div[7]</value>
-      <webElementGuid>12fe0711-d64c-40d6-979d-76fe5cd03f5e</webElementGuid>
+      <webElementGuid>ccc9cbc4-57c1-4dd6-92ee-5664e1972020</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GAMM corp']/parent::*</value>
-      <webElementGuid>6dc834b0-b0fd-463f-820b-bcbf93a7bdac</webElementGuid>
+      <webElementGuid>958610ea-11cc-4f16-8032-3cacfa96c728</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>688bc09a-2258-4b94-ac2f-73651365e1b8</webElementGuid>
+      <webElementGuid>8d79380c-7f2f-4234-9493-7caa4625f8a2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +86,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GAMM corp  -  EsHmFC1wHC' or . = 'GAMM corp  -  EsHmFC1wHC')]</value>
-      <webElementGuid>38913d11-a90d-4fc8-9b95-6d63f5f86d8d</webElementGuid>
+      <webElementGuid>c7163e82-b959-4462-a3b1-9b2643e0dfc9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

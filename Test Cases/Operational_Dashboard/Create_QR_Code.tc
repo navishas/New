@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_QR_Code</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>5b76fa79-2bf6-4a7b-a510-08303130ced4</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>236608a1-906a-468b-8891-ff9be8ab9710</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Create_QR/Create_QR</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>236608a1-906a-468b-8891-ff9be8ab9710</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Outlet_Name</value>
+      <variableId>0934a9c8-f1ca-413c-837b-a60e4b5eaa35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>236608a1-906a-468b-8891-ff9be8ab9710</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Phone_Number</value>
+      <variableId>8149ca04-d9be-4e73-8a01-9afbdbf71588</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0934a9c8-f1ca-413c-837b-a60e4b5eaa35</id>
+      <masked>false</masked>
+      <name>Outlet_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8149ca04-d9be-4e73-8a01-9afbdbf71588</id>
+      <masked>false</masked>
+      <name>Phone_Number</name>
+   </variable>
+</TestCaseEntity>

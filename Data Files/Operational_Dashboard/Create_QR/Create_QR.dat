@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>New Test Data</name>
+   <name>Create_QR</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>12e147d4-4095-4c4d-9e0a-f94a7eeb48f2</dataFileGUID>
-   <dataSourceUrl>C:\Users\I1675\Downloads\District_Town_Data.xlsx</dataSourceUrl>
+   <dataFileGUID>4ee9fb6a-ae4e-4641-b82c-dafb5f6f948e</dataFileGUID>
+   <dataSourceUrl>C:\Users\I1675\Documents\KT documents\Create_QR.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>District</sheetName>
+   <sheetName>Create_QR</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

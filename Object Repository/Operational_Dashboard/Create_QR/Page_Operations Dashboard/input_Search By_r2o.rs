@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__goods_and_services_description</name>
+   <name>input_Search By_r2o</name>
    <tag></tag>
-   <elementGuidId>48987f83-8c2d-40fd-be68-b4838f3dd328</elementGuidId>
+   <elementGuidId>63fe12a2-0341-4ca6-b9c3-35aaf0cd9637</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Description')]/ancestor::span/preceding-sibling::input</value>
+         <key>CSS</key>
+         <value></value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>#goods_and_services_description</value>
+         <key>XPATH</key>
+         <value>//input[@id=':r2o:']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d5143854-e383-44e0-a1d6-c7619260bdd5</webElementGuid>
+      <webElementGuid>76cfa450-98bc-4cf7-a497-d7b2135f0d31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>aria-invalid</name>
       <type>Main</type>
-      <value>new-password</value>
-      <webElementGuid>f11fba6c-76df-4237-a38e-96c31c1d9c59</webElementGuid>
+      <value>false</value>
+      <webElementGuid>5f374f78-b49e-4a96-8ad4-a33f9e1cf37d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>id</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>479e2511-5fa5-480d-91ed-d9659808370b</webElementGuid>
+      <value>:r2o:</value>
+      <webElementGuid>32a0dc15-e80a-49de-9105-600d29b44404</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>8e8fad15-79ce-4fcb-a3ab-8439c93f651c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,62 +54,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>4ea09019-d829-463a-bc87-c5542210360b</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>goods_and_services_description</value>
-      <webElementGuid>bbaee18b-4d27-4654-ab68-a9527fba009e</webElementGuid>
+      <webElementGuid>8caa5a85-d165-4ee0-a22f-8f4498be65b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
+      <name>class</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>e61205dc-a64e-4dc2-8abb-146b59ec9383</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-b52kj1</value>
+      <webElementGuid>cd35ee0b-0a5d-464f-a9fb-9a02f7d39b59</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;goods_and_services_description&quot;)</value>
-      <webElementGuid>1dce90a9-2b7f-441a-aaa2-f95e928cd18a</webElementGuid>
+      <value>id(&quot;:r2o:&quot;)</value>
+      <webElementGuid>8c3f5fd7-f418-4f5a-85e3-6ea339087f78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='goods_and_services_description']</value>
-      <webElementGuid>7dba4915-c2c4-4f43-b89d-1163995ae4e5</webElementGuid>
+      <value>//input[@id=':r2o:']</value>
+      <webElementGuid>c85d9f08-1dba-4215-8876-cf834f23f623</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[8]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>57dc0f3c-f779-45ee-a379-9dc515994c58</webElementGuid>
+      <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div[2]/div/input</value>
+      <webElementGuid>51b342b5-5daa-4136-bcdf-12ce4fe08072</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>d55bf4f4-c08d-4397-8da4-9862c1ac966d</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>cc5acca5-6fd5-4818-878f-3d2947ef0e4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'goods_and_services_description']</value>
-      <webElementGuid>37a78b18-d486-4c08-9d44-7f7940cd71c0</webElementGuid>
+      <value>//input[@id = ':r2o:' and @placeholder = 'Search' and @type = 'text']</value>
+      <webElementGuid>56ba6bbc-ff67-4268-8aa3-253d656bd44c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

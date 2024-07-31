@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-0']/div/div[2]/div</value>
+         <value>//span[contains(text(),'Representative')]/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>77370b25-8f6b-4cf0-acdb-2b51f903418e</webElementGuid>
+      <webElementGuid>1a81b427-6db6-4524-912a-5f9230b3b14a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-arrow ng-tns-c90-3</value>
-      <webElementGuid>4424ffbd-6220-4be9-b255-8a0d9ef17b2b</webElementGuid>
+      <webElementGuid>3f390330-c056-47ec-8ab9-ebba39144973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-0&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c90-3&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c90-3&quot;]/div[@class=&quot;mat-select-arrow ng-tns-c90-3&quot;]</value>
-      <webElementGuid>c9ab0839-54c7-4b2f-a7ee-3ec859d895df</webElementGuid>
+      <webElementGuid>e4cd9bf0-035f-411a-bb02-fb818d836576</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-0']/div/div[2]/div</value>
-      <webElementGuid>ef9f7390-90e1-44dd-8bb0-9fb5e38bce86</webElementGuid>
+      <webElementGuid>2bc77c9b-a6bb-450d-be89-08fc1a93230d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +54,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div/div[2]/div</value>
-      <webElementGuid>936137d7-9fb8-4553-a005-a7b5e3b6ddf6</webElementGuid>
+      <webElementGuid>e9ac35de-ca83-4e1b-a601-4b3e0d6b5bd3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

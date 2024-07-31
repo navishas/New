@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_MerchantID</name>
+   <name>div_getMerchantName</name>
    <tag></tag>
-   <elementGuidId>c790e832-0b11-44f9-a539-a9e2cbf1b60f</elementGuidId>
+   <elementGuidId>964a5e09-e8e4-41c3-b253-c38b3b819721</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='row']/div/div/div[2]/div[contains(text(),'MID')]/following-sibling::div</value>
+         <value>//table/thead/following-sibling::tbody/tr/td[3]/div/span</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -6,12 +6,12 @@
    <elementGuidId>924d471c-a218-43ed-8270-2f1f4748f22a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-312']/span</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>26946892-e567-4289-a522-106bc0c6463d</webElementGuid>
+      <webElementGuid>e020b885-cde5-4a59-979d-2e7a2800641c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>3c6b10f7-6e1a-475c-aeaf-2055b95468ea</webElementGuid>
+      <webElementGuid>a79c0ebc-2db6-4509-9005-5bdbf98a7824</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proof of Address of Place of Business</value>
-      <webElementGuid>2a79c1e9-cb8f-44aa-9d80-5f3d6dc9d5b0</webElementGuid>
+      <webElementGuid>55fc6d28-8f64-45ee-8ccc-ae113822b5a8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-312&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>2f346ef5-67a0-48c0-b2c0-48288563ee99</webElementGuid>
+      <webElementGuid>543146fb-d840-423b-9045-713db2eb80ab</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-312']/span</value>
-      <webElementGuid>0aa2cfab-31bf-42e2-bd39-d463d7b1524d</webElementGuid>
+      <webElementGuid>3b4c0b8b-f719-4fbf-b4c1-1a932e848f93</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>1106a26b-7661-4058-b901-54d6e8ca0ec6</webElementGuid>
+      <webElementGuid>de8fd8f3-9f05-4f9c-8f12-4eebbba16378</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/following::span[6]</value>
-      <webElementGuid>52fcf038-3bcf-430d-8bcc-36ae65f825ff</webElementGuid>
+      <webElementGuid>e14e8aa8-df91-4403-9c04-c557b3a1fd3a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-312', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/preceding::span[1]</value>
-      <webElementGuid>5ece85a0-f56b-4be4-98c7-a71add49e7d0</webElementGuid>
+      <webElementGuid>3f171bf4-7016-49d6-8846-97fe1dce7a83</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proof of Address of Place of Business']/parent::*</value>
-      <webElementGuid>261b8d5a-6f91-4895-b698-55440920d6be</webElementGuid>
+      <webElementGuid>b7d46089-8946-4c96-ac9f-da5a93632885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>be2b1f66-43d8-476e-b2e5-5bc408c9d0bc</webElementGuid>
+      <webElementGuid>a3699cea-6603-4fdf-bc6c-79394f5d7664</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Proof of Address of Place of Business' or . = 'Proof of Address of Place of Business')]</value>
-      <webElementGuid>e09e306e-c671-4ea5-8643-ec59be01409a</webElementGuid>
+      <webElementGuid>d9f6256a-08c9-4476-a369-dc9346827783</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

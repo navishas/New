@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input__goods_and_services_description</name>
+   <name>input_Document Name - KYC</name>
    <tag></tag>
-   <elementGuidId>48987f83-8c2d-40fd-be68-b4838f3dd328</elementGuidId>
+   <elementGuidId>db6ac711-02ce-40a0-a107-f5a64d994e9e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Description')]/ancestor::span/preceding-sibling::input</value>
+         <value>//mat-label[contains(text(),'Name')]/ancestor::span/preceding-sibling::input</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#goods_and_services_description</value>
+         <value>#mat-input-18</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,23 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d5143854-e383-44e0-a1d6-c7619260bdd5</webElementGuid>
+      <webElementGuid>d6fae355-927c-40f6-803f-f5d1a2036093</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>name</name>
       <type>Main</type>
-      <value>new-password</value>
-      <webElementGuid>f11fba6c-76df-4237-a38e-96c31c1d9c59</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>479e2511-5fa5-480d-91ed-d9659808370b</webElementGuid>
+      <value>ID Number</value>
+      <webElementGuid>07802b07-d5e6-4f49-bec2-0fcd89ac347c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,15 +38,23 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>4ea09019-d829-463a-bc87-c5542210360b</webElementGuid>
+      <webElementGuid>f1982e2a-eb0d-4c02-8075-8294ae5312f4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-95 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
+      <webElementGuid>098d97ba-4661-4d1b-b70b-cfe5de3e0254</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>goods_and_services_description</value>
-      <webElementGuid>bbaee18b-4d27-4654-ab68-a9527fba009e</webElementGuid>
+      <value>mat-input-18</value>
+      <webElementGuid>a8a49336-8065-4261-9dd6-c38c769799d9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,46 +62,46 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>e61205dc-a64e-4dc2-8abb-146b59ec9383</webElementGuid>
+      <webElementGuid>c39e2ad5-396b-4a13-82d1-76fdabc3df60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;goods_and_services_description&quot;)</value>
-      <webElementGuid>1dce90a9-2b7f-441a-aaa2-f95e928cd18a</webElementGuid>
+      <value>id(&quot;mat-input-18&quot;)</value>
+      <webElementGuid>30718aa6-28e2-452c-bbaf-9cc656d882ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='goods_and_services_description']</value>
-      <webElementGuid>7dba4915-c2c4-4f43-b89d-1163995ae4e5</webElementGuid>
+      <value>//input[@id='mat-input-18']</value>
+      <webElementGuid>972ba5f6-390d-4c46-abac-6543dc7056c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[8]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>57dc0f3c-f779-45ee-a379-9dc515994c58</webElementGuid>
+      <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[2]/mat-form-field/div/div/div/input</value>
+      <webElementGuid>0e11bb30-caee-4996-bfb5-2a2fbf226d82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[8]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>d55bf4f4-c08d-4397-8da4-9862c1ac966d</webElementGuid>
+      <value>//input</value>
+      <webElementGuid>845dabea-32b3-43ab-8ba2-71a978abaf3e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@type = 'text' and @id = 'goods_and_services_description']</value>
-      <webElementGuid>37a78b18-d486-4c08-9d44-7f7940cd71c0</webElementGuid>
+      <value>//input[@name = 'ID Number' and @type = 'text' and @id = 'mat-input-18']</value>
+      <webElementGuid>3af1e2e3-363c-44a8-9e8b-724bca2fa316</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

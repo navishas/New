@@ -6,12 +6,12 @@
    <elementGuidId>28731e27-d1e0-4c38-8717-07a665249285</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-307']/span</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>fd3b06ff-bed0-4131-964c-9a90cefe55f7</webElementGuid>
+      <webElementGuid>7787576f-af95-4d22-87ea-3f5022631d63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>2ea5f291-afbc-4d0e-9b9c-86247932fffa</webElementGuid>
+      <webElementGuid>d14d7818-e37d-4b4c-b5c3-d23206e86d5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> MUR </value>
-      <webElementGuid>b060f874-a4fb-446d-9d08-c1e2dd050d7a</webElementGuid>
+      <webElementGuid>dba8dc4c-8e6c-4562-a538-8aa56976197e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-307&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>42bc1cfb-591b-49e9-982c-20cf4db11ec5</webElementGuid>
+      <webElementGuid>971f21c3-0004-462a-ae39-efcc79b20c75</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-307']/span</value>
-      <webElementGuid>aa7714ce-38bd-4daa-bf29-f820c12bef8b</webElementGuid>
+      <webElementGuid>8561a8fe-aa8b-4c4d-a8af-100f46896e81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-307', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[1]</value>
-      <webElementGuid>8e655f20-c447-4565-9524-9b444bdad5a6</webElementGuid>
+      <webElementGuid>f9f7a8f3-bf10-4a2b-9b08-42c9494fc1e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>ff681d8f-90cd-465a-9cb6-9e406529b973</webElementGuid>
+      <webElementGuid>96add9f6-231a-4747-90d0-054220cfc002</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Name'])[2]/preceding::span[1]</value>
-      <webElementGuid>215784b6-2020-41e3-82da-2d2b6fc8bc80</webElementGuid>
+      <webElementGuid>73b78819-4ccb-4c39-b2d9-f3dec46be106</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Number'])[2]/preceding::span[1]</value>
-      <webElementGuid>725468f3-76df-4e95-b90a-481c39a87a44</webElementGuid>
+      <webElementGuid>339bb2af-1e38-4249-ad27-811ac879011c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MUR']/parent::*</value>
-      <webElementGuid>ca68fcf6-ae7e-4159-afd5-9c3ef8c14304</webElementGuid>
+      <webElementGuid>bb555020-bfa1-4fb0-ad26-e40874d70fc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>514f86c6-edd4-4ee1-a33d-650ad1cb14ed</webElementGuid>
+      <webElementGuid>0636794b-7486-4d71-8106-6af8704f7e04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' MUR ' or . = ' MUR ')]</value>
-      <webElementGuid>6306b25b-1f2d-4b3e-9f78-e9a15dc87e7d</webElementGuid>
+      <webElementGuid>a1a619d3-31eb-4fce-9b27-7e6c70ab9976</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

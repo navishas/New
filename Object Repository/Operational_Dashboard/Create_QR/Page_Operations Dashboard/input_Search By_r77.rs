@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Documents - KYC - Outlet - Sub Type_I_e7d96f</name>
+   <name>input_Search By_r77</name>
    <tag></tag>
-   <elementGuidId>db6ac711-02ce-40a0-a107-f5a64d994e9e</elementGuidId>
+   <elementGuidId>88abe1d1-de1f-431c-bfd9-4e9266f7777f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value>#mat-input-18</value>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='mat-input-18']</value>
+         <value>//input[@id=':r77:']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>90c7d402-ba47-40d8-8e55-ce6e7571eadc</webElementGuid>
+      <webElementGuid>f9ab62bd-5577-46b0-92b5-5c844c39ccf1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-invalid</name>
+      <type>Main</type>
+      <value>false</value>
+      <webElementGuid>3dee7986-5341-4f34-b788-2f0730e34374</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>ID Number</value>
-      <webElementGuid>a2bb0bf2-e4b1-4cba-a74a-cff51e888cfc</webElementGuid>
+      <value>:r77:</value>
+      <webElementGuid>ca7cea5a-2f77-4860-bd9e-7861d76eb2bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>Search</value>
+      <webElementGuid>be3ea24c-74d9-40da-ba75-ae37aaf11f29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,70 +54,54 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f0e334d7-94ff-4d9a-a38f-e29c192777ef</webElementGuid>
+      <webElementGuid>e2610466-3e86-48c9-96dd-7ce7df3c3a41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-95 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
-      <webElementGuid>cca05c27-bca6-4113-bd51-3655571b8f8e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mat-input-18</value>
-      <webElementGuid>7dc7ce14-64cb-44a9-9944-45cfb2f9987d</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>aria-required</name>
-      <type>Main</type>
-      <value>true</value>
-      <webElementGuid>824588a5-2509-41bb-894d-0816fbe36d47</webElementGuid>
+      <value>MuiInputBase-input MuiOutlinedInput-input MuiInputBase-inputSizeSmall MuiInputBase-inputAdornedEnd css-b52kj1</value>
+      <webElementGuid>fc6954fb-2409-404e-9021-b797cd2e7f8a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mat-input-18&quot;)</value>
-      <webElementGuid>1fc62eb8-f648-4d2f-b1bc-2247ffbf4bc2</webElementGuid>
+      <value>id(&quot;:r77:&quot;)</value>
+      <webElementGuid>b0c21d0d-c136-43e4-89fd-a18c7f77ce5b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='mat-input-18']</value>
-      <webElementGuid>b6f2d9b0-761a-4603-81d5-98d0dba865df</webElementGuid>
+      <value>//input[@id=':r77:']</value>
+      <webElementGuid>d5e48c0b-dc56-41c7-b1db-23f4dc3cc58a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>8b4f8205-6262-415f-ad60-c8613e767203</webElementGuid>
+      <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div[2]/div/input</value>
+      <webElementGuid>ab62610e-1e81-42a5-9173-ad3fc74df463</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//input</value>
-      <webElementGuid>8f79a595-b94c-4932-8b8b-2cca5749cac9</webElementGuid>
+      <value>//div[2]/div/input</value>
+      <webElementGuid>46f46ab9-3da5-4331-8c26-0e0962811847</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@name = 'ID Number' and @type = 'text' and @id = 'mat-input-18']</value>
-      <webElementGuid>5f2591f7-6b34-482e-85be-bf4b9c53c350</webElementGuid>
+      <value>//input[@id = ':r77:' and @placeholder = 'Search' and @type = 'text']</value>
+      <webElementGuid>88bbd6dd-84f7-4b3d-99c0-3e38b928e08a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

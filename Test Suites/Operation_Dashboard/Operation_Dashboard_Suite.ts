@@ -31,7 +31,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>05b4e6fb-d4f4-4da3-bc2f-3a5047694bb2</guid>
+      <guid>459c0b15-a532-43e3-ad79-f81ca42903b0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Create_SoleTrader_Merchant</testCaseId>
@@ -510,6 +510,25 @@
          <type>DEFAULT</type>
          <value></value>
          <variableId>d4827a24-659e-49f5-b053-285bc2eb6909</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>1b58a3bb-e93a-4033-b6d0-a9bc30a2e755</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Operational_Dashboard/Create_QR_Code</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>0934a9c8-f1ca-413c-837b-a60e4b5eaa35</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>8149ca04-d9be-4e73-8a01-9afbdbf71588</variableId>
       </variableLink>
    </testCaseLink>
 </TestSuiteEntity>
