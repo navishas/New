@@ -4,5 +4,6 @@
    <name>StartPage_BNPL</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>f7fda44d-ef04-45f8-8a24-de953ae96d43</testCaseGuid>
 </TestCaseEntity>

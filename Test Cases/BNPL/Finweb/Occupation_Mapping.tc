@@ -4,5 +4,6 @@
    <name>Occupation_Mapping</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5e555581-233b-4025-a6aa-758962c0632c</testCaseGuid>
 </TestCaseEntity>

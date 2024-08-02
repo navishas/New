@@ -6,8 +6,10 @@
    <UUID>5ba1777b-533a-4abf-b16d-0f2430d32285</UUID>
    <freeLicense>false</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>ENTERPRISE</modifiedEdition>
+   <modifiedVersion>9.6.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>C:\Users\I1675\Katalon Studio\Regression_Suite\Regression_Suite.prj</projectFileLocation>
+   <projectFileLocation>C:\Users\oorvasheeD\OneDrive - CIM Group\Documents\CIM Projects\BNPL\Katalon\Occupationcodemapping\Regression_Suite.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>
