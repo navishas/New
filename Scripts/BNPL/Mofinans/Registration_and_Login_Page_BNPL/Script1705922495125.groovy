@@ -23,7 +23,7 @@ Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button 
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 0)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'D031297330133F', 
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'M270500410198C', 
     0)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)

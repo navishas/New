@@ -44,9 +44,9 @@ import java.io.IOException as IOException
 
 Mobile.tapAtPosition(142, 481, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 0)
+Mobile.tap(findTestObject('Object Repository/Split_Pay/androidx.appcompat.widget.LinearLayoutCompat'), 0)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 20, FailureHandling.OPTIONAL)
+//Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 20, FailureHandling.OPTIONAL)
 
 AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 
@@ -173,7 +173,7 @@ try {
 						
 			try {
 			
-		Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 0)
+		/*/Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 0)
 			
 		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_2'), 0)
 		
@@ -181,7 +181,7 @@ try {
 		
 		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_4'), 0)
 		
-		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept  Continue_1(1)'), 0)
+		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept  Continue_1(1)'), 0)/*/
 		
 		Mobile.waitForElementPresent(findTestObject('Split_Pay/androidx.recyclerview.widget.RecyclerView_List_CurrentlyEmp'),
 		30, FailureHandling.OPTIONAL)

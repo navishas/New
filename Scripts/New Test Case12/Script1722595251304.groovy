@@ -15,24 +15,11 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('C:\\Users\\I1675\\Downloads\\MoFinans_v1.0.6.32_24Jul24_StateMGM.apk', false)
+Mobile.startApplication('C:\\Users\\I1675\\Downloads\\MoFinans_v1.0.6.32_24Jul24_StateMGM.apk', true)
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.RelativeLayout'), 0)
+Mobile.tap(findTestObject('Object Repository/Split_Pay/androidx.appcompat.widget.LinearLayoutCompat'), 0)
 
-WebUI.delay(8, FailureHandling.OPTIONAL)
-
-Mobile.scrollToText('Let’s Get Started')
-
-Mobile.tap(findTestObject('Object Repository/Start Page/android.widget.Button - Lets Get Started'), 0)
-
-Mobile.tap(findTestObject('Start Page/android.widget.Button - Accept_Continue'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Start Page/android.widget.Button - Next'), 0)
-
-Mobile.tap(findTestObject('Start Page/android.widget.Button - Next_1'), 0)
-
-Mobile.tap(findTestObject('Start Page/android.widget.Button-Continue(1)'), 0)
-
-Mobile.delay(4, FailureHandling.OPTIONAL)
+Mobile.closeApplication()
 
