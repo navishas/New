@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Proof of Address of Place of Business _396ffd</name>
+   <tag></tag>
+   <elementGuidId>9c1020d1-e84e-40c7-af56-bd1b8b620db4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-777']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-777 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>8ea32af4-5bd6-431e-8158-4dadfa48be52</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>357143d3-5197-4fc0-a51b-b2ee791bedd3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proof of Address of Place of Business (Dated less than 3 Month)* </value>
+      <webElementGuid>c2a48666-f6c8-499e-a593-d27ae106ff03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-777&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>8a2e3ee7-0286-44e5-b944-0a98dd3871a5</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-777']/span</value>
+      <webElementGuid>95047528-af40-4e59-94df-1c001d7cf201</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Registered Company (Dated less than 3 Month)*'])[1]/following::span[1]</value>
+      <webElementGuid>38ffb78c-8fab-4524-8827-6487bb25a9e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identity Documents*'])[2]/following::span[2]</value>
+      <webElementGuid>40481eee-c537-4f67-8ab6-ac7ac86e7255</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Directors (Dated less than 3 Month)*'])[1]/preceding::span[1]</value>
+      <webElementGuid>94b81ec8-eb23-4703-b09c-709a95731d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of UBO(Dated less than 3 Month)*'])[1]/preceding::span[2]</value>
+      <webElementGuid>4e467925-a290-43f0-98c7-bee307aaee38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*']/parent::*</value>
+      <webElementGuid>143a3a93-c2d4-4232-9fa3-be07064ef168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[3]/span</value>
+      <webElementGuid>3991af8c-27b5-45f5-b5b1-ec810c4a159e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Proof of Address of Place of Business (Dated less than 3 Month)* ' or . = 'Proof of Address of Place of Business (Dated less than 3 Month)* ')]</value>
+      <webElementGuid>a07192cd-854c-4c3b-bfe7-d4dc51394f39</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

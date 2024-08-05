@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Group_Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ca94328e-76f7-4fdd-b5cd-fd6dec26534a</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5601c60e-5e72-4982-995c-5a84069452aa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Merchant_Dashboard/Company/Sign_Up</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Full_Name</value>
+      <variableId>27a765cb-124a-4513-9b87-28059d0445c0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email_Id</value>
+      <variableId>28289ddb-62bf-4184-81d9-63435cf8952a</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Mobile_Number</value>
+      <variableId>efa40308-26fd-46ad-9a7c-2e9822eec0a0</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>27a765cb-124a-4513-9b87-28059d0445c0</id>
+      <masked>false</masked>
+      <name>Full_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28289ddb-62bf-4184-81d9-63435cf8952a</id>
+      <masked>false</masked>
+      <name>Email_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>efa40308-26fd-46ad-9a7c-2e9822eec0a0</id>
+      <masked>false</masked>
+      <name>Mobile_Number</name>
+   </variable>
+</TestCaseEntity>
