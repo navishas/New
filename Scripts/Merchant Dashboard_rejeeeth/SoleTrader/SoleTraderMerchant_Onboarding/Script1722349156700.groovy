@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://cim-merchant-uat.m2pfintech.com/login')
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_Email Address  Mobile Number_email'), 
-    '54287551')
+    Phone_no)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_Password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
@@ -230,7 +230,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleT
     0)
 
 WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Upload File'), 
-    'D:\\OneDrive - Indium Software India Private Limited\\CimFin\\LEASE_AGREEMENT.pdf')
+    path)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'), 
     0)
@@ -258,7 +258,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleT
     0)
 
 WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Upload File'), 
-    'D:\\OneDrive - Indium Software India Private Limited\\CimFin\\LEASE_AGREEMENT.pdf')
+    path)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'), 
     0)

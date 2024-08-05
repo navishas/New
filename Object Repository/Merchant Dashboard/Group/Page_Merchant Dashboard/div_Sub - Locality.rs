@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[10]/mat-form-field/div/div</value>
+         <value>//div[(text() = 'Sub - Locality*' or . = 'Sub - Locality*')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ee2b070a-f452-42a9-a887-7fdef5eb978d</webElementGuid>
+      <webElementGuid>436dc4df-d87f-42ff-9a64-ee5c00a8f5ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-flex ng-tns-c33-27</value>
-      <webElementGuid>37f8cbf8-176d-47c2-b866-070096844059</webElementGuid>
+      <webElementGuid>a81d65e9-e5fb-4794-b1b4-d6b07390a39c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Sub - Locality*</value>
-      <webElementGuid>fd5343bb-c976-4f6a-825e-14d5cb7f63bc</webElementGuid>
+      <webElementGuid>1b12ab6c-b7d3-4a98-9208-e44d4cbab4a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;w-full p-2 dialog-content overflow-y-scroll&quot;]/form[@class=&quot;ng-invalid ng-touched ng-dirty&quot;]/div[@class=&quot;grid gap-4 grid-cols-4&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field w-full ng-tns-c33-27 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c33-27&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c33-27&quot;]</value>
-      <webElementGuid>623257bb-eedb-41a6-abd0-4b3bbe278826</webElementGuid>
+      <webElementGuid>30c886ec-17a7-4932-bd73-2bcceb8e2247</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[10]/mat-form-field/div/div</value>
-      <webElementGuid>233ca385-0d42-4d1e-9277-0b0df2ea07b5</webElementGuid>
+      <webElementGuid>f8be4cd5-4d9e-4272-87b9-438d1f66b294</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[7]/following::div[7]</value>
-      <webElementGuid>212e70b5-955c-4c40-968e-d60a7d623f06</webElementGuid>
+      <webElementGuid>bd20dcf2-e607-4c6c-83f0-fd8503382ca0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Locality'])[1]/following::div[7]</value>
-      <webElementGuid>ea2d482c-3380-422d-84f8-f903d9878471</webElementGuid>
+      <webElementGuid>74c87d84-3a93-4bce-9f7a-7a9fc0562c3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[10]/mat-form-field/div/div</value>
-      <webElementGuid>51cc437d-9b19-491f-bded-400b021e6165</webElementGuid>
+      <webElementGuid>eae01a85-e2cb-4cbc-b01c-2516f4841e8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'Sub - Locality*' or . = 'Sub - Locality*')]</value>
-      <webElementGuid>cca6fde4-1cec-463f-8e75-3923dd6a7c50</webElementGuid>
+      <webElementGuid>0ba9b250-0026-4f96-a4bc-aba77c2385ba</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

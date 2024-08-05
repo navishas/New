@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-13']/span</value>
+         <value>//span[(text() = ' MR. ' or . = ' MR. ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c4063685-7d0b-47f7-a489-5d86dd100716</webElementGuid>
+      <webElementGuid>4d962a3d-f563-4869-8517-6a5de1932cef</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>bb422c3a-6a73-4f7e-8544-54c8a0c6ca0e</webElementGuid>
+      <webElementGuid>03b9af79-be77-4a13-ba3e-6a01b76ca6c5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> MR. </value>
-      <webElementGuid>5751f730-c3d2-4b23-ac62-8a62ab9ed5d0</webElementGuid>
+      <webElementGuid>85b999e7-0b8c-4fd3-a138-3f0f49289110</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-13&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>3400b1a5-cce6-4d30-88be-00fe55cd5fd0</webElementGuid>
+      <webElementGuid>47a366c2-0541-4fe5-9598-7a12c0b30ce0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-13']/span</value>
-      <webElementGuid>8a8bea57-8b80-4087-b1a5-95bf8d9dae3d</webElementGuid>
+      <webElementGuid>8bd1c348-4cca-48d0-9c79-a142290032e4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[2]/following::span[1]</value>
-      <webElementGuid>ce4f6b01-529e-4f4a-bd90-59535b846ed5</webElementGuid>
+      <webElementGuid>d1dee2c9-a9f1-4e57-9e4f-ae5d1050f273</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub - Locality'])[2]/following::span[1]</value>
-      <webElementGuid>d853cf2e-c57a-47ee-9c6a-2000f4b9740b</webElementGuid>
+      <webElementGuid>ae12fcc6-43c1-490b-8cdb-27e31a5596af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MRS.'])[1]/preceding::span[1]</value>
-      <webElementGuid>888404e9-d951-49d1-b96c-226952f7235b</webElementGuid>
+      <webElementGuid>7ac68bc7-80d5-4b38-baa3-31e213010f5d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MISS'])[1]/preceding::span[2]</value>
-      <webElementGuid>b0d18ae0-0068-4e54-9a77-379f2027bfe2</webElementGuid>
+      <webElementGuid>9e1048da-f4d2-47c0-94fd-6f09fa58bc0e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='MR.']/parent::*</value>
-      <webElementGuid>48c141ce-3a6e-434a-8fc5-438d58b09c5d</webElementGuid>
+      <webElementGuid>a2ab6d19-b3b1-4419-b567-60ff5b723b37</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>c116cc91-7177-449d-a455-0ef439bc2440</webElementGuid>
+      <webElementGuid>162b42f9-eb8d-4ba0-ae08-3b7180cfb403</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' MR. ' or . = ' MR. ')]</value>
-      <webElementGuid>8ac3760d-309e-4029-b542-8c46b426a5b0</webElementGuid>
+      <webElementGuid>315067b4-9171-406b-861f-d612291a2025</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

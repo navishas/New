@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://cim-merchant-uat.m2pfintech.com/login')
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Email Address  Mobile Number_email'), 
-    '54329087')
+    Mobile_Number)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
@@ -41,6 +41,8 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Me
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Verify'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Complete Application'))
+
+WebUI.click(findTestObject('Merchant Dashboard/Group/Page_Merchant Dashboard/input_Merchant_Type_DD'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Group'))
 
@@ -61,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_230'))
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__address_line'), 
-    '234 North Street')
+    Address_Line)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_District'))
 
@@ -79,20 +81,23 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Mauritius'))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Update'), 
+    3)
+
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Update'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Next Steps'))
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Business Details_business_name'), 
-    'Rakesh Group Of Companies')
+    Bussiness_Name)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Business Type'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Global Business Company (GBC)'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__gst'), '879067')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__gst'), BRN_No)
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__pan'), '908765')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__pan'), VAT_No)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_VAT Registration Number_date_of_incor_a53c41'), 
     '10 Jul 2021')
@@ -102,7 +107,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Mauritius'))
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Country Of Incorporation_business_add_86f60b'), 
-    '145 LSC street')
+    Registered_Address)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div__mat-select-arrow ng-tns-c90-54'))
 
@@ -117,7 +122,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_PITON'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'))
 
@@ -131,21 +136,21 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_MR'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Title_name'), 'Rakesh')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Title_name'), First_Name)
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__last_name'), 'Sharma')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__last_name'), Last_Name)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__phone_number'), 
-    '54329087')
+    Phone_Number)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Nationality'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Mauritius'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__email'), 'rakeshsharma5678@mail.com')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__email'), Email)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input_Email_residential_address_line_1'), 
-    '126 MSV Street')
+    Address_Line_1)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_District'))
 
@@ -160,7 +165,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_PITON'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'))
 
@@ -170,22 +175,22 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_ABC BANKING CORPORATION'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__acc_no'), '6789054321')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__acc_no'), Account_No)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__reEnter_acc_no'), 
-    'cEkqMCcyWjiO5vzN4+rp6g==')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__reEnter_acc_no'), 
+    Account_No)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__acc_holder_name'), 
-    'Rakesh Sharma')
+    Account_Holder_Name)
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__ifsc'), 'Main Branch')
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/input__ifsc'), Branch)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Settlement Currency'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_MUR'))
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save'))
 
@@ -201,12 +206,12 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Me
     'BRC')
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
-    0)
+    2)
 
-WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Upload File'), 
-    '')
+WebUI.uploadFile(findTestObject('Merchant Dashboard/Group/Page_Merchant Dashboard/button_Upload File'), path)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save_1'))
+WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save_1'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save_1'))
 
@@ -215,8 +220,6 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merc
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Add New Document'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Document - KYC - Business'))
-
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Identity DocumentsDocument - KYC - Business'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/span_Proof of Address of Place of Business _396ffd'))
 
@@ -228,10 +231,13 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Me
     'CWA')
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
-    0)
+    2)
 
 WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Upload File'), 
-    '')
+    path)
+
+WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save_1'), 
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Group/Page_Merchant Dashboard/button_Save_1'))
 

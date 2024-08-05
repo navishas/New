@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-0']/span</value>
+         <value>//span[(text() = ' Owner ' or . = ' Owner ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>e6443e93-47e0-41eb-bf12-cca0f7cb2dae</webElementGuid>
+      <webElementGuid>ab97bd67-08bc-4801-8507-ae7c6ac73831</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>1238cf3e-af69-4bec-8a87-8b42f9493e6f</webElementGuid>
+      <webElementGuid>6348ea2a-3b39-4b12-8cb7-bfc9ff9d064d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Owner </value>
-      <webElementGuid>e3fe41a4-fdb4-4298-9379-0a7379f9ecfb</webElementGuid>
+      <webElementGuid>e4ac86df-ea97-480d-890f-cfa79ed98cbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-0&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>e7114a4b-c50a-4b4f-80c2-699a13af3f6f</webElementGuid>
+      <webElementGuid>9175d075-5384-44b4-808a-6b053037d973</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-0']/span</value>
-      <webElementGuid>5d32272a-952f-4c67-a5bf-77f329eac365</webElementGuid>
+      <webElementGuid>488068ce-cbc8-429e-8c06-af32c773e051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[2]/following::span[1]</value>
-      <webElementGuid>a50bc268-c304-4336-88c2-43a4a5b58e1b</webElementGuid>
+      <webElementGuid>b5f2ad93-cf1e-43e8-9ff6-589ce4e7145e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub - Locality'])[2]/following::span[1]</value>
-      <webElementGuid>b7acc45f-b232-4478-b2a5-f4abacca2112</webElementGuid>
+      <webElementGuid>39c2598c-54b1-4ea1-a1ca-f46c38be3d51</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Director'])[1]/preceding::span[1]</value>
-      <webElementGuid>d436afd9-39c8-46bf-a3bd-6953359d92ea</webElementGuid>
+      <webElementGuid>78c78e5b-ffc3-4847-94f4-4a15cceaa3a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Manager'])[1]/preceding::span[2]</value>
-      <webElementGuid>eba835f7-4fff-419e-8896-10eebf52fab5</webElementGuid>
+      <webElementGuid>feaee477-904f-4a9a-ba5f-babc7bd9a4d7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Owner']/parent::*</value>
-      <webElementGuid>33553db7-6424-4af9-a4f3-32dd5f8b2f79</webElementGuid>
+      <webElementGuid>2b837de5-905c-4764-a7db-212628e448a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>82093bb8-57fa-4f5e-ac58-13e6d837a664</webElementGuid>
+      <webElementGuid>201853e1-d27e-4ea9-8517-52d644d1d6d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Owner ' or . = ' Owner ')]</value>
-      <webElementGuid>4053ce92-97f7-477b-a959-0fc849eecf6c</webElementGuid>
+      <webElementGuid>b3a83725-40ad-458d-8118-4078a4e660f8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
