@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Merchant Representative</name>
+   <tag></tag>
+   <elementGuidId>1e909e00-a4f4-4805-9b94-3bf261c35d56</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div/mat-form-field/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c33-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ae011f24-edba-41e3-89b1-888255bb23b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c33-2</value>
+      <webElementGuid>3c0ab950-ab22-46a6-98ff-6304bc09420a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Merchant Representative</value>
+      <webElementGuid>1bf28fa5-94b2-494c-80cc-493ec5da0152</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;w-full p-2 dialog-content overflow-y-scroll&quot;]/form[@class=&quot;ng-untouched ng-pristine ng-invalid&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field w-full ng-tns-c33-2 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-valid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c33-2&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c33-2&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c33-2&quot;]</value>
+      <webElementGuid>06d80f47-ace4-45c1-94b0-a74ced45df14</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div/mat-form-field/div/div/div</value>
+      <webElementGuid>cb27e31d-c802-4f38-9d7c-30b0ea857eae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Contact Details'])[2]/following::div[13]</value>
+      <webElementGuid>37acb702-5d69-43be-8cc0-f5925d6d4e36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::div[20]</value>
+      <webElementGuid>1235fe20-490e-49ba-897d-6207ddca3806</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Title'])[1]/preceding::div[13]</value>
+      <webElementGuid>d9e6608d-55e3-412e-89e8-f32e3f292b3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div</value>
+      <webElementGuid>98833000-7f59-4391-9f53-4759e5c104be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Merchant Representative' or . = 'Merchant Representative')]</value>
+      <webElementGuid>1fb63650-a360-499b-96db-804c78af3467</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

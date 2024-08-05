@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Documents - KYC - Sole Trader_mat-selec_db4f57</name>
+   <tag></tag>
+   <elementGuidId>8c65efff-3821-49e7-9cd0-de704e18f546</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mat-select-value-21']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-select-value-21</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>0a7fe682-4b35-4a09-b9c5-85c315cfe41b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-value ng-tns-c90-58</value>
+      <webElementGuid>8a8aa81b-2eb8-4e7f-a711-d56857cc09d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-select-value-21</value>
+      <webElementGuid>864576c5-2b1d-4424-8c81-d6f79797f509</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-select-value-21&quot;)</value>
+      <webElementGuid>9ac9f856-0026-4c78-8a37-bae4afde6fff</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='mat-select-value-21']</value>
+      <webElementGuid>b8bcee12-dccf-4a3b-ac87-a7b506671da2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-select[@id='mat-select-20']/div/div</value>
+      <webElementGuid>53eb9b1a-3430-4605-97f7-dab074c55e57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - KYC - Sole Trader'])[1]/following::div[10]</value>
+      <webElementGuid>13c9f23f-ea4e-4cb0-9faf-7f8699120d65</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*'])[1]/following::div[12]</value>
+      <webElementGuid>2f194699-3883-4046-bb53-e9fbf4d3cbfe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents - KYC - Sole Trader-Sub Type'])[1]/preceding::div[3]</value>
+      <webElementGuid>ce8795ff-195b-4509-af59-13f6b05ac89b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/preceding::div[7]</value>
+      <webElementGuid>1705c749-53c5-4189-a16a-3866de473323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/mat-form-field/div/div/div/mat-select/div/div</value>
+      <webElementGuid>534ee7e7-7ac4-4928-9336-87eb2a74418b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'mat-select-value-21']</value>
+      <webElementGuid>e44c241a-8286-48a8-929b-742c2894d291</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

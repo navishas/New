@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_District</name>
+   <tag></tag>
+   <elementGuidId>5b240b8b-bc60-4e2a-b052-532c6a3bae74</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[6]/mat-form-field/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c33-20</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a1c88357-dda2-4b97-98db-cada8e40bec2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c33-20</value>
+      <webElementGuid>91c245c3-751a-4bdd-990a-d2ef998dddc4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>District*</value>
+      <webElementGuid>bdd9429d-1132-4b25-a008-f26f05c33af9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;w-full p-2 dialog-content overflow-y-scroll&quot;]/form[@class=&quot;ng-invalid ng-dirty ng-touched&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field w-full ng-tns-c33-20 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c33-20&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c33-20&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c33-20&quot;]</value>
+      <webElementGuid>ed787c4f-1570-47d6-88ad-243ce188fd40</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[6]/mat-form-field/div/div/div</value>
+      <webElementGuid>8e136c16-8fc6-4043-9bca-bf95b79486f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[4]/following::div[8]</value>
+      <webElementGuid>62eb5a0a-b127-4b8e-aa1a-73a9522e400f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Registered Address'])[1]/following::div[8]</value>
+      <webElementGuid>be4d1e72-feb8-41f6-a6fb-d6a30caef995</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/mat-form-field/div/div/div</value>
+      <webElementGuid>83fe5de7-8bb7-48b0-99d4-1aed01a08da2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'District*' or . = 'District*')]</value>
+      <webElementGuid>31966f4e-ab0f-4234-acce-ae7f65109b0d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

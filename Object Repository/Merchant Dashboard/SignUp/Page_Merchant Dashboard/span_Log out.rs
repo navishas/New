@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Log out</name>
+   <tag></tag>
+   <elementGuidId>c0686183-8604-49a8-8890-535263b68266</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.dropdown-header.dropdown-menu-list.cursor-pointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>c8a97f32-b7e8-49db-bc3d-214a9b1a6915</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>adba08c9-19f1-40e2-88f6-7e03696ddb30</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-header dropdown-menu-list cursor-pointer</value>
+      <webElementGuid>07e908f9-f2dd-49c0-bd3e-3300ccf0f15c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Log out</value>
+      <webElementGuid>2521407d-207d-4109-b71a-a4c7b49a9300</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;header-container&quot;]/div[@class=&quot;account-switch&quot;]/div[@class=&quot;header-right-profile&quot;]/ul[@class=&quot;dropdown-menu dropdown-menu-end d-inline&quot;]/li[1]/span[@class=&quot;dropdown-header dropdown-menu-list cursor-pointer&quot;]</value>
+      <webElementGuid>7b1bd8d8-b624-4b1e-8310-8cf2df13e122</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/ul/li/span</value>
+      <webElementGuid>4e608dad-d236-4190-8172-243d0d685e05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='T'])[1]/following::span[1]</value>
+      <webElementGuid>ae50566e-a941-4df3-8828-e50a5a8778ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TestC02'])[1]/following::span[2]</value>
+      <webElementGuid>1b36be04-8160-474a-aa79-6cd4219371b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/preceding::span[1]</value>
+      <webElementGuid>27ae85be-fa72-48d0-bee2-031965f02c68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='User Roles &amp; Permissions'])[1]/preceding::span[3]</value>
+      <webElementGuid>16aed53d-4d6a-49be-9b9f-966215f6a326</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log out']/parent::*</value>
+      <webElementGuid>3dc8f7ce-b771-4251-ae63-2e649d0cdad0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>9f17f2b9-0acb-4ef7-9e7c-6556502f36a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[@href = '#' and (text() = 'Log out' or . = 'Log out')]</value>
+      <webElementGuid>42d7369b-52ee-4de1-aa48-59731c6ee979</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

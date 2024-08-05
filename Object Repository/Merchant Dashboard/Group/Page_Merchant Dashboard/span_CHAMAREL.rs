@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_CHAMAREL</name>
+   <tag></tag>
+   <elementGuidId>0f6e1237-4dda-4c91-bc5b-1e074f954de8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' CHAMAREL ' or . = ' CHAMAREL ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-228 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1645067c-bd53-43f8-9671-277596097f91</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>c893ea00-eaf1-447c-ac88-b48d476e3e26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> CHAMAREL </value>
+      <webElementGuid>4803e858-5806-4487-9b9a-3fdd01d6e0d8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-228&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>39e903ba-8836-40ac-9567-ffe4d9159b8c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-228']/span</value>
+      <webElementGuid>47555c2a-af50-47de-b5aa-3ad13376ab79</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CASCAVELLE'])[1]/following::span[1]</value>
+      <webElementGuid>88d2a623-2fce-4b47-b8f3-e837c1f46708</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BEAU SONGES'])[1]/following::span[2]</value>
+      <webElementGuid>cae3098b-60f0-47b7-b560-dcf26e166e48</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='FLIC EN FLACQ'])[1]/preceding::span[1]</value>
+      <webElementGuid>13c7f80a-ae4f-404c-af19-78e1db93992b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GRANDE RIVIERE NOIRE'])[1]/preceding::span[2]</value>
+      <webElementGuid>43e2fefc-ddf6-475e-93f2-8b97f103c6e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CHAMAREL']/parent::*</value>
+      <webElementGuid>e9d4112c-8929-483b-96c3-c076ac824173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[5]/span</value>
+      <webElementGuid>5b906804-e404-422f-b3c0-eab9af75019e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' CHAMAREL ' or . = ' CHAMAREL ')]</value>
+      <webElementGuid>fd9235f7-806b-40ec-acd3-8286aeda1297</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

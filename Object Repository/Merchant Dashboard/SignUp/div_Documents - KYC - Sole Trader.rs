@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Documents - KYC - Sole Trader</name>
+   <tag></tag>
+   <elementGuidId>f5b59c03-dafd-46f7-9d1e-06ccbada03ac</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section/div/mat-form-field/div/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.mat-form-field-infix.ng-tns-c33-92</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>da1f1cc5-070e-4446-9a8b-89ebf85e6b9b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c33-92</value>
+      <webElementGuid>67f96c27-d03d-45eb-8a27-8c53434c26a0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Documents - KYC - Sole Trader</value>
+      <webElementGuid>d97ce5f1-5c0d-465b-be4a-1fe3ad0f0a58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;my-4 border border-gray-200 p-4 w-2/3 rounded-lg ng-star-inserted&quot;]/form[@class=&quot;mt-5 flex flex-col gap-2 ng-untouched ng-pristine ng-invalid&quot;]/section[@class=&quot;flex w-full gap-4 flex-wrap&quot;]/div[@class=&quot;w-48per ng-star-inserted&quot;]/mat-form-field[@class=&quot;mat-form-field w-full ng-tns-c33-92 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c33-92&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c33-92&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c33-92&quot;]</value>
+      <webElementGuid>ba154a6f-efb7-4b8e-95ba-38d53562fc97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section/div/mat-form-field/div/div/div</value>
+      <webElementGuid>cb532867-339e-4836-960c-9ed85cee8374</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Identifier'])[1]/following::div[4]</value>
+      <webElementGuid>c2f37d2e-615a-450c-8d84-e4dcb13f490b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add New Document'])[1]/following::div[4]</value>
+      <webElementGuid>90014378-aade-4213-a8bc-df88a1629f01</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/preceding::div[9]</value>
+      <webElementGuid>ee576aba-17ec-40b8-823b-252849484a1f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-form-field/div/div/div</value>
+      <webElementGuid>a272f86b-10d1-40d5-b613-f337905237ae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Documents - KYC - Sole Trader' or . = 'Documents - KYC - Sole Trader')]</value>
+      <webElementGuid>ae07b062-f1f5-45ac-b6c6-833b437d7b91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

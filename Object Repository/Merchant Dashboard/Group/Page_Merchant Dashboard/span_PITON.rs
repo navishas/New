@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_PITON</name>
+   <tag></tag>
+   <elementGuidId>720435b8-dadb-4208-bd13-f1e0d56b633b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' PITON ' or . = ' PITON ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-249 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>cc93c570-d8c0-496d-89a6-3d036fda0293</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>756b7dc0-ba69-4df6-81f8-e3719030c713</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> PITON </value>
+      <webElementGuid>deb94a84-4ba2-490c-b74a-671fc54d7e9a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-249&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>88f7bbdf-5ab7-44a8-80d2-c2a49287937e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-249']/span</value>
+      <webElementGuid>3b915d34-15cd-4583-9a28-bb1f5387dbba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LES ROULEAUX'])[1]/following::span[1]</value>
+      <webElementGuid>92baf667-238b-4c04-b3a3-a8bd73d60ea7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LA VILLE LEON'])[1]/following::span[2]</value>
+      <webElementGuid>e17b9d37-1ac3-4128-8ca1-b83f99fd0a8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SOCIETE ST DENIS'])[1]/preceding::span[1]</value>
+      <webElementGuid>b4c59014-f4b2-4a66-9954-c1153c7428fe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='STE ANNE'])[1]/preceding::span[2]</value>
+      <webElementGuid>02cd2758-0e16-4b17-9a25-f4415e453efa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PITON']/parent::*</value>
+      <webElementGuid>820ce2ca-4537-48ac-85bf-7355f1c2dca4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[6]/span</value>
+      <webElementGuid>fe937494-120b-4996-99f9-40ba21416479</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' PITON ' or . = ' PITON ')]</value>
+      <webElementGuid>585801f2-2f92-4b61-8a17-1f1f272b44e8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

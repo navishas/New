@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_T_bi bi-chevron-down</name>
+   <tag></tag>
+   <elementGuidId>c37458a3-dcf4-4a6a-9022-0b671993f134</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/div[2]/button/img</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>img.bi.bi-chevron-down</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>acd3eaf6-c3c3-402d-b6a7-99b32e612c35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>/static/media/dropdown-arrow.8eb623a8ff09002eec4fe51d1e75c783.svg</value>
+      <webElementGuid>f6640a7b-f22d-48f5-bd2a-ecd36ccaf855</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>bi bi-chevron-down</value>
+      <webElementGuid>0bc4d345-081e-4778-88c5-faae9d1d6a81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;header-container&quot;]/div[@class=&quot;account-switch&quot;]/div[@class=&quot;header-right-profile&quot;]/button[@class=&quot;header-profile-icon&quot;]/img[@class=&quot;bi bi-chevron-down&quot;]</value>
+      <webElementGuid>e2701455-1480-45d4-883c-51d91d9cdb69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div/div[2]/div[2]/button/img</value>
+      <webElementGuid>313acd22-0a76-4a2f-a870-7482d1efa954</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button/img</value>
+      <webElementGuid>f3e2a088-1e42-4050-8eab-8d230c7f42e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = '/static/media/dropdown-arrow.8eb623a8ff09002eec4fe51d1e75c783.svg']</value>
+      <webElementGuid>d22c18bb-e161-4093-b759-bddff4090785</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

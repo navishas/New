@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Mauritius</name>
+   <tag></tag>
+   <elementGuidId>d8d4c79e-6722-4174-bb0b-aded7245c3d0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = ' Mauritius ' or . = ' Mauritius ')]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-140 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>9cc40ba1-2311-4c7c-aba1-a0f59904f090</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>94d2cd88-dfd4-4a31-86cf-efbcffc09bd6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Mauritius </value>
+      <webElementGuid>a76e399e-7c82-4ac6-907c-bb043a9ab2f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-140&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>a29e6c6d-41b0-473f-85d9-751a1238b910</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-140']/span</value>
+      <webElementGuid>861261e7-6c36-44c9-9602-11433dd350e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mauritania'])[1]/following::span[1]</value>
+      <webElementGuid>d9208dbf-3aa7-4573-a1fa-befe9f92688a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Marshall Islands'])[1]/following::span[2]</value>
+      <webElementGuid>b519f4a8-b411-4c88-8f9f-619c744ae26d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mexico'])[1]/preceding::span[1]</value>
+      <webElementGuid>22e388cf-5a70-459e-a10a-f3a695e0d476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Micronesia, Federated States of'])[1]/preceding::span[2]</value>
+      <webElementGuid>bdb52650-69c0-4256-bf3d-f7fa1857d014</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mauritius']/parent::*</value>
+      <webElementGuid>a71421a4-6cd3-4e75-9c00-e92253706630</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[113]/span</value>
+      <webElementGuid>381c293d-b8f1-4fc7-b848-eaa177a05f5c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' Mauritius ' or . = ' Mauritius ')]</value>
+      <webElementGuid>775f638b-cf78-4c9c-a04a-91a8622952e3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_4kdOHwXpNh</name>
+   <tag></tag>
+   <elementGuidId>0514c6af-4270-4b2e-a54a-adb536e96212</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='grid-box']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.link > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4eeb7719-7adf-4366-96bc-1cc4c1186619</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> 4kdOHwXpNh</value>
+      <webElementGuid>a95aa7f9-5b44-49ef-aaf9-ee6f1921959f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;grid-box&quot;)/div[@class=&quot;MuiDataGrid-root MuiDataGrid-root--densityStandard MuiDataGrid-withBorderColor css-1h488nx&quot;]/div[@class=&quot;MuiDataGrid-main css-opb0c2&quot;]/div[@class=&quot;MuiDataGrid-virtualScroller css-frlfct&quot;]/div[@class=&quot;MuiDataGrid-virtualScrollerContent css-0&quot;]/div[@class=&quot;MuiDataGrid-virtualScrollerRenderZone css-1inm7gi&quot;]/div[@class=&quot;MuiDataGrid-row&quot;]/div[@class=&quot;MuiDataGrid-cell--withRenderer MuiDataGrid-cell MuiDataGrid-cell--textLeft MuiDataGrid-withBorderColor&quot;]/div[1]/div[@class=&quot;merchant-name-mid&quot;]/div[@class=&quot;link&quot;]/span[1]</value>
+      <webElementGuid>8fe9fd98-4989-4bff-9e7f-44770a663b58</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='grid-box']/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/span</value>
+      <webElementGuid>6df11ed2-ec14-44fa-85d6-a3321e47f820</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/span</value>
+      <webElementGuid>82b7abbd-25d0-4c1e-bc69-de241fb5c09d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' 4kdOHwXpNh' or . = ' 4kdOHwXpNh')]</value>
+      <webElementGuid>d8a0defb-241e-4bee-9597-4fd3b4357b91</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

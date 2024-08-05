@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Company_Signup</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>87fb098b-fe48-493d-b48b-5ecfb38e9e43</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>5601c60e-5e72-4982-995c-5a84069452aa</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Merchant_Dashboard/Company/Sign_Up</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Full_Name</value>
+      <variableId>4342a4ac-2dec-42ad-82e8-6cb5783c3a1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email_Id</value>
+      <variableId>f853c6cf-5057-445b-ab7d-525655d763f3</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>5601c60e-5e72-4982-995c-5a84069452aa</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Mobile_Number</value>
+      <variableId>cb2d5bba-ab1b-4991-acee-74f6e63a424d</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4342a4ac-2dec-42ad-82e8-6cb5783c3a1e</id>
+      <masked>false</masked>
+      <name>Full_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f853c6cf-5057-445b-ab7d-525655d763f3</id>
+      <masked>false</masked>
+      <name>Email_Id</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cb2d5bba-ab1b-4991-acee-74f6e63a424d</id>
+      <masked>false</masked>
+      <name>Mobile_Number</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Add New Document</name>
+   <tag></tag>
+   <elementGuidId>56929282-6fcd-458a-a5c8-0554cc2ff948</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>bbbb9d39-1f20-408d-b154-9945439b030f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>color</name>
+      <type>Main</type>
+      <value>primary</value>
+      <webElementGuid>7f8de16c-2367-4bf2-baad-27b93e41d7a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b8bed196-1f89-427a-8b1f-3abcdcca7d62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>b543aa6f-0027-4b2a-9d14-7d526f60f688</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+            
+         Add New Document </value>
+      <webElementGuid>3a975b0f-126e-45ef-9206-007baf618f8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-4&quot;]/section[1]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>84085da4-1de3-4abd-9d71-9934fb3156de</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[2]</value>
+      <webElementGuid>4e2e7a6b-610e-4385-9d29-abf790e16703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/app-documents-details/div/div/section/button</value>
+      <webElementGuid>dc51726e-9980-43cc-962a-4fcde822583d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Business Document'])[2]/following::button[2]</value>
+      <webElementGuid>b57ed27b-f201-4469-acc0-cd105c3c20fa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::button[2]</value>
+      <webElementGuid>1b8a19c2-6fba-4759-8a46-6ac98ec5d9be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Document Uploaded'])[1]/preceding::button[1]</value>
+      <webElementGuid>da1c6197-933a-4ecc-8295-602154e6ffdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section/button</value>
+      <webElementGuid>6b692bfa-8dd1-487f-89f5-5f11ace2290c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = '&#xd;
+            &#xd;
+         Add New Document ' or . = '&#xd;
+            &#xd;
+         Add New Document ')]</value>
+      <webElementGuid>c364f584-a9f0-4788-bf6f-6b7711bd35af</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Next Steps</name>
+   <tag></tag>
+   <elementGuidId>48c4bf36-19f4-473c-b810-45a338cdaa40</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='actionButtonDiv']/div/button</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-flat-button.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e1d18670-ad8f-4282-9758-ce49d12fbff0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
+      <webElementGuid>d631ba9e-df23-4819-b703-ffec5636ccf8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> Next Steps </value>
+      <webElementGuid>bea4ad4d-9e80-4595-b9f2-5a9ceb315182</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;actionButtonDiv&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
+      <webElementGuid>e4dc0035-57d2-4da3-ad5f-5b375fc74e30</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='actionButtonDiv']/div/button</value>
+      <webElementGuid>da705940-dfd6-45e4-99b7-c2948e3700ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mauritius'])[1]/following::button[2]</value>
+      <webElementGuid>0863b448-5be9-4b20-a2b1-615765f012fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::button[2]</value>
+      <webElementGuid>9a92df01-ace0-4ead-867e-aa1c7e8bb056</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip'])[1]/preceding::button[1]</value>
+      <webElementGuid>08cde4b4-928b-4e9b-9fb1-92f3c5bac8f6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/button</value>
+      <webElementGuid>4b7967c2-8528-4d12-865b-a56235638262</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = ' Next Steps ' or . = ' Next Steps ')]</value>
+      <webElementGuid>b55e348d-ea52-4c6d-80bb-d388de14d7b9</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
