@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>li_Complete ApplicationEnter basic business_edaa75</name>
+   <tag></tag>
+   <elementGuidId>0121c3a0-775b-4d3b-afbe-1e9e37641dae</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/ul/li[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>15ad0a4f-33d0-4db1-a46b-058901439d64</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>list-group-item completed</value>
+      <webElementGuid>8d0f1b35-e093-4952-a56f-98b370529749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Complete ApplicationEnter basic business details and documents to complete your application. Application submitted on July 4, 2024View Application Details</value>
+      <webElementGuid>afefdaf8-afe4-4ad9-ad29-e7ecb8839529</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;gx-layout-sider-scrollbar&quot;]/div[1]/div[@class=&quot;sub-app-container&quot;]/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;complete-application-form&quot;]/div[@class=&quot;dashboard-content&quot;]/ul[@class=&quot;list-group vertical-steps&quot;]/li[@class=&quot;list-group-item completed&quot;]</value>
+      <webElementGuid>78f817cf-74a7-4dee-86de-61f430bb4f15</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/ul/li[2]</value>
+      <webElementGuid>c7b01a98-ffdb-4a0a-bb98-53877b61e406</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verification'])[1]/following::li[1]</value>
+      <webElementGuid>ca49dc9a-0e8d-402a-a8d5-8d729410c02d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]</value>
+      <webElementGuid>37c28eb7-17f1-4479-b9f3-b251e0256229</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Complete ApplicationEnter basic business details and documents to complete your application. Application submitted on July 4, 2024View Application Details' or . = 'Complete ApplicationEnter basic business details and documents to complete your application. Application submitted on July 4, 2024View Application Details')]</value>
+      <webElementGuid>213f2a72-ac18-461d-a105-d7892f5532e7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

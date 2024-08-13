@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Complete Application</name>
+   <tag></tag>
+   <elementGuidId>559ba939-f84f-4bd8-a0c1-bd6c49e5bd4a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.ant-btn.wizard-btn.btn.btn-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b6e06c1b-ec3f-47be-8e2d-1e172d373357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>354f5792-5804-44ea-8c69-f45a640c4d4f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ant-btn wizard-btn btn btn-primary</value>
+      <webElementGuid>f4dd0819-b62a-40e9-8892-8292c01d8ac7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Complete Application</value>
+      <webElementGuid>a50a69a9-8974-4432-b8d4-6ffcc61778ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;root&quot;)/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;gx-layout-sider-scrollbar&quot;]/div[1]/div[@class=&quot;sub-app-container&quot;]/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;complete-application-form&quot;]/div[@class=&quot;dashboard-content&quot;]/ul[@class=&quot;list-group vertical-steps&quot;]/li[@class=&quot;list-group-item active&quot;]/button[@class=&quot;ant-btn wizard-btn btn btn-primary&quot;]</value>
+      <webElementGuid>70911eb2-4481-4383-8a9f-62054d97b19b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[3]</value>
+      <webElementGuid>6b8c9708-7a6e-4ff6-83e8-9baac89cc447</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/ul/li[2]/button</value>
+      <webElementGuid>35297874-5b29-456d-b238-efb855efc4f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Complete Application'])[2]/following::button[1]</value>
+      <webElementGuid>541fab92-2efc-4a7e-9cf7-89ae8edd6358</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verification'])[1]/following::button[1]</value>
+      <webElementGuid>64084ccb-783d-47ad-8397-502049da1f4d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Application In Review'])[1]/preceding::button[1]</value>
+      <webElementGuid>27c77520-3e32-4957-b131-017d83628080</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/button</value>
+      <webElementGuid>0fc22a24-f8df-43e0-93d4-65067dd74cb6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Complete Application' or . = 'Complete Application')]</value>
+      <webElementGuid>b54ade46-62de-44f2-b81e-7ffabd105933</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

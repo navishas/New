@@ -31,7 +31,7 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>6a0d73ad-6eca-44ca-9df9-4ad69d2c075b</guid>
+      <guid>05b4e6fb-d4f4-4da3-bc2f-3a5047694bb2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/Operational_Dashboard/Create_SoleTrader_Merchant</testCaseId>

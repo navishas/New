@@ -6,12 +6,12 @@
    <elementGuidId>94045018-06d2-4519-8d11-f510b673a71c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#mat-select-value-47</value>
+         <key>XPATH</key>
+         <value>(//span[contains(text(),'KYC Document')])[2]/ancestor::span/preceding-sibling::mat-select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='mat-select-value-47']</value>
+         <key>CSS</key>
+         <value>#mat-select-value-47</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>77f99766-5369-44a2-a03e-ad1c5c2ad0cc</webElementGuid>
+      <webElementGuid>f98f5c7e-0bb8-453b-8951-df4fb74897b4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-value ng-tns-c90-138</value>
-      <webElementGuid>8c891e82-bffc-40c5-acae-c35537666f44</webElementGuid>
+      <webElementGuid>f5045da2-dce6-4d71-8c15-a6930cf2669b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-select-value-47</value>
-      <webElementGuid>3ca0753b-4d78-4218-b52f-6eccdba792c5</webElementGuid>
+      <webElementGuid>4fae8c3a-b3aa-49f6-9e6f-58e78ffb6ba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-value-47&quot;)</value>
-      <webElementGuid>cf18bd7a-095a-43e3-8e69-c4081c571e0b</webElementGuid>
+      <webElementGuid>c85d9f35-3c58-44a1-884b-05b0c1a66d66</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//div[@id='mat-select-value-47']</value>
-      <webElementGuid>0b98d8a4-37e8-43a0-a2fd-6628cd1683c8</webElementGuid>
+      <webElementGuid>b76fbb27-0c60-44a1-b3cc-6915ac2c32b7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-46']/div/div</value>
-      <webElementGuid>f448b1f6-8618-48e3-af1d-fa30730f13a0</webElementGuid>
+      <webElementGuid>c6e5e60e-da90-4812-901c-882bf3155fc7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[1]/following::div[10]</value>
-      <webElementGuid>26ce76cd-39f6-4782-8987-85b77f399d2a</webElementGuid>
+      <webElementGuid>e1404d9f-1210-4b30-bd4c-aebb9ef7bd4c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Verification Completed?'])[1]/following::div[10]</value>
-      <webElementGuid>030dccd7-2bdc-4f70-a310-5bcda30ef1df</webElementGuid>
+      <webElementGuid>71b6e2fb-da19-4425-9629-302ab03ff891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KYC Document Verification Completed?'])[1]/preceding::div[3]</value>
-      <webElementGuid>7c67677f-65f0-4dab-8b67-e8e1f967031f</webElementGuid>
+      <webElementGuid>a576a086-ed6d-40db-a0ed-8235231e3a8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[2]/preceding::div[3]</value>
-      <webElementGuid>f5cba0da-645e-4025-aa40-66df817fca6f</webElementGuid>
+      <webElementGuid>409b79d9-d3cf-4f89-9960-b889f378cef4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/mat-form-field/div/div/div/mat-select/div/div</value>
-      <webElementGuid>2744a6e8-a1f3-46d3-bbd2-5c610572b3a3</webElementGuid>
+      <webElementGuid>db91c890-49d6-464b-aaf1-781426a75708</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mat-select-value-47']</value>
-      <webElementGuid>7f6094e4-4bb1-4595-a468-c1191179c20a</webElementGuid>
+      <webElementGuid>68a3bd54-4931-4a4f-a566-045a7e62e261</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

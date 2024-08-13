@@ -6,12 +6,11 @@
    <elementGuidId>906fb4d4-b18a-4140-95c5-41e1623caf20</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-label[contains(text(),'Bus')]/ancestor::span/parent::div/div/div/input</value>
+         <key>BASIC</key>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-label[text()='Business Expense']/ancestor::span/preceding-sibling::div/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

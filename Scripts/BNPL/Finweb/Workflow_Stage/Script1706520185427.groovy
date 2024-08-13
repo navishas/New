@@ -17,8 +17,8 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'), 
-    10, FailureHandling.OPTIONAL)
+WebUI.waitForElementClickable(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Navigate To Loan Application'), 10, 
+    FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity_Complete_KYC'))
 
@@ -28,8 +28,7 @@ WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_Busines
 
 WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/span_Residential Address'))
 
-WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'), 
-    'asdfasdf')
+WebUI.setText(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/input_Copy Address From_mat-input-37'), 'asdfasdf')
 
 WebUI.scrollToElement(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Town'), 0)
 
@@ -45,12 +44,9 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/LOS/Workflow_Sta
 
 WebUI.click(findTestObject('Object Repository/LOS/Workflow_Stage/Address_Details/Page_Finweb - Brancho/button_Save'))
 
-WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity Complete_Address_Details'), 
-    FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Activity Complete_Address_Details'), FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip_button'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.callTestCase(findTestCase('BNPL/Finweb/Employment_Details_Income_Details'), [:], FailureHandling.STOP_ON_FAILURE)
 

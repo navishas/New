@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <value>//button[(text() = ' Accept Application ' or . = ' Accept Application ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>ec44e617-2a8a-4ac4-ab8b-25234a8928be</webElementGuid>
+      <webElementGuid>7c89d02f-3f1d-4cb4-ac9e-13ed3df8bf8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button</value>
-      <webElementGuid>b736a784-9d7d-435b-ae89-2dbfa3f81ee0</webElementGuid>
+      <webElementGuid>f66278b6-73ca-461e-8533-d7cf2c744a6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Accept Application </value>
-      <webElementGuid>a39ce9d2-13ee-449f-89e8-28a7c13e4e21</webElementGuid>
+      <webElementGuid>108e4667-d88e-4213-bb88-f3621d776e7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button&quot;]</value>
-      <webElementGuid>3e136310-4d4e-46ba-a5ec-7fd1695ffb95</webElementGuid>
+      <webElementGuid>16a6e252-30b0-4456-9cb4-6358d72fee1a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>5b00f098-0d93-40e4-b1d3-8372f61fd8a6</webElementGuid>
+      <webElementGuid>b833687b-ddfa-478e-ae7d-ec064998ec63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::button[1]</value>
-      <webElementGuid>697eff30-7ab9-46b2-ac1f-32fb46192a2c</webElementGuid>
+      <webElementGuid>68900474-4bee-4827-b125-67296f54c50f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/following::button[1]</value>
-      <webElementGuid>0ae3b7c1-4741-4f5f-abb0-5d5ca5a40908</webElementGuid>
+      <webElementGuid>c8de9646-e51a-4061-b626-6021c2dacd12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Return Application'])[1]/preceding::button[1]</value>
-      <webElementGuid>35b52d11-c9f3-404c-a5c0-69d46af80edb</webElementGuid>
+      <webElementGuid>423cba5c-75ea-41a2-aab5-5f50ffec60ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>23790e50-eebc-4e92-b28c-8f4cdd32c855</webElementGuid>
+      <webElementGuid>e2181955-15ee-4ad1-9b05-e4a1e0d22990</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Accept Application ' or . = ' Accept Application ')]</value>
-      <webElementGuid>f8a0f87a-0b0d-4881-9c53-abcdd4a6933e</webElementGuid>
+      <webElementGuid>368a864d-0afa-4a85-9595-6396410f70e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

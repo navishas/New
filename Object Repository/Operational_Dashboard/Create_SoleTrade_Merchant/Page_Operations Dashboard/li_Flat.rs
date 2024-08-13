@@ -6,12 +6,12 @@
    <elementGuidId>c80ce87d-5cbe-4cbd-9364-7b97ff267739</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#checkboxes-tags-demo-option-1</value>
+         <key>XPATH</key>
+         <value>//li[text() = 'Flat']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//li[@id='checkboxes-tags-demo-option-1']</value>
+         <key>CSS</key>
+         <value>#checkboxes-tags-demo-option-1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>li</value>
-      <webElementGuid>1a34c172-2684-4634-aa79-528cfda66611</webElementGuid>
+      <webElementGuid>864eeed9-1775-4b35-bc9e-d3c799e55c26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>078b6614-d78c-4af3-a005-2145f8698a3b</webElementGuid>
+      <webElementGuid>62d54eb3-2845-4d10-b92c-39332f43ef1f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>role</name>
       <type>Main</type>
       <value>option</value>
-      <webElementGuid>e0166da8-e365-4ff8-896e-5b9b5f4d3a09</webElementGuid>
+      <webElementGuid>afbcd85b-94bc-4a2b-8597-dc08ed3765d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>id</name>
       <type>Main</type>
       <value>checkboxes-tags-demo-option-1</value>
-      <webElementGuid>426c2dfc-d1bc-4942-905f-05a2cc03b3e3</webElementGuid>
+      <webElementGuid>a7db3e1a-55bc-4926-aa8c-79ac7b42cbb2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>data-option-index</name>
       <type>Main</type>
       <value>1</value>
-      <webElementGuid>8c3903e9-ed5b-4818-b248-454a94b687bc</webElementGuid>
+      <webElementGuid>e0e9818f-f66d-4d2b-85c1-a2b6ed48ddfa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>aria-disabled</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>e650e253-96db-4bce-9934-5a7b30d16c53</webElementGuid>
+      <webElementGuid>179df0a5-5482-43b6-9a40-43bda34e7cb6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0d202f73-d4e3-496c-9475-28e594a6c302</webElementGuid>
+      <webElementGuid>0654cfbd-4cd7-4691-a6fc-6f24e31e25d0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiAutocomplete-option Mui-focused</value>
-      <webElementGuid>f484375e-0b94-4766-bd05-26f67f09da20</webElementGuid>
+      <webElementGuid>554bbe71-0f62-4f59-8d1d-86c57781dee5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -86,7 +86,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Flat</value>
-      <webElementGuid>dc2cce24-7f9b-44cb-8bde-2df38e20b44f</webElementGuid>
+      <webElementGuid>6f20ca14-6348-4a3b-a6f3-452437a57f7c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;checkboxes-tags-demo-option-1&quot;)</value>
-      <webElementGuid>001d0632-48ac-4e4e-b5c8-593baa28beff</webElementGuid>
+      <webElementGuid>020d4a1d-42c8-4be2-9d1f-209c690b321a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//li[@id='checkboxes-tags-demo-option-1']</value>
-      <webElementGuid>18e0dc75-526e-4192-8366-269355382dfc</webElementGuid>
+      <webElementGuid>2a6912c5-320a-4740-b35a-2cc771ee3269</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//ul[@id='checkboxes-tags-demo-listbox']/li[2]</value>
-      <webElementGuid>606d57d8-e1bd-4a0c-acbb-5b947b3eb72e</webElementGuid>
+      <webElementGuid>1f4acd2b-d5fc-4b68-9ff4-75108ca097e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Percentage'])[1]/following::li[1]</value>
-      <webElementGuid>8f119154-36dd-4bbd-928b-4a25181ed08d</webElementGuid>
+      <webElementGuid>2349f1ca-ace9-43b5-a6ac-6bdbe0bc57f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/following::li[2]</value>
-      <webElementGuid>4127a5c1-35bf-4e63-9570-f18225766930</webElementGuid>
+      <webElementGuid>89f8b49f-030c-4b91-a7e8-68ea23e7fd74</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,7 +134,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Flat']/parent::*</value>
-      <webElementGuid>c9d8fd50-ae60-40a2-b5af-5c555166d788</webElementGuid>
+      <webElementGuid>8720596a-ca16-45fe-b185-2714f23fa0c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -142,7 +142,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]</value>
-      <webElementGuid>31ccd1bb-fe21-4a0c-a323-311989c6dc1b</webElementGuid>
+      <webElementGuid>0515c382-3c22-41f3-a0c5-eb14ae70abd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -150,6 +150,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//li[@id = 'checkboxes-tags-demo-option-1' and (text() = 'Flat' or . = 'Flat')]</value>
-      <webElementGuid>c1227635-44e5-49a6-b6be-f99e1a7bb728</webElementGuid>
+      <webElementGuid>580608ea-0c91-47fb-9d60-1f5beee044ce</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

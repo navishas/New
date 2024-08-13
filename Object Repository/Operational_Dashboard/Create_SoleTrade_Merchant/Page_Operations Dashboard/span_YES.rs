@@ -6,12 +6,12 @@
    <elementGuidId>cc3b9124-9b24-4052-98f2-79d350c62396</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>span.mat-option-text</value>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-1447']/span</value>
+         <key>CSS</key>
+         <value>span.mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>38d72666-0bdc-4dde-a422-07f1d9088d77</webElementGuid>
+      <webElementGuid>9d0e0c0b-a17f-4e2e-bd3a-bd7d7a54d2e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>175a2542-1b8d-4ede-bd5e-b6c990b7c93c</webElementGuid>
+      <webElementGuid>2cdf1aa1-6f51-47d7-8eaa-b0087c32288e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> YES </value>
-      <webElementGuid>9df1a209-cff8-4aae-8063-01854396b3e0</webElementGuid>
+      <webElementGuid>b466d99a-edae-437c-a42a-d6ff89b06626</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-1447&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>4cd77153-745f-4ad6-bdc0-cabe60a07560</webElementGuid>
+      <webElementGuid>aaffe1fc-2998-4031-a1b9-7f34bc4ef8d7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-1447']/span</value>
-      <webElementGuid>5df97bea-a48a-4405-8fd0-6c6f5e79d2ff</webElementGuid>
+      <webElementGuid>b14e6444-e51f-4e61-aa42-4d3147d25636</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit For Approval'])[1]/following::span[3]</value>
-      <webElementGuid>f0491d5e-d231-4bd9-a1b8-4fa880fa5320</webElementGuid>
+      <webElementGuid>d7288660-6152-4b7f-b8db-7be3fdd01d47</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Save'])[1]/following::span[6]</value>
-      <webElementGuid>782cc8ef-4fd9-460f-b6c6-f6e960b3f072</webElementGuid>
+      <webElementGuid>0a8b9d91-4229-47a0-af33-8be0cff91823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NO'])[1]/preceding::span[1]</value>
-      <webElementGuid>f6969ec7-d155-4158-98f2-a5f77c09be4f</webElementGuid>
+      <webElementGuid>c736b375-e38d-4161-91dd-23a13ae2a4f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='NA'])[1]/preceding::span[2]</value>
-      <webElementGuid>21f5ea41-8282-46a7-9788-a02b037c18a9</webElementGuid>
+      <webElementGuid>25dd9289-f892-4b52-bed4-4cf6ad07ed97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='YES']/parent::*</value>
-      <webElementGuid>e3a7ff87-4bc2-4232-88e5-9c180dff601f</webElementGuid>
+      <webElementGuid>ff8b61f8-13f8-41ce-a5a6-4e2437933cd5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>1442d38b-1566-426c-a6b3-57e9e05c996a</webElementGuid>
+      <webElementGuid>487bd992-6ff9-4e01-a0ac-aaa0e20331b8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' YES ' or . = ' YES ')]</value>
-      <webElementGuid>e30e56c8-8e30-48e4-ac3e-a27ca64db7d6</webElementGuid>
+      <webElementGuid>6601f054-86cb-46b2-b1bc-71b34d0e2dcf</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

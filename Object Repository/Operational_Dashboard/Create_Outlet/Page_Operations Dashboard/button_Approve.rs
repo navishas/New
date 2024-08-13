@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='object-1']/div/button</value>
+         <value>(//button)[36]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>94f0d94d-4611-43eb-8faf-76deac0c978d</webElementGuid>
+      <webElementGuid>929436f4-69d5-437f-9716-24766255735a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>2b5adaf7-62e4-4cdf-98cc-9185db0d251c</webElementGuid>
+      <webElementGuid>e50ea776-3fee-4e90-b53e-351c35902368</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Approve </value>
-      <webElementGuid>ec9fcf7b-cc9d-4ac2-9661-48c06eb0f101</webElementGuid>
+      <webElementGuid>db95c9ab-92a2-40d1-92d5-19b629a7cc19</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +46,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>d7248142-96a5-441f-9dbe-177e096ea01a</webElementGuid>
+      <webElementGuid>ce91e6c5-7239-4a3a-8f3e-7d4bdf3397ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>450e4fdc-d5ec-49ce-8db4-1510b74f977e</webElementGuid>
+      <webElementGuid>5f796a4e-533b-45c2-b8d4-547801bf885f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[9]/following::button[3]</value>
-      <webElementGuid>1289f640-221b-4688-a783-575306b02951</webElementGuid>
+      <webElementGuid>b986b4f1-6ced-4bd4-8e64-8fc42215dd02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks/Recommendation, If any'])[1]/following::button[3]</value>
-      <webElementGuid>628cd3b6-1d00-4d9b-8bb5-1c4e52d119e5</webElementGuid>
+      <webElementGuid>e6c71b81-5a17-4f47-b818-0404f15f4b12</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Return Application'])[1]/preceding::button[1]</value>
-      <webElementGuid>8b1ca908-bda9-4e42-960d-0a184d78e699</webElementGuid>
+      <webElementGuid>a96cd9e8-df0a-4cce-b92a-02d5ee9bbfc1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>528ae345-7d3f-4cb2-86dc-3e2ef5a22f79</webElementGuid>
+      <webElementGuid>9e207b44-f313-4e15-ba13-91caf041e5b3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +94,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Approve ' or . = ' Approve ')]</value>
-      <webElementGuid>b03ffd29-aa51-4d67-990f-42984a464c66</webElementGuid>
+      <webElementGuid>22acfe80-d7d0-4b9f-9666-1f0e221113bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

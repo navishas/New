@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Proof of Address of Owner (Dated less _970dc6</name>
+   <tag></tag>
+   <elementGuidId>474b8f74-5e26-4163-b466-13ba6d45c11c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-753']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-753 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;Proof of Address of Owner (Dated less than 3 Month)*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1fa92e42-abf7-4b23-9dd1-9f5c9ce13018</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>a7dc042c-d599-4d5e-b0d0-abb273294ad7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Proof of Address of Owner (Dated less than 3 Month)* </value>
+      <webElementGuid>38776b37-ae78-4d06-a786-e81f0e7e1c41</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-753&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>25272f07-4af8-4e12-b358-db64153bfc35</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-753']/span</value>
+      <webElementGuid>0ee43f27-f08a-4031-8b5e-77f54927791b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Identity Documents*'])[1]/following::span[1]</value>
+      <webElementGuid>3883d36b-b1dc-4224-baf3-6019734db172</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*'])[1]/preceding::span[1]</value>
+      <webElementGuid>d0b60a32-9887-431a-bd74-55319dea84bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Source of Wealth Declaration'])[1]/preceding::span[2]</value>
+      <webElementGuid>794ea90c-f47d-421e-8e98-9e74cbdb7a26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Proof of Address of Owner (Dated less than 3 Month)*']/parent::*</value>
+      <webElementGuid>1865590c-61c7-4374-8f69-a391d8731445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[2]/span</value>
+      <webElementGuid>81473de5-f2e4-49cb-a628-2b39295375af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Proof of Address of Owner (Dated less than 3 Month)* ' or . = 'Proof of Address of Owner (Dated less than 3 Month)* ')]</value>
+      <webElementGuid>a792bf15-9897-4757-9070-69f61cc4ca77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
