@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>SoleTrader_Primary_Contact</name>
+   <name>Soletrader_BusinessDocuments</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>e6959d2e-74bd-46de-bce4-ac6273a64d3e</dataFileGUID>
-   <dataSourceUrl>D:\OneDrive - Indium Software India Private Limited\CimFin\Soletrader.xlsx</dataSourceUrl>
+   <dataFileGUID>1a4cd885-9d2f-4023-a6ed-4375fe7adfd3</dataFileGUID>
+   <dataSourceUrl>D:\OneDrive - Indium Software India Private Limited\CimFin\Merchant_Onboarding\Soletrader.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Primary_Contact</sheetName>
+   <sheetName>Business_Document</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>

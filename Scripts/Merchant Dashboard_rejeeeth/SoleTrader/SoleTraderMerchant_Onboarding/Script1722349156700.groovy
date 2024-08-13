@@ -45,16 +45,11 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Complete Application'))
 
-WebUI.delay(4)
-
 WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/Merchant Type DD'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Sole Trader'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/a_Submit'))
-
 WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_-_mat-focus-indicator absolute right_240426'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Primary Contact_mat-select-trigger ng-t_f74992'))
@@ -70,7 +65,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_230'))
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input__address_line'), 
-    Address_Line_1)
+    Address_Line)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div__mat-select-value-7'))
 
@@ -129,20 +124,18 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'), 
     3)
-
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Update'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Next Steps'))
-
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Merchant Representative'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Owner'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Title'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/mat-option_MR'))
+WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_MR'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_First Name'))
 
@@ -162,6 +155,10 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Lo
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Nationality'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Mauritius'))
+
+WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_BusinessEmail'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_BusinessEmail'), Email_Business)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Address Line 1'))
 

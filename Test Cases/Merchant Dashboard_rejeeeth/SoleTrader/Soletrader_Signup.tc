@@ -8,27 +8,27 @@
    <testCaseGuid>1b747e26-00b2-4bd9-96da-4f36020cf82a</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>550c8099-4ad4-40ee-a768-32db5f837aa9</id>
+      <id>f7d65e0c-babc-4093-82dd-e236b781ed81</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Merchant_Dashboard/Group/Group_Sign_Up</testDataId>
+      <testDataId>Data Files/Merchant_Dashboard/SoleTrader/Soletrader_signup</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
+      <testDataLinkId>f7d65e0c-babc-4093-82dd-e236b781ed81</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Full_Name</value>
       <variableId>bb3da229-1e18-42e0-9720-33f524a01622</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
+      <testDataLinkId>f7d65e0c-babc-4093-82dd-e236b781ed81</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Email_Id</value>
       <variableId>49890bf0-e131-4474-a23e-dfadffaa0d01</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
+      <testDataLinkId>f7d65e0c-babc-4093-82dd-e236b781ed81</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Mobile_Number</value>
       <variableId>c1f67465-02b9-4a51-8a88-a67b6db99857</variableId>

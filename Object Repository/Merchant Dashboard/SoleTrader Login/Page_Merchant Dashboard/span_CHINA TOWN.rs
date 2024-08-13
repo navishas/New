@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//*/text()[normalize-space(.)='CHINA TOWN']/parent::*</value>
+         <value>//span[(text() = ' CHINA TOWN ' or . = ' CHINA TOWN ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>1a665d35-d3c0-4d5d-bbbd-5795098a2036</webElementGuid>
+      <webElementGuid>49aec9d1-b3a3-46cf-8ec9-92ffa188b999</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>b01a4b06-d85e-4327-b3f8-a9a825d0725f</webElementGuid>
+      <webElementGuid>93687503-7328-4d49-a237-c88b6faa1d93</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> CHINA TOWN </value>
-      <webElementGuid>63df9925-f7b1-4bf1-965e-8fac0424a199</webElementGuid>
+      <webElementGuid>f205b7e0-f115-4c70-83ba-9247c7524588</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-230&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>e04ed314-b1eb-44c2-b019-1d0b521ed08c</webElementGuid>
+      <webElementGuid>cbb0e0bf-5c6a-4e9a-8b0a-3e7220e5fc9d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-230']/span</value>
-      <webElementGuid>0cf16486-30c1-40ef-834c-316685deed74</webElementGuid>
+      <webElementGuid>2f5cefee-9680-4776-bdde-6d45c829f617</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CHAMPS DE MARS'])[1]/following::span[1]</value>
-      <webElementGuid>2091fcef-3f0d-4122-bd74-d77ea6f59535</webElementGuid>
+      <webElementGuid>b2c02bba-298d-4d5b-824e-a2f99fb76c38</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CASSIS'])[1]/following::span[2]</value>
-      <webElementGuid>0e5d7545-df3f-4fb1-8105-498e3e2802bc</webElementGuid>
+      <webElementGuid>2ba0e307-8b11-432c-9d9e-5ed15ebf21d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CITE LA CURE'])[1]/preceding::span[1]</value>
-      <webElementGuid>6e3f9b80-7d0a-43fd-a742-7214c7e81b53</webElementGuid>
+      <webElementGuid>40fed6b9-db44-4f75-8c3e-a1224054dadd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CITE MARTIAL'])[1]/preceding::span[2]</value>
-      <webElementGuid>3cac48d8-98b3-4d9b-b2fa-436f4aab5633</webElementGuid>
+      <webElementGuid>254bfa4d-c7da-4c07-8fb2-1e3035834f3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CHINA TOWN']/parent::*</value>
-      <webElementGuid>27c09f4c-1f70-47e5-8edf-b6717c787dba</webElementGuid>
+      <webElementGuid>96833570-8cc3-4d8f-b57e-153a589d2625</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[7]/span</value>
-      <webElementGuid>73b84322-104f-42a2-812c-1458211ad898</webElementGuid>
+      <webElementGuid>c89b2d20-2d88-4ac7-9233-4a752597b595</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' CHINA TOWN ' or . = ' CHINA TOWN ')]</value>
-      <webElementGuid>7634a71b-c1b1-470a-a6a2-00be98ed2aad</webElementGuid>
+      <webElementGuid>2fdaf3b1-5c0d-4f2d-b308-fb34617be670</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

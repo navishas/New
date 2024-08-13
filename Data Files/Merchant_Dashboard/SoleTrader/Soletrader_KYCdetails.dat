@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <DataFileEntity>
    <description></description>
-   <name>Merchant_signup</name>
+   <name>Soletrader_KYCdetails</name>
    <tag></tag>
    <connectionProperties/>
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
-   <dataFileGUID>3d9bdc5e-f7bb-4439-b234-a65887e7dc28</dataFileGUID>
+   <dataFileGUID>d3775db8-a627-4ed9-acfe-d8c016ca3f31</dataFileGUID>
    <dataSourceUrl>D:\OneDrive - Indium Software India Private Limited\CimFin\Merchant_Onboarding\Soletrader.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Sign_Up</sheetName>
+   <sheetName>KYC_Document</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
