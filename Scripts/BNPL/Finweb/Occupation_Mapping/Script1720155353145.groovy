@@ -44,7 +44,8 @@ WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_S
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('C:/Users/I1675/Downloads/Execution_Occupation_Mapping_LOS_18July24.xlsx', 'Sheet1', 
+Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('C:/Users/oorvasheeD/OneDrive - CIM Group/Documents/CIM Projects/BNPL/Katalon/Copy of Occupation_Mapping_LOS (2).xlsx','Sheet1',
+
     true) //Here ExcelFactory is a class and getExcelDatawithDefaultSheet is a static method and Object is class and excelData is objectname
 		//change the path when its run in another local system
 
@@ -122,7 +123,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) // row 0 in excel is 
 		
 		WebUI.delay(8, FailureHandling.OPTIONAL)
 		
-		/*/WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
+		//WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
 		
 		WebUI.click(findTestObject('LOS/Search/Page_Finweb - Brancho/span_Search'))
 		
@@ -648,22 +649,27 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 	
 						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Activity Complete_Emp_Details'))
 	
-						WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'),
-							5, FailureHandling.OPTIONAL)
+						//WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'),
+						//	5, FailureHandling.OPTIONAL)
 						
-						WebUI.delay(4, FailureHandling.OPTIONAL)
+						WebUI.delay(7, FailureHandling.OPTIONAL)
+						
+						WebUI.waitForElementClickable(findTestObject('LOS/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'),
+							5, FailureHandling.OPTIONAL)
 				
 						WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'))
 						
 						WebUI.delay(1, FailureHandling.OPTIONAL)
 						
-						WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
+						//WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
 						
-						WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'))
+						//WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'))
 						
-						//WebUI.refresh()
+						WebUI.refresh()
+						
+						WebUI.delay(10, FailureHandling.OPTIONAL)
 					
-						//WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Loan App Scorecard'))
+						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Loan App Scorecard'))
 						
 						WebUI.delay(4, FailureHandling.OPTIONAL)
 	
