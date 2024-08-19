@@ -218,6 +218,8 @@ WebUI.delay(3)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_Business_Documents'))
 
+WebUI.delay(2)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_KYC'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/div_Add New Identifier_mat-select-trigger n_1df9e8'))
@@ -246,9 +248,6 @@ WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_KYC_Document'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Next Steps_KYC_Documents'))
-
-WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_Reviewer_Documents'), 
-    30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Add New Document_Reviewer_Documents'))
 
@@ -298,9 +297,9 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Sol
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Submit'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Payment_Modes'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Payment_Modes'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/button_Save_Product_Config'))
 
@@ -411,7 +410,7 @@ WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_SoleTrade_Mer
     10, FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_SoleTrade_Merchant/Page_Operations Dashboard/input_Documents - Document_Name_Verifier_Documents'), 
-    Document_Name3)
+    'VAT')
 
 WebUI.scrollToElement(findTestObject('Page_Operations Dashboard/div_Documents'), 10, FailureHandling.OPTIONAL)
 

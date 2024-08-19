@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>6bdc98bd-557a-4f5e-896a-222198307f09</dataFileGUID>
-   <dataSourceUrl>C:\Users\I1675\Documents\KT documents\Sole_Trader.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\I3833\Downloads\Automation Excel FIles\Ops_Merchant_Onboarding\Sole_Trader.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

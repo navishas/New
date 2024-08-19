@@ -4,6 +4,7 @@
    <name>Create_Outlet</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>5d63e2eb-2c9b-47f0-b20f-5a8f64e614c3</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>

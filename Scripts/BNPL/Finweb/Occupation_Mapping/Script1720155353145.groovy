@@ -681,7 +681,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 				
 						WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/button_Skip Task_PEP_Declaration'))
 						
-						WebUI.delay(1, FailureHandling.OPTIONAL)
+						WebUI.delay(5, FailureHandling.OPTIONAL)
 						
 						//WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/button_Initiate_Scorecard'),5)
 						
@@ -690,7 +690,7 @@ private void executeSalaried(WebDriver driver, String occType, String businessTy
 						
 						WebUI.refresh()
 						
-						WebUI.delay(10, FailureHandling.OPTIONAL)
+						WebUI.delay(5, FailureHandling.OPTIONAL)
 					
 						WebUI.click(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/span_Loan App Scorecard'))
 						
