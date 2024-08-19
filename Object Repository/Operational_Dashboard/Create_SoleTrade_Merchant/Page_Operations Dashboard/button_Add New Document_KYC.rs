@@ -6,15 +6,16 @@
    <elementGuidId>291c6b21-7971-45d5-a0c2-86ed0465fc4b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;dynamicComponentParent&quot;]/app-documents-details/div/div/section/button</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>11b1b36b-e24f-4b9e-ae49-66f8e525a9b2</webElementGuid>
+      <webElementGuid>8a49e01c-cd2b-46f0-bac0-4e8928e1a17b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>92fd0bbc-c944-42f5-af78-c52e492c88c2</webElementGuid>
+      <webElementGuid>23c516e1-6db3-4f5f-be23-9c739259f9bf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a29aa104-17b5-4752-bab4-49ee3de7033c</webElementGuid>
+      <webElementGuid>86dcd663-7088-4241-99c6-ebfe4093c46d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>4ccbd678-edbc-4ed8-a6d9-c25830c87632</webElementGuid>
+      <webElementGuid>4e039d51-0afa-451a-b061-e5f47a5460ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -56,7 +57,7 @@
       <value>
             
          Add New Document </value>
-      <webElementGuid>fa3631f2-2418-417e-9bc7-b8425eb90993</webElementGuid>
+      <webElementGuid>af2ac8eb-ab21-4d6c-8a9d-13c41abf7cc9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -64,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-4&quot;]/section[1]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>fb08e6d6-4592-4fad-9b67-a7dba1654828</webElementGuid>
+      <webElementGuid>91dfb09b-cfa4-42d8-b191-0207bdb93804</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -72,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
-      <webElementGuid>55ad3fa3-a0e8-43f2-b31b-ad0a1f545c4c</webElementGuid>
+      <webElementGuid>cc8b54b4-d6d3-4e35-8a1d-0a752f7d0d75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/app-documents-details/div/div/section/button</value>
-      <webElementGuid>c956cade-18c2-47a4-9646-815266fb43c2</webElementGuid>
+      <webElementGuid>b5e07e13-c144-40f5-936a-18b6b852fbfe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='KYC Documents'])[2]/following::button[3]</value>
-      <webElementGuid>903ec380-5536-41fb-9256-b60511d52e40</webElementGuid>
+      <webElementGuid>fab5dc8e-9e72-44f1-bf1f-65d1e50c34d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::button[3]</value>
-      <webElementGuid>39a193fc-727a-4a91-bdad-2993ee5d9fd7</webElementGuid>
+      <webElementGuid>0e5351f6-7875-444f-89f5-7ca1e9b509f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -104,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Document Uploaded'])[1]/preceding::button[1]</value>
-      <webElementGuid>74150b68-28f7-49a3-89b0-562278704cbd</webElementGuid>
+      <webElementGuid>6f861153-fec7-4b39-8ff6-fd88f084dc89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +113,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/button</value>
-      <webElementGuid>d8329425-66be-479f-80d5-c7654182a6f9</webElementGuid>
+      <webElementGuid>a5594595-6386-4060-bad9-6e7f8b84a027</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,6 +125,6 @@
          Add New Document ' or . = '
             
          Add New Document ')]</value>
-      <webElementGuid>80ce57de-764d-4170-b694-708c092ff91a</webElementGuid>
+      <webElementGuid>4f0bd7dd-47e0-4d5c-91b1-717d8971dcc4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
