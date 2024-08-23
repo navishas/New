@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
+         <value>//span[contains(text(),'Save')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c8f5bc3c-2dce-443d-ba20-2008ef9b5d80</webElementGuid>
+      <webElementGuid>e42cb4f2-c2dc-402e-bb5f-f4a4c469c515</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>07f80c0b-3731-4694-97f3-15cbdac23971</webElementGuid>
+      <webElementGuid>a869673e-b360-4ca7-b402-7f6034c8db2c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Save Data Table</value>
-      <webElementGuid>0bf1a86f-4ba8-49d4-a529-28dd137248da</webElementGuid>
+      <webElementGuid>96619fb0-1314-49ee-8808-cc3a3d262ac7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>bd6158ad-7a85-42e7-9a88-ceb64b860c0e</webElementGuid>
+      <webElementGuid>21873120-c481-4984-b43d-76c5609e8cbd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>f5929d8a-2326-4f2c-910b-16ef5e3a7f31</webElementGuid>
+      <webElementGuid>347ecc67-0b84-456f-937c-a133d4289cf6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>9b8302b0-3ea5-4427-a798-3bb3d0327bfc</webElementGuid>
+      <webElementGuid>4498c5e8-9f1f-40f9-b5f1-b4f6723f1b3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;flex justify-end mt-6&quot;]/div[@class=&quot;mt-5 text-right w-full&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>cc0b3951-00ea-4bf3-81f7-e4ef62784ddf</webElementGuid>
+      <webElementGuid>f98e857a-f922-41d6-a813-4b384a21e2a4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>198864ea-b559-4f14-bd27-2f0d2df837c6</webElementGuid>
+      <webElementGuid>172f858b-52b9-453e-8bdb-663cfeb58097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div[2]/div/button</value>
-      <webElementGuid>c1abba31-8dbd-4e02-a1ff-c35e70021928</webElementGuid>
+      <webElementGuid>f7262508-fabe-4c10-9970-93b5b7850a8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[8]/following::button[1]</value>
-      <webElementGuid>b969e861-1925-49e1-aca1-63d409a791b9</webElementGuid>
+      <webElementGuid>cdf9a0c3-afb9-4858-b91b-b854cd8280d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Country'])[1]/following::button[1]</value>
-      <webElementGuid>c294394a-7117-47c8-997a-fc564998612f</webElementGuid>
+      <webElementGuid>8a9eee03-478b-4a5f-b44a-081a04edce67</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/preceding::button[1]</value>
-      <webElementGuid>0b173959-4d02-4879-b93d-2fba957dc835</webElementGuid>
+      <webElementGuid>fdc81d2e-a828-4bf8-8f7b-04cbbd6a6b42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>d2f99a2c-ecac-4385-997c-79c97089dc9f</webElementGuid>
+      <webElementGuid>0f91ff5a-be6c-41cf-9647-f11a9bf4ee41</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,6 +133,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>bc2c5df8-708f-44a9-85e5-5af61725a7f6</webElementGuid>
+      <webElementGuid>37b7c283-2019-4b1c-a037-184eb879fe7a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

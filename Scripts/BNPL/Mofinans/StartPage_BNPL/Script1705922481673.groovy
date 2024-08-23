@@ -16,11 +16,12 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\I1675\\Downloads\\MoFinans_v1.0.6.31_24Jun24.apk', false)
+Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\MoFinans_v1.0.6.32_12Aug24Android.apk', 
+    false)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.RelativeLayout'), 0)
 
-WebUI.delay(8, FailureHandling.OPTIONAL)
+WebUI.delay(15, FailureHandling.OPTIONAL)
 
 Mobile.scrollToText('Let’s Get Started')
 

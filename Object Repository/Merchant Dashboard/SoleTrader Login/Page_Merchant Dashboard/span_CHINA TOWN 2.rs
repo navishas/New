@@ -6,11 +6,11 @@
    <elementGuidId>61b3b9d0-d791-43db-8310-996ac900c55f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[(text() = ' CHINA TOWN ' or . = ' CHINA TOWN ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>(//*/text()[normalize-space(.)='CHINA TOWN']/parent::*)[2]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>1a88eb48-a30f-4c28-aedd-5a0ca01ccb24</dataFileGUID>
-   <dataSourceUrl>C:\Users\I1675\Documents\KT documents\Outlet.xlsx</dataSourceUrl>
+   <dataSourceUrl>C:\Users\I3833\Downloads\Automation Excel FIles\Ops_Merchant_Onboarding\Outlet.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

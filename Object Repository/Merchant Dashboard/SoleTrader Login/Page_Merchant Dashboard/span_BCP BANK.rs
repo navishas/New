@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-736']/span</value>
+         <value>//span[contains(text(),' BCP BANK ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>45c59ba9-99b2-41cd-b95a-3326537c933c</webElementGuid>
+      <webElementGuid>73208ab8-53d4-4135-a79f-ca4a770502f5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>be9c67c4-41fd-4b70-b46f-791a576c8c8a</webElementGuid>
+      <webElementGuid>2da614a6-1909-49a8-b8ba-4cf90b74f2bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value> BCP BANK </value>
-      <webElementGuid>d719a44a-a576-424e-9ea9-6377c9608150</webElementGuid>
+      <webElementGuid>014b8f8d-94cc-49c8-b333-3d37574a3cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-736&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>2777b303-b6dc-4af4-a0d4-93f3748875f7</webElementGuid>
+      <webElementGuid>ddd49edc-1d2f-41b6-8e16-0ad7c0f3cd46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-736']/span</value>
-      <webElementGuid>c86f0deb-eef7-4a3b-b37e-ad4d73f1d975</webElementGuid>
+      <webElementGuid>78ccff98-a33e-4820-8f77-786b06ab1bed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='ABSA BANK'])[1]/following::span[1]</value>
-      <webElementGuid>bbe1af3d-77ed-4b9d-b1fc-3ee66ff191dd</webElementGuid>
+      <webElementGuid>5d01cfe1-1659-4713-ac19-dac74104b72a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BANK ONE'])[1]/following::span[2]</value>
-      <webElementGuid>0c667e93-c26a-47a8-878e-3cab60b6bf4e</webElementGuid>
+      <webElementGuid>80f32444-13ef-4c40-9fca-9c2e652e6b62</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BANK OF BARODA LTD'])[1]/preceding::span[1]</value>
-      <webElementGuid>71213948-15f6-4921-92a9-75dd84b82c9a</webElementGuid>
+      <webElementGuid>155529ec-1ee8-49db-bbfe-8dbc1b70b413</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='HABIB BANK'])[1]/preceding::span[2]</value>
-      <webElementGuid>71c2f56a-92d2-425d-8e2f-f54e214550da</webElementGuid>
+      <webElementGuid>83d8e8ed-98d1-4e25-a81d-2bc97ccae1e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='BCP BANK']/parent::*</value>
-      <webElementGuid>d07e54d1-edcf-4bb5-b38b-7a223dcc0b22</webElementGuid>
+      <webElementGuid>bb2f5f56-7b9d-46b4-8f15-11905e23f5c4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[5]/span</value>
-      <webElementGuid>c30fd5e7-a474-4a77-aa0b-6124ec3eaad2</webElementGuid>
+      <webElementGuid>e7d370f9-ba40-44e2-a386-86b584cbf15e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' BCP BANK ' or . = ' BCP BANK ')]</value>
-      <webElementGuid>b5cf2529-1cb1-4faa-9cf5-8fa60c700a91</webElementGuid>
+      <webElementGuid>bc07dfae-6a1a-4f3d-a829-239475e4a026</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

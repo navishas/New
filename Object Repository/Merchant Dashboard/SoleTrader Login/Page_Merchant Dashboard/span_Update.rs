@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div[2]/div/button[2]/span</value>
+         <value>//span[(text() = 'Update' or . = 'Update')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>0fd0e3ef-c7c0-46d2-8d14-457828d2a9d1</webElementGuid>
+      <webElementGuid>28994570-d21a-42f9-87dc-21cdd17cfd95</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>7594a7f1-088c-4695-876c-145dd2e968cf</webElementGuid>
+      <webElementGuid>6a4e5397-b72d-4cf6-8f08-2eecfaecf026</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Update</value>
-      <webElementGuid>21bb407a-9b09-4285-808f-7e454c718d99</webElementGuid>
+      <webElementGuid>ab0f553c-ad18-4f78-a739-3c1d3688837e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;flex justify-end mt-6&quot;]/div[@class=&quot;mt-5 text-right w-full&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
-      <webElementGuid>6b29e596-6949-460c-8644-843f8620a1d9</webElementGuid>
+      <webElementGuid>6dcbed48-f928-4cb9-98da-87ac4968399f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div[2]/div/button[2]/span</value>
-      <webElementGuid>c5f398ca-95ca-4f1b-88ce-90d7fa791647</webElementGuid>
+      <webElementGuid>14b7a86c-f78a-43e1-84dd-1aaa37e00de8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::span[3]</value>
-      <webElementGuid>0444d831-1196-46ea-89f4-6cb9ebeb10fc</webElementGuid>
+      <webElementGuid>984f24a6-17d9-4dc5-944b-4b3666d4a5ec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::span[5]</value>
-      <webElementGuid>b0b2f5b3-a9d4-45ad-ba0d-83f933e9edcc</webElementGuid>
+      <webElementGuid>8315d262-2c40-484a-aec7-36de2ea9dc15</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/preceding::span[3]</value>
-      <webElementGuid>0d0ba1df-576f-4cd0-ae30-9c2fe76f6426</webElementGuid>
+      <webElementGuid>3faef1d2-9461-4857-aaed-a59535ba535d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip'])[1]/preceding::span[6]</value>
-      <webElementGuid>f8b58a0c-d1b8-4250-8a13-15a32a18a227</webElementGuid>
+      <webElementGuid>feee8fe9-4ee5-4fca-acce-e7ebf6ae0a97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Update']/parent::*</value>
-      <webElementGuid>5fdc28dd-c238-4949-b4a9-7def5f0eb92e</webElementGuid>
+      <webElementGuid>e71aecde-c694-47ba-bc71-dd248e028d54</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]/span</value>
-      <webElementGuid>e1d816ce-015f-4ecb-a9f2-9c66943c0852</webElementGuid>
+      <webElementGuid>81b9d3bc-03db-4b32-9ecb-1f60c3752cd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +117,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Update' or . = 'Update')]</value>
-      <webElementGuid>d93d2564-7116-43c5-9267-349bdb467363</webElementGuid>
+      <webElementGuid>5c8910cc-2c0d-46d1-b923-4f0751b9b6b3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

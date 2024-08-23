@@ -22,7 +22,7 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://cim-merchant-uat.m2pfintech.com/login')
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_Email Address  Mobile Number_email'), 
-    Phone_no)
+    Mobile_Number)
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input_Password_password'), 
     'cvW8qx4B2o3F4VwP/kNsqA==')
@@ -50,6 +50,7 @@ WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Da
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Sole Trader'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/a_Submit'))
+
 WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_-_mat-focus-indicator absolute right_240426'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Primary Contact_mat-select-trigger ng-t_f74992'))
@@ -124,11 +125,11 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'), 
     3)
+
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Update'))
-
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Next Steps'))
+
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Merchant Representative'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_Owner'))
@@ -177,8 +178,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 
 WebUI.click(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/span_CHINA TOWN 2'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'), 
-    3)
+WebUI.scrollToElement(findTestObject('Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'), 3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save'))
 
@@ -193,7 +193,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input__acc_no'), 
     Account_Number)
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input__reEnter_acc_no'), 
+WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/input__reEnter_acc_no'), 
     ReEnter_Account_Number)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Account Holders Name'))
@@ -224,13 +224,15 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Lo
     BR_Document_Name)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
-    0)
+    5)
+
+WebUI.delay(2)
 
 WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Upload File'), 
-    path)
+    Path)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'))
 
@@ -252,13 +254,15 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Lo
     KYC_Document_Name)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
-    0)
+    5)
+
+WebUI.delay(2)
 
 WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Upload File'), 
-    path)
+    Path)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'), 
-    0)
+    3)
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Login/Page_Merchant Dashboard/button_Save_1'))
 

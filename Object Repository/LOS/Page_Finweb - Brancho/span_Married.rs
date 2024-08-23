@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@role='listbox']/mat-option[2]</value>
+         <value>//span[contains(text(),'Married')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>c177d079-9421-442a-b288-4c476a2cc94e</webElementGuid>
+      <webElementGuid>70372066-5434-48cf-8482-8866ca7a734e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>483478ba-fa86-48d0-86c2-24dad9de956d</webElementGuid>
+      <webElementGuid>3d4d1cd8-dc4b-436f-a21f-9ec09e08a7b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Married</value>
-      <webElementGuid>926521be-63f5-4555-85d9-6be570117dc0</webElementGuid>
+      <webElementGuid>349e8319-37c0-4206-a204-366c739d8c2e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-8&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>e57e13ad-7dba-490d-934d-c702a50fc4a7</webElementGuid>
+      <webElementGuid>b2c656c2-47e6-415c-8f3b-4de693ab9ff0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-8']/span</value>
-      <webElementGuid>c8dcaaa8-6133-4986-9c7a-5c440e38a61a</webElementGuid>
+      <webElementGuid>2ce011a7-3322-4676-bbb3-7985af541e13</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Unmarried'])[1]/following::span[1]</value>
-      <webElementGuid>e321505d-4825-4cb9-af20-022581ca20a1</webElementGuid>
+      <webElementGuid>80366316-1b8c-4fd7-93f0-c924f9b51d6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-8', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[2]</value>
-      <webElementGuid>523a7dff-4877-4054-9b0c-cc80521829a5</webElementGuid>
+      <webElementGuid>dee86571-e80c-49de-805d-cf7187b09666</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Widowed'])[1]/preceding::span[1]</value>
-      <webElementGuid>51702cce-9f53-4284-bad9-9b16a21edc6a</webElementGuid>
+      <webElementGuid>d32ce596-8927-4d1b-82f5-4b1e90ad5392</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Divorced'])[1]/preceding::span[2]</value>
-      <webElementGuid>ec937dda-1d7f-4498-b029-09f562269a69</webElementGuid>
+      <webElementGuid>d2d94165-52db-4c10-bcb9-9edffad1a5f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Married']/parent::*</value>
-      <webElementGuid>e6e77f6a-f4ca-471d-ba68-4564dc3aeeca</webElementGuid>
+      <webElementGuid>9297aef4-c5da-4025-b425-75eea633cb44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[2]/span</value>
-      <webElementGuid>72bb85f8-07d9-41f9-a0e9-0e76656c8d03</webElementGuid>
+      <webElementGuid>6f02cd3c-c8e2-4901-ab3e-bd2966b55d18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Married' or . = 'Married')]</value>
-      <webElementGuid>7af49f2a-83bd-483a-817b-5472e914e7c5</webElementGuid>
+      <webElementGuid>6d1bbda6-b538-4bf9-9f41-103c15f545b5</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

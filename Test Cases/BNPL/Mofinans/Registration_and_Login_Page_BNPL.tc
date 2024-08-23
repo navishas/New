@@ -4,5 +4,6 @@
    <name>Registration_and_Login_Page_BNPL</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>955dcbad-9bdd-40d8-8c32-5a4d803a000b</testCaseGuid>
 </TestCaseEntity>
