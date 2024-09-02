@@ -16,7 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 
-Mobile.startApplication('C:\\Users\\I1675\\Downloads\\Android_Mo_Finas_v1.0.6.28_02Jan2024 (uatRelease).apk', false)
+Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\MoFinans_v1.0.6.32_12Aug24Android.apk', 
+    false)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.RelativeLayout'), 0)
 

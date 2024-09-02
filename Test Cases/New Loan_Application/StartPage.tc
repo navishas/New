@@ -4,5 +4,6 @@
    <name>StartPage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>2c9246ad-d105-48e3-bae0-36f1540c636e</testCaseGuid>
 </TestCaseEntity>

@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Registration/android.view.ViewGroup'), 3)
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Start Registration'), 0)
+Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Start Registration'), 2)
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 0)
+Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 2)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'D031297330133F', 
-    0)
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'P0104853002066', 
+    5)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)
 
@@ -49,38 +49,34 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
-Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
+WebUI.delay(20)
 
-Mobile.tapAtPosition(288, 1271, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(288, 1271, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
-
+//Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(288, 1271, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(288, 1271, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
+//
+//Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
 Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 10, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Registration/android.widget.Button - Do it Later'), 0)
 
-WebUI.delay(8, FailureHandling.OPTIONAL)
-
-Mobile.tapAtPosition(100, 1283, FailureHandling.STOP_ON_FAILURE)
-
-//Mobile.tap(findTestObject('Registration/android.widget.ImageView-Home_icon'), 0)
-WebUI.delay(5, FailureHandling.OPTIONAL)
+WebUI.delay(20, FailureHandling.OPTIONAL)
 

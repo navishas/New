@@ -6,15 +6,16 @@
    <elementGuidId>d0177a06-f3a2-4432-8e97-64e0ead16c51</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//div[4]/div/div/div[2]/div/div/div/div/div</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>div.ant-select-dropdown.css-qgg3xn.ant-select-dropdown-placement-topLeft > div > div.rc-virtual-list > div.rc-virtual-list-holder > div > div.rc-virtual-list-holder-inner > div.ant-select-item.ant-select-item-option.ant-select-item-option-active > div.ant-select-item-option-content</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@title=&quot;Martin&quot;]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>52e21fb7-0c52-4fe0-9bcb-beb99daaa559</webElementGuid>
+      <webElementGuid>a4667178-5b8e-4d5b-bc1a-131520310725</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-select-item-option-content</value>
-      <webElementGuid>43fe17d3-efd9-4817-b96d-246058fb84c2</webElementGuid>
+      <webElementGuid>cfd51cf9-3af1-45e0-9153-bc59799f02e3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>GAMM corp  -  EsHmFC1wHC</value>
-      <webElementGuid>f4592e13-44f3-4b67-85a7-3718826ce236</webElementGuid>
+      <webElementGuid>0cfe7632-50e4-41a9-994e-23b645b50697</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;full-layout&quot;]/div[5]/div[@class=&quot;ant-select-dropdown css-qgg3xn ant-select-dropdown-placement-topLeft&quot;]/div[1]/div[@class=&quot;rc-virtual-list&quot;]/div[@class=&quot;rc-virtual-list-holder&quot;]/div[1]/div[@class=&quot;rc-virtual-list-holder-inner&quot;]/div[@class=&quot;ant-select-item ant-select-item-option ant-select-item-option-active&quot;]/div[@class=&quot;ant-select-item-option-content&quot;]</value>
-      <webElementGuid>53f27ab8-78e0-437b-98a3-53683d833c33</webElementGuid>
+      <webElementGuid>2b2f8368-0cd5-4b11-baa3-139a54d5b194</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='i78GrkruaL'])[1]/following::div[6]</value>
-      <webElementGuid>f6e9d6bb-5604-43f2-afd3-3d2d6db7fd0c</webElementGuid>
+      <webElementGuid>34b07a76-4807-4c01-9a4c-59d112d929bb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EsHmFC1wHC'])[1]/following::div[7]</value>
-      <webElementGuid>12fe0711-d64c-40d6-979d-76fe5cd03f5e</webElementGuid>
+      <webElementGuid>f4aff45f-e4a1-42c6-aa0a-00ddd382f863</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='GAMM corp']/parent::*</value>
-      <webElementGuid>6dc834b0-b0fd-463f-820b-bcbf93a7bdac</webElementGuid>
+      <webElementGuid>b6cf7e67-297c-407d-ae1d-33aa9e1ccf40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div/div[2]/div/div/div/div/div</value>
-      <webElementGuid>688bc09a-2258-4b94-ac2f-73651365e1b8</webElementGuid>
+      <webElementGuid>f2689200-c26e-4f69-94b9-4c12a5726e35</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = 'GAMM corp  -  EsHmFC1wHC' or . = 'GAMM corp  -  EsHmFC1wHC')]</value>
-      <webElementGuid>38913d11-a90d-4fc8-9b95-6d63f5f86d8d</webElementGuid>
+      <webElementGuid>b767ab15-0b24-4baf-bcbe-55b5adcbe268</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

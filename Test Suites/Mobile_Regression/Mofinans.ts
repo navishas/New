@@ -25,4 +25,11 @@
       <testCaseId>Test Cases/BNPL/Mofinans/Registration_and_Login_Page_BNPL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
+   <testCaseLink>
+      <guid>04624cee-8663-4cea-8ff6-5e4626f73103</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BNPL/Mofinans/Mo_Pay - 3</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
 </TestSuiteEntity>

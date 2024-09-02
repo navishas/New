@@ -6,15 +6,16 @@
    <elementGuidId>e1b034e3-787f-4617-ab05-2a1f21fa56a5</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[contains(text(),'Phone')]/ancestor::span/preceding-sibling::input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#phone_number</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='phone_number']</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>fc7b9351-4d62-4c3f-a6a1-c791db96dd21</webElementGuid>
+      <webElementGuid>0c6fc8fd-f954-46a5-8179-f85964bd3bdd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>4b1970c8-1057-4db4-9425-d72bff6086d2</webElementGuid>
+      <webElementGuid>0bbce30e-335f-4fa2-b0b0-6b150d128dae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-8 ng-untouched cdk-text-field-autofill-monitored ng-dirty ng-valid</value>
-      <webElementGuid>5591378a-51f0-48d5-ba4e-80f5167f8bc0</webElementGuid>
+      <webElementGuid>504531d6-5037-4110-8263-dcf22eb4d0f2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>number</value>
-      <webElementGuid>63813573-1b08-4109-9d49-9153c0061117</webElementGuid>
+      <webElementGuid>320abb97-d1bb-4e00-a066-f5a70ebee8b6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>phone_number</value>
-      <webElementGuid>28397f61-9036-4688-b523-26ac90ba734e</webElementGuid>
+      <webElementGuid>00445483-a82e-466e-be14-56f811641a00</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4c2b1587-821d-4f4d-9daa-f17605e7e259</webElementGuid>
+      <webElementGuid>fe8b0f24-31bf-4b74-a9f3-3bf63993f14d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>0ea21dbe-d703-40c4-8d85-1a4938cefac0</webElementGuid>
+      <webElementGuid>4478bb65-4edf-4a84-9d72-0fc9800083e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;phone_number&quot;)</value>
-      <webElementGuid>906a74d4-8dd1-4382-bd4c-b1c3e1df47c4</webElementGuid>
+      <webElementGuid>3463228b-e7f6-4b90-bbc1-607fed5b4b3a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='phone_number']</value>
-      <webElementGuid>991a1a6d-37d4-4fba-add4-0b291c1cee83</webElementGuid>
+      <webElementGuid>bfaf5b23-be1e-4126-9ca5-ff4b8e39582d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[5]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>5c93f179-7c80-4648-a620-82a1a2a1e508</webElementGuid>
+      <webElementGuid>da078890-4d08-45ae-a0e1-569c1c56ef60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>5e7c8678-d998-4d94-848f-2f25aae7ae48</webElementGuid>
+      <webElementGuid>d1aaa48b-2d58-4039-98b9-00d5cc3f2f84</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'number' and @id = 'phone_number']</value>
-      <webElementGuid>bc61a370-b7e5-48d5-96c5-796ea85ac96d</webElementGuid>
+      <webElementGuid>e35239b0-e864-4c50-966a-5ec02422ccb2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
