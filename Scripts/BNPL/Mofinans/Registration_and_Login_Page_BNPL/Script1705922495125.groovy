@@ -16,12 +16,22 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import io.appium.java_client.MobileElement
+import io.appium.java_client.TouchAction
+import io.appium.java_client.touch.offset.PointOption
+import com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory
+import java.util.Map
+import java.util.HashMap
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.view.ViewGroup'), 3)
+private static final Map<String, Integer> keypadCache = new HashMap<>()
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Start Registration'), 2)
+Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Register'), 3)
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 2)
+WebUI.delay(7)
+
+//Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Start Registration'), 2)
+//
+//Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 2)
 
 Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'P0104853002066', 
     5)
@@ -49,7 +59,70 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
-WebUI.delay(20)
+// Define the global keypad cache
+private static final Map<String, Integer> keypadCache = new HashMap<>();
+
+/**
+ * Method to enter the MPIN using custom numeric keypad.
+ */
+public void enterMpin(String pin) {
+	clickOnCustomViewKeyPad(findTestObject('Rough/Mobile_reg/Keypad_obj'), pin)
+}
+
+/**
+ * Method to click on the custom numeric keypad based on the MPIN digits.
+ */
+public static void clickOnCustomViewKeyPad(TestObject testObject, String pin) {
+	MobileElement mobileElementCustomKeyPad = Mobile.getElement(testObject)
+	
+	// Cache keypad dimensions and positions
+	cacheKeypadDimensionsAndPositions(mobileElementCustomKeyPad)
+	
+	char[] pinCharArray = pin.toCharArray()
+	
+	for (char pinChar : pinCharArray) {
+		int numXAxis, numYAxis
+		
+		if (pinChar == '0') {
+			numXAxis = keypadCache.get("keypadX") + keypadCache.get("keyWidth") + keypadCache.get("keyWidth") / 2
+			numYAxis = keypadCache.get("keypadY") + (3 * keypadCache.get("keyHeight")) + keypadCache.get("keyHeight") / 2
+		} else {
+			numXAxis = keypadCache.get("keypadX") + (keypadCache.get("keyWidth") * ((pinChar - '1') % 3)) + keypadCache.get("keyWidth") / 2
+			numYAxis = keypadCache.get("keypadY") + (keypadCache.get("keyHeight") * ((pinChar - '1') / 3)) + keypadCache.get("keyHeight") / 2
+		}
+
+		Mobile.tapAtPosition(numXAxis, numYAxis)
+		println "Clicked number ${pinChar} at X: ${numXAxis}, Y: ${numYAxis}"
+		
+		// Adding delay to mimic real user interaction
+		Mobile.delay(0.1)
+	}
+}
+
+/**
+ * Cache the keypad dimensions and positions based on the mobile element.
+ */
+public static void cacheKeypadDimensionsAndPositions(MobileElement webElement) {
+	int keypadX = webElement.getLocation().getX()
+	int keypadY = webElement.getLocation().getY()
+	int keyWidth = webElement.getSize().getWidth() / 3
+	int keyHeight = webElement.getSize().getHeight() / 4
+	
+	keypadCache.put("keypadX", keypadX)
+	keypadCache.put("keypadY", keypadY)
+	keypadCache.put("keyWidth", keyWidth)
+	keypadCache.put("keyHeight", keyHeight)
+}
+
+/**
+ * Resets the cached keypad dimensions and positions.
+ */
+public static void resetKeypadCache() {
+	if (!keypadCache.isEmpty()) {
+		keypadCache.clear()
+	}
+}
+
 
 //Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
 //
@@ -74,6 +147,8 @@ WebUI.delay(20)
 //Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
 //
 //Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
+enterMpin("235678")
+
 Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 10, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Registration/android.widget.Button - Do it Later'), 0)

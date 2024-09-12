@@ -19,17 +19,17 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b0b87fd6-b6b0-45ab-a24e-bd414ddbd983</guid>
+      <guid>2273a608-bdd3-4096-9185-81542a72f818</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/BNPL/Mofinans/MPIN</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5f94ae40-959c-42df-9840-20a57b1872a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/BNPL/Mofinans/Registration_and_Login_Page_BNPL</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>04624cee-8663-4cea-8ff6-5e4626f73103</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BNPL/Mofinans/Mo_Pay - 3</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

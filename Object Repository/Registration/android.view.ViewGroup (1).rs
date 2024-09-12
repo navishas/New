@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>android.view.View</name>
+   <name>android.view.ViewGroup (1)</name>
    <tag></tag>
    <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
@@ -12,24 +12,24 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>android.view.View</value>
-      <webElementGuid>5d6d7bd0-eef6-4350-960a-03dbf28c9b06</webElementGuid>
+      <value>android.view.ViewGroup</value>
+      <webElementGuid>35c84593-a122-4e4a-8e85-e35fc8e0aa09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>index</name>
       <type>Main</type>
-      <value>0</value>
-      <webElementGuid>38a3667d-3cd1-43aa-9493-538a76136b70</webElementGuid>
+      <value>2</value>
+      <webElementGuid>20bbf811-6d16-477c-a7c4-ae870326150c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>resource-id</name>
       <type>Main</type>
-      <value>mu.cimfinance.mofinans:id/vwKeyboard</value>
-      <webElementGuid>60c4b1f7-6a31-442a-b419-a6e03dfb909e</webElementGuid>
+      <value>mu.cimfinance.mofinans:id/clBottom</value>
+      <webElementGuid>ca5279d1-1f2a-4ce9-a33a-a6ffa63eccf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>package</name>
       <type>Main</type>
       <value>mu.cimfinance.mofinans</value>
-      <webElementGuid>253ae7c8-1a3b-4496-9f04-0ab757ab1696</webElementGuid>
+      <webElementGuid>64538888-390a-42a1-b1fe-d434011b921a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>eae81ca2-6b9e-4d5f-890f-e221fb5c0757</webElementGuid>
+      <webElementGuid>4c47f7ee-7e63-4a4e-b74f-3bb1f57d142f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>084b18e4-6270-44eb-898a-221fb41df78e</webElementGuid>
+      <webElementGuid>66347996-1837-40cd-baa7-82cd4e92c78d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4cd64c59-ad7d-4f7f-b891-369519b0f05d</webElementGuid>
+      <webElementGuid>90b948a8-b58a-4207-8fbc-53f46f8c4333</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,23 +69,23 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>a68a580c-0e9b-47d6-9185-98cab99bd30a</webElementGuid>
+      <webElementGuid>93006e07-586b-4434-866a-a50e19c2ce34</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focusable</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>96b3db3e-524b-4a2c-b0fd-89d9827a83bb</webElementGuid>
+      <value>false</value>
+      <webElementGuid>231d2f4e-00c4-422f-8c05-2664a5f830af</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>focused</name>
       <type>Main</type>
-      <value>true</value>
-      <webElementGuid>832c0ad9-1888-4d48-b528-39ca5bcc69d8</webElementGuid>
+      <value>false</value>
+      <webElementGuid>b5f67069-81ae-4cfd-877f-f6c433135b4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>a444071c-4595-4fac-9de4-1ae8008eee5b</webElementGuid>
+      <webElementGuid>8c76262b-aa53-4419-9eab-21e7d4d4bb46</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>ca5e0271-ad4c-4fb7-973e-7808540fab9b</webElementGuid>
+      <webElementGuid>ab205ac8-e754-463e-a2ef-624fd0121b55</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3e998365-28a2-4d71-97b3-25085a6fe9e1</webElementGuid>
+      <webElementGuid>45e20916-e8a2-427a-acdc-b5ef31cd454a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>3d9e573b-a4cd-47e2-9a51-7c9ac4302dbf</webElementGuid>
+      <webElementGuid>47682b0a-9395-44ea-93a2-f7412818faa9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -125,39 +125,39 @@
       <name>x</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>43f174ba-b726-4b9b-ac29-184e91c75675</webElementGuid>
+      <webElementGuid>c7b2ad7a-a6cd-4cf0-994a-06b5f903d9c3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>y</name>
       <type>Main</type>
-      <value>734</value>
-      <webElementGuid>cbc72a68-fa76-40f0-b84d-3076017faae3</webElementGuid>
+      <value>48</value>
+      <webElementGuid>a8e74eb9-1a8b-4e1d-a014-77ac91958ccb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>width</name>
       <type>Main</type>
-      <value>627</value>
-      <webElementGuid>88c019a3-92f6-4589-aa46-5252dab246ad</webElementGuid>
+      <value>720</value>
+      <webElementGuid>4e94083b-40f2-488a-bc8b-ce8f784377f7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>height</name>
       <type>Main</type>
-      <value>604</value>
-      <webElementGuid>340a7c55-d43d-42e8-a6a6-af8c2a47f9ba</webElementGuid>
+      <value>1310</value>
+      <webElementGuid>de4225c6-aa50-4484-9b81-704db3f5c390</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>bounds</name>
       <type>Main</type>
-      <value>[0,734][627,1338]</value>
-      <webElementGuid>83886a95-2f36-4fc5-8ab3-dd7ef3e26d5b</webElementGuid>
+      <value>[0,48][720,1358]</value>
+      <webElementGuid>54e01135-f356-4a28-8ee6-3f9a330c5fc8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -165,7 +165,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>db409987-2a95-4c70-9369-de59a2da2aec</webElementGuid>
+      <webElementGuid>67c0386e-65f2-4d42-a5e4-4c458386bb71</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -173,61 +173,65 @@
       <name>text</name>
       <type>Main</type>
       <value></value>
-      <webElementGuid>1a5686fe-613e-4c86-aa91-3d156b4f0307</webElementGuid>
+      <webElementGuid>68062cde-3fb9-403d-a5d7-88159dfc52e0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[2]/android.view.View[1]</value>
-      <webElementGuid>1bbfb143-d008-4d5d-bdc5-8618e2adf596</webElementGuid>
+      <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]</value>
+      <webElementGuid>918eb6b6-c5b6-4ffc-ba8d-49a50a9fb6ab</webElementGuid>
    </webElementProperties>
-   <locator>//*[@class = 'android.view.View' and @resource-id = 'mu.cimfinance.mofinans:id/vwKeyboard' and (@text = '' or . = '')]</locator>
+   <locator>//*[@class = 'android.view.ViewGroup' and @resource-id = 'mu.cimfinance.mofinans:id/clBottom' and (@text = '' or . = '')]</locator>
    <locatorCollection>
       <entry>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'mu.cimfinance.mofinans:id/vwKeyboard' and (@text = '' or . = '')]</value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/androidx.appcompat.widget.LinearLayoutCompat[2]/android.view.View[1]</value>
-      </entry>
-      <entry>
          <key>ACCESSIBILITY</key>
+         <value></value>
       </entry>
       <entry>
          <key>IOS_PREDICATE_STRING</key>
-      </entry>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-      </entry>
-      <entry>
-         <key>IOS_CLASS_CHAIN</key>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-         <value>//*[@class = 'android.view.View' and @resource-id = 'mu.cimfinance.mofinans:id/vwKeyboard' and (@text = '' or . = '')]</value>
-      </entry>
-      <entry>
-         <key>IMAGE</key>
-      </entry>
-      <entry>
-         <key>CLASS_NAME</key>
-         <value>android.view.View</value>
-      </entry>
-      <entry>
-         <key>ANDROID_UI_AUTOMATOR</key>
-         <value>new UiSelector().className(&quot;android.view.View&quot;).resourceId(&quot;mu.cimfinance.mofinans:id/vwKeyboard&quot;).packageName(&quot;mu.cimfinance.mofinans&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(true).focused(true).scrollable(false).selected(false).index(0)</value>
-      </entry>
-      <entry>
-         <key>CUSTOM</key>
-      </entry>
-      <entry>
-         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
          <key>ID</key>
-         <value>mu.cimfinance.mofinans:id/vwKeyboard</value>
+         <value>mu.cimfinance.mofinans:id/clBottom</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.view.ViewGroup[1]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.view.ViewGroup&quot;).resourceId(&quot;mu.cimfinance.mofinans:id/clBottom&quot;).packageName(&quot;mu.cimfinance.mofinans&quot;).enabled(true).clickable(false).longClickable(false).checkable(false).checked(false).focusable(false).focused(false).scrollable(false).selected(false).index(2)</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//*[@class = 'android.view.ViewGroup' and @resource-id = 'mu.cimfinance.mofinans:id/clBottom' and (@text = '' or . = '')]</value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.view.ViewGroup</value>
       </entry>
    </locatorCollection>
    <locatorStrategy>ATTRIBUTES</locatorStrategy>

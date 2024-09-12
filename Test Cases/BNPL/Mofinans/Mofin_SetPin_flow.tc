@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>Mofin_SetPin_flow</name>
-   <tag></tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>cf36ace4-6a90-4984-adcb-9e0d905e3547</testCaseGuid>
-</TestCaseEntity>
