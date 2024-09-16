@@ -19,13 +19,6 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>2273a608-bdd3-4096-9185-81542a72f818</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/BNPL/Mofinans/MPIN</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
-   </testCaseLink>
-   <testCaseLink>
       <guid>5f94ae40-959c-42df-9840-20a57b1872a6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>

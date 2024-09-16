@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>KeyboardID</name>
+   <name>CustomKeypad</name>
    <tag></tag>
-   <elementGuidId>5101f43e-f16e-4f86-b3ea-e380dbf73408</elementGuidId>
+   <elementGuidId>a78fd015-688d-416e-babe-c55dee3c4653</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>new UiSelector().resourceId(&quot;mu.cimfinance.mofinans:id/llBottom&quot;)&#xd;
-</locator>
+   <locator>//android.widget.LinearLayout[@resource-id='mu.cimfinance.mofinans:id/llBottom']</locator>
    <locatorCollection>
       <entry>
          <key>ATTRIBUTES</key>
@@ -43,8 +42,7 @@
       </entry>
       <entry>
          <key>ID</key>
-         <value>mu.cimfinance.mofinans:id/llBottom&#xd;
-</value>
+         <value></value>
       </entry>
       <entry>
          <key>IMAGE</key>
@@ -59,6 +57,6 @@
          <value></value>
       </entry>
    </locatorCollection>
-   <locatorStrategy>ANDROID_UI_AUTOMATOR</locatorStrategy>
+   <locatorStrategy>XPATH</locatorStrategy>
    <platform>ANDROID</platform>
 </MobileElementEntity>

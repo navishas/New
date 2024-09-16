@@ -55,64 +55,61 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
-class CustomNumPad {
+import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
+import com.kms.katalon.core.testobject.TestObject as TestObject
+import com.kms.katalon.core.annotation.Keyword
 
-    static final Map<String, Integer> keypadCache = new HashMap<>()
-	
-	static void resetKeypadCache() {
-		if (!keypadCache.isEmpty()) {
-			keypadCache.clear()
-		}
-	}
+class KeypadUtils {
+    
+    // Assume keypadCache is a map holding keypad dimensions and positions
+     static Map<String, Integer> keypadCache = new HashMap<>()
 
-    static void enterMpin(String pin) {
-        TestObject keypadTestObject = findTestObject('Object Repository/Registration/CustomKeypad')
-        cacheKeypadDimensionsAndPositions(keypadTestObject)
+    // Define the mobile element for the custom keypad
+     static mobileElementCustomKeyPad
 
-        pin.toCharArray().each { char pinChar ->
+    
+    static void clickOnCustomViewKeyPad(WebElement webElement, String argsSetmPIN) {
+        char[] pinCharArray = argsSetmPIN.toCharArray()
+
+        for (char pin : pinCharArray) {
             int numXAxis, numYAxis
-            int pinValue = Character.getNumericValue(pinChar) // Convert char to its integer value
-
-            if (pinValue == 0) {
-                numXAxis = keypadCache.get("keypadX") + keypadCache.get("keyWidth") + keypadCache.get("keyWidth") / 2
-                numYAxis = keypadCache.get("keypadY") + (3 * keypadCache.get("keyHeight")) + keypadCache.get("keyHeight") / 2
+            if (pin == '0') {
+                numXAxis = keypadCache["keypadX"] + keypadCache["keyWidth"] + keypadCache["keyWidth"] / 2
+                numYAxis = keypadCache["keypadY"] + (3 * keypadCache["keyHeight"]) + keypadCache["keyHeight"] / 2
             } else {
-                numXAxis = keypadCache.get("keypadX") + (keypadCache.get("keyWidth") * ((pinValue - 1) % 3)) + keypadCache.get("keyWidth") / 2
-                numYAxis = keypadCache.get("keypadY") + (keypadCache.get("keyHeight") * ((pinValue - 1) / 3)) + keypadCache.get("keyHeight") / 2
+                numXAxis = keypadCache["keypadX"] + (keypadCache["keyWidth"] * ((pin - '1') % 3)) + keypadCache["keyWidth"] / 2
+                numYAxis = keypadCache["keypadY"] + (keypadCache["keyHeight"] * ((pin - '1') / 3)) + keypadCache["keyHeight"] / 2
             }
 
-            CustomNumPad.tapAtPoint(numXAxis, numYAxis)
-            println "Clicked number $pinChar at X: $numXAxis Y: $numYAxis"
-            Thread.sleep(100) // Small delay to ensure proper keypress simulation
+            Mobile.tapAtPosition(numXAxis, numYAxis)
+            println "Clicked number ${pin} at X: ${numXAxis} Y: ${numYAxis}"
+            Thread.sleep(100)
         }
     }
 
-    static void tapAtPoint(int x, int y) {
-        AppiumDriver<MobileElement> driver = (AppiumDriver<MobileElement>) getDriver()
-        TouchAction action = new TouchAction(driver)
-        action.tap(TapOptions.tapOptions().withPosition(PointOption.point(x, y))).perform()
-        println "Tapped at X: $x, Y: $y"
+    
+    static void enterMpin(String pin) {
+        if (mobileElementCustomKeyPad != null) {
+            clickOnCustomViewKeyPad(mobileElementCustomKeyPad, pin)
+        } else {
+            println "Error: mobileElementCustomKeyPad is not initialized."
+        }
     }
 
-    static void cacheKeypadDimensionsAndPositions(TestObject keypadTestObject) {
-        // Example to cache the dimensions of the keypad
-        Dimension dimension = new Dimension(720, 624) // Dimensions calculated from the bounds [0,734][720,1358]
-        Point location = new Point(0, 734) // Location calculated from the bounds [0,734][720,1358]
-
-        int keypadX = location.getX()
-        int keypadY = location.getY()
-        int keyWidth = dimension.getWidth() / 3
-        int keyHeight = dimension.getHeight() / 4
-
-        keypadCache.put("keypadX", keypadX)
-        keypadCache.put("keypadY", keypadY)
-        keypadCache.put("keyWidth", keyWidth)
-        keypadCache.put("keyHeight", keyHeight)
+    // Method to set the mobileElementCustomKeyPad
+    
+    static void setCustomKeyPadElement(TestObject testObject) {
+        mobileElementCustomKeyPad = findTestObject('Object Repository/Registration/CustomKeyPad')
     }
 
+	public static void resetKeypadCache() {
+		if (!keypadCache.isEmpty()){
+			keypadCache.clear();
+		}
+	}
 }
 
-CustomNumPad.enterMpin("234678")
+KeypadUtils.enterMpin("234678")
 
 WebUI.delay(20)
 
