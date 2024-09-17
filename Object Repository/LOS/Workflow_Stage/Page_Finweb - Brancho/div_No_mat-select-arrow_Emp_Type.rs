@@ -6,15 +6,16 @@
    <elementGuidId>94c0a89a-9b07-488c-a0c5-c872ff7d39e1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>(//mat-select/div/div[2]/div)[1]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>div.mat-select-arrow.ng-tns-c88-166</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-select/div/div[2]/div</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>db09accc-9719-45ab-a563-522235e12e59</webElementGuid>
+      <webElementGuid>f0de39b8-73aa-4a87-afd2-da4776a0a28c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-arrow ng-tns-c88-166</value>
-      <webElementGuid>f250d1f8-5aa5-4903-a22f-f587015fc97f</webElementGuid>
+      <webElementGuid>cc2bc440-66b5-4d60-b491-adfef7c8a0bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-38&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c88-166&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c88-166&quot;]/div[@class=&quot;mat-select-arrow ng-tns-c88-166&quot;]</value>
-      <webElementGuid>d2328d0f-19c0-45d2-993d-149882c29141</webElementGuid>
+      <webElementGuid>a8d43cb1-993a-4da1-8055-a47b286085ca</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-38']/div/div[2]/div</value>
-      <webElementGuid>5fd72be3-4a5a-490f-9e97-857c2bf0710f</webElementGuid>
+      <webElementGuid>277947a5-6a60-4673-8441-f198af6230bd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div/div[2]/div</value>
-      <webElementGuid>f424fa27-c37e-4f4d-a10a-2710acf39e76</webElementGuid>
+      <webElementGuid>73793703-ce2b-4724-907a-a1ae02c69881</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

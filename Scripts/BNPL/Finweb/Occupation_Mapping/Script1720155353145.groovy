@@ -187,11 +187,10 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) // row 0 in excel is 
 		
 		WebUI.delay(10)
 		
-		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Skip_Task_button'))
-	
-				       
-		WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
-            10, FailureHandling.OPTIONAL)
+		//WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Skip_Task_button'))
+					       
+//		WebUI.waitForElementClickable(findTestObject('LOS/Workflow_Stage/Page_Finweb - Brancho/div_No_mat-select-arrow_Emp_Type'), 
+//            10, FailureHandling.OPTIONAL)
 		
 		WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Scroll_to_emp'), 5)
 
