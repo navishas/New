@@ -19,10 +19,10 @@
       <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5f94ae40-959c-42df-9840-20a57b1872a6</guid>
+      <guid>8e13d3c0-5cab-49f1-a7e6-9fc9bae7a9c0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BNPL/Mofinans/Registration_and_Login_Page_BNPL</testCaseId>
+      <testCaseId>Test Cases/BNPL/Mofinans/MPIN</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

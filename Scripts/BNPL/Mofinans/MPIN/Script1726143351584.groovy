@@ -25,14 +25,13 @@ import org.openqa.selenium.Point
 import static com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver
 import io.appium.java_client.touch.TapOptions
 import io.appium.java_client.AppiumDriver
-
-WebUI.delay(2)
+Mobile.delay(2)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Register'), 3)
 
 //Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Start Registration'), 2)
 
-WebUI.delay(5)
+Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 3)
 
@@ -44,12 +43,16 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Registration/andr
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Yes, Its Correct'), 0)
 
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(0)'), '2', 0)
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(1)'), '2', 0)
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(2)'), '2', 0)
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(3)'), '2', 0)
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(4)'), '2', 0)
-Mobile.setText(findTestObject('Registration/android.widget.ImageView(5)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(0)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(1)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(2)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(3)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(4)'), '2', 0)
+//Mobile.setText(findTestObject('Registration/android.widget.ImageView(5)'), '2', 0)
+
+for (int i = 0; i < 6; i++) {
+	Mobile.setText(findTestObject("Registration/android.widget.ImageView(${i})"), '2', 0)
+}
 
 Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 0)
 
@@ -66,7 +69,7 @@ class CustomNumPad {
 	}
 
     static void enterMpin(String pin) {
-        TestObject keypadTestObject = findTestObject('Object Repository/Registration/CustomKeypad')
+        TestObject keypadTestObject = findTestObject('Object Repository/Registration/androidx.appcompat.widget.LinearLayoutCompat')
         cacheKeypadDimensionsAndPositions(keypadTestObject)
 
         pin.toCharArray().each { char pinChar ->
@@ -96,8 +99,8 @@ class CustomNumPad {
 
     static void cacheKeypadDimensionsAndPositions(TestObject keypadTestObject) {
         // Example to cache the dimensions of the keypad
-        Dimension dimension = new Dimension(720, 624) // Dimensions calculated from the bounds [0,734][720,1358]
-        Point location = new Point(0, 734) // Location calculated from the bounds [0,734][720,1358]
+        Dimension dimension = new Dimension(720, 673) // Dimensions calculated from the bounds [0,734][720,1358]
+        Point location = new Point(0, 837) // Location calculated from the bounds [0,734][720,1358]
 
         int keypadX = location.getX()
         int keypadY = location.getY()
@@ -112,12 +115,21 @@ class CustomNumPad {
 
 }
 
-CustomNumPad.enterMpin("234678")
+CustomNumPad.enterMpin("245577")
 
-WebUI.delay(20)
+Mobile.delay(4)
 
-Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 10, FailureHandling.OPTIONAL)
+CustomNumPad.enterMpin("245577")
+
+WebUI.delay(3)
+
+Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 3, FailureHandling.OPTIONAL)
 
 Mobile.tap(findTestObject('Registration/android.widget.Button - Do it Later'), 0)
 
-WebUI.delay(20, FailureHandling.OPTIONAL)
+Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Not Now'), 3, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Registration/android.widget.Button - Not Now'), 0)
+
+Mobile.delay(5)
+

@@ -60,70 +60,41 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
-//AppiumDriver<?> driver = MobileDriverFactory.getDriver()
-//MultiTouchAction multiTouch = new MultiTouchAction(driver)
-//TouchAction action1 = new TouchAction(driver)
-//
-//int locationX = Mobile.getElementLeftPosition(findTestObject('Object Repository/Registration/androidx.appcompat.widget.LinearLayoutCompat - KeyboardID'), 10)
-//int locationY = Mobile.getElementTopPosition(findTestObject('Object Repository/Registration/androidx.appcompat.widget.LinearLayoutCompat - KeyboardID'), 10)
-//int eleWidth = Mobile.getElementWidth(findTestObject('Object Repository/Registration/androidx.appcompat.widget.LinearLayoutCompat - KeyboardID'), 10)
-//int eleHeight = Mobile.getElementHeight(findTestObject('Object Repository/Registration/androidx.appcompat.widget.LinearLayoutCompat - KeyboardID'), 10)
-//int startX = locationX + (eleWidth * 0.25)
-//int startY = locationY + (eleHeight * 0.66)
-//			
-//action1.tap(PointOption.point(310, 920))
-//action1.perform()
-
 Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(505, 1618, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
+
+Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
 WebUI.delay(4, FailureHandling.OPTIONAL)
 
 Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tapAtPosition(505, 1618, FailureHandling.STOP_ON_FAILURE)
-
-Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
-
 Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
 Mobile.tapAtPosition(521, 1839, FailureHandling.STOP_ON_FAILURE)
 
-//
-//Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(495, 957, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(288, 1271, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(79, 1113, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(79, 801, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(495, 1115, FailureHandling.STOP_ON_FAILURE)
-//
-//Mobile.tapAtPosition(288, 1113, FailureHandling.STOP_ON_FAILURE)
+Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 10, FailureHandling.OPTIONAL)
+Mobile.tapAtPosition(517, 1360, FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Registration/android.widget.Button - Do it Later'), 0)
+WebUI.delay(4, FailureHandling.OPTIONAL)
+
+Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Registration/android.widget.Button - Do it Later'), 5)
+
+Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Not Now'), 5, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Registration/android.widget.Button - Not Now'), 5)
 
 WebUI.delay(20, FailureHandling.OPTIONAL)
 
