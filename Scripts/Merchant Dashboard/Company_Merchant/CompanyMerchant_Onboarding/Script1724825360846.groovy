@@ -45,66 +45,66 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/SoleTrader Logi
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Merchant Dashboard/Company/Page_Merchant Dashboard/button_Complete Application'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Merchant Dashboard/Company/Page_Merchant Dashboard/input_Merchant_Type_DD'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Company'))
-
-WebUI.delay(2)
-
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/a_Submit'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_-_mat-focus-indicator absolute right_240426'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Merchant Representative'))
+WebUI.delay(2)
+
+WebUI.click(findTestObject('null'))
+
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Owner'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Title'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_MR'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Country Code'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_230'))
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__address_line'), 
     Address_Line)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_District'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_PORT LOUIS'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Sub - Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
 WebUI.delay(4)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Nationality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Mauritius'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Update'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Update'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Registered Corporate Name'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Business Details_business_name'), 
+WebUI.setText(findTestObject('null'), 
     Registered_corporate_Name)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Business Type'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Global Business Company (GBC)'))
 
@@ -112,69 +112,69 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__pan'), VAT_No)
 
-WebUI.setText(findTestObject('Merchant Dashboard/Company/Page_Merchant Dashboard/div_date of incorporation'), '06 Jul 2022')
+WebUI.setText(findTestObject('null'), '06 Jul 2022')
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Country Of Incorporation'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Mauritius'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Registered Address'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Country Of Incorporation_business_add_86f60b'), 
+WebUI.setText(findTestObject('null'), 
     Registered_Address)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_District'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_PORT LOUIS'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Sub - Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Merchant Representative'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Owner'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Title'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_MR'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_First Name'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Title_name'), First_Name)
+WebUI.setText(findTestObject('null'), First_Name)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__last_name'), Last_Name)
 
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__phone_number'), 
     Phone_Number)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Nationality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Mauritius'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Email_residential_address_line_1'), 
+WebUI.setText(findTestObject('null'), 
     Address_Line_1)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_District'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_PORT LOUIS'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Sub - Locality'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CHINA TOWN'))
 
@@ -185,7 +185,7 @@ WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Me
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Next Steps'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Bank Name'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_BANK ONE'))
 
@@ -194,67 +194,67 @@ WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_
 WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__reEnter_acc_no'), 
     ReEnter_Account_No)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Account Holders Name'))
+WebUI.click(findTestObject('null'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input__acc_holder_name'), 
+WebUI.setText(findTestObject('null'), 
     Account_Holder_Name)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Settlement Currency'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_MUR'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Merchant Dashboard/Company/Page_Merchant Dashboard/button_Add New Document'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Documents -Business'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Business Registration Card'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Documents -Business_ID Number'), 
+WebUI.setText(findTestObject('null'), 
     'Business Doc')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
+WebUI.scrollToElement(findTestObject('null'), 
     3)
 
-WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Upload File'), 
+WebUI.uploadFile(findTestObject('null'), 
     path)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save_1'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save_1'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Next Steps'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Add New Document'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Document - KYC - Business'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_Proof of Address of UBO(Dated less tha_19df6b'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Document - KYC - Business - Sub Type'))
+WebUI.click(findTestObject('null'))
 
 WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/span_CWA - UBO'))
 
-WebUI.setText(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/input_Document - KYC - Business - Sub Type__5f10c4'), 
+WebUI.setText(findTestObject('null'), 
     'KYC Doc')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/div_Drag And Drop Files Here'), 
+WebUI.scrollToElement(findTestObject('null'), 
     3)
 
-WebUI.uploadFile(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Upload File'), 
+WebUI.uploadFile(findTestObject('null'), 
     path)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save_1'), 
+WebUI.scrollToElement(findTestObject('null'), 
     2)
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Save_1'))
+WebUI.click(findTestObject('null'))
 
-WebUI.click(findTestObject('Object Repository/Merchant Dashboard/Company/Page_Merchant Dashboard/button_Submit Application'))
+WebUI.click(findTestObject('null'))
 

@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "DBD9E67DD25F1213C3E90769A01EE044",
+  "keywordClasses": [
+    {
+      "name": "my.custom.keywords.Keypad",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": false
+}

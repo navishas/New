@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "6F1BE296BF738F25DA39AAC42BB4CC65",
+  "keywordClasses": [
+    {
+      "name": "my.custom.keywords.Keypd",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

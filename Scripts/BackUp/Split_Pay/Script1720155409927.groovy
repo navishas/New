@@ -69,7 +69,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) {
 		
 		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_4'), 0)
 		
-		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept  Continue_1(1)'), 0)
+		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept Continue_1'), 0)
 		
         Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.RadioButton_Emp_Details_Currently_Employed_Yes'), 
             20, FailureHandling.OPTIONAL)
