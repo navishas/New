@@ -35,7 +35,7 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/TaptoLo
 Mobile.tap(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 0)
 
 //Implementing the enterMpin Method
-CustomNumPad.enterMpin('134751')
+CustomNumPad.enterMpin('176453')
 
 //Mobile.tap(findTestObject('Object Repository/Split_Pay/MopayAgreementPopup'), 3)
 //
@@ -97,7 +97,7 @@ Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - D
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 5)
 
-Mobile.delay(30)
+Mobile.delay(60)
 
 //Approve the application in LOS and Move to Limit Generation Page
 

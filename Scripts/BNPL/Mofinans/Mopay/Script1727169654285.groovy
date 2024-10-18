@@ -35,9 +35,9 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/TaptoLo
 Mobile.tap(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 0)
 
 //Implementing the enterMpin Method
-CustomNumPad.enterMpin('134751')
+CustomNumPad.enterMpin('258063')
 
-Mobile.delay(5)
+Mobile.delay(10)
 
 //click on Continue Button in the Banner
 
@@ -46,9 +46,10 @@ Mobile.waitForElementPresent(findTestObject('Split_Pay/BannerContinueButton'), 5
 Mobile.tap(findTestObject('Split_Pay/BannerContinueButton'), 5)
 
 //Limit generation
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Welcome_Limit'), 10)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/Limit_Accept'), 10)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Welcome_Limit'), 5)
+Mobile.tap(findTestObject('Split_Pay/Limit_Accept'), 5)
+
 
 //Bank Account Linking
 Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Bank_Account'), 10)
@@ -57,19 +58,36 @@ Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Bank_Accou
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Proceed_Confirm_Bank_Account'), 5)
 
-//Submitted Limit
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Request_Submitted_Limit'), 100)
+//Docu sign Need to be Completed Manually
 
-Mobile.delay(6)
+//Submitted Limit
+Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Request_Submitted_Limit'), 230)
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Request_Submitted_Limit'), 5)
 
 //Select QR
 Mobile.delay(6)
 
-Mobile.tapAtPosition(356, 1261)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/QRcode-Icon'), 3)
 
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.EditText_MoFinans_Quick_Pay'), 15)
+Mobile.tap(findTestObject('Split_Pay/QRcode-Icon'), 0)
+
+Mobile.delay(10)
+
+//Scan the QR code Manually
+
+//Select Image From Mobile Gallary
+//Mobile.waitForElementPresent(findTestObject('Split_Pay/Mobile_Gallary'), 3)
+//
+//Mobile.tap(findTestObject('Split_Pay/Mobile_Gallary'), 0)
+//
+//Mobile.delay(5)
+//
+//Mobile.waitForElementPresent(findTestObject('Split_Pay/QRImage'), 3)
+//	
+//Mobile.tap(findTestObject('Split_Pay/QRImage'), 0)
+
+Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.EditText_MoFinans_Quick_Pay'), 10)
 
 Mobile.setText(findTestObject('Split_Pay/android.widget.EditText_MoFinans_Quick_Pay'), '600', 10)
 
@@ -82,37 +100,40 @@ Mobile.tap(findTestObject('Split_Pay/android.widget.TextView - Proceed Securely_
 //Payment Plan
 Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Payment_Plan'), 15)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Payment_Plan'), 15)
+Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Payment_Plan'), 5)
+
+Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Payment_Plan'), 8)
+
+Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Payment_Plan'), 3)
 
 //Enter mipin validate
 
-CustomNumPad.enterMpin('134161')
+//CustomNumPad.enterMpin('126357')
 
 //Transaction
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Download_Transaction_completed'), 15)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Download_Transaction_completed'), 10)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Download_Transaction_completed'), 15)
+Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Download_Transaction_completed'), 5)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Done_Transaction_completed'), 15)
+Mobile.tap(findTestObject('Split_Pay/SaveToGallary'), 5)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.RadioButton_Unemployed'), 5)
+Mobile.tap(findTestObject('Split_Pay/DailogBox-OK'), 5)
 
-//Success
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Inprogress'), 10)
+Mobile.delay(10)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Inprogress'), 5)
+//Repayment Scenario
 
-Mobile.delay(70)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/Dashboard_PayNowBtn'), 5)
 
-Mobile.tapAtPosition(142, 481, FailureHandling.STOP_ON_FAILURE)
+Mobile.tap(findTestObject('Split_Pay/Dashboard_PayNowBtn'), 5)
 
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Continue_Inprogress'), 10)
+Mobile.tap(findTestObject('Split_Pay/Repayment_Agreement_Checkbox'), 5)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Inprogress'), 5)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/Pay_Btn1'), 5)
 
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 10)
+Mobile.tap(findTestObject('Split_Pay/Pay_Btn1'), 0)
 
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 5)
+Mobile.waitForElementPresent(findTestObject('Split_Pay/Pay_Btn2'), 5)
 
-
+Mobile.tap(findTestObject('Split_Pay/Pay_Btn2'), 0)
 

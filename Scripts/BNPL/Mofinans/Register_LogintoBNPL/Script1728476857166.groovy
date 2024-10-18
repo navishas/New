@@ -35,7 +35,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'P0104853002066', 
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'D031297330133F', 
     5)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)
@@ -54,11 +54,11 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
-CustomNumPad.enterMpin('134751')
+CustomNumPad.enterMpin('126357')
 
 Mobile.delay(3)
 
-CustomNumPad.enterMpin('134751')
+CustomNumPad.enterMpin('126357')
 
 WebUI.delay(3)
 
@@ -72,14 +72,13 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Not Now'), 0)
 
 Mobile.delay(10)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.view.ViewGroup'), 3)
+Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/ApplyNowButton'), 3)
 
-Mobile.tap(findTestObject('Object Repository/Split_Pay/android.view.ViewGroup'), 0)
+Mobile.tap(findTestObject('Object Repository/Split_Pay/ApplyNowButton'), 0)
 
 Mobile.delay(8)
 
 Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 0)
-
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 5, FailureHandling.OPTIONAL)
 
@@ -91,9 +90,10 @@ Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_3'), 0)
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - android.widget.Button - Accept Continue_1'), 5)
 
-Mobile.delay(200);
+Mobile.delay(10);
 
 //Complete the DKYC Process
+
 //Approve the ID Verification in LOS
 
 

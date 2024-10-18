@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "0B6DD8613544586551E9526A35134A4D",
+  "keywordFileContentHash": "012DAD3F6E7C8F2A53B597C7D5EDBB5F",
   "keywordClasses": [
     {
       "name": "my.custom.keywords.CustomNumPad",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }
