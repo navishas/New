@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>BNPL_PEP_to_Disbursal</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2334fead-8a5d-4f65-9b12-473f21796598</testCaseGuid>
+</TestCaseEntity>

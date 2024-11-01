@@ -1,32 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Limit_Accept</name>
+   <name>Industry_Radio_Button</name>
    <tag></tag>
-   <elementGuidId>39321007-edcb-49ad-ad37-1de79f1a1f70</elementGuidId>
+   <elementGuidId>b6802e97-c672-4ef1-926b-aa0204665d76</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.Button[@resource-id=&quot;mu.cimfinance.mofinans:id/btAcceptRefered&quot;]</locator>
+   <locator>//android.widget.RadioButton[@resource-id=&quot;mu.cimfinance.mofinans:id/rbEmploymentIndustryDetailsRow&quot;]</locator>
    <locatorCollection>
-      <entry>
-         <key>ANDROID_VIEWTAG</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>ID</key>
-         <value></value>
-      </entry>
       <entry>
          <key>IMAGE</key>
          <value></value>
       </entry>
       <entry>
-         <key>IOS_CLASS_CHAIN</key>
+         <key>ACCESSIBILITY</key>
          <value></value>
       </entry>
       <entry>
-         <key>NAME</key>
+         <key>CUSTOM</key>
          <value></value>
       </entry>
       <entry>
@@ -34,18 +26,26 @@
          <value>new UiSelector()</value>
       </entry>
       <entry>
-         <key>CUSTOM</key>
+         <key>ID</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
          <value></value>
       </entry>
       <entry>
          <key>ATTRIBUTES</key>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//android.widget.Button[@resource-id=&quot;mu.cimfinance.mofinans:id/btAcceptRefered&quot;]</value>
+         <key>NAME</key>
+         <value></value>
       </entry>
       <entry>
-         <key>ACCESSIBILITY</key>
+         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
@@ -53,7 +53,7 @@
          <value></value>
       </entry>
       <entry>
-         <key>IOS_PREDICATE_STRING</key>
+         <key>IOS_CLASS_CHAIN</key>
          <value></value>
       </entry>
    </locatorCollection>

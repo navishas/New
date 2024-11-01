@@ -27,13 +27,15 @@ WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
+WebUI.delay(5, FailureHandling.OPTIONAL)
+
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add New Lead'))
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Register for BNPL'))
 
-WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'), 'anno')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'), 'Navisha')
 
-WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Last_Name'), 'tester')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Last_Name'), 'Sukurdeep')
 
 WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 0)
 
@@ -55,13 +57,13 @@ WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/input_Identifier_Selection
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_NIC'))
 
-WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), 'R0709944203629')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), 'R1106824600386')
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create Lead'))
 
 WebUI.delay(8, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
+//WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_NAVISHA SUKURDEEP (RAMSOKUL)'), FailureHandling.OPTIONAL)
 
-WebUI.callTestCase(findTestCase('BNPL/Finweb/Workflow_Stage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('BNPL/Finweb/BNPL_KYC_to_Address'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -35,24 +35,27 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/TaptoLo
 Mobile.tap(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 0)
 
 //Implementing the enterMpin Method
-CustomNumPad.enterMpin('176453')
+CustomNumPad.enterMpin('247132')
 
 //Mobile.tap(findTestObject('Object Repository/Split_Pay/MopayAgreementPopup'), 3)
 //
 //Mobile.pressBack()
-
 Mobile.delay(10)
 
 Mobile.tap(findTestObject('Object Repository/Split_Pay/ApplyNowButton'), 3)
 
 // Define locators for mobile
 def quickLinkLocator = findTestObject('Object Repository/Split_Pay/QuickLinkUpdate')
+
 def closeButtonLocator = findTestObject('Object Repository/Split_Pay/QuicklinksClosebtn')
+
 def continueButtonLocator = findTestObject('Object Repository/Split_Pay/ContinueWhereYouLeftButton')
+
 def viewGroupLocator = findTestObject('Object Repository/Split_Pay/ApplyNowButton')
 
 // Set a maximum number of attempts to close the quick link
 int maxAttempts = 2
+
 int attempt = 0
 
 while (attempt < maxAttempts) {
@@ -60,21 +63,23 @@ while (attempt < maxAttempts) {
     if (Mobile.waitForElementPresent(quickLinkLocator, 5)) {
         // If displayed, click on the close button
         Mobile.tap(closeButtonLocator, 3)
+
         // Optional: wait for a moment to allow the UI to update
         Mobile.delay(5)
-        Mobile.tap(viewGroupLocator, 3)
+
+        Mobile.tap(viewGroupLocator, 3) // If not displayed, break the loop and click on the continue button
     } else {
-        // If not displayed, break the loop and click on the continue button
         Mobile.tap(continueButtonLocator, 3)
+
         break
     }
+    
     attempt++
 }
 
 Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 0)
-
 
 //Pep Declaration
 Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.RadioButton_PEP_Not_Applicable'), 5)
@@ -93,12 +98,13 @@ Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - C
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Continue_Inprogress'), 5)
 
-Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 10)
-
-Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 5)
-
-Mobile.delay(60)
-
+//Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 10)
+//
+//Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Done_Verification_Success'), 5)
+//
+//Mobile.delay(60)
 //Approve the application in LOS and Move to Limit Generation Page
+Mobile.delay(10)
 
 Mobile.closeApplication()
+

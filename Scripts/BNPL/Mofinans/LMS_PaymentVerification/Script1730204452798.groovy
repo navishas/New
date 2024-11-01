@@ -15,25 +15,20 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\MoFinans_v1.0.6.32_14Oct24_Android_BNPL.apk', 
-    false)
+WebUI.openBrowser('')
 
-Mobile.tap(findTestObject('Object Repository/Registration/android.widget.RelativeLayout'), 0)
+WebUI.navigateToUrl('https://cim-operations-uat.m2pfintech.com/signin')
 
-WebUI.delay(15, FailureHandling.OPTIONAL)
+WebUI.maximizeWindow()
 
-Mobile.scrollToText('Let’s Get Started')
+WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 
+    10)
 
-Mobile.tap(findTestObject('Object Repository/Start Page/android.widget.Button - Lets Get Started'), 0)
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), UserName)
 
-Mobile.tap(findTestObject('Start Page/android.widget.Button - Accept_Continue'), 0)
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), Password)
 
-Mobile.tap(findTestObject('Object Repository/Start Page/android.widget.Button - Next'), 0)
-
-Mobile.tap(findTestObject('Start Page/android.widget.Button - Next_1'), 0)
-
-Mobile.tap(findTestObject('Start Page/android.widget.Button-Continue(1)'), 0)
-
-Mobile.delay(4, FailureHandling.OPTIONAL)
+WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/button_Login'))
 

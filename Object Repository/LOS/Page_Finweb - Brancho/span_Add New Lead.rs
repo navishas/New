@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::span[19]</value>
+         <value>//span[contains(text(),' Add New Lead ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>5644e65e-daa2-4510-936f-809242c36b4e</webElementGuid>
+      <webElementGuid>41ba8095-412f-4772-b2a0-bf9d95715664</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>e7ac13a5-3a59-4130-bd09-4b1f81343afc</webElementGuid>
+      <webElementGuid>7856224d-06ea-4e32-9d7c-37db588d1d3f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +41,7 @@
       <value> Add New Lead 
             
         </value>
-      <webElementGuid>f44128c3-ac18-4a36-a638-dd4ffb8b5bd9</webElementGuid>
+      <webElementGuid>bf24bdb5-3c94-4cd5-9a95-fea81b83011e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;fuse-splash-screen-hidden light theme-default ng-tns-0-6&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/modern-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto w-full&quot;]/leads-list[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex justify-center w-full py-8 px-6 md:px-10 ng-star-inserted&quot;]/div[@class=&quot;flex-auto w-full max-w-360&quot;]/div[@class=&quot;flex flex-col sm:flex-row flex-0 sm:items-center sm:justify-between&quot;]/div[@class=&quot;flex flex-shrink-0 items-center mt-6 sm:mt-0 sm:ml-4&quot;]/button[@class=&quot;mat-focus-indicator mat-menu-trigger mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
-      <webElementGuid>912c1f19-dcbd-407c-8492-6e1566b06463</webElementGuid>
+      <webElementGuid>6a82bf5d-c8ae-44f3-92e3-37e49e8274f3</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Reports'])[1]/following::span[19]</value>
-      <webElementGuid>0d213200-2e92-4b77-ab7a-254ac31e7e4d</webElementGuid>
+      <webElementGuid>c6c841d1-48c8-4613-be79-1c94f302852c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Customers'])[1]/following::span[20]</value>
-      <webElementGuid>0dd1408c-f33c-4bd8-87de-11f78be9e89f</webElementGuid>
+      <webElementGuid>71042029-9556-48ae-ba1e-ec6962ce0fcd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter'])[1]/preceding::span[3]</value>
-      <webElementGuid>86139609-b0e0-4468-bb61-ab5375e3c113</webElementGuid>
+      <webElementGuid>76fe0306-e941-43b1-bbdf-35ae6be5dbc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Loan Application Number'])[1]/preceding::span[6]</value>
-      <webElementGuid>92eef31b-5317-4f00-93a0-628275618b7d</webElementGuid>
+      <webElementGuid>381c05f9-49e2-4239-b11b-29a78d10e25a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Lead']/parent::*</value>
-      <webElementGuid>61774014-f649-4348-96ee-ac4a5a7db5fe</webElementGuid>
+      <webElementGuid>27d94980-e609-4d9a-85b5-d6fd1c553096</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/button/span</value>
-      <webElementGuid>cfdf8129-6d90-48cb-8a32-c1956cb39538</webElementGuid>
+      <webElementGuid>8de94f8c-4863-4ac7-8259-bf2699978898</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -108,6 +109,6 @@
         ' or . = ' Add New Lead 
             
         ')]</value>
-      <webElementGuid>9cbc21d6-2184-4591-9310-735500ff3ac6</webElementGuid>
+      <webElementGuid>c0d2b6a7-5352-44c1-b157-91c3503936ef</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

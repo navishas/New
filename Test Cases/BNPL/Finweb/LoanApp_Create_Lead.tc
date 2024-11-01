@@ -4,5 +4,6 @@
    <name>LoanApp_Create_Lead</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>b310eb7d-3eb4-4835-88c8-88e005c679db</testCaseGuid>
 </TestCaseEntity>

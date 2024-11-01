@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::span[4]</value>
+         <value>//mat-label[contains(text(),'Gender')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ee6fb0af-36a5-45bc-9441-1a743bad761a</webElementGuid>
+      <webElementGuid>e6e11ec7-bc6f-421d-8ec2-75314d753829</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-form-field-label-wrapper ng-tns-c32-20</value>
-      <webElementGuid>30f8113b-bc87-4669-98a9-2c95ac6527db</webElementGuid>
+      <webElementGuid>325a4c1a-f1ed-4666-97e0-dc68430f37cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Gender *</value>
-      <webElementGuid>c9a10f19-1c00-45be-a13d-26ccf3fa500c</webElementGuid>
+      <webElementGuid>8b712e1c-6e38-4662-93a4-6fc767360fb9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[@class=&quot;fuse-splash-screen-hidden light theme-default ng-tns-0-6&quot;]/app-root[1]/layout[@class=&quot;ng-star-inserted&quot;]/modern-layout[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex flex-col flex-auto w-full min-w-0&quot;]/div[@class=&quot;flex flex-col flex-auto w-full&quot;]/leads-list[@class=&quot;ng-star-inserted&quot;]/fuse-drawer[@class=&quot;w-2/6 fuse-drawer-fixed fuse-drawer-mode-over fuse-drawer-position-right fuse-drawer-animations-enabled fuse-drawer-opened fuse-drawer-hover&quot;]/div[@class=&quot;fuse-drawer-content&quot;]/lead-create[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;w-full flex-wrap pt-8 px-6 overflow-auto ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-8 ng-star-inserted&quot;]/form[@class=&quot;ng-pristine ng-invalid ng-touched&quot;]/div[@class=&quot;w-full&quot;]/mat-form-field[@class=&quot;mat-form-field w-full ng-tns-c32-20 mat-primary mat-form-field-type-mat-select mat-form-field-appearance-fill mat-form-field-can-float mat-form-field-has-label mat-form-field-hide-placeholder ng-untouched ng-pristine ng-invalid ng-star-inserted&quot;]/div[@class=&quot;mat-form-field-wrapper ng-tns-c32-20&quot;]/div[@class=&quot;mat-form-field-flex ng-tns-c32-20&quot;]/div[@class=&quot;mat-form-field-infix ng-tns-c32-20&quot;]/span[@class=&quot;mat-form-field-label-wrapper ng-tns-c32-20&quot;]</value>
-      <webElementGuid>7a667098-c0d4-4556-823f-930a08cc0ba9</webElementGuid>
+      <webElementGuid>4b88f0fd-926d-4dcc-89d6-c4c707e1b668</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Last Name'])[1]/following::span[4]</value>
-      <webElementGuid>cdfd1a4c-8478-4ded-a06c-f75c1a335085</webElementGuid>
+      <webElementGuid>c6058a62-9dfd-4fd1-984f-880482ed6eea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Middle Name'])[1]/following::span[6]</value>
-      <webElementGuid>8f9d3f3f-9bae-496f-b1e7-ae9dbe7bdb09</webElementGuid>
+      <webElementGuid>54f82e82-4938-4bc9-9f11-6e8e900886ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Mobile Number'])[1]/preceding::span[3]</value>
-      <webElementGuid>97ea1592-acf3-4f94-9369-bf2ebd828178</webElementGuid>
+      <webElementGuid>a52c1c18-3bd6-48dd-9957-f115504457c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-form-field[4]/div/div/div/span</value>
-      <webElementGuid>d8291585-5f16-4072-8eab-189bebc43c6a</webElementGuid>
+      <webElementGuid>39d97c30-489d-43c0-9175-6d03b9017ca3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,6 +87,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Gender *' or . = 'Gender *')]</value>
-      <webElementGuid>68c315b7-8126-4eed-aee2-5646109442f6</webElementGuid>
+      <webElementGuid>a84956e8-a86e-465f-b24a-ff7ced8df95e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

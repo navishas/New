@@ -3,8 +3,9 @@
    <description></description>
    <name>android.widget.EditText - Start Typing Company Name</name>
    <tag></tag>
-   <elementGuidId>00000000-0000-0000-0000-000000000000</elementGuidId>
+   <elementGuidId>702271bf-2fcb-426d-a9a0-b22af1d03971</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -12,7 +13,7 @@
       <name>class</name>
       <type>Main</type>
       <value>android.widget.EditText</value>
-      <webElementGuid>e8fe6af1-7e49-45fc-9fca-f54392683bf7</webElementGuid>
+      <webElementGuid>147d7883-75ac-4592-b1af-20152488dbcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -20,7 +21,7 @@
       <name>index</name>
       <type>Main</type>
       <value>3</value>
-      <webElementGuid>5b0383e7-47c6-4833-9517-afda8055b14f</webElementGuid>
+      <webElementGuid>65e755a9-c57b-4b6d-ab3b-616cb5c755fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -28,7 +29,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Start Typing Company Name</value>
-      <webElementGuid>75dee002-01f5-44e1-8812-581f04095c78</webElementGuid>
+      <webElementGuid>e69bc0b9-4b5f-4bb9-91ba-c835a60c0bb0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -36,7 +37,7 @@
       <name>resource-id</name>
       <type>Main</type>
       <value>mu.cimfinance.mofinans:id/etCompanyName</value>
-      <webElementGuid>d094ada7-c919-41bd-9a42-5691475a7de9</webElementGuid>
+      <webElementGuid>47d2cdbe-2cb1-401c-b8c8-008a5e11c045</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -44,7 +45,7 @@
       <name>package</name>
       <type>Main</type>
       <value>mu.cimfinance.mofinans</value>
-      <webElementGuid>ad9b3eea-371e-4199-a7ce-c1e46cfd001d</webElementGuid>
+      <webElementGuid>dda0149e-d26a-4a60-91b1-6d63c17d4381</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -52,7 +53,7 @@
       <name>checkable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>13b11eb3-0b1c-46f6-919e-990802857d7b</webElementGuid>
+      <webElementGuid>8ecc44db-cdb7-4472-ad45-b5aa2e579ef6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -60,7 +61,7 @@
       <name>checked</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>4742cd69-1b6e-4d12-af77-53daf80734da</webElementGuid>
+      <webElementGuid>834d5143-3d16-4df3-bab8-12d96ae39d15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -68,7 +69,7 @@
       <name>clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>8fe49d95-0ad2-41bb-891b-ae27ddc3de20</webElementGuid>
+      <webElementGuid>b703b247-17c6-4876-8214-b3f1713f8844</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -76,7 +77,7 @@
       <name>enabled</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>70c1d2a5-7000-49bd-9986-0cd8f30b4dab</webElementGuid>
+      <webElementGuid>4e74f285-92e6-4060-8f69-037d07acb79b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -84,7 +85,7 @@
       <name>focusable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c800ede5-b4a3-4526-9fe0-6d213bd3cc5e</webElementGuid>
+      <webElementGuid>1edfee2a-1e00-4ee2-ac82-2adfcac7e706</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -92,7 +93,7 @@
       <name>focused</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>b18cb39d-cf7b-47f6-96de-a04a2a809ba9</webElementGuid>
+      <webElementGuid>57f039f8-8aa7-4702-8cd2-36caec62da26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -100,7 +101,7 @@
       <name>scrollable</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>f8e82880-001e-4daa-a21f-e96019f774f8</webElementGuid>
+      <webElementGuid>bc38a1b4-814f-4ea4-8e94-b4cc9dd088d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -108,7 +109,7 @@
       <name>long-clickable</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>2b9ee095-3399-4390-818e-fe7328f17252</webElementGuid>
+      <webElementGuid>f30d17f9-30a5-4c6b-8319-91616ad18e0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -116,7 +117,7 @@
       <name>password</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>5aacaf5b-00a7-4a7a-b6f4-dd00b5a64aa4</webElementGuid>
+      <webElementGuid>d5f705fe-fc6c-412a-bf7c-f60757e5446b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -124,7 +125,7 @@
       <name>selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9757d14a-8e51-4dcb-9abf-401b451c14a9</webElementGuid>
+      <webElementGuid>7e0245f1-f416-4533-bbdb-3425c979247e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -132,7 +133,7 @@
       <name>x</name>
       <type>Main</type>
       <value>40</value>
-      <webElementGuid>8873da88-c7ad-4b40-862f-5c6badd7ed2e</webElementGuid>
+      <webElementGuid>04e08316-5c7f-4826-83c2-90e014a82055</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -140,7 +141,7 @@
       <name>y</name>
       <type>Main</type>
       <value>528</value>
-      <webElementGuid>b07b7724-7041-4979-bd31-e7f8f3b612f9</webElementGuid>
+      <webElementGuid>cfb095d9-7d46-4fb6-aa90-64c267fc4554</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -148,7 +149,7 @@
       <name>width</name>
       <type>Main</type>
       <value>640</value>
-      <webElementGuid>e471c018-24f8-4fcb-9a0e-d6582422b6d8</webElementGuid>
+      <webElementGuid>f402250f-dc3d-4d94-b5d8-9ea386f572e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -156,7 +157,7 @@
       <name>height</name>
       <type>Main</type>
       <value>84</value>
-      <webElementGuid>39095315-2cc2-41ca-86d1-88f88871be98</webElementGuid>
+      <webElementGuid>ddd8525a-4d9a-422c-9c66-8e677d035fd2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -164,7 +165,7 @@
       <name>bounds</name>
       <type>Main</type>
       <value>[40,528][680,612]</value>
-      <webElementGuid>fa964d78-6471-4af2-abff-c7884eae36d0</webElementGuid>
+      <webElementGuid>756c7191-134b-4871-bf5c-647e4e7e5600</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -172,7 +173,7 @@
       <name>displayed</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>c839b18c-feba-455e-a957-8f589d9ec5da</webElementGuid>
+      <webElementGuid>feba0013-0a82-48f7-a8dc-74a80a0517fc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -180,7 +181,7 @@
       <name>hint</name>
       <type>Main</type>
       <value>Start Typing Company Name</value>
-      <webElementGuid>3a3a493d-5b62-4060-bdae-d876c5a6801a</webElementGuid>
+      <webElementGuid>de03684f-64f1-4472-b45c-96e1df25e339</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -188,8 +189,59 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.EditText[1]</value>
-      <webElementGuid>28e2856c-fb98-40a4-be9c-4b856437e291</webElementGuid>
+      <webElementGuid>0cfdc127-25d7-4eeb-9176-17c8ab79513b</webElementGuid>
    </webElementProperties>
-   <locator>android.widget.EditText</locator>
-   <locatorStrategy>CLASS_NAME</locatorStrategy>
+   <locator>//android.widget.AutoCompleteTextView[@resource-id=&quot;mu.cimfinance.mofinans:id/etCompanyName&quot;]</locator>
+   <locatorCollection>
+      <entry>
+         <key>ACCESSIBILITY</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CUSTOM</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ID</key>
+         <value>mu.cimfinance.mofinans:id/etCompanyName</value>
+      </entry>
+      <entry>
+         <key>ATTRIBUTES</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.EditText[1][count(. | //*[@class = 'android.widget.EditText' and @index = '3' and (@text = 'Start Typing Company Name' or . = 'Start Typing Company Name') and @resource-id = 'mu.cimfinance.mofinans:id/etCompanyName' and @package = 'mu.cimfinance.mofinans' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'true' and @password = 'false' and @selected = 'false' and @x = '40' and @y = '528' and @width = '640' and @height = '84' and @bounds = '[40,528][680,612]' and @displayed = 'true' and @hint = 'Start Typing Company Name']) = count(//*[@class = 'android.widget.EditText' and @index = '3' and (@text = 'Start Typing Company Name' or . = 'Start Typing Company Name') and @resource-id = 'mu.cimfinance.mofinans:id/etCompanyName' and @package = 'mu.cimfinance.mofinans' and @checkable = 'false' and @checked = 'false' and @clickable = 'true' and @enabled = 'true' and @focusable = 'true' and @focused = 'false' and @scrollable = 'false' and @long-clickable = 'true' and @password = 'false' and @selected = 'false' and @x = '40' and @y = '528' and @width = '640' and @height = '84' and @bounds = '[40,528][680,612]' and @displayed = 'true' and @hint = 'Start Typing Company Name'])]</value>
+      </entry>
+      <entry>
+         <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_CLASS_CHAIN</key>
+         <value>**[`enabled == 1 AND hint == 'Start Typing Company Name'`]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>ANDROID_UI_AUTOMATOR</key>
+         <value>new UiSelector().className(&quot;android.widget.EditText&quot;).text(&quot;Start Typing Company Name&quot;).resourceId(&quot;mu.cimfinance.mofinans:id/etCompanyName&quot;).packageName(&quot;mu.cimfinance.mofinans&quot;).enabled(true).clickable(true).longClickable(true).checkable(false).checked(false).focusable(true).focused(false).scrollable(false).selected(false).index(3)</value>
+      </entry>
+      <entry>
+         <key>ANDROID_VIEWTAG</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>IOS_PREDICATE_STRING</key>
+         <value>enabled == 1 AND hint == 'Start Typing Company Name'</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//hierarchy/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.LinearLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.FrameLayout[1]/android.widget.RelativeLayout[1]/android.widget.RelativeLayout[1]/android.widget.ScrollView[1]/androidx.appcompat.widget.LinearLayoutCompat[1]/android.widget.EditText[1]</value>
+      </entry>
+      <entry>
+         <key>CLASS_NAME</key>
+         <value>android.widget.EditText</value>
+      </entry>
+   </locatorCollection>
+   <locatorStrategy>XPATH</locatorStrategy>
+   <platform>ANDROID</platform>
 </MobileElementEntity>

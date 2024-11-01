@@ -7,13 +7,13 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/layout[1]/modern-layout[1]/div[1]/div[2]/leads-list[1]/fuse-drawer[1]/div[1]/lead-create[1]/div[2]/div[1]/div[1]/form[1]/div[1]/mat-form-field[3]/div[1]/div[1]/div[1]/input[1]</value>
+         <value>//input[@id=&quot;mat-input-6&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

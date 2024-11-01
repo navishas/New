@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>LimitGenerationandPayment</name>
+   <name>LOS_approval</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>909b9568-27f2-49ef-bfb6-13bb2f627a15</testSuiteGuid>
+   <testSuiteGuid>b85bf259-ceae-4c70-93bc-0c7510391403</testSuiteGuid>
    <testCaseLink>
-      <guid>2532f671-d06a-46fc-8912-6373adcaa151</guid>
+      <guid>17098b6c-ba1c-45e0-a54a-e1666360ca2c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/BNPL/Mofinans/Mopay</testCaseId>
+      <testCaseId>Test Cases/BNPL/Mofinans/LOS_Approval</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <MobileElementEntity>
    <description></description>
-   <name>Limit_Accept</name>
+   <name>BannerContinueBtnLimit</name>
    <tag></tag>
-   <elementGuidId>39321007-edcb-49ad-ad37-1de79f1a1f70</elementGuidId>
+   <elementGuidId>438c2272-cf2b-4fdb-be04-b144bc295256</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
-   <locator>//android.widget.Button[@resource-id=&quot;mu.cimfinance.mofinans:id/btAcceptRefered&quot;]</locator>
+   <locator>//android.widget.Button[@resource-id=&quot;mu.cimfinance.mofinans:id/btBREContinue&quot;]</locator>
    <locatorCollection>
       <entry>
          <key>ANDROID_VIEWTAG</key>
@@ -26,7 +26,14 @@
          <value></value>
       </entry>
       <entry>
+         <key>ATTRIBUTES</key>
+      </entry>
+      <entry>
          <key>NAME</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
          <value></value>
       </entry>
       <entry>
@@ -36,13 +43,6 @@
       <entry>
          <key>CUSTOM</key>
          <value></value>
-      </entry>
-      <entry>
-         <key>ATTRIBUTES</key>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//android.widget.Button[@resource-id=&quot;mu.cimfinance.mofinans:id/btAcceptRefered&quot;]</value>
       </entry>
       <entry>
          <key>ACCESSIBILITY</key>

@@ -41,13 +41,27 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook as XSSFWorkbook
 import java.io.FileInputStream as FileInputStream
 import java.io.IOException as IOException
 
-Mobile.tap(findTestObject('Object Repository/Split_Pay/android.view.ViewGroup'), 3)
+import my.custom.keywords.CustomNumPad as CustomNumPad
 
-//Mobile.tapAtPosition(142, 481, FailureHandling.STOP_ON_FAILURE)
+Mobile.startExistingApplication('mu.cimfinance.mofinans')
 
-Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 0)
+Mobile.delay(7)
 
-Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 20, FailureHandling.OPTIONAL)
+//Click on tap to Login Button to Proceed futhur registration
+Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 3, FailureHandling.OPTIONAL)
+
+Mobile.tap(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 0)
+
+//Implementing the enterMpin Method
+CustomNumPad.enterMpin('741632')
+
+//Mobile.tap(findTestObject('Object Repository/Split_Pay/android.view.ViewGroup'), 3)
+
+Mobile.delay(40)
+
+//Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 0)
+//
+//Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 20, FailureHandling.OPTIONAL)
 
 AppiumDriver<MobileElement> driver = MobileDriverFactory.getDriver()
 
@@ -174,15 +188,15 @@ try {
 						
 			try {
 			
-		Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 0)
-			
-		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_2'), 0)
-		
-		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_3'), 0)
-		
-		//Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_4'), 0)
-		
-		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept Continue_1'), 0)
+//		Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 0)
+//			
+//		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_2'), 0)
+//		
+//		Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_3'), 0)
+//		
+//		//Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_4'), 0)
+//		
+//		Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept Continue_1'), 0)
 		
 		Mobile.waitForElementPresent(findTestObject('Split_Pay/androidx.recyclerview.widget.RecyclerView_List_CurrentlyEmp'),
 		30, FailureHandling.OPTIONAL)
@@ -345,7 +359,7 @@ private void executeSalaried(AppiumDriver driver, String occType, String busines
 			//Entering on Employer Name
 			
 			Mobile.delay(5)
-			Mobile.setText(findTestObject('Split_Pay/android.widget.EditText - Start Typing Company Name'), empName, 0)
+			Mobile.setText(findTestObject('Split_Pay/Enter_CompanyName'), empName, 0)
 			System.out.println(('Success: Employer Name \'' + empName) + '\' is entered')
 			Mobile.pressBack()
 			Mobile.hideKeyboard()
