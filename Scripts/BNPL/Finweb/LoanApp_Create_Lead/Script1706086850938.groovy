@@ -33,9 +33,9 @@ WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Add
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Register for BNPL'))
 
-WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'), 'Navisha')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Get Details From_firstName'), 'Rakshith')
 
-WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Last_Name'), 'Sukurdeep')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Last_Name'), 'John')
 
 WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 0)
 
@@ -43,7 +43,7 @@ WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Last
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Male'))
 
-WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Mobile_Number'), '51980219')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Mobile_Number'), '51242419')
 
 WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_DOB'), 0)
 
@@ -53,11 +53,15 @@ WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_Marital Status'))
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married'))
 
+WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_sourcing_channel'))
+
+WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married'))
+
 WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/input_Identifier_Selection'))
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_NIC'))
 
-WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), 'R1106824600386')
+WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_NIC'), 'R1105327610336')
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Create Lead'))
 

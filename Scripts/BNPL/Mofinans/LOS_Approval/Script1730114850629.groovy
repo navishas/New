@@ -39,7 +39,7 @@ WebUI.click(findTestObject('Object Repository/LOS/Approvals/Filter_identifier'))
 
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Input_identifier'))
 
-WebUI.setText(findTestObject('Object Repository/LOS/Approvals/Input_identifier'), 'D031297330133F')
+WebUI.setText(findTestObject('Object Repository/LOS/Approvals/Input_identifier'), 'R1106824600386')
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
@@ -71,15 +71,21 @@ WebUI.click(findTestObject('Object Repository/LOS/Approvals/Approve_radiobtn'))
 
 WebUI.delay(2, FailureHandling.OPTIONAL)
 
+WebUI.scrollToElement(findTestObject('Object Repository/LOS/Approvals/Approve_textarea1'), 5)
+
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Approve_textarea1'))
 
 WebUI.setText(findTestObject('Object Repository/LOS/Approvals/Approve_textarea1'), 'Approved')
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
+WebUI.scrollToElement(findTestObject('Object Repository/LOS/Approvals/Update_Btn'), 5)
+
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Update_Btn'))
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Object Repository/LOS/Approvals/Approve_textarea2'), 5)
 
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Approve_textarea2'))
 
@@ -87,9 +93,13 @@ WebUI.setText(findTestObject('Object Repository/LOS/Approvals/Approve_textarea2'
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
+WebUI.scrollToElement(findTestObject('Object Repository/LOS/Approvals/Approve_Btn'), 5)
+
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Approve_Btn'))
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
+
+WebUI.scrollToElement(findTestObject('Object Repository/LOS/Approvals/SubmitReport_Btn'), 5)
 
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/SubmitReport_Btn'))
 
@@ -101,15 +111,15 @@ WebUI.refresh()
 
 WebUI.delay(5, FailureHandling.OPTIONAL)
 
-WebUI.click(findTestObject('Object Repository/LOS/Approvals/Span_PEPDeclaration'))
+//WebUI.click(findTestObject('Object Repository/LOS/Approvals/Span_PEPDeclaration'))
+//
+//WebUI.delay(3, FailureHandling.OPTIONAL)
 
-WebUI.delay(3, FailureHandling.OPTIONAL)
+//WebUI.click(findTestObject('Object Repository/LOS/Approvals/SkipTask_Btn'))
 
-WebUI.click(findTestObject('Object Repository/LOS/Approvals/SkipTask_Btn'))
+//WebUI.delay(5, FailureHandling.OPTIONAL)
 
-WebUI.delay(5, FailureHandling.OPTIONAL)
-
-WebUI.refresh()
+//WebUI.refresh()
 
 WebUI.click(findTestObject('Object Repository/LOS/Approvals/Span_KYCVerification'))
 

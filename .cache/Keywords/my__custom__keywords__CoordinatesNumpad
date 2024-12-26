@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "3350DF619C4738713A274BDA84751EE2",
+  "keywordClasses": [
+    {
+      "name": "my.custom.keywords.CoordinatesNumpad",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -35,7 +35,7 @@ Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/TaptoLo
 Mobile.tap(findTestObject('Object Repository/Split_Pay/TaptoLoginButton'), 0)
 
 //Implementing the enterMpin Method
-CustomNumPad.enterMpin('741652')
+CustomNumPad.enterMpin('168324')
 
 Mobile.delay(10)
 

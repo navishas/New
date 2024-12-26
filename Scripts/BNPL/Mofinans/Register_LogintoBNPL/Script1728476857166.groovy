@@ -16,7 +16,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import io.appium.java_client.MobileElement as MobileElement
-import io.appium.java_client.TouchAction as TouchAction
+//import io.appium.java_client.TouchAction as TouchAction
 import io.appium.java_client.touch.offset.PointOption as PointOption
 import org.openqa.selenium.Dimension as Dimension
 import org.openqa.selenium.Point as Point
@@ -25,8 +25,8 @@ import io.appium.java_client.touch.TapOptions as TapOptions
 import io.appium.java_client.AppiumDriver as AppiumDriver
 import my.custom.keywords.CustomNumPad as CustomNumPad
 
-Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\UAT_v1.0.6.32_21Oct_Android_BNPL_With_EmiPlan.apk',
-	false)
+Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\MoFinans_v1.0.6.32_18Dec24_Android_BNPL_UAT.apk', 
+    false)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.RelativeLayout'), 0)
 
@@ -53,7 +53,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'D031297330133F', 
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'M170400410165G', 
     5)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)
@@ -74,11 +74,11 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
-CustomNumPad.enterMpin('741652')
+CustomNumPad.enterMpin('371256')
 
 Mobile.delay(3)
 
-CustomNumPad.enterMpin('741652')
+CustomNumPad.enterMpin('371256')
 
 WebUI.delay(3)
 
@@ -98,11 +98,13 @@ Mobile.tap(findTestObject('Object Repository/Split_Pay/ApplyNowButton'), 0)
 
 Mobile.delay(5)
 
+//Verify that the Lead should be created in the LOS post tapping on the Apply Now button in the Mofinans Application.
 Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.Button - Proceed'), 5)
 
 Mobile.delay(20)
 
 Mobile.waitForElementPresent(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 5, FailureHandling.OPTIONAL)
+
 Mobile.tap(findTestObject('Object Repository/Split_Pay/android.widget.CheckBox'), 1)
 
 Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_2'), 1)
@@ -112,19 +114,14 @@ Mobile.tap(findTestObject('Split_Pay/android.widget.CheckBox_3'), 1)
 Mobile.tap(findTestObject('Split_Pay/android.widget.Button - Accept Continue_1'), 5)
 
 //DKYC to be done Manually --> Complete the ID,Face, Address and Employment verification.
-
 //Once DKYC is done app will navigate to PEP declaration, then the execution continues.
-
 // Wait until the PEP Not applicable button becomes visible
-
 def PEPNotApplicableBtn = findTestObject('Split_Pay/android.widget.RadioButton_PEP_Not_Applicable')
 
 Mobile.verifyElementVisible(PEPNotApplicableBtn, 400)
 
 // Once visible, tap the button
-
 //Pep Declaration
-
 Mobile.tap(findTestObject('Split_Pay/android.widget.RadioButton_PEP_Not_Applicable'), 10)
 
 Mobile.waitForElementPresent(findTestObject('Split_Pay/android.widget.Button - Proceed_PEP'), 5)
@@ -145,7 +142,9 @@ Mobile.delay(5)
 
 Mobile.closeApplication()
 
-//Approve the application in LOS and Move to Limit Generation Page
 
 
-
+//import my.custom.keywords.EnterMpin
+//
+//// Enter a 6-digit MPIN (e.g., "123456")
+//EnterMpin.enterMpin("123456")
