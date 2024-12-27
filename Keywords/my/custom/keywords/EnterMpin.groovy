@@ -10,16 +10,16 @@ class EnterMpin {
 
 	// Initialize the coordinates for each digit
 	static {
-		numberCoordinates.put("0", new Point(100, 200))  // Coordinates for '0'
-		numberCoordinates.put("1", new Point(150, 200))  // Coordinates for '1'
-		numberCoordinates.put("2", new Point(200, 200))  // Coordinates for '2'
-		numberCoordinates.put("3", new Point(250, 200))  // Coordinates for '3'
-		numberCoordinates.put("4", new Point(100, 250))  // Coordinates for '4'
-		numberCoordinates.put("5", new Point(150, 250))  // Coordinates for '5'
-		numberCoordinates.put("6", new Point(200, 250))  // Coordinates for '6'
-		numberCoordinates.put("7", new Point(250, 250))  // Coordinates for '7'
-		numberCoordinates.put("8", new Point(100, 300))  // Coordinates for '8'
-		numberCoordinates.put("9", new Point(150, 300))  // Coordinates for '9'
+		numberCoordinates.put("0", new Point(349, 1416))  // Coordinates for '0'
+		numberCoordinates.put("1", new Point(141, 912))  // Coordinates for '1'
+		numberCoordinates.put("2", new Point(349, 912))  // Coordinates for '2'
+		numberCoordinates.put("3", new Point(557, 912))  // Coordinates for '3'
+		numberCoordinates.put("4", new Point(141, 1083))  // Coordinates for '4'
+		numberCoordinates.put("5", new Point(349, 1083))  // Coordinates for '5'
+		numberCoordinates.put("6", new Point(557, 1080))  // Coordinates for '6'
+		numberCoordinates.put("7", new Point(138, 1248))  // Coordinates for '7'
+		numberCoordinates.put("8", new Point(346, 1248))  // Coordinates for '8'
+		numberCoordinates.put("9", new Point(557, 1251))  // Coordinates for '9'
 	}
 
 	// Method to enter the MPIN (6-digit number) by tapping on corresponding coordinates

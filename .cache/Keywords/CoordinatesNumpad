@@ -1,10 +1,10 @@
 {
-  "keywordFileContentHash": "38E94E0893846C6F5DABC0D819FE790D",
+  "keywordFileContentHash": "8EB4CFEAA1AC5A3145FFF4897DD839F2",
   "keywordClasses": [
     {
-      "name": "my.custom.keywords.EnterValidMpin",
+      "name": "EnterValidMpin",
       "keywordMethods": []
     }
   ],
-  "javadocParsed": true
+  "javadocParsed": false
 }

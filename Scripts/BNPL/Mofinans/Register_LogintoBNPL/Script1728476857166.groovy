@@ -23,7 +23,7 @@ import org.openqa.selenium.Point as Point
 import static com.kms.katalon.core.mobile.keyword.internal.MobileDriverFactory.getDriver
 import io.appium.java_client.touch.TapOptions as TapOptions
 import io.appium.java_client.AppiumDriver as AppiumDriver
-import my.custom.keywords.CustomNumPad as CustomNumPad
+import my.custom.keywords.EnterMpin as EnterMpin
 
 Mobile.startApplication('D:\\OneDrive - Indium Software India Private Limited\\CimFin\\Automation\\MoFinans_v1.0.6.32_18Dec24_Android_BNPL_UAT.apk', 
     false)
@@ -53,7 +53,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'M170400410165G', 
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'R1106824600386', 
     5)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)
@@ -74,13 +74,13 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
-CustomNumPad.enterMpin('371256')
+EnterMpin.enterMpin('371256')
 
-Mobile.delay(3)
+Mobile.delay(5)
 
-CustomNumPad.enterMpin('371256')
+EnterMpin.enterMpin('371256')
 
-WebUI.delay(3)
+WebUI.delay(5)
 
 Mobile.waitForElementPresent(findTestObject('Registration/android.widget.Button - Do it Later'), 3, FailureHandling.OPTIONAL)
 
