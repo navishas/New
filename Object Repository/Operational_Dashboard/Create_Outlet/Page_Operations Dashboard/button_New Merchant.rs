@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[12]</value>
+         <value>//button[@type = 'button' and (text() = 'Onboard Merchant ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cd3861ef-1abf-4bd3-aea0-7dc4f82a94eb</webElementGuid>
+      <webElementGuid>57aeab85-d014-4ab4-804d-c305c1b03486</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium proceed-button css-1ujsas3</value>
-      <webElementGuid>8eed2557-b742-4784-897d-e1095260e49d</webElementGuid>
+      <webElementGuid>3ddbda4d-9b07-40ed-b93e-68a62641434f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>e39637ec-f9ae-44d6-aa5e-9bf3b08ac277</webElementGuid>
+      <webElementGuid>c8fb02be-5360-4e71-bf7e-97888c0e267c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>6d73a92e-98fb-406f-be3f-7fe249e06c00</webElementGuid>
+      <webElementGuid>5819773e-df10-4717-a8f9-fb399411ef0d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>New Merchant</value>
-      <webElementGuid>dcb42aa5-1d14-4883-96c4-ae7ba8cbf0ab</webElementGuid>
+      <webElementGuid>3a19322b-629c-46c1-8276-86e37d34434f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootReact&quot;)/section[@class=&quot;main-app-container&quot;]/div[@class=&quot;app-container&quot;]/div[@class=&quot;merchant-list-container&quot;]/div[@class=&quot;ant-card ant-card-bordered&quot;]/div[@class=&quot;ant-card-head&quot;]/div[@class=&quot;ant-card-head-wrapper&quot;]/div[@class=&quot;ant-card-extra&quot;]/span[1]/div[@class=&quot;extra-card-wrapper&quot;]/button[@class=&quot;MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium proceed-button css-1ujsas3&quot;]</value>
-      <webElementGuid>128a5881-39e4-4fa5-8851-fb37b85f772a</webElementGuid>
+      <webElementGuid>71c73f42-f4e8-44a2-93cd-414de98beac2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>cc9f96ee-5f29-4daf-86ac-acd023ba7f24</webElementGuid>
+      <webElementGuid>73d547c7-5db9-42ad-9cf2-d646c073a868</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rootReact']/section[2]/div/div/div/div/div/div[2]/span/div/button</value>
-      <webElementGuid>f925f686-8e8d-4ffa-8b03-d49bbbae83e4</webElementGuid>
+      <webElementGuid>bbff709a-d926-4653-886f-314e5e923fd8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Merchants'])[2]/following::button[1]</value>
-      <webElementGuid>c20ac45f-1e53-4496-8a61-49568ec7b619</webElementGuid>
+      <webElementGuid>77d2aaaa-e2fe-483e-a75d-35576384f6ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Powered By'])[1]/following::button[1]</value>
-      <webElementGuid>8f23763e-3842-4e92-8f19-d6ba6b955a87</webElementGuid>
+      <webElementGuid>bb44fe6d-ed1b-429f-97f4-c6d436e4588b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Approved (28)'])[1]/preceding::button[1]</value>
-      <webElementGuid>277f9b88-e78f-48fb-bfcc-5353a7805b91</webElementGuid>
+      <webElementGuid>5c31e560-8b2f-41e7-b03c-134eb93309cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Initiated (28)'])[1]/preceding::button[2]</value>
-      <webElementGuid>7829a010-0c9d-4532-8dfc-a62f1081f894</webElementGuid>
+      <webElementGuid>aab5b139-f1cb-410d-b5e0-a384f1872483</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='New Merchant']/parent::*</value>
-      <webElementGuid>b8b42ef4-2862-4d07-93e3-849f9b1be5ad</webElementGuid>
+      <webElementGuid>aa32bbf3-82b4-4b25-9092-9f915a24070a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//span/div/button</value>
-      <webElementGuid>96d28ebd-af46-4c56-8751-c1d876e5d111</webElementGuid>
+      <webElementGuid>743945d5-a07e-41c9-a970-2aa7548d8e89</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'New Merchant' or . = 'New Merchant')]</value>
-      <webElementGuid>506faee9-ee0e-49e6-926b-7116d939ae29</webElementGuid>
+      <webElementGuid>6ae7ab76-9820-4200-9b37-a2bfb3a07344</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

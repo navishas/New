@@ -8,7 +8,7 @@
    <testCaseGuid>5d63e2eb-2c9b-47f0-b20f-5a8f64e614c3</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>c06abf7c-0a46-425e-8d48-455210459650</id>
+      <id>709897d0-5ec8-4f16-92ca-65a76f5ca760</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -17,7 +17,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>e07800db-a56c-408e-a800-fc3fb09559d1</id>
+      <id>570dff6c-2099-4e0d-a30c-e4485826e4ff</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -26,7 +26,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>ef057a17-d32e-4ff1-b61b-e2e435c83399</id>
+      <id>8cb71af0-e879-4ac9-9c2b-d771bb5bcd62</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -35,7 +35,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>7762df23-ca3c-4964-a9c2-cb824efc8212</id>
+      <id>71678680-1406-4992-aac9-db045b85db32</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -44,7 +44,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>642269f6-7997-4022-a8b0-8ad38a95596c</id>
+      <id>79aab5cb-a7c3-458b-a4e6-9a8ba87d7235</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -53,7 +53,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>9c3a5549-f2fe-4cac-8ad2-7c253102ed7b</id>
+      <id>20eb9248-d1d8-4e3a-b5e1-52414a9c6978</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -62,7 +62,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>c96b52df-dbc9-4c4d-a0c9-ca0130513b55</id>
+      <id>d8d4a9cf-682c-4147-8936-a58be0b4073b</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -71,7 +71,7 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>ea7455fb-493e-4235-b66f-d6498d2c5a49</id>
+      <id>07984b74-fbd4-492c-ae3d-2ffa49dda140</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -80,7 +80,16 @@
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>5d8e6cb4-9230-4185-9975-5f87e07e6358</id>
+      <id>35cf2d7a-4fed-468e-9a44-eefc62360fbe</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Selecting_SoleTrader</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>ca8d1fef-f32b-4e15-86d1-5e4d3e30736a</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -88,73 +97,67 @@
       <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Verifier_Documents</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>c96b52df-dbc9-4c4d-a0c9-ca0130513b55</testDataLinkId>
-      <type>DATA_COLUMN</type>
-      <value>Name</value>
-      <variableId>2e18c739-cd76-4065-920a-507ab570ea66</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId>c96b52df-dbc9-4c4d-a0c9-ca0130513b55</testDataLinkId>
+      <testDataLinkId>d8d4a9cf-682c-4147-8936-a58be0b4073b</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Email</value>
       <variableId>4d6f3cf4-994c-4917-9700-f79cd05935f1</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>c96b52df-dbc9-4c4d-a0c9-ca0130513b55</testDataLinkId>
+      <testDataLinkId>d8d4a9cf-682c-4147-8936-a58be0b4073b</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>PhoneNumber</value>
       <variableId>1402a3bf-edf8-40a3-adbd-3fd650b90c93</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>c96b52df-dbc9-4c4d-a0c9-ca0130513b55</testDataLinkId>
+      <testDataLinkId>d8d4a9cf-682c-4147-8936-a58be0b4073b</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Address_Line</value>
       <variableId>c8a9ef6f-24a9-4819-900d-6ecc9340b18a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9c3a5549-f2fe-4cac-8ad2-7c253102ed7b</testDataLinkId>
+      <testDataLinkId>20eb9248-d1d8-4e3a-b5e1-52414a9c6978</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Outlet_Name</value>
       <variableId>dccf3c28-11d8-4db2-b403-44f136a858cb</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9c3a5549-f2fe-4cac-8ad2-7c253102ed7b</testDataLinkId>
+      <testDataLinkId>20eb9248-d1d8-4e3a-b5e1-52414a9c6978</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Nature_Of_Business</value>
       <variableId>bf6a0e18-e8fb-4444-bc72-1c395706ba72</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9c3a5549-f2fe-4cac-8ad2-7c253102ed7b</testDataLinkId>
+      <testDataLinkId>20eb9248-d1d8-4e3a-b5e1-52414a9c6978</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Address_Line1</value>
       <variableId>99a00221-15d7-4c13-b5b2-a27d99a13fb2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>9c3a5549-f2fe-4cac-8ad2-7c253102ed7b</testDataLinkId>
+      <testDataLinkId>20eb9248-d1d8-4e3a-b5e1-52414a9c6978</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Description_Goods_Services</value>
       <variableId>af679fa8-ee2a-4a37-bc12-27a9fa9680f2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>e07800db-a56c-408e-a800-fc3fb09559d1</testDataLinkId>
+      <testDataLinkId>570dff6c-2099-4e0d-a30c-e4485826e4ff</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Account_Number</value>
       <variableId>b72d1e31-7f99-400d-b08b-d99fa43e138b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>e07800db-a56c-408e-a800-fc3fb09559d1</testDataLinkId>
+      <testDataLinkId>570dff6c-2099-4e0d-a30c-e4485826e4ff</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>ReEnter_AccountNo</value>
       <variableId>72a7a755-3b58-4874-98f8-49315b9b9037</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>e07800db-a56c-408e-a800-fc3fb09559d1</testDataLinkId>
+      <testDataLinkId>570dff6c-2099-4e0d-a30c-e4485826e4ff</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>AccountHolder_Name</value>
       <variableId>2bec59db-b5cd-456f-90ba-705aad5545fa</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>ef057a17-d32e-4ff1-b61b-e2e435c83399</testDataLinkId>
+      <testDataLinkId>8cb71af0-e879-4ac9-9c2b-d771bb5bcd62</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Document_Name</value>
       <variableId>c52f9132-d2d5-4778-86a5-27431a4bf226</variableId>
@@ -166,30 +169,29 @@
       <variableId>6fe82c30-b5ba-4aaf-9289-633bc2ed933f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>7762df23-ca3c-4964-a9c2-cb824efc8212</testDataLinkId>
+      <testDataLinkId>71678680-1406-4992-aac9-db045b85db32</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Document_Name1</value>
       <variableId>52f93568-91ab-4190-844c-62bc63ed8161</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>ea7455fb-493e-4235-b66f-d6498d2c5a49</testDataLinkId>
+      <testDataLinkId>07984b74-fbd4-492c-ae3d-2ffa49dda140</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Document_Name2</value>
       <variableId>7cfcbf57-9f40-40df-9084-72411625567d</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>5d8e6cb4-9230-4185-9975-5f87e07e6358</testDataLinkId>
+      <testDataLinkId>ca8d1fef-f32b-4e15-86d1-5e4d3e30736a</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Document_Name3</value>
       <variableId>d4827a24-659e-49f5-b053-285bc2eb6909</variableId>
    </variableLinks>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>2e18c739-cd76-4065-920a-507ab570ea66</id>
-      <masked>false</masked>
-      <name>Name</name>
-   </variable>
+   <variableLinks>
+      <testDataLinkId>d8d4a9cf-682c-4147-8936-a58be0b4073b</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
+      <variableId>0e52555f-0460-4ce2-99f4-b3133db42561</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -294,5 +296,12 @@
       <id>d4827a24-659e-49f5-b053-285bc2eb6909</id>
       <masked>false</masked>
       <name>Document_Name3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>0e52555f-0460-4ce2-99f4-b3133db42561</id>
+      <masked>false</masked>
+      <name>Name</name>
    </variable>
 </TestCaseEntity>

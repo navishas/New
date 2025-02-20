@@ -6,15 +6,16 @@
    <elementGuidId>20329c73-cf1f-417e-9cba-1a4d38813d76</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Save')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-flat-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fb627010-697f-41ec-9337-b30232c0feb0</webElementGuid>
+      <webElementGuid>8d9a96fc-fef2-4112-a6c0-3ae66032be63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8a2084b8-5f27-4ca8-824b-05a683428b9c</webElementGuid>
+      <webElementGuid>bb3cfc9c-09d5-4b2b-9306-7f323986ef3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Save Data Table</value>
-      <webElementGuid>54b3ea82-523f-4805-a72b-e93b71bc8c22</webElementGuid>
+      <webElementGuid>7dc1b054-0631-4bf4-a4ab-527b2ab3b01d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>ddce24d5-409b-44a3-a4bf-4fa34f3aec6e</webElementGuid>
+      <webElementGuid>789f990a-f0af-4ab5-9ffe-c5f77081596c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>1942a147-f818-4238-8406-9467fe4fa67a</webElementGuid>
+      <webElementGuid>b58b39c9-3ef1-4c1d-9e41-48296cfaebf5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>b3d8ddf8-687f-4a59-a317-c6a050f56857</webElementGuid>
+      <webElementGuid>2ac36bf6-7acd-4f4c-8a70-20502d5d666d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;flex justify-end mt-6&quot;]/div[@class=&quot;mt-5 text-right w-full&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>93aa7897-8ba7-4cb5-9e95-4ed989febf01</webElementGuid>
+      <webElementGuid>29dabb1b-bace-4017-a15a-e9b98af231c2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[14]</value>
-      <webElementGuid>70c4bf1c-ea0d-4f8a-ac43-674993bab05b</webElementGuid>
+      <webElementGuid>332bcc06-691a-42a0-a7ec-938ef8354ea0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div[2]/div/button</value>
-      <webElementGuid>cec7e587-5021-4d3d-b6c1-d452b5dbea78</webElementGuid>
+      <webElementGuid>d66eb230-ed7a-4054-b190-3e34c26f4d6d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='*'])[9]/following::button[1]</value>
-      <webElementGuid>56922232-b490-4271-8316-dd7c72643edb</webElementGuid>
+      <webElementGuid>3d4d7cd7-7483-4782-9e2f-5296501753b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[1]/following::button[1]</value>
-      <webElementGuid>2ab31d7c-0989-40e2-a7d7-d6e7309128d9</webElementGuid>
+      <webElementGuid>fdeb3520-459b-417a-8a27-bf12b14abd8c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/preceding::button[1]</value>
-      <webElementGuid>cc74923c-ffca-476c-9462-5e880e23c583</webElementGuid>
+      <webElementGuid>edbfcb98-f4fb-48b0-9133-aa1718156892</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +119,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/button</value>
-      <webElementGuid>8ea7f218-06ca-4e08-aedc-1451fbcd4a29</webElementGuid>
+      <webElementGuid>f52de40e-769a-4627-81f0-ccf5602ccddd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,6 +127,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>70943bb2-698a-433c-bf48-2d00d3e45f24</webElementGuid>
+      <webElementGuid>bc12c192-f67f-4313-9e42-a41de9950f60</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

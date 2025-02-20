@@ -6,15 +6,16 @@
    <elementGuidId>4b71c631-a299-404d-ad7d-a5879889f567</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Bank Statement - Business ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-option-318 > span.mat-option-text</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-318']/span</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>ae427a01-692d-4e85-9e62-bb9a0113f373</webElementGuid>
+      <webElementGuid>934075f8-a2cb-496a-b10a-3165e30a7d18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>065aa379-bc89-47bd-8bcd-39bc53a53399</webElementGuid>
+      <webElementGuid>ff8b7349-bad8-4593-bc2c-ad70a4c29caa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Bank Statement - Business</value>
-      <webElementGuid>618812d7-d3d6-460a-ad8b-6bc93e22cd6e</webElementGuid>
+      <webElementGuid>a3cb1408-41ae-4f0f-ab77-a4baaf5202df</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-318&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>8c359eec-6dd4-4cf8-9f29-dea0ddf0e0d7</webElementGuid>
+      <webElementGuid>05cd66ab-f501-4a27-a52e-ca59bf73ffe1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-318']/span</value>
-      <webElementGuid>2647105b-bfcb-4e40-b18b-0819da922332</webElementGuid>
+      <webElementGuid>2c6762f2-7a21-4953-a4f0-b98144d539b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MTML - Place Of Business'])[1]/following::span[1]</value>
-      <webElementGuid>a0965edd-6110-49d8-ad48-cecb418faaaa</webElementGuid>
+      <webElementGuid>e77da036-5934-4f3d-b96a-1ab971224aad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MYT- Place Of Business'])[1]/following::span[2]</value>
-      <webElementGuid>77e1bb14-0505-4471-8a25-58deee95f76d</webElementGuid>
+      <webElementGuid>cb0b907a-55b8-4e2f-be5f-362427341de1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Rent Book - Business'])[1]/preceding::span[1]</value>
-      <webElementGuid>ab28e85c-7d86-47c3-baed-2f8fe7351901</webElementGuid>
+      <webElementGuid>304f28c3-d7a2-46cc-85a7-80a13f9f1f68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-318', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/preceding::span[2]</value>
-      <webElementGuid>b821b5b0-c1c6-4395-acbf-bee42c104ab9</webElementGuid>
+      <webElementGuid>08bc77ee-2c00-4de5-90a4-58ca3be51b66</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Bank Statement - Business']/parent::*</value>
-      <webElementGuid>eca438d7-f83f-48f1-9f95-23b6c19aefd9</webElementGuid>
+      <webElementGuid>c3c4842f-eb40-4461-b20f-61e70765661a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[6]/span</value>
-      <webElementGuid>b2ddd26d-7ade-4e11-8e00-eacb5a7622e3</webElementGuid>
+      <webElementGuid>33673342-a198-4dec-a5b4-44f20b1e8ed1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Bank Statement - Business' or . = 'Bank Statement - Business')]</value>
-      <webElementGuid>32e26bfe-df4c-4451-8ba4-c07e3663e371</webElementGuid>
+      <webElementGuid>1eac4e98-9fd9-4ed1-8fc4-de21251f485a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

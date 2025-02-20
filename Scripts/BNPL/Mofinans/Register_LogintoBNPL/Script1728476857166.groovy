@@ -53,7 +53,7 @@ Mobile.delay(5)
 
 Mobile.tap(findTestObject('Object Repository/Registration/android.widget.Button - Continue'), 3)
 
-Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'R1106824600386', 
+Mobile.setText(findTestObject('Object Repository/Registration/android.widget.EditText - NIC Number'), 'D031297330133F', 
     5)
 
 Mobile.tap(findTestObject('Registration/android.widget.TextView - Continue(2)'), 0)
@@ -74,11 +74,11 @@ Mobile.tap(findTestObject('Registration/android.widget.Button - Continue (1)'), 
 
 WebUI.delay(3, FailureHandling.OPTIONAL)
 
-EnterMpin.enterMpin('371256')
+EnterMpin.enterMpin('590347')
 
 Mobile.delay(5)
 
-EnterMpin.enterMpin('371256')
+EnterMpin.enterMpin('590347')
 
 WebUI.delay(5)
 
@@ -142,9 +142,3 @@ Mobile.delay(5)
 
 Mobile.closeApplication()
 
-
-
-//import my.custom.keywords.EnterMpin
-//
-//// Enter a 6-digit MPIN (e.g., "123456")
-//EnterMpin.enterMpin("123456")

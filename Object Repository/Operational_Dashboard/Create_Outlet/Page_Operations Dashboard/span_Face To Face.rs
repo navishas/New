@@ -6,15 +6,16 @@
    <elementGuidId>b6bd35ab-5b91-43af-a851-b94c19ed01a3</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),' Face To Face ')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-252']/span</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b6cdf254-f06a-4c8a-b33f-8f42a022ff8f</webElementGuid>
+      <webElementGuid>533fa410-4215-484c-8953-e48d91fa3d6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>2c09800c-a9e0-4401-a9a6-1e80b1d4fc36</webElementGuid>
+      <webElementGuid>6d2a510d-aba9-41d6-a2ef-129e0ef173e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Face To Face </value>
-      <webElementGuid>d92c7fdd-e97d-42f9-91ed-b0fc0807ac65</webElementGuid>
+      <webElementGuid>65d29f74-d31f-4fe0-9e1a-d6bc9fe14534</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-252&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>c9c79dcb-c2be-4b41-acbc-0075287cfd97</webElementGuid>
+      <webElementGuid>f5ac42c0-eddc-41db-89da-4f1f7b24ad6e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-252']/span</value>
-      <webElementGuid>a233833b-c603-4044-aa3c-a01e0c679395</webElementGuid>
+      <webElementGuid>6215a0b1-d078-44fa-b173-92195da91301</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-252', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[1]</value>
-      <webElementGuid>fe5d0244-45bc-45bd-af09-da45ee6e3b51</webElementGuid>
+      <webElementGuid>56149af2-3a1c-41e8-b8d4-7c9da0ae5077</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>3f386cb2-357d-4f3f-a758-468d3ac5eeea</webElementGuid>
+      <webElementGuid>0a2c2fb2-61b2-44a2-8caf-32faba00cd8b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Internet'])[1]/preceding::span[1]</value>
-      <webElementGuid>01656289-ee1a-41a7-b33f-af9049f39ad3</webElementGuid>
+      <webElementGuid>1ab8f7c0-cb3d-41c9-9c3a-bdb0b5e70c34</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Outlet Type'])[2]/preceding::span[2]</value>
-      <webElementGuid>6fad1ddf-0d28-43a0-8d0b-a95ad8f437fe</webElementGuid>
+      <webElementGuid>2160fa00-9957-4257-a961-7e63478e006c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Face To Face']/parent::*</value>
-      <webElementGuid>44c77240-dfdf-49b7-b439-0467e5e769ac</webElementGuid>
+      <webElementGuid>dc63db78-65ff-473c-ae27-75334021181a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>b1dd64cb-6a2f-4e4c-88aa-ef41b0bebf27</webElementGuid>
+      <webElementGuid>e2b34bf9-3c3c-4e39-8202-ee3d49b81554</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' Face To Face ' or . = ' Face To Face ')]</value>
-      <webElementGuid>9cc1cc72-1b76-43a7-b63c-4c585e3a904d</webElementGuid>
+      <webElementGuid>9d97f5ad-405d-48c3-b697-de266c435b94</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

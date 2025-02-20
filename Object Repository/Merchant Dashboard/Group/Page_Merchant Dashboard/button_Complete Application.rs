@@ -6,12 +6,12 @@
    <elementGuidId>e6fe7579-f575-43c4-9bf8-5e2a8a52e060</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[3]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.ant-btn.wizard-btn.btn.btn-primary</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type = 'button' and (text() = 'Complete Application' or . = 'Complete Application')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a7167a83-5285-4a9a-8204-14512b3eaffb</webElementGuid>
+      <webElementGuid>a3a22ae2-52ab-44bb-bd95-aa668698c4b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>cfb1163b-21b5-4513-a4cc-447e4f0b60d7</webElementGuid>
+      <webElementGuid>2bc1f0b8-7ddb-4e20-a5c6-547e4b017f56</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-btn wizard-btn btn btn-primary</value>
-      <webElementGuid>fe3600f6-f0ed-4cca-a99c-468e5ed5db50</webElementGuid>
+      <webElementGuid>567df189-8e6e-4e1d-9657-c11eb51692e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Complete Application</value>
-      <webElementGuid>536c8e90-0bca-442c-9457-70fef8ff5d21</webElementGuid>
+      <webElementGuid>03492228-c974-4ec4-b966-da23d5075d35</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;gx-layout-sider-scrollbar&quot;]/div[1]/div[@class=&quot;sub-app-container&quot;]/div[@class=&quot;main-app-container&quot;]/div[@class=&quot;complete-application-form&quot;]/div[@class=&quot;dashboard-content&quot;]/ul[@class=&quot;list-group vertical-steps&quot;]/li[@class=&quot;list-group-item active&quot;]/button[@class=&quot;ant-btn wizard-btn btn btn-primary&quot;]</value>
-      <webElementGuid>a528a97b-a428-402f-ad70-fd87b82db0cb</webElementGuid>
+      <webElementGuid>693f5249-6931-4597-9823-077589c5566d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[3]</value>
-      <webElementGuid>70a75025-b2f2-495e-b06e-41cae2283a43</webElementGuid>
+      <webElementGuid>e3bc77e3-2691-4c3f-994f-b949ea5622d1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div[2]/div[2]/div/div/div/div/div/ul/li[2]/button</value>
-      <webElementGuid>475c7254-08be-4918-949e-02233c27847a</webElementGuid>
+      <webElementGuid>ed784da8-57e1-4c86-920f-2d3f1073d458</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Complete Application'])[2]/following::button[1]</value>
-      <webElementGuid>a31e4fa8-dcf3-4e64-b4dd-69292c325018</webElementGuid>
+      <webElementGuid>cd04a79f-8a63-44a1-9b59-8762bdd22b7f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verification'])[1]/following::button[1]</value>
-      <webElementGuid>c5702d84-26a2-4a9c-b448-046f12cc7c0e</webElementGuid>
+      <webElementGuid>a3b99893-efd2-4481-af2b-37550bd646d3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Application In Review'])[1]/preceding::button[1]</value>
-      <webElementGuid>808da09e-bafe-4239-9a94-e67dd414ef41</webElementGuid>
+      <webElementGuid>df7a95b0-1c61-41a9-bb5e-b457cdd3c892</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[2]/button</value>
-      <webElementGuid>ad4187c3-26fc-4a6d-b10c-3ee16781982e</webElementGuid>
+      <webElementGuid>90c8167b-9295-4805-afdb-d2c229e28b72</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Complete Application' or . = 'Complete Application')]</value>
-      <webElementGuid>8d0ae714-4d86-48ff-af7d-2b4d3162412e</webElementGuid>
+      <webElementGuid>6d21b3a4-90ea-423a-a2e7-621b38e9a552</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

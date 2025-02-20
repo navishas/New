@@ -6,15 +6,16 @@
    <elementGuidId>39b2b6b4-217d-4dd2-bce2-5e1d64574ee1</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'Business Registration Card')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-308']/span</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>655b4bd4-dce5-4719-8e47-b4b322323f13</webElementGuid>
+      <webElementGuid>34adf595-5c2a-46c5-9f21-adff32eb4583</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>77db0f85-7faf-460b-a22d-f98706115dd3</webElementGuid>
+      <webElementGuid>a526f164-d927-40c5-8e64-a15862d86973</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Business Registration Card*</value>
-      <webElementGuid>b8a4c9ba-a73a-436b-961c-d5e52b401bfd</webElementGuid>
+      <webElementGuid>29e9de75-ce49-4612-815a-57c521af9555</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-308&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>318ef7a9-96fd-448d-ac6c-6718ad1dbb09</webElementGuid>
+      <webElementGuid>79fa18de-4b68-48d9-81a7-fde5d994ce51</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-308']/span</value>
-      <webElementGuid>e49db94f-7f5a-492b-9900-fdc5244b2ea1</webElementGuid>
+      <webElementGuid>83686a57-608a-4671-8f3c-010338648ebc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-308', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[1]</value>
-      <webElementGuid>5409c1e4-9a46-4428-996e-201e3980a1f3</webElementGuid>
+      <webElementGuid>2b6c514d-4e77-42a0-9aa4-a685327845dc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/following::span[3]</value>
-      <webElementGuid>1b6582c2-30c8-4934-ad89-059fbff17aac</webElementGuid>
+      <webElementGuid>3d6a1a82-b5bf-4282-8490-7c51e3b38acf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Valid Trade License'])[1]/preceding::span[1]</value>
-      <webElementGuid>de818491-483b-4007-a9b5-4bb144079668</webElementGuid>
+      <webElementGuid>dc28157f-05be-406f-aec9-f4d13fe4a22e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Account Evidence'])[1]/preceding::span[2]</value>
-      <webElementGuid>3da6f1f1-4376-4869-95d1-22a4f79f468d</webElementGuid>
+      <webElementGuid>69fe3d9a-1dd0-4a45-a56a-36800830e798</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Business Registration Card*']/parent::*</value>
-      <webElementGuid>1f0ae028-6d26-4ceb-bf77-454a6a8875e5</webElementGuid>
+      <webElementGuid>6951b753-a001-4a33-a57e-43ee6b50bdfb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>c66833cd-8c7f-4278-8baa-2c5f4b27ce9d</webElementGuid>
+      <webElementGuid>42f1558e-ae28-413d-a95c-7b85c1594424</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Business Registration Card*' or . = 'Business Registration Card*')]</value>
-      <webElementGuid>77c270f7-ef52-418f-bf2f-cf909f7a015b</webElementGuid>
+      <webElementGuid>d1c36e48-1755-449d-8427-2565329373e9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

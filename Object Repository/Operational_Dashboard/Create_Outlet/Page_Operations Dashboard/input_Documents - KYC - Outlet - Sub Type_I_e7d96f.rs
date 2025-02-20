@@ -6,15 +6,16 @@
    <elementGuidId>db6ac711-02ce-40a0-a107-f5a64d994e9e</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@name=&quot;ID Number&quot; and @type=&quot;text&quot;]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#mat-input-18</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='mat-input-18']</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>90c7d402-ba47-40d8-8e55-ce6e7571eadc</webElementGuid>
+      <webElementGuid>34eba1dd-3e15-4754-96c5-13a74cea69ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>name</name>
       <type>Main</type>
       <value>ID Number</value>
-      <webElementGuid>a2bb0bf2-e4b1-4cba-a74a-cff51e888cfc</webElementGuid>
+      <webElementGuid>857d3eca-d094-4627-a809-e8a90d1caf12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f0e334d7-94ff-4d9a-a38f-e29c192777ef</webElementGuid>
+      <webElementGuid>66d7122d-7f42-49ec-8fac-304161dc2b10</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-95 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
-      <webElementGuid>cca05c27-bca6-4113-bd51-3655571b8f8e</webElementGuid>
+      <webElementGuid>61166e0f-f6b3-4c42-ac24-e565113349a4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-input-18</value>
-      <webElementGuid>7dc7ce14-64cb-44a9-9944-45cfb2f9987d</webElementGuid>
+      <webElementGuid>e293471e-a54d-4f6f-8722-95f9f45e6bcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>824588a5-2509-41bb-894d-0816fbe36d47</webElementGuid>
+      <webElementGuid>d4614bd6-feff-46bd-bc11-ce1908c33061</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-input-18&quot;)</value>
-      <webElementGuid>1fc62eb8-f648-4d2f-b1bc-2247ffbf4bc2</webElementGuid>
+      <webElementGuid>cb6b0b52-d4e6-4604-9b61-960919abd441</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='mat-input-18']</value>
-      <webElementGuid>b6f2d9b0-761a-4603-81d5-98d0dba865df</webElementGuid>
+      <webElementGuid>fe35e776-6075-4ebf-b697-88064bf5e56a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>8b4f8205-6262-415f-ad60-c8613e767203</webElementGuid>
+      <webElementGuid>7ee13c04-a824-482e-83e8-6e5480b96b9d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>8f79a595-b94c-4932-8b8b-2cca5749cac9</webElementGuid>
+      <webElementGuid>cebb1da9-3a43-4b62-831d-7460461bcbff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'ID Number' and @type = 'text' and @id = 'mat-input-18']</value>
-      <webElementGuid>5f2591f7-6b34-482e-85be-bf4b9c53c350</webElementGuid>
+      <webElementGuid>09332994-8e1a-4b76-bd5b-c357dca1843b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
