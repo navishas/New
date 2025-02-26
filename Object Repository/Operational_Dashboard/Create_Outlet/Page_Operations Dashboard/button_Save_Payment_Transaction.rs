@@ -11,10 +11,11 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[17]</value>
+         <value>//button[@type=&quot;button&quot; and .//span[contains(text(), 'Save')]]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d5b41004-efea-4a71-8773-07b565dc1575</webElementGuid>
+      <webElementGuid>bccfe745-23a9-49f9-872b-9ae38de6b002</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4aa7028b-3563-404b-abd4-aca0916ed64f</webElementGuid>
+      <webElementGuid>e093a6dc-9892-458b-879c-acc3826cf089</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ant-btn btn pull-right onboarding-button-primary</value>
-      <webElementGuid>6ceee6b4-4853-4957-a279-b25c79a63a23</webElementGuid>
+      <webElementGuid>e6a282b1-928a-4d29-94b9-df7b97a1a5d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>6fecd59d-d6e1-4951-879a-74857fb7f169</webElementGuid>
+      <webElementGuid>2fa1be08-e77f-4694-b4f4-86e66985079d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;rootReact&quot;)/section[@class=&quot;main-app-container&quot;]/div[@class=&quot;app-container&quot;]/div[1]/div[@class=&quot;ant-card merchant-onboarding ant-card-bordered&quot;]/div[@class=&quot;ant-card-body&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active&quot;]/div[@class=&quot;ant-tabs ant-tabs-top ant-tabs-line&quot;]/div[@class=&quot;ant-tabs-content ant-tabs-content-animated ant-tabs-top-content&quot;]/div[@class=&quot;ant-tabs-tabpane ant-tabs-tabpane-active screen-height-container-with-tabs&quot;]/div[@class=&quot;tab-screen-footer&quot;]/div[@class=&quot;buttons-wrapper&quot;]/button[@class=&quot;ant-btn btn pull-right onboarding-button-primary&quot;]</value>
-      <webElementGuid>95ceed48-65b3-4343-a273-99e2c6d04cc6</webElementGuid>
+      <webElementGuid>de695328-a6dd-4a88-86b9-43c4b928b336</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[17]</value>
-      <webElementGuid>1ed15e94-22a5-4c3e-aa4a-0c2809f1bf85</webElementGuid>
+      <webElementGuid>7619f713-892e-44e8-8f97-9b9411d6d3c2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div/div[2]/div[3]/div[3]/div[3]/div/button[2]</value>
-      <webElementGuid>e757e1bc-3f88-48b6-845f-c4266b5c5793</webElementGuid>
+      <webElementGuid>4ffa11f9-d50c-49bc-886b-1724e7dd00cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>77c6a748-4977-4a39-8444-a639585bc770</webElementGuid>
+      <webElementGuid>bdc549c1-5c89-48b8-a59f-b99c5377e45f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Static QR'])[1]/following::button[2]</value>
-      <webElementGuid>edddcf16-e21c-4223-b7ae-8a99094c8d08</webElementGuid>
+      <webElementGuid>82684b16-cfb8-433c-8668-bbe9fc8649da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button[2]</value>
-      <webElementGuid>97debc23-07ae-4119-8a75-0638054a8c63</webElementGuid>
+      <webElementGuid>35fa6509-1e9d-461e-a88e-64184f65df96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>1a294876-d00e-4167-8906-2d7744e1037c</webElementGuid>
+      <webElementGuid>067d132a-96a3-4870-aec5-19f88e3345d9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -6,15 +6,16 @@
    <elementGuidId>1594458b-d7dc-464d-809d-fecff83029e2</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(), 'Approve')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-stroked-button.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button)[36]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>929436f4-69d5-437f-9716-24766255735a</webElementGuid>
+      <webElementGuid>b7d18180-7e6f-4c95-9908-5968786c1d61</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>e50ea776-3fee-4e90-b53e-351c35902368</webElementGuid>
+      <webElementGuid>fa10e66c-9a80-480e-91a7-a31548c73885</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Approve </value>
-      <webElementGuid>db95c9ab-92a2-40d1-92d5-19b629a7cc19</webElementGuid>
+      <webElementGuid>e5026732-7530-41cb-9d1f-515b7e14eb69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-stroked-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>ce91e6c5-7239-4a3a-8f3e-7d4bdf3397ca</webElementGuid>
+      <webElementGuid>d6aeaf70-0e49-4700-9686-e35a9f9a90a9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>5f796a4e-533b-45c2-b8d4-547801bf885f</webElementGuid>
+      <webElementGuid>089c3572-5e3b-4873-bf82-e62b2725e2ab</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='-'])[9]/following::button[3]</value>
-      <webElementGuid>b986b4f1-6ced-4bd4-8e64-8fc42215dd02</webElementGuid>
+      <webElementGuid>6201f5e7-df2b-4c21-8212-8987c28b340f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Remarks/Recommendation, If any'])[1]/following::button[3]</value>
-      <webElementGuid>e6c71b81-5a17-4f47-b818-0404f15f4b12</webElementGuid>
+      <webElementGuid>8166ba9d-f459-4601-abef-ebd1035955a9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Return Application'])[1]/preceding::button[1]</value>
-      <webElementGuid>a96cd9e8-df0a-4cce-b92a-02d5ee9bbfc1</webElementGuid>
+      <webElementGuid>c985c033-9b9a-4faa-bcd1-1ee5a99bba97</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>9e207b44-f313-4e15-ba13-91caf041e5b3</webElementGuid>
+      <webElementGuid>0d9c20ba-7d97-4a2b-a541-394086ebdb94</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Approve ' or . = ' Approve ')]</value>
-      <webElementGuid>22acfe80-d7d0-4b9f-9666-1f0e221113bb</webElementGuid>
+      <webElementGuid>6efba3cc-4cb8-4b39-96fe-8d24e908ef72</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

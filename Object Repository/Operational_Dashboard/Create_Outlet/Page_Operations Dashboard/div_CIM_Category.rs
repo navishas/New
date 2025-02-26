@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_GLPosting</name>
+   <name>div_CIM_Category</name>
    <tag></tag>
-   <elementGuidId>377ee224-7e09-4197-9a36-162e1082df26</elementGuidId>
+   <elementGuidId>9e969255-06ef-41dd-8fc4-699e0fa52eed</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//span[contains(text(),'CIM Category')]/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//span[text()='GL Posting Group']/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

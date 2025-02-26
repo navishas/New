@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[14]</value>
+         <value>//span[contains(text(),'Save')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -15,6 +15,7 @@
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>fb11859e-c692-4a45-a835-59b99cbb2c36</webElementGuid>
+      <webElementGuid>4e8ea18c-1dad-4cd0-b609-8db28c977258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>64ba9c04-ae04-45f6-8688-6db6c2dc0ae3</webElementGuid>
+      <webElementGuid>45d22bd6-bb2a-4918-b365-140aaa9f3fe2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +39,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>c1fdaa84-17ae-4d59-845b-3da6bd24bc29</webElementGuid>
+      <webElementGuid>f20ce2f9-94ca-45ab-bbef-5d62add9260d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>6989ce31-3fcb-4c62-84a4-98819f6c9df5</webElementGuid>
+      <webElementGuid>5f01e785-4254-45a0-b219-c59a272a2187</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Save </value>
-      <webElementGuid>a0bf9610-121e-4a23-8d9e-1b762144498f</webElementGuid>
+      <webElementGuid>2b4b8eb2-8eec-4e3c-8bd8-e696d9103d8d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;my-4 border border-gray-200 p-4 w-2/3 rounded-lg ng-star-inserted&quot;]/form[@class=&quot;mt-5 flex flex-col gap-2 ng-dirty ng-touched ng-valid&quot;]/section[@class=&quot;ml-auto mr-0 flex gap-4&quot;]/button[@class=&quot;mat-focus-indicator mat-flat-button mat-button-base mat-primary cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>ea6d86dd-d393-48c8-ad5c-28d1cc8e9a69</webElementGuid>
+      <webElementGuid>9569c1fc-7947-4a5b-a97f-f7c60d9d91f6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[18]</value>
-      <webElementGuid>ef2dfb7f-5304-423a-8fe7-04b1f273ab38</webElementGuid>
+      <webElementGuid>bc79c359-0f86-4d05-844c-d847f79b8806</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[4]/button[2]</value>
-      <webElementGuid>6111cb4b-e21f-48c2-a919-1c4e2716f1cc</webElementGuid>
+      <webElementGuid>b6605d64-d7e4-4b3e-b38e-4049bddcb086</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Cancel'])[1]/following::button[1]</value>
-      <webElementGuid>7f537a3c-8097-4e80-a32c-9912c6784c4e</webElementGuid>
+      <webElementGuid>a216e0cb-f158-4490-8d82-3a98d39156eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload File'])[1]/following::button[3]</value>
-      <webElementGuid>b2376d1f-0f3f-441f-935f-a0205b9aaf97</webElementGuid>
+      <webElementGuid>ca3469bb-f039-4842-8732-d21e5a9760b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/preceding::button[1]</value>
-      <webElementGuid>5619ad02-250f-4a9c-bfc4-8a02c791f50b</webElementGuid>
+      <webElementGuid>2ca4847f-de14-4b2a-b286-33ea69902d86</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[4]/button[2]</value>
-      <webElementGuid>68525080-a1ba-47ce-9ce9-7db2433ae77a</webElementGuid>
+      <webElementGuid>0a015b84-df3b-45cc-b336-3f9ffbb6e1e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' Save ' or . = ' Save ')]</value>
-      <webElementGuid>72c9963a-6aac-4b82-a484-3cade65e9664</webElementGuid>
+      <webElementGuid>cb85af3f-f986-4951-a195-0869c6991139</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

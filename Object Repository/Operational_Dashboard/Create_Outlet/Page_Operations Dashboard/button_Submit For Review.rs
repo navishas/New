@@ -6,15 +6,16 @@
    <elementGuidId>c5fa2927-d736-4fd4-aa6c-32a80cfc08e6</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//span[contains(text(), 'Submit For Review')]</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-button.mat-button-base.mat-primary.mat-flat-button.cdk-focused.cdk-mouse-focused</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>(//button)[15]</value>
-      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>8060e9e5-95b5-46d5-b50c-5e80ff5da88c</webElementGuid>
+      <webElementGuid>4f1391ff-e96b-4171-82f5-c73aa950c922</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>359a309b-bf74-49f9-8cf1-8bbf2615bf81</webElementGuid>
+      <webElementGuid>db46c70b-bf91-4207-b949-6054e77e0804</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> Submit For Review </value>
-      <webElementGuid>ab870bd6-f72a-4e8f-b9f3-9987b64680ed</webElementGuid>
+      <webElementGuid>8cac4bbb-e873-434a-ba07-0e76fe8f06c4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;object-1&quot;)/div[@class=&quot;ng-star-inserted&quot;]/button[@class=&quot;mat-focus-indicator mat-button mat-button-base mat-primary mat-flat-button cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>b3e6480f-933a-47df-b1f9-187b0a9cd6ec</webElementGuid>
+      <webElementGuid>8819198b-b058-4d3f-b989-015195106e6d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='object-1']/div/button</value>
-      <webElementGuid>7ade832f-8ef9-4fcb-92e6-e26522976535</webElementGuid>
+      <webElementGuid>8f49b5ec-0b6e-4c17-9c01-56747a5c6562</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Delete'])[1]/following::button[1]</value>
-      <webElementGuid>08e10189-d0f7-4d59-bb69-8b4c3302bdae</webElementGuid>
+      <webElementGuid>ce9b806a-2757-4298-8b07-3e4e2e690b7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='View'])[1]/following::button[1]</value>
-      <webElementGuid>cd2b6789-fe02-49e1-bcdc-1d4975aad7b9</webElementGuid>
+      <webElementGuid>ab699b9e-6149-4479-941b-b21dfd62b8ed</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Start Over'])[1]/preceding::button[1]</value>
-      <webElementGuid>e7a7377d-664d-420e-b913-37418d85d1b5</webElementGuid>
+      <webElementGuid>7032b0ca-d255-4955-8249-7f54280c564a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/button</value>
-      <webElementGuid>bfc83195-fdc9-423a-9282-5df907b8c673</webElementGuid>
+      <webElementGuid>25ba334c-d466-435d-89cb-5ce8240ea5c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[(text() = ' Submit For Review ' or . = ' Submit For Review ')]</value>
-      <webElementGuid>088793cd-e33f-49bf-99b3-ce5343674b8e</webElementGuid>
+      <webElementGuid>7d0bb462-42cf-47e7-8512-5d49f5931b5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

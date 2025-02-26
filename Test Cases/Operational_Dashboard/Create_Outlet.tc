@@ -85,7 +85,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Selecting_SoleTrader</testDataId>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Selecting_ParentMerchant</testDataId>
    </testDataLinks>
    <testDataLinks>
       <combinationType>ONE</combinationType>
@@ -191,6 +191,12 @@
       <type>DATA_COLUMN</type>
       <value>Name</value>
       <variableId>0e52555f-0460-4ce2-99f4-b3133db42561</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>35cf2d7a-4fed-468e-9a44-eefc62360fbe</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Parent_ID</value>
+      <variableId>63c7c821-8c73-4cac-878d-6edded02d58b</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -303,5 +309,12 @@
       <id>0e52555f-0460-4ce2-99f4-b3133db42561</id>
       <masked>false</masked>
       <name>Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>63c7c821-8c73-4cac-878d-6edded02d58b</id>
+      <masked>false</masked>
+      <name>Parent_ID</name>
    </variable>
 </TestCaseEntity>

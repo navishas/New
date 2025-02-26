@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_GLPosting</name>
+   <name>button_CommissionSave</name>
    <tag></tag>
-   <elementGuidId>377ee224-7e09-4197-9a36-162e1082df26</elementGuidId>
+   <elementGuidId>42e8d274-908d-430a-b4aa-5edb21fe70cd</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//span[text()='GL Posting Group']/ancestor::span/preceding-sibling::mat-select[@role='combobox']</value>
+         <value>(//button[@type=&quot;button&quot;])[last()]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
