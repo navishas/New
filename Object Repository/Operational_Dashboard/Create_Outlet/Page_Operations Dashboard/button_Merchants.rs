@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>option_Electrical Contractor</name>
+   <name>button_Merchants</name>
    <tag></tag>
-   <elementGuidId>6161801e-4491-42f2-a370-1447875b2f11</elementGuidId>
+   <elementGuidId>20853bf7-5ced-451a-956d-541bf61c776a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id=&quot;mat-option-59&quot;]</value>
+         <value>//button//span[contains(text(),'Merchants')]</value>
       </entry>
       <entry>
          <key>BASIC</key>

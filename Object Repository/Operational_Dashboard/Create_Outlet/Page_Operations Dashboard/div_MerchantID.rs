@@ -6,14 +6,14 @@
    <elementGuidId>c790e832-0b11-44f9-a539-a9e2cbf1b60f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div//span[@style=&quot;display: inline-block;&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@role='row' and @data-id='aQdxrp59ML']/div/div/div[2]/div[contains(text(),'MID')]/following-sibling::div</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

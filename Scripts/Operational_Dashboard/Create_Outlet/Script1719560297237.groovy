@@ -217,15 +217,9 @@ WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashbo
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'))
 
-//WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add Document DD'), 
-//    5)
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add Document DD'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Business Registration Card'))
-
-//WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents Outlet_ID Number'), 
-//    5)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents Outlet_ID Number'), 
     Document_Name)
@@ -247,13 +241,7 @@ WebUI.delay(7)
 WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
     5)
 
-//WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'),
-//	5)
-
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), FailureHandling.STOP_ON_FAILURE)
-
-//WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add New Identifier_mat-select-value-31'), 
-//    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add New Identifier_mat-select-value-31'))
 
@@ -288,15 +276,9 @@ WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Cr
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'))
 
-//WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add New Identifier_mat-select-value-35'), 
-//    5)
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Add New Identifier_mat-select-value-35'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_VAT Certificate'))
-
-//WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - Additional_ID Number'), 
-//    5)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - Additional_ID Number'), 
     Document_Name2)
@@ -323,8 +305,6 @@ WebUI.delay(5)
 WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'), 5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'))
-
-//WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'))
 
 WebUI.delay(5)
 
@@ -441,8 +421,6 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 
 WebUI.delay(5)
 
-//WebUI.refresh()
-
 //Submit for review
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'), 30)
@@ -487,7 +465,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_MerchantCategoryCode'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/option_Electrical Contractor'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/Span_Electrical Contractor'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_CIM_Category'))
 
@@ -513,7 +491,7 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Approval'))
 
-//WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Approve'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Approve'))
 
 //Pending Approval section
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Search_Pending_Approval'), 
