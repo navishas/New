@@ -17,7 +17,6 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://cim-operations-uat.m2pfintech.com/signin')
@@ -52,7 +51,8 @@ WebUI.delay(3)
 WebUI.setText(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Parent Merchant ID_rc_select_1'), 
     Parent_ID)
 
-WebUI.sendKeys(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Parent Merchant ID_rc_select_1'), Keys.chord(Keys.ENTER))
+WebUI.sendKeys(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Parent Merchant ID_rc_select_1'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.delay(2, FailureHandling.OPTIONAL)
 
@@ -175,7 +175,7 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 //Settlement Bank Details
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/Span_Settlement_Type'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/Span_SettlementTypeBank'))
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/Span_SettlementTypeBank'))
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Settlement Bank Details_selection'), 
     30, FailureHandling.OPTIONAL)
@@ -211,7 +211,6 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_Settlement_Bank_Details'))
 
 //Bussiness Document Upload
-
 WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
     5)
 
@@ -237,7 +236,6 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.delay(7)
 
 //KYC Document Upload
-
 WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
     5)
 
@@ -270,9 +268,8 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.delay(7)
 
 //Reviewer Document 
-
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'))
 
@@ -292,7 +289,6 @@ WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operat
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Reviewer_Doc'))
 
 //Configurations
-
 //Payment Modes page
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/Span_PaymentModeTab'))
 
@@ -301,24 +297,24 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.delay(5)
 
 //Product Config
-
-WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'), 5)
+WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Payment_Transaction'))
 
 WebUI.delay(5)
 
 //commission
-
-WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'), 5)
+WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'))
 
 WebUI.delay(5)
 
 //subscription
-
-WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'), 5)
+WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_CommissionSave'))
 
@@ -379,8 +375,6 @@ WebUI.delay(5)
 //    30, FailureHandling.OPTIONAL)
 //
 //WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Subscription'))
-
-
 //Settlement cycle
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Edit'))
 
@@ -392,7 +386,6 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.delay(10)
 
 //Invoice Cycle
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Edit_InvoiceCycle'))
 
 WebUI.delay(15)
@@ -401,7 +394,6 @@ WebUI.delay(15)
 //	10, FailureHandling.OPTIONAL)
 //
 //WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_InvoiceCycle'))
-
 WebUI.delay(5)
 
 //SMS Notification
@@ -422,8 +414,8 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations 
 WebUI.delay(5)
 
 //Submit for review
-
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'), 30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'), 
+    30)
 
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'), 
     10, FailureHandling.OPTIONAL)

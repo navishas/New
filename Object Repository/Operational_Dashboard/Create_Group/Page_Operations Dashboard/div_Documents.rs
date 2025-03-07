@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Documents</name>
+   <tag></tag>
+   <elementGuidId>d790ec42-01a4-451c-ba63-23fa8326b657</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[3]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.action-title.font-semibold</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b1a0a6c3-59c3-41c8-a018-675434748657</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>action-title font-semibold</value>
+      <webElementGuid>39c80760-c04f-423f-842c-ab2083ad4336</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Documents *</value>
+      <webElementGuid>3427253f-efda-4163-ada7-7f9d2b1fb956</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/section[@class=&quot;my-4 border border-gray-200 p-4 w-2/3 rounded-lg ng-star-inserted&quot;]/form[@class=&quot;mt-5 flex flex-col gap-2 ng-invalid ng-dirty ng-touched&quot;]/section[@class=&quot;flex w-full gap-4&quot;]/div[@class=&quot;w-full&quot;]/div[@class=&quot;action-title font-semibold&quot;]</value>
+      <webElementGuid>7945d072-5b05-4f13-86b2-21bdb4e5af42</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/app-documents-details/div/section/form/section[3]/div/div</value>
+      <webElementGuid>ffba7c06-5a88-4e10-a769-3338dcef1d7c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Document Name'])[1]/following::div[6]</value>
+      <webElementGuid>df9f30ea-16f5-4983-b766-6d8b0d74b767</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Documents Outlet'])[1]/following::div[13]</value>
+      <webElementGuid>b08165b8-e81b-4957-938b-8d0c490a5b56</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Drag And Drop Files Here'])[1]/preceding::div[2]</value>
+      <webElementGuid>ac1fc02e-ba91-494c-9294-07e8174fbd21</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Documents']/parent::*</value>
+      <webElementGuid>039fb872-d415-4f85-96a2-f0cc55e6f908</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//section[3]/div/div</value>
+      <webElementGuid>27d7aa89-b56f-4d91-876f-db195494b77a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Documents *' or . = 'Documents *')]</value>
+      <webElementGuid>d742c3fc-34ac-49f7-a531-c2b1fffae2d3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_CASSIS</name>
+   <tag></tag>
+   <elementGuidId>5b95600d-630f-439a-9c6b-5da4f55ca907</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@role='listbox']/mat-option[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#mat-option-228 > span.mat-option-text</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>1712bd2d-ea9f-4a8d-a5c8-52e29a8ee658</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>186a8607-035c-4db8-9a6d-2d01b0a140c0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> CASSIS </value>
+      <webElementGuid>5a789751-1de9-4813-8a5b-d6e2f9b619f5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mat-option-228&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
+      <webElementGuid>0e1ba23b-0e0f-443b-988f-d38c0692dcb3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//mat-option[@id='mat-option-228']/span</value>
+      <webElementGuid>6c891064-d046-40ec-8db3-17c22ad0a00f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BOULEVARD VICTORIA'])[1]/following::span[1]</value>
+      <webElementGuid>70fb992b-87c8-4728-b20e-fd776704546d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BORSTAL'])[1]/following::span[2]</value>
+      <webElementGuid>f8f6f106-60a4-4512-954b-4b1fb05a94b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CHAMPS DE MARS'])[1]/preceding::span[1]</value>
+      <webElementGuid>a7569392-1237-40c4-bc6b-02411b097c2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CHINA TOWN'])[1]/preceding::span[2]</value>
+      <webElementGuid>783afd8f-d7fb-4d49-b6d1-d89626627e72</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='CASSIS']/parent::*</value>
+      <webElementGuid>fda6d1ae-3db5-4489-bf5f-f4d0d57583e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//mat-option[5]/span</value>
+      <webElementGuid>359e6986-2796-4121-ac08-607b127faab8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = ' CASSIS ' or . = ' CASSIS ')]</value>
+      <webElementGuid>f4b24e2e-ce6b-4f6c-b684-9de8a6522730</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
