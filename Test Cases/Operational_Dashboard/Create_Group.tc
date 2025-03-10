@@ -147,6 +147,24 @@
       <value>MDR_Fee</value>
       <variableId>d11cd1bb-ff43-402a-b631-dc93dc97c756</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>df884b80-91de-4b89-90a0-b64c594791b9</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>District</value>
+      <variableId>cf2b9851-5a07-4d4c-af9f-523a244966b4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>df884b80-91de-4b89-90a0-b64c594791b9</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Locality</value>
+      <variableId>024d1b13-5d23-4029-8114-0ec9e9945633</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>df884b80-91de-4b89-90a0-b64c594791b9</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Sub_Locality</value>
+      <variableId>1e947b14-cf6c-4c2c-8946-1b1cda3aaa10</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -300,5 +318,26 @@
       <id>d11cd1bb-ff43-402a-b631-dc93dc97c756</id>
       <masked>false</masked>
       <name>MDR_Fee</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>cf2b9851-5a07-4d4c-af9f-523a244966b4</id>
+      <masked>false</masked>
+      <name>District</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>024d1b13-5d23-4029-8114-0ec9e9945633</id>
+      <masked>false</masked>
+      <name>Locality</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>1e947b14-cf6c-4c2c-8946-1b1cda3aaa10</id>
+      <masked>false</masked>
+      <name>Sub_Locality</name>
    </variable>
 </TestCaseEntity>

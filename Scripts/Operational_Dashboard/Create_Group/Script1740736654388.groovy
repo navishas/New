@@ -83,29 +83,36 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__address_line'),
 	Address_Line)
 
+
+String DistrictValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('District', 1)  // Example for first row
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_PORT LOUIS'))
-
-//String districtValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue("District", 1)
-//
-//// XPath to find the dropdown option dynamically based on the district name
-//String xpath = "//li[text()='" + districtValue + "']"
-//
-//WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
-//
-//WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/District_DD', [('districtName') : districtValue]))
+TestObject DistValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + DistrictValue + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(DistValue1, 10)
+WebUI.waitForElementClickable(DistValue1, 10)
+WebUI.click(DistValue1)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'),
 	30)
 
+String LocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Locality', 1)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
+TestObject LocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + LocalityValue + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(LocaValue1, 10)
+WebUI.waitForElementClickable(LocaValue1, 10)
+WebUI.click(LocaValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS'))
-
+String SubLocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Sub_Locality', 1)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS 1'))
+TestObject SubLocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + SubLocalityValue + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(SubLocaValue1, 10)
+WebUI.waitForElementClickable(SubLocaValue1, 10)
+WebUI.click(SubLocaValue1)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'))
 
@@ -154,19 +161,30 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Gro
 	Address_Line)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
+WebUI.waitForElementVisible(DistValue1, 10)
+WebUI.waitForElementClickable(DistValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(DistValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_PORT LOUIS'))
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'),
 	30)
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
+WebUI.waitForElementVisible(LocaValue1, 10)
+WebUI.waitForElementClickable(LocaValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(LocaValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
+WebUI.waitForElementVisible(SubLocaValue1, 10)
+WebUI.waitForElementClickable(SubLocaValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(SubLocaValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS 1'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_GLPosting'))
 
@@ -215,16 +233,28 @@ WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Cr
 	30)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
+WebUI.waitForElementVisible(DistValue1, 10)
+WebUI.waitForElementClickable(DistValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(DistValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_PORT LOUIS'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
+WebUI.waitForElementVisible(LocaValue1, 10)
+WebUI.waitForElementClickable(LocaValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(LocaValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS'))
+WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
+WebUI.waitForElementVisible(SubLocaValue1, 10)
+WebUI.waitForElementClickable(SubLocaValue1, 10)
+// Click on the dynamically located option based on 'CycleValue'
+WebUI.click(SubLocaValue1)
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_CASSIS 1'))
+WebUI.delay(2)
 
 WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'),
 	30)
