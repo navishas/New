@@ -11,14 +11,13 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='rootReact']/section[2]/div/div/div/div[2]/div/div[3]/div[7]/div[2]/div[2]/div[6]/div/button[2]/span</value>
+         <value>//button[@type=&quot;primary&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

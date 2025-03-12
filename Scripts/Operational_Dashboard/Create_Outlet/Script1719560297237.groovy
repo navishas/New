@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashbo
 
 WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/button_Login'))
 
-WebUI.delay(20)
+WebUI.delay(10)
 
 //Onboarding a new mechant
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_New Merchant'))
@@ -58,7 +58,7 @@ WebUI.delay(2, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/a_Submit'))
 
-WebUI.delay(10)
+WebUI.delay(7)
 
 //Primary Contact details page
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'))
@@ -233,7 +233,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_Business_Document'))
 
-WebUI.delay(7)
+WebUI.delay(4)
 
 //KYC Document Upload
 WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
@@ -265,7 +265,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Next Steps_KYC_Document'))
 
-WebUI.delay(7)
+WebUI.delay(4)
 
 //Reviewer Document 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Add New Document'), 
@@ -388,12 +388,12 @@ WebUI.delay(10)
 //Invoice Cycle
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Edit_InvoiceCycle'))
 
-WebUI.delay(15)
+WebUI.delay(8)
 
-//WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_InvoiceCycle'),
-//	10, FailureHandling.OPTIONAL)
-//
-//WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_InvoiceCycle'))
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_InvoiceCycle'),
+	10, FailureHandling.OPTIONAL)
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_InvoiceCycle'))
 WebUI.delay(5)
 
 //SMS Notification
@@ -407,7 +407,7 @@ WebUI.delay(5)
 //Reports
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Edit_Report_Settings'))
 
-WebUI.delay(10)
+WebUI.delay(5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Report_Settings'))
 
@@ -481,9 +481,14 @@ WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_O
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Assessment_Checklist'))
 
+WebUI.delay(3)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Approval'))
 
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Approve'))
+//WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Approve'))
+
+WebUI.delay(3)
+
 
 //Pending Approval section
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Search_Pending_Approval'), 

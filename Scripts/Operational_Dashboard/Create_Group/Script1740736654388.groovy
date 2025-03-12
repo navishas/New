@@ -55,7 +55,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 WebUI.delay(10)
 
 //Primary Contact details page
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'))
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Primary Contact Details Representative'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Owner'))
 
@@ -163,7 +163,7 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Gro
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
 WebUI.waitForElementVisible(DistValue1, 10)
 WebUI.waitForElementClickable(DistValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'District Value'
 WebUI.click(DistValue1)
 
 WebUI.delay(2)
@@ -173,7 +173,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Cr
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
 WebUI.waitForElementVisible(LocaValue1, 10)
 WebUI.waitForElementClickable(LocaValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'Locality Value'
 WebUI.click(LocaValue1)
 
 WebUI.delay(2)
@@ -181,7 +181,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
 WebUI.waitForElementVisible(SubLocaValue1, 10)
 WebUI.waitForElementClickable(SubLocaValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'Sublocality Value'
 WebUI.click(SubLocaValue1)
 
 WebUI.delay(2)
@@ -235,7 +235,7 @@ WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Cr
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
 WebUI.waitForElementVisible(DistValue1, 10)
 WebUI.waitForElementClickable(DistValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'District Value'
 WebUI.click(DistValue1)
 
 WebUI.delay(2)
@@ -243,7 +243,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
 WebUI.waitForElementVisible(LocaValue1, 10)
 WebUI.waitForElementClickable(LocaValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'Locality Value'
 WebUI.click(LocaValue1)
 
 WebUI.delay(2)
@@ -251,7 +251,7 @@ WebUI.delay(2)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
 WebUI.waitForElementVisible(SubLocaValue1, 10)
 WebUI.waitForElementClickable(SubLocaValue1, 10)
-// Click on the dynamically located option based on 'CycleValue'
+// Click on the dynamically located option based on 'Sublocality Value'
 WebUI.click(SubLocaValue1)
 
 WebUI.delay(2)
@@ -626,9 +626,6 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Accept Application'))
 
-
-WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Report_Settings'))
-
 WebUI.delay(5)
 
 //Screening Details
@@ -716,6 +713,41 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps_Verifier_Doc'))
 
+//Merchant Categorization
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'),
+	30, FailureHandling.OPTIONAL)
+
+String RiskCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Risk_Category', 1)  // Example for first row
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'))
+TestObject Risk = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + RiskCategory + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(Risk, 10)
+WebUI.waitForElementClickable(Risk, 10)
+WebUI.click(Risk)
+
+String MerchantCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Merchant_Category', 1)  // Example for first row
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_MerchantCategoryCode'))
+TestObject Category2 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + MerchantCategory + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(Category2, 10)
+WebUI.waitForElementClickable(Category2, 10)
+WebUI.click(Category2)
+
+String CIMCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('CIM_Category', 1)  // Example for first row
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_CIM_Category'))
+TestObject Category3 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
+	"//span[contains(text(),'" + CIMCategory + "')]")
+// Wait for the option to be visible and clickable
+WebUI.waitForElementVisible(Category3, 10)
+WebUI.waitForElementClickable(Category3, 10)
+WebUI.click(Category3)
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Merchant_Categorization'))
+
+WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps_Merchant_Categorization'))
+
 //Assessment Checklist
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Assessment Checklist_mat-select-value-45'))
 
@@ -731,8 +763,6 @@ WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Op
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Assessment_Checklist'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Approval'))
-
-WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Approve'))
 
 //Pending Approval section
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'),
@@ -752,3 +782,4 @@ WebUI.waitForElementClickable(findTestObject('Object Repository/Operational_Dash
 	30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Approve'))
+
