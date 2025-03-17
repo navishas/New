@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Face To FaceOutlet TypeDoing Business A_0de004</name>
+   <tag></tag>
+   <elementGuidId>04cd6c39-f9bc-4d86-afdd-953e7e914258</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.grid.grid-cols-4.gap-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>bb2b853c-e870-4848-b802-ca0d3b0b42ad</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>grid grid-cols-4 gap-4</value>
+      <webElementGuid>c7eae0ce-5b39-4e6f-ba1c-3494761fa62a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Face To FaceOutlet Type*Doing Business As (Outlet Name) *Nature of Business (As per BRN)*Address Line 1 *PORT LOUISDistrict*CASSISLocality*CASSIS 1Sub-Locality*Description of Goods &amp; Services Offered *Average Monthly VolumeAverage Ticket ValueMin Transaction ValueMax Transaction ValueOutlet Sub TypeParent MID</value>
+      <webElementGuid>0af9269f-166d-4c6f-a1d1-ef6609fdd7c1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dynamicComponentParent&quot;)/source-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;flex w-full ng-star-inserted&quot;]/app-update-source-detail[@class=&quot;w-full top-21 relative&quot;]/div[@class=&quot;w-full ng-star-inserted&quot;]/div[@class=&quot;w-full p-2 dialog-content overflow-y-scroll&quot;]/form[@class=&quot;ng-touched ng-dirty ng-valid&quot;]/div[@class=&quot;grid grid-cols-4 gap-4&quot;]</value>
+      <webElementGuid>613fe283-563d-4b50-88c3-3fb162841866</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div</value>
+      <webElementGuid>76b0bbf7-20ee-48ef-ba40-56a42c2edef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outlet Details'])[2]/following::div[10]</value>
+      <webElementGuid>3b210b55-c48d-46d9-a3f7-1071cf4e14c3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::div[17]</value>
+      <webElementGuid>a86028d5-19c8-4c87-8b72-774b4f3c5645</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div</value>
+      <webElementGuid>dc75fa47-405e-404a-87c1-857aa90f7521</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Face To FaceOutlet Type*Doing Business As (Outlet Name) *Nature of Business (As per BRN)*Address Line 1 *PORT LOUISDistrict*CASSISLocality*CASSIS 1Sub-Locality*Description of Goods &amp; Services Offered *Average Monthly VolumeAverage Ticket ValueMin Transaction ValueMax Transaction ValueOutlet Sub TypeParent MID' or . = 'Face To FaceOutlet Type*Doing Business As (Outlet Name) *Nature of Business (As per BRN)*Address Line 1 *PORT LOUISDistrict*CASSISLocality*CASSIS 1Sub-Locality*Description of Goods &amp; Services Offered *Average Monthly VolumeAverage Ticket ValueMin Transaction ValueMax Transaction ValueOutlet Sub TypeParent MID')]</value>
+      <webElementGuid>05db1c33-94f6-4490-8a6d-6d96a1a5e12a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

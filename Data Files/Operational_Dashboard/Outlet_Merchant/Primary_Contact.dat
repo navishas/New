@@ -7,7 +7,7 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>51dd7dc8-cacb-444a-891d-93e58c834a3d</dataFileGUID>
-   <dataSourceUrl>C:\Users\I3833\Downloads\Automation Excel FIles\Ops_Merchant_Onboarding\Outlet.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\OneDrive - Indium Software India Private Limited\Automation Excel FIles\Ops_Merchant_Onboarding\Outlet.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>

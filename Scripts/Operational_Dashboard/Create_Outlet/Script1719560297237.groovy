@@ -407,11 +407,19 @@ WebUI.delay(5)
 //Reports
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Edit_Report_Settings'))
 
-WebUI.delay(5)
+WebUI.delay(3)
+
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_EmailTransactions'), 'oorvashee.dasruth@cim.mu')
+
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_EmailRefunds'), 'oorvashee.dasruth@cim.mu')
+
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_EmailDisputes'), 'oorvashee.dasruth@cim.mu')
+
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_EmailSettlements'), 'oorvashee.dasruth@cim.mu')
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Save_Report_Settings'))
 
-WebUI.delay(5)
+WebUI.delay(3)
 
 //Submit for review
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Submit For Review'), 

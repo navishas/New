@@ -7,11 +7,11 @@
    <containsHeaders>true</containsHeaders>
    <csvSeperator></csvSeperator>
    <dataFileGUID>1a88eb48-a30f-4c28-aedd-5a0ca01ccb24</dataFileGUID>
-   <dataSourceUrl>C:\Users\I3833\Downloads\Automation Excel FIles\Ops_Merchant_Onboarding\Outlet.xlsx</dataSourceUrl>
+   <dataSourceUrl>D:\OneDrive - Indium Software India Private Limited\Automation Excel FIles\Ops_Merchant_Onboarding\Outlet.xlsx</dataSourceUrl>
    <driver>ExcelFile</driver>
    <isInternalPath>false</isInternalPath>
    <query></query>
    <secureUserAccount>false</secureUserAccount>
-   <sheetName>Seleting_SoleTrader</sheetName>
+   <sheetName>Assessment_Checklist</sheetName>
    <usingGlobalDBSetting>false</usingGlobalDBSetting>
 </DataFileEntity>
