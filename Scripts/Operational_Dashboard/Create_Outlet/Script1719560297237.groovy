@@ -61,6 +61,9 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.delay(7)
 
 //Primary Contact details page
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'),
+	30)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div_Primary Contact Details ( Outlet )_mat-_f8dc78'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Owner'))
