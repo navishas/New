@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_S
 
 WebDriver driver = DriverFactory.getWebDriver()
 
-Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('C:/Users/I3833/Downloads/Occupation Code Mapping test cases v1.1.xlsx','Sheet1',
+Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('D:/OneDrive - Indium Software India Private Limited/CimFin/Automation Excel files/LOS/Occupation Code Mapping test cases v1.1.xlsx','Sheet1',
     true) //Here ExcelFactory is a class and getExcelDatawithDefaultSheet is a static method and Object is class and excelData is objectname
 		//change the path when its run in another local system
 

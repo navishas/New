@@ -27,9 +27,9 @@ WebUI.maximizeWindow()
 WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 
     10)
 
-WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 'rejeeth.r@indiumsoft.com')
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 'pratik.jain@cim.mu')
 
-WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), 'Test@12345')
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), 'Test@1234')
 
 WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/button_Login'))
 

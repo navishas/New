@@ -179,7 +179,7 @@ WebUI.waitForElementVisible(PaymentTypeValue, 10)
 WebUI.waitForElementClickable(PaymentTypeValue, 10)
 WebUI.click(PaymentTypeValue)
 
-WebUI.delay(8)
+WebUI.delay(6)
 
 WebUI.waitForElementClickable(findTestObject('CFA_LOS/LoanApplication_ExistingCustomer/DisburseSubmitBTN'),
 	30)
@@ -199,10 +199,5 @@ WebUI.delay(2)
 
 WebUI.back()
 
-	}
-	
-	@AfterTestCase
-def afterTest() {
-		WebUI.closeBrowser('')  // This should not open the browser again unless required
-	}
+	}	
 

@@ -16,6 +16,11 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.support.ui.Select
+import com.kms.katalon.core.testobject.ConditionType
+import com.kms.katalon.core.testdata.reader.ExcelFactory as ExcelFactory
+import org.openqa.selenium.WebDriver
+import com.kms.katalon.core.webui.driver.DriverFactory
 
 WebUI.openBrowser('')
 
@@ -35,41 +40,46 @@ WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboar
 
 WebUI.delay(20)
 
-def data = findTestData('Data Files/Operational_Dashboard/Multiple_Outlet')
+WebDriver driver = DriverFactory.getWebDriver()
 
-for (def row = 1; row <= data.getRowNumbers(); row++) {
+Object excelData = ExcelFactory.getExcelDataWithDefaultSheet('D:/OneDrive - Indium Software India Private Limited/CimFin/Automation Excel files/LOS/LoanApplicationExistingCustomer.xlsx','Sheet1',
+	true)
+
+//
+
+for (int row = 1; row <= excelData.getRowNumbers(); row++) {
     // Get the data from each row
-    def Parent_ID = data.getValue('Parent_ID', row)
+    def Parent_ID = excelData.getValue('Parent_ID', row)
 
-    def Name = data.getValue('Name', row)
+    def Name = excelData.getValue('Name', row)
 
-    def Email = data.getValue('Email', row)
+    def Email = excelData.getValue('Email', row)
 
-    def PhoneNumber = data.getValue('PhoneNumber', row)
+    def PhoneNumber = excelData.getValue('PhoneNumber', row)
 
-    def Address_Line = data.getValue('Address_Line', row)
+    def Address_Line = excelData.getValue('Address_Line', row)
 
-    def Outlet_Name = data.getValue('Outlet_Name', row)
+    def Outlet_Name = excelData.getValue('Outlet_Name', row)
 
-    def Nature_Of_Business = data.getValue('Nature_Of_Business', row)
+    def Nature_Of_Business = excelData.getValue('Nature_Of_Business', row)
 
-    def Address_Line1 = data.getValue('Address_Line1', row)
+    def Address_Line1 = excelData.getValue('Address_Line1', row)
 
-    def Description_Goods_Services = data.getValue('Description_Goods_Services', row)
+    def Description_Goods_Services = excelData.getValue('Description_Goods_Services', row)
 
-    def Account_Number = data.getValue('Account_Number', row)
+    def Account_Number = excelData.getValue('Account_Number', row)
 
-    def ReEnter_AccountNo = data.getValue('ReEnter_AccountNo', row)
+    def ReEnter_AccountNo = excelData.getValue('ReEnter_AccountNo', row)
 
-    def AccountHolder_Name = data.getValue('AccountHolder_Name', row)
+    def AccountHolder_Name = excelData.getValue('AccountHolder_Name', row)
 
-    def Document_Name = data.getValue('Document_Name', row)
+    def Document_Name = excelData.getValue('Document_Name', row)
 
-    def Document_Name1 = data.getValue('Document_Name1', row)
+    def Document_Name1 = excelData.getValue('Document_Name1', row)
 
-    def Document_Name2 = data.getValue('Document_Name2', row)
+    def Document_Name2 = excelData.getValue('Document_Name2', row)
 
-    def Document_Name3 = data.getValue('Document_Name3', row)
+    def Document_Name3 = excelData.getValue('Document_Name3', row)
 
    //Onboarding a new mechant
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_New Merchant'))
