@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create_New_Customer</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e9be3916-4089-4e7a-8b25-a6917443af1c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a777cf1c-0d7b-4019-867d-6699d587f554</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b44763b2-d75b-45a0-8827-19b245991255</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>a777cf1c-0d7b-4019-867d-6699d587f554</id>
+      <masked>false</masked>
+      <name>Firstname</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>b44763b2-d75b-45a0-8827-19b245991255</id>
+      <masked>false</masked>
+      <name>Lastname</name>
+   </variable>
+</TestCaseEntity>

@@ -13,7 +13,7 @@
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding</testDataId>
+      <testDataId>Data Files/Operational_Dashboard/Group_Merchant/Sign_up</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId>b660621f-4f40-456e-98c8-7cf10a5d9c92</testDataLinkId>

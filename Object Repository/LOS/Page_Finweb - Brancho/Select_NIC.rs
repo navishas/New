@@ -7,12 +7,13 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html[1]/body[1]/div[2]/div[2]/div[1]/div[1]/div[1]/mat-option[1]/span[1]</value>
+         <value>//mat-option//span[text()='NIC']</value>
       </entry>
       <entry>
          <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

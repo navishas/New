@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id=&quot;ifsc&quot;]</value>
+         <value>//div//textarea[@id='ifsc']</value>
       </entry>
       <entry>
          <key>BASIC</key>

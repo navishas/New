@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Next</name>
+   <tag></tag>
+   <elementGuidId>a3c50997-e935-4a1c-83e8-0ca79e391670</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;cdk-step-label-0-0&quot;] .ng-star-inserted.border-t .mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-labelledby = 'cdk-step-label-0-0']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' border-t ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Next&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>70228290-3c6b-4f15-b020-b8819eb1031c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>8f4d4319-9784-4730-9be0-1ff81a0ec53e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next</value>
+      <webElementGuid>83d5e559-bfe3-43da-a727-007df6050ea6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Next</value>
+      <webElementGuid>1013a3d9-9e42-4917-a4c3-2cc1fe7d5e25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2773fc94e9cdd2750cf58178f3173535</value>
+      <webElementGuid>c19550a3-6a57-41cb-adf6-190f1075f4c8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'cdk-step-label-0-0']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' border-t ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>e899ff2c-9038-4468-880f-5d9b749b9281</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'cdk-step-label-0-0']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' border-t ')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>9eefa502-f67f-4201-b8bb-61860d1116c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Next' or . = 'Next')]</value>
+      <webElementGuid>60d67f0c-3fd2-486a-857e-d07bba692a81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

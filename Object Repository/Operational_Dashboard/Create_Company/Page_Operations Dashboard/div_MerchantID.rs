@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div//span[@style=&quot;display: inline-block;&quot;]</value>
+         <value>//span[@class=&quot;inline-block&quot;]</value>
       </entry>
       <entry>
          <key>BASIC</key>

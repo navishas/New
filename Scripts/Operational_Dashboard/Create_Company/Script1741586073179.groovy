@@ -31,11 +31,11 @@ WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Login/Page_Ope
 
 WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Email Address_email'), 'rejeeth.r@indiumsoft.com')
 
-WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), 'Test@12345')
+WebUI.setText(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/input_Password_password'), 'Admin@12345')
 
 WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboard/button_Login'))
 
-WebUI.delay(20)
+WebUI.delay(10)
 
 //Onboarding a new mechant
 
@@ -155,8 +155,8 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Compa
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/input__BusinessRegistrationNumber'),
 	BRN)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/input_VAT'),
-	VAT)
+//WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/input_VAT'),
+//	VAT)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/input_DateofIncorporation'),
 	30)
@@ -198,6 +198,11 @@ WebUI.waitForElementClickable(SubLocaValue1, 10)
 WebUI.click(SubLocaValue1)
 
 WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/div_Parent_id'))
+
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/div_Parent_id'),
+	Parent_ID)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Company/Page_Operations Dashboard/div_GLPosting'))
 

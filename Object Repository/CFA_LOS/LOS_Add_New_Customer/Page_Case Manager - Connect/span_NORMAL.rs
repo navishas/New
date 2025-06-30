@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_NORMAL</name>
+   <tag></tag>
+   <elementGuidId>095e5f4b-0f74-48aa-9707-e7353eb478f4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.mat-option:nth-child(8) .mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;NORMAL&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>504bc1bc-35a7-49db-ab27-038911fbe976</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>eeb1ad49-ae15-4ee9-8bff-707c7ba4bc15</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NORMAL</value>
+      <webElementGuid>a215eb7e-8116-4eeb-b62a-a26531687e78</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>NORMAL</value>
+      <webElementGuid>4a5a838a-8c42-476e-b10e-147866008f05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-c9a2f78cb5c7f408a1e4acb356383515</value>
+      <webElementGuid>52ef166d-eead-4579-b4cd-987970fe2632</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>b32b45d2-a9e3-4ce7-ad32-12e13116458e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 8)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>510caeea-cca1-4d4c-a93a-1de81bfa42f4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'NORMAL' or . = 'NORMAL')]</value>
+      <webElementGuid>402836ce-2666-43b6-a229-a69a2820106e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

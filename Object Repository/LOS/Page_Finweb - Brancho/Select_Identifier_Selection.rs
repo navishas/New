@@ -6,14 +6,14 @@
    <elementGuidId>a078b08b-8f71-4c4f-99b0-b600edf3267d</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//mat-label[text()='Identifier Selection']/ancestor::label/parent::div/mat-select</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>/html[1]/body[1]/app-root[1]/layout[1]/modern-layout[1]/div[1]/div[2]/leads-list[1]/fuse-drawer[1]/div[1]/lead-create[1]/div[2]/div[1]/div[1]/form[1]/div[1]/mat-form-field[9]/div[1]/div[1]/div[1]/mat-select[1]/div[1]/div[1]</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

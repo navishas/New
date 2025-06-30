@@ -6,14 +6,14 @@
    <elementGuidId>f4d14bcf-1485-405c-9e6d-022719f161ca</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div//span[text()=' Register for BNPL ']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[text()=' Register for BNPL ']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
 </WebElementEntity>

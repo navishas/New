@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Password _</name>
+   <tag></tag>
+   <elementGuidId>5e6f5a6d-5c11-48cb-8ed1-841de53bd998</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#password</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'password']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Password *&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>d78e8fa5-4e33-44af-ad5e-8100f5349eeb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>620d9e3a-a91d-48f9-931b-107b78cbd0c4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>password</value>
+      <webElementGuid>6996ecb8-d6f4-47f6-ad17-93cea464bb17</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-input-element mat-form-field-autofill-control ng-tns-c33-2 ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored</value>
+      <webElementGuid>cc2ee524-ecc2-4880-bdb1-ff761363fe26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-placeholder</name>
+      <type>Main</type>
+      <value>Password</value>
+      <webElementGuid>c060e59f-45c1-4104-9d13-611cfb57ac63</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>7a91bcc2-1a6a-407a-aff2-4d1871336cde</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Password _</value>
+      <webElementGuid>f24e5378-8db2-46e9-a87f-b9cbee64c562</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9e9af563cb0d5d92f852b4749a4d17cd</value>
+      <webElementGuid>345d75e8-f6c0-4ffb-847d-024b616803f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'password']</value>
+      <webElementGuid>0db9d5da-33c4-4a11-aca3-ef01752d066d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'password']</value>
+      <webElementGuid>e3d9171c-243f-43cb-a5d6-dd4faf7fd26e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'password' and @type = 'password' and (text() = 'Password _' or . = 'Password _')]</value>
+      <webElementGuid>7b15076f-9267-4b8b-8a6b-1753be816871</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

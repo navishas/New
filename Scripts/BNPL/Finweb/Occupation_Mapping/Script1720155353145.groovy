@@ -34,9 +34,9 @@ WebUI.openBrowser('')
 WebUI.navigateToUrl('https://cim-uat.finflux.io/sign-in?redirectURL=%2Fleads')
 
 WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Version uat-24.01.01-01 b8eec48_username'), 
-    'navishas')
+    'Rejeeth')
 
-WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@12345')
+WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Username_password'), 'Admin@123')
 
 WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/button_Sign in'))
 
@@ -94,7 +94,7 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) // row 0 in excel is 
 		WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Last_Name'),
 			lastName)
 		
-		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 5)
+		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_Gender'), 3)
 		
 		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_Last Name_mat-select-arrow ng-tns-c88-21'))
 		
@@ -102,13 +102,17 @@ for (int row = 1; row <= excelData.getRowNumbers(); row++) // row 0 in excel is 
 		
 		WebUI.setText(findTestObject('LOS/Page_Finweb - Brancho/input_Mobile_Number'), mobileNo)
 		
-		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_DOB'), 5)
+		WebUI.scrollToElement(findTestObject('LOS/Page_Finweb - Brancho/span_DOB'), 3)
 		
 		WebUI.setText(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/input_Date_Of_Birth'), "11 Jul 1982")
 		
 		WebUI.click(findTestObject('LOS/Page_Finweb - Brancho/div_Marital Status'))
 		
 		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Married'))
+		
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/div_SourcingChannel'))
+		
+		WebUI.click(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Counter'))
 		
 		WebUI.scrollToElement(findTestObject('Object Repository/LOS/Page_Finweb - Brancho/span_Identifier_Selection'),0)
 		

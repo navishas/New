@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id=&quot;gst&quot;]</value>
+         <value>//div//textarea[@id=&quot;gst&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>8bb2aaa6-13d7-495f-90e5-0ee9c060ba97</webElementGuid>
+      <webElementGuid>c3e710e3-f425-4651-8211-be6ef954cae7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>41369914-011e-4331-b571-c922f68d4909</webElementGuid>
+      <webElementGuid>120f0146-1153-451c-86fc-3586f2347b5a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>ebcaed1e-bf13-4427-bb35-6d7098875b11</webElementGuid>
+      <webElementGuid>db2e2303-56c2-47ad-b459-4b3558be6400</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>9334ab7b-b5b3-4185-a1d9-584b1548f307</webElementGuid>
+      <webElementGuid>ddd4de69-fe62-4d62-8b0a-078ad9369e80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gst_address_line_1</value>
-      <webElementGuid>356b4a52-a941-4d59-83ec-7abbf9554e5a</webElementGuid>
+      <webElementGuid>99adf62a-5d5f-45f7-bb7d-d46e500d7cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>4253674c-238d-4c26-b6a8-bfb85d838ff9</webElementGuid>
+      <webElementGuid>3974c2a8-3e0e-448e-b6b5-036d739978a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gst_address_line_1&quot;)</value>
-      <webElementGuid>576d8fdb-83e4-4f5f-95d8-31e00d0d7955</webElementGuid>
+      <webElementGuid>934470e5-7da3-41bb-a727-7d423bc57ee9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='gst_address_line_1']</value>
-      <webElementGuid>dce3c2b1-7485-4caf-ad5f-54a5c3a2c7ca</webElementGuid>
+      <webElementGuid>951ade4e-daf7-48a7-8adc-77d5cea363eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>e428b488-0f5a-44d9-b141-2cc22a114945</webElementGuid>
+      <webElementGuid>d8db9d7c-3f9b-4983-8393-9d3e2a1d8e5b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>a1ea9f06-c2fd-438d-97e3-8bf1a051a7d3</webElementGuid>
+      <webElementGuid>3c1bc4d2-53a3-47de-b5f8-5eedceff80a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'gst_address_line_1']</value>
-      <webElementGuid>a985db38-00ec-47ce-aa2b-09eaea66e7aa</webElementGuid>
+      <webElementGuid>68c7f873-3dd7-4789-835d-b287466cdfe8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

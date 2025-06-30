@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Date of Birth</name>
+   <tag></tag>
+   <elementGuidId>3148e8eb-ae7f-4992-ac48-6db15da06e7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#dob</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'dob']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;Date of Birth*&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>72fd2af9-58fb-4124-ab6b-54c7e305f6de</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-input-element mat-form-field-autofill-control mat-datepicker-input ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
+      <webElementGuid>d503f2db-c4db-41af-8466-dbe333c49b86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>dob</value>
+      <webElementGuid>a1c3cb10-b2e2-4eb1-85aa-527deb89e833</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-required</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>6e09b1b7-52e7-4550-9312-8fecaa07db6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-haspopup</name>
+      <type>Main</type>
+      <value>dialog</value>
+      <webElementGuid>d2f2819b-7ae1-4abb-ae0c-0ad740325e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-mat-calendar</name>
+      <type>Main</type>
+      <value>mat-datepicker-0</value>
+      <webElementGuid>e3b21773-00a4-4a7b-8fe8-7c72e0f31d4d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Date of Birth</value>
+      <webElementGuid>64679c9b-5281-41a8-8899-dd858121c313</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-f6025dd976763006975da1473a9cf274</value>
+      <webElementGuid>2c36abb9-a20c-485d-be38-96fa6cf63e7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'dob']</value>
+      <webElementGuid>bf29b376-2c70-4415-b23c-6bf8d1535a49</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'dob']</value>
+      <webElementGuid>2413ad3b-2366-4f6a-b05d-4349bd322d54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@id = 'dob' and (text() = 'Date of Birth' or . = 'Date of Birth')]</value>
+      <webElementGuid>14d9fcf5-4217-400e-9934-c89d4e3ec88d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -16,9 +16,8 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.support.ui.Select
-import com.kms.katalon.core.testobject.ConditionType
-
+import org.openqa.selenium.support.ui.Select as Select
+import com.kms.katalon.core.testobject.ConditionType as ConditionType
 
 WebUI.openBrowser('')
 
@@ -39,7 +38,6 @@ WebUI.click(findTestObject('Operational_Dashboard/Login/Page_Operations Dashboar
 WebUI.delay(20)
 
 //Onboarding a new mechant
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_New Merchant'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Create_Single_Merchant'))
@@ -67,59 +65,75 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Name'), Name)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__email'),
-	Email)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__email'), 
+    Email)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'), 
+    30)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'),
-	PhoneNumber)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'), 
+    PhoneNumber)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__CountryCode'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_230'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__address_line'),
-	Address_Line)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__address_line'), 
+    Address_Line)
 
+String DistrictValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('District', 1 // Example for first row
+    )
 
-String DistrictValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('District', 1)  // Example for first row
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
-TestObject DistValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + DistrictValue + "')]")
+
+TestObject DistValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + DistrictValue) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(DistValue1, 10)
+
 WebUI.waitForElementClickable(DistValue1, 10)
+
 WebUI.click(DistValue1)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'), 
+    30)
 
-String LocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Locality', 1)
+String LocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Locality', 1)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
-TestObject LocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + LocalityValue + "')]")
+
+TestObject LocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + LocalityValue) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(LocaValue1, 10)
+
 WebUI.waitForElementClickable(LocaValue1, 10)
+
 WebUI.click(LocaValue1)
 
-String SubLocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Sub_Locality', 1)
+String SubLocalityValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Sub_Locality', 
+    1)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
-TestObject SubLocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + SubLocalityValue + "')]")
+
+TestObject SubLocaValue1 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + SubLocalityValue) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(SubLocaValue1, 10)
+
 WebUI.waitForElementClickable(SubLocaValue1, 10)
+
 WebUI.click(SubLocaValue1)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Mauritius'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Primary_Contact_Details'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Primary_Contact_Details'), 
+    30)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Primary_Contact_Details'))
 
@@ -128,28 +142,27 @@ WebUI.delay(3, FailureHandling.OPTIONAL)
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'))
 
 //Bussiness Details
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__business_name'), 
+    30)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__business_name'),
-	30)
-
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__business_name'),
-	Group_Name)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__business_name'), 
+    Group_Name)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_BusinessType'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_PrivateLtdCompny'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__BusinessRegistrationNumber'),
-	BRN)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__BusinessRegistrationNumber'), 
+    BRN)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_VAT'),
-	VAT)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_VAT'), 
+    VAT)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_DateofIncorporation'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_DateofIncorporation'), 
+    30)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_DateofIncorporation'),
-	Date_of_incorporation)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_DateofIncorporation'), 
+    Date_of_incorporation)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_CountryofIncorporation'))
 
@@ -157,30 +170,40 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_RegisteredAddress'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_RegisteredAddress'),
-	Address_Line)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_RegisteredAddress'), 
+    Address_Line)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
+
 WebUI.waitForElementVisible(DistValue1, 10)
+
 WebUI.waitForElementClickable(DistValue1, 10)
+
 // Click on the dynamically located option based on 'District Value'
 WebUI.click(DistValue1)
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'), 
+    30)
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
+
 WebUI.waitForElementVisible(LocaValue1, 10)
+
 WebUI.waitForElementClickable(LocaValue1, 10)
+
 // Click on the dynamically located option based on 'Locality Value'
 WebUI.click(LocaValue1)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
+
 WebUI.waitForElementVisible(SubLocaValue1, 10)
+
 WebUI.waitForElementClickable(SubLocaValue1, 10)
+
 // Click on the dynamically located option based on 'Sublocality Value'
 WebUI.click(SubLocaValue1)
 
@@ -190,17 +213,16 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_GL_Others'))
 
-WebUI.clickOffset(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'), 0,
-	0)
+WebUI.clickOffset(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'), 0, 0)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'),
-	30)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'), 
+    30)
+
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'))
 
 //Bussiness Contact Details
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_MerchantRepresentative'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Owner'))
@@ -209,55 +231,66 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_Title'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Firstname'),'QAT')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Firstname'), 
+    'QAT')
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Lastname'),'Test')
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Lastname'), 'Test')
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'), 
+    30)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'),
-	PhoneNumber)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__phone_number'), 
+    PhoneNumber)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Mauritius'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__email'),
-	Email)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input__email'), 
+    Email)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_ResidentialAddressLine'),
-	Address_Line)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_ResidentialAddressLine'), 
+    Address_Line)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'), 
+    30)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__District'))
+
 WebUI.waitForElementVisible(DistValue1, 10)
+
 WebUI.waitForElementClickable(DistValue1, 10)
+
 // Click on the dynamically located option based on 'District Value'
 WebUI.click(DistValue1)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Locality'))
+
 WebUI.waitForElementVisible(LocaValue1, 10)
+
 WebUI.waitForElementClickable(LocaValue1, 10)
+
 // Click on the dynamically located option based on 'Locality Value'
 WebUI.click(LocaValue1)
 
 WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Sub_Locality'))
+
 WebUI.waitForElementVisible(SubLocaValue1, 10)
+
 WebUI.waitForElementClickable(SubLocaValue1, 10)
+
 // Click on the dynamically located option based on 'Sublocality Value'
 WebUI.click(SubLocaValue1)
 
 WebUI.delay(2)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'),
-	30)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'), 
+    30)
+
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_BusinessDetails'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'))
@@ -267,42 +300,42 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group//Page_Operations Dashboard/Span_SettlementTypeBank'))
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/div_Settlement Bank Details_selection'),
-	30, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/div_Settlement Bank Details_selection'), 
+    30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/div_Settlement Bank Details_selection'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/span_ABC BANKING CORPORATION'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_no'),
-	Account_Number)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_no'), 
+    Account_Number)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__reEnter_acc_no'),
-	ReEnter_AccountNo)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__reEnter_acc_no'), 
+    ReEnter_AccountNo)
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_holder_name'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_holder_name'), 
+    30)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_holder_name'),
-	AccountHolder_Name)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input__acc_holder_name'), 
+    AccountHolder_Name)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input_Branch'),
-	Branch)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/input_Branch'), 
+    Branch)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/div_SettlementCurrencyDD'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group//Page_Operations Dashboard/span_MUR'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group//Page_Operations Dashboard/button_Save_Settlement_Bank_Details'),
-	30)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group//Page_Operations Dashboard/button_Save_Settlement_Bank_Details'), 
+    30)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group//Page_Operations Dashboard/button_Save_Settlement_Bank_Details'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group//Page_Operations Dashboard/button_Next Steps_Settlement_Bank_Details'))
 
 //Bussiness Document Upload
-WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'),
-	5)
+WebUI.waitForElementPresent(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'))
 
@@ -310,14 +343,14 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Business Registration Card'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents Outlet_ID Number'),
-	Document_Name)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents Outlet_ID Number'), 
+    Document_Name)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Business_Doc'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Business_Doc'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Business_Doc'),
-	Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Business_Doc'), 
+    Path)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Business_Document_Outlet'))
 
@@ -326,8 +359,8 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 WebUI.delay(7)
 
 //KYC Document Upload
-WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'),
-	5)
+WebUI.waitForElementPresent(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'), FailureHandling.STOP_ON_FAILURE)
 
@@ -335,21 +368,21 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Proof of Address of Place of Business'))
 
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Documents - KYC - Business Subtype'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Documents - KYC - Business Subtype'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Documents - KYC - Business Subtype'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Bank Statement - Business'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - KYC - Outlet - Sub Type_I_e7d96f'),
-	Document_Name1)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - KYC - Outlet - Sub Type_I_e7d96f'), 
+    Document_Name1)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_KYC_Doc'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_KYC_Doc'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_KYC_Doc'),
-	Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_KYC_Doc'), 
+    Path)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_KYC_Doc'))
 
@@ -358,8 +391,8 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 WebUI.delay(7)
 
 //Reviewer Document
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'),
-	5)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document'))
 
@@ -367,25 +400,23 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_VAT Certificate'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - Additional_ID Number'),
-	Document_Name1)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - Additional_ID Number'), 
+    Document_Name1)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Reviewer_Doc'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Reviewer_Doc'), 
+    5, FailureHandling.OPTIONAL)
 
-WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Reviewer_Doc'),
-	Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Reviewer_Doc'), 
+    Path)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Reviewer_Doc'))
 
-
 //Configurations 
-
 //Payment Modes page
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_PaymentModeTab'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add_Payment_Method'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add_Payment_Method'), 
+    5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add_Payment_Method'))
 
@@ -395,8 +426,7 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Select_Payment_Method'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Issuer'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Issuer'), 5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Issuer'))
 
@@ -404,15 +434,14 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Issuer'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_MinAmount'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_MinAmount'), 5, 
+    FailureHandling.OPTIONAL)
 
 WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_MinAmount'), '500')
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_MaxAmount'),'1000000')
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_MaxAmount'), '1000000')
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_submit'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_submit'), 5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_submit'))
 
@@ -423,23 +452,19 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 WebUI.delay(5)
 
 //Product Config
-
-WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Payment_Transaction'),
-	5)
+WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Payment_Transaction'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Payment_Transaction'))
 
 WebUI.delay(5)
 
 //commission
-
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/MDRtax_Toggle'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/MDRtax_Toggle'), 5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/MDRtax_Toggle'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_AddFee'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_AddFee'), 5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_AddFee'))
 
@@ -457,26 +482,25 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/DD_Issuer'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/DD_FeeType'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/DD_FeeType'), 5, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/DD_FeeType'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/FeeType_Percentage'))
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeValue'),MDR_Fee)
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeValue'), MDR_Fee)
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeMinimum'),'1')
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeMinimum'), '1')
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeMaximum'),'1000000')
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_FeeMaximum'), '1000000')
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_submit'))
 
 WebUI.delay(5)
 
 //subscription
-WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_CommissionSave'),
-	5)
+WebUI.waitForElementClickable(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_CommissionSave'), 
+    5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_CommissionSave'))
 
@@ -487,50 +511,62 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_SettlementCycle'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_SettlementCycle'), 
+    5, FailureHandling.OPTIONAL)
 
 // Assuming 'CycleValue' is the value getting from Excel via Data Binding
+String CycleValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Settlement_Cycle', 
+    1 // Example for first row
+    )
 
-String CycleValue = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Settlement_Cycle', 1)  // Example for first row
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_SettlementCycle'))
-TestObject dynamicOption = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//li[text()='" + CycleValue + "']")
+
+TestObject dynamicOption = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//li[text()=\'' + CycleValue) + 
+    '\']')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(dynamicOption, 10)
+
 WebUI.waitForElementClickable(dynamicOption, 10)
+
 // Click on the dynamically located option based on 'CycleValue'
 WebUI.click(dynamicOption)
 
 WebUI.delay(5)
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/label_Frequency'),
-	5, FailureHandling.OPTIONAL)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/label_Frequency'), 5, 
+    FailureHandling.OPTIONAL)
 
-String radioOption = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Frequency',1) 
+String radioOption = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Frequency', 1)
 
 if (radioOption == 'Once') {
-	WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/RadioBtn_DailyOnce'))
+    WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/RadioBtn_DailyOnce'))
 } else if (radioOption == 'Multiple') {
-	WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/RadioBtn_DailyMultiple'))
+    WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/RadioBtn_DailyMultiple'))
 }
 
 // Check if the "No of Settlement Cycle(s)" text box is editable
-boolean isEditable = WebUI.getAttribute(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'), 'disabled') == null
+boolean isEditable = WebUI.getAttribute(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'), 
+    'disabled') == null
 
 // If the field is editable, fill it with value 
 if (isEditable) {
-		WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'))
-	WebUI.sendKeys(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'),
-		Keys.chord(Keys.BACK_SPACE))
-	WebUI.delay(3)
-	WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'), No_of_Cycles)
-	println("Text box is editable. Filled with value")
+    WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'))
+
+    WebUI.sendKeys(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'), 
+        Keys.chord(Keys.BACK_SPACE))
+
+    WebUI.delay(3)
+
+    WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_No_of_SettlementCycle'), 
+        No_of_Cycles)
+
+    println('Text box is editable. Filled with value')
 } else {
-	println("Text box is not editable. No action taken.")
+    println('Text box is not editable. No action taken.')
 }
 
-//def testData = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding')  // Provide the correct path to your data file
+//def testData = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up')  // Provide the correct path to your data file
 //
 //String settlementCycle = testData.getValue('Settlement_Cycle', 1)  // Column name is case-sensitive, make sure it matches
 //String frequency = testData.getValue('Frequency', 1)
@@ -538,7 +574,7 @@ if (isEditable) {
 //// Based on Settlement Cycle and Frequency, enable/disable the appropriate dropdowns and set values
 //if (settlementCycle == 'Monthly' && frequency == 'Once') {
 //	// Enable delay months, delay days, and delay hours for Monthly - Once
-//	String DelayMonths = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Delay_Months', 1)  // Example for first row
+//	String DelayMonths = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Delay_Months', 1)  // Example for first row
 //	WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Delay_Months'))
 //	TestObject DelaymonthOption = new TestObject().addProperty('xpath', ConditionType.EQUALS,
 //		"//li[text()='" + DelayMonths + "']")
@@ -550,7 +586,7 @@ if (isEditable) {
 //	WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Delay_Days'))	
 //	WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Delay_Days'),'2')
 //
-//	String Dayconfig = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Day_Config', 1)  // Example for first row
+//	String Dayconfig = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Day_Config', 1)  // Example for first row
 //	WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/DD_Days'))
 //	TestObject DayConfigOption = new TestObject().addProperty('xpath', ConditionType.EQUALS,
 //		"//li[text()='" + Dayconfig + "']")
@@ -571,8 +607,8 @@ if (isEditable) {
 //	
 WebUI.delay(3)
 
-WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Settlement_Cycle'),
-	10, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Settlement_Cycle'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Settlement_Cycle'))
 
@@ -583,16 +619,16 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.delay(10)
 
-WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_InvoiceCycle'),
-	10, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_InvoiceCycle'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_InvoiceCycle'))
 
 WebUI.delay(5)
 
 //SMS Notification
-WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_SMS_Notification'),
-	10, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_SMS_Notification'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_SMS_Notification'))
 
@@ -603,24 +639,28 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.delay(3)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailTransactions'), 'oorvashee.dasruth@cim.mu')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailTransactions'), 
+    'oorvashee.dasruth@cim.mu')
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailRefunds'), 'oorvashee.dasruth@cim.mu')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailRefunds'), 
+    'oorvashee.dasruth@cim.mu')
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailDisputes'), 'oorvashee.dasruth@cim.mu')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailDisputes'), 
+    'oorvashee.dasruth@cim.mu')
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailSettlements'), 'oorvashee.dasruth@cim.mu')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_EmailSettlements'), 
+    'oorvashee.dasruth@cim.mu')
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Report_Settings'))
 
 WebUI.delay(5)
 
 //Submit for review
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Review'),
-	30)
+WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Review'), 
+    30)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Review'),
-	10, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Review'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Review'))
 
@@ -629,9 +669,8 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 WebUI.delay(5)
 
 //Screening Details
-
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_MerchantRepresentative'),
-	5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_MerchantRepresentative'), 
+    5)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_MerchantRepresentative'))
 
@@ -641,14 +680,15 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_Title'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Name_ScrenningDetails'),'QAT')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/Name_ScrenningDetails'), 
+    'QAT')
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_NIC'))
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_NIC'),'R1025678990')
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_NIC'), 
+    'R1025678990')
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'),
-	5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'), 5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div__Nationality'))
 
@@ -666,8 +706,7 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_NoMatchRecords'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_PEPDD'),
-	5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_PEPDD'), 5)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_PEPDD'))
 
@@ -681,18 +720,18 @@ WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations D
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/Span_NoMatchRecords'))
 
-WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_AddComments'),'NA')
+WebUI.setText(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_AddComments'), 'NA')
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_SaveScreeningDetails'),
-	5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_SaveScreeningDetails'), 
+    5)
+
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_SaveScreeningDetails'))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps'))
 
-
 //Verifier Document
-WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document_Verifier_Documents'),
-	10, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document_Verifier_Documents'), 
+    10, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Add New Document_Verifier_Documents'))
 
@@ -700,48 +739,68 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_VAT Certificate_Verifier_Doc'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Verifier_Doc'),
-	5)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Document_Name_Verifier_Doc'), 
+    5)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - Additional_ID Number_1'),
-	Document_Name1)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Documents - Additional_ID Number_1'), 
+    Document_Name1)
 
-WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Verifier_Doc'),
-	Path)
+WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Upload File_Verifier_Doc'), 
+    Path)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Verifier_Doc'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Next Steps_Verifier_Doc'))
 
 //Merchant Categorization
-WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'),
-	30, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'), 
+    30, FailureHandling.OPTIONAL)
 
-String RiskCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Risk_Category', 1)  // Example for first row
+String RiskCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Risk_Category', 
+    1 // Example for first row
+    )
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'))
-TestObject Risk = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + RiskCategory + "')]")
+
+TestObject Risk = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + RiskCategory) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(Risk, 10)
+
 WebUI.waitForElementClickable(Risk, 10)
+
 WebUI.click(Risk)
 
-String MerchantCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('Merchant_Category', 1)  // Example for first row
+String MerchantCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Merchant_Category', 
+    1 // Example for first row
+    )
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_MerchantCategoryCode'))
-TestObject Category2 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + MerchantCategory + "')]")
+
+TestObject Category2 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + MerchantCategory) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(Category2, 10)
+
 WebUI.waitForElementClickable(Category2, 10)
+
 WebUI.click(Category2)
 
-String CIMCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_Onboarding').getValue('CIM_Category', 1)  // Example for first row
+String CIMCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('CIM_Category', 1 // Example for first row
+    )
+
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_CIM_Category'))
-TestObject Category3 = new TestObject().addProperty('xpath', ConditionType.EQUALS,
-	"//span[contains(text(),'" + CIMCategory + "')]")
+
+TestObject Category3 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + CIMCategory) + 
+    '\')]')
+
 // Wait for the option to be visible and clickable
 WebUI.waitForElementVisible(Category3, 10)
+
 WebUI.waitForElementClickable(Category3, 10)
+
 WebUI.click(Category3)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Merchant_Categorization'))
@@ -757,29 +816,29 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_YES_KYC_Doc_Verification_Completed'))
 
-WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Assessment_Checklist'),
-	30)
+WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Assessment_Checklist'), 
+    30)
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Save_Assessment_Checklist'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Submit For Approval'))
 
 //Pending Approval section
-WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'),
-	30, FailureHandling.OPTIONAL)
+WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'), 
+    30, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'),
-	Group_Name)
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'), 
+    Group_Name)
 
 WebUI.delay(2, FailureHandling.OPTIONAL)
 
-WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'),
-	Keys.chord(Keys.ENTER))
+WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/input_Search_Pending_Approval'), 
+    Keys.chord(Keys.ENTER))
 
 WebUI.click(findTestObject('Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_MerchantID'))
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Approve'),
-	30, FailureHandling.OPTIONAL)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Approve'), 
+    30, FailureHandling.OPTIONAL)
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/button_Approve'))
 

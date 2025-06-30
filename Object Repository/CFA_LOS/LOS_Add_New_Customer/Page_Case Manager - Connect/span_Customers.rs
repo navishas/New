@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Customers</name>
+   <tag></tag>
+   <elementGuidId>7f9994f0-7d0c-46ef-8160-8cdfb4960295</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#nav-bar [href=&quot;\/customers\/list&quot;] .mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id = 'nav-bar']//*[@href = '/customers/list']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Customers&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>78578baf-5ecc-46fd-981b-075973091125</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>9d397edc-d22d-49d5-86f7-81b4c408099b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Customers</value>
+      <webElementGuid>d855fdbf-176e-4c85-a833-8a2cd1fbe90f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Customers</value>
+      <webElementGuid>e2f46535-2ec4-4fb2-b2ff-f8a29975315c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-524b70b97202d25062e13dc40f106461</value>
+      <webElementGuid>d3961732-a3a8-47bb-8a6b-358c25ab7273</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-bar']//*[@href = '/customers/list']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>0f2a61cd-2386-4ded-9566-ae460ff94f83</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@id = 'nav-bar']//*[@href = '/customers/list']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>1de7eed3-bffe-43e0-83cf-fde0e2284aca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Customers' or . = 'Customers')]</value>
+      <webElementGuid>7c57829a-c60c-4aeb-ac42-1972889eb2e6</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
