@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Next</name>
+   <tag></tag>
+   <elementGuidId>e20aff5e-935f-469c-a590-20173f2b50af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;cdk-step-label-10-0&quot;] [mat-flat-button=&quot;&quot;] .mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-labelledby = 'cdk-step-label-10-0']//*[@mat-flat-button = '']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=button[name=&quot;Next&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5b43512b-e58d-429e-a8bd-9ad0dd0f9f7d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>683d97b4-48eb-4cfb-8a01-317f36d25d98</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Next</value>
+      <webElementGuid>e0a9bf1e-c6d6-4c10-915b-68701237362f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Next</value>
+      <webElementGuid>ae605200-610f-4ab2-be9a-f6b92111679e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-cdad3929da916d560efab61e7916d797</value>
+      <webElementGuid>d811b16c-1d9e-43c3-9fd9-db2b0aa81542</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'cdk-step-label-10-0']//*[@mat-flat-button = '']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>3b8ae9c7-f0cb-4850-82f9-327cc22989fb</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'cdk-step-label-10-0']//*[@mat-flat-button = '']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>b9e338ff-c976-43c8-bba9-3b8bee65d7c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Next' or . = 'Next')]</value>
+      <webElementGuid>5d8782c6-5d72-4d1c-b6d1-d41035cc67ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

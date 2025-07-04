@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_18</name>
+   <tag></tag>
+   <elementGuidId>fb911ba1-0f5d-49fc-a76c-b0f2e055de92</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.mat-option:nth-child(6) .mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;connect4_workflow3&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7b3de49c-d8e8-4001-933e-56917ef087bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>f8c694ff-b43e-482b-9b38-38fe652840da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>18</value>
+      <webElementGuid>89eda733-f930-45a0-82cc-1d1547070ff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>connect4_workflow3</value>
+      <webElementGuid>3c076d4a-13a1-424d-ab72-af33d727f1fd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-9b35b938f8ee2253b8718578bbefb02f</value>
+      <webElementGuid>39987da3-a1f2-411e-921c-8e927f3a00f8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>7f035c3f-5e17-4ba6-94cf-6336b1c9d0fc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 6)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>8cee9543-1aea-4629-8ded-83b0e8b02058</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '18' or . = '18')]</value>
+      <webElementGuid>ce776cd1-dae5-409f-97dd-1b3d5c9452b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

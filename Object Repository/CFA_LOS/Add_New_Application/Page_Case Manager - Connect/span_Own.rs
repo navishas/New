@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Own</name>
+   <tag></tag>
+   <elementGuidId>aee1bdf4-7eca-40e1-91f5-805f0a162938</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>.mat-option:nth-child(1) .mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;NIC&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>f947e98e-b682-4860-a29a-c1ffead50f90</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-option-text</value>
+      <webElementGuid>c32718af-3c9b-4eaa-953f-7c68011a459a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Own</value>
+      <webElementGuid>0ca329ea-703c-448c-9cfe-92e7d3c6cee8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>NIC</value>
+      <webElementGuid>fffb6c93-7703-4268-9751-1db9eb33ff26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-4cbbc464fa32429c75434aed229f9a75</value>
+      <webElementGuid>a53d5e66-9668-4620-a2cc-c37b7700844b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>ac49a80c-b126-4837-9df7-ccc1ab72aede</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+      <webElementGuid>3d0fb37a-e6e1-4e75-8ce7-a40203b0fc9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Own' or . = 'Own')]</value>
+      <webElementGuid>8e411942-3d17-45b2-9b58-69fe2731f577</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

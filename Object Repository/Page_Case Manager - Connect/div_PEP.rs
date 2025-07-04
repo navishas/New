@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_PEP</name>
+   <tag></tag>
+   <elementGuidId>78f62459-2bb4-4c37-b5bc-e407fc25d416</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ng-star-inserted.w-full[_ngcontent-tuv-c379=&quot;&quot;]:nth-child(20) .mat-form-field-infix</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (@_ngcontent-tuv-c379 = '') and (name() = 'span') and (position() = 20)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-form-field-infix ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>div >> internal:has-text=/^PEP\*$/ >> nth=3</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a2638455-dfae-4694-a966-e72d1612cff9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-form-field-infix ng-tns-c33-177</value>
+      <webElementGuid>ec0110e3-aed6-40c5-a05a-c3ee4df3993a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PEP</value>
+      <webElementGuid>dc2408b8-b5a2-4a52-a2fd-8b00130171aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>PEP
+*</value>
+      <webElementGuid>59d3e7d4-85e6-40ea-9172-3b7b4ecedecb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-1b026bd593cb89d73d28e500ae42d693</value>
+      <webElementGuid>c83ce841-8389-4865-bebc-ef53efc9dda8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (@_ngcontent-tuv-c379 = '') and (name() = 'span') and (position() = 20)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-form-field-infix ')]</value>
+      <webElementGuid>3d08dd93-7093-4246-add5-ea6d3168d3a4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' ng-star-inserted ') and contains(concat(' ', normalize-space(@class), ' '), ' w-full ') and (@_ngcontent-tuv-c379 = '') and (name() = 'span') and (position() = 20)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-form-field-infix ')]</value>
+      <webElementGuid>479d13b4-a1da-4811-aac6-7e79b2f56416</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'PEP' or . = 'PEP')]</value>
+      <webElementGuid>ca3eb9b8-8ce8-4b23-a077-a3a06c3e8668</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

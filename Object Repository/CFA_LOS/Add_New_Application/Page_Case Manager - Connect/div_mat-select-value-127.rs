@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_mat-select-value-127</name>
+   <tag></tag>
+   <elementGuidId>8771d7cc-3c58-4ddc-83e0-fc2a039f9e38</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-labelledby=&quot;mat-form-field-label-307\ mat-select-value-127&quot;] .mat-select-value</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[text()='Employer Name']/ancestor::span/parent::div/mat-select&#xd;
+</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>#mat-select-value-127</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ebba25f2-4185-4834-a044-c0407723dd3f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-select-value ng-tns-c92-344</value>
+      <webElementGuid>861d187b-4c2c-4c65-98f4-33e356ff1631</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mat-select-value-127</value>
+      <webElementGuid>2b69a6fe-5cf5-483b-ab8e-c4d5549371aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>mat-select-value-127</value>
+      <webElementGuid>e37141a9-32dc-4f96-9f7b-ccfd8337cb79</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-3ba5641c5f3eb9b345a900a16749d8b8</value>
+      <webElementGuid>4032fb4a-faa0-406d-90fa-c013ce074834</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'mat-form-field-label-307 mat-select-value-127']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-select-value ')]</value>
+      <webElementGuid>43551add-7601-49fa-b1cd-82696727a167</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-labelledby = 'mat-form-field-label-307 mat-select-value-127']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-select-value ')]</value>
+      <webElementGuid>75a8284f-c895-4252-9cdf-16524f864a43</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[@id = 'mat-select-value-127' and (text() = 'mat-select-value-127' or . = 'mat-select-value-127')]</value>
+      <webElementGuid>b17c3ad5-06cf-4c08-bae3-1ab6ab3c4c76</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Update</name>
+   <tag></tag>
+   <elementGuidId>1d4c2ee1-2fd2-49c3-bb68-acbe55de6862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>[aria-label=&quot;\`\$\{multiRowData\.actionType\ \=\=\=\ \'add\'\ \?\ \'Save\'\ \:\ \'Update\'\}\`\ Data\ Table&quot;] .mat-button-wrapper</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:label=&quot;`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e9ef41ea-470e-43d8-825d-e3c6fab66fe6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mat-button-wrapper</value>
+      <webElementGuid>71d21b96-05eb-4ced-91c6-f20ae1818a71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Update</value>
+      <webElementGuid>92b1172c-7d86-43d4-9afd-a0106fbc73cc</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>@text</name>
+      <type>Main</type>
+      <value>Save</value>
+      <webElementGuid>7911147e-05c4-42e0-82b2-1b4ce3b44f3d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>parent</name>
+      <type>Main</type>
+      <value>md5.v1-2003cc3fbddd401a05c16a20099914fa</value>
+      <webElementGuid>c9dcdedc-08d7-424d-a298-44da59718067</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>c130f1ad-b414-4a13-93fc-ecd2540dabcc</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+      <webElementGuid>b5e1f04f-9b6c-4b58-acc6-a653500589a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Update' or . = 'Update')]</value>
+      <webElementGuid>f1538597-875b-4b6a-93a5-695f9dcf8074</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
