@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='email']</value>
+         <value>//textarea[@id='email']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>4d7a790c-8ee6-49ee-abc2-caecf50c7d28</webElementGuid>
+      <webElementGuid>428d5a93-edc1-4f7a-b404-5ca46ac8b782</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>e99e5c50-dded-43be-bae5-8006fcbc4f50</webElementGuid>
+      <webElementGuid>aa59212b-4a87-4b0c-ae5e-5a658118723d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>d9b26a87-3cd4-4194-a77d-a0c070430f01</webElementGuid>
+      <webElementGuid>d7df8470-0ba6-4b5c-b555-a84f0c5a6db2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>a4337c6c-75a7-49dc-a14b-d5e16da5d617</webElementGuid>
+      <webElementGuid>ae31a943-ed66-4a62-a25c-98d0df2fa64e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>email</value>
-      <webElementGuid>e1fc773c-1187-4c26-aa07-ebc44eb2b479</webElementGuid>
+      <webElementGuid>d9ddbf0d-b186-44f5-847e-02379bc71ebc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>f8f9409e-d300-40c2-85fd-7ad1413970a6</webElementGuid>
+      <webElementGuid>904945f6-fdef-4a5d-8c70-facf2a44244d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;email&quot;)</value>
-      <webElementGuid>58177092-1a85-4ece-916b-d8f4b5a8c388</webElementGuid>
+      <webElementGuid>c87886e2-f222-4794-831f-0d6b971405a7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='email']</value>
-      <webElementGuid>a5bdb35d-5b3a-490f-a372-80abc34bbd21</webElementGuid>
+      <webElementGuid>33a9c327-4bcb-44e9-8217-1ac67f217a07</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>a5d288ba-0db2-45d5-9950-bd458f704f16</webElementGuid>
+      <webElementGuid>a2d01067-c1db-4c3b-827b-9765998cfc44</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>8b239b35-18dc-47db-b32b-2927a7509548</webElementGuid>
+      <webElementGuid>431fa74e-9ca2-4043-b9ff-0708445d6bd1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'email']</value>
-      <webElementGuid>7a98d64b-de12-4c69-97f7-c7602560434f</webElementGuid>
+      <webElementGuid>cde47b97-4e00-4d19-bf49-a9bef65fc7e4</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
