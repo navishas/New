@@ -6,12 +6,12 @@
    <elementGuidId>9c1020d1-e84e-40c7-af56-bd1b8b620db4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-777']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-777 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[(text() = 'Proof of Address of Place of Business (Dated less than 3 Month)* ' or . = 'Proof of Address of Place of Business (Dated less than 3 Month)* ')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>8ea32af4-5bd6-431e-8158-4dadfa48be52</webElementGuid>
+      <webElementGuid>21b1a1ff-8d9f-4e72-9753-60b0fab5db42</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>357143d3-5197-4fc0-a51b-b2ee791bedd3</webElementGuid>
+      <webElementGuid>3b4364eb-ebec-4190-90e3-9cd80f75e4c6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proof of Address of Place of Business (Dated less than 3 Month)* </value>
-      <webElementGuid>c2a48666-f6c8-499e-a593-d27ae106ff03</webElementGuid>
+      <webElementGuid>0c75f5ef-789a-42cf-9e6e-0f6e8eb9357f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-777&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>8a2e3ee7-0286-44e5-b944-0a98dd3871a5</webElementGuid>
+      <webElementGuid>bff624aa-ed9f-43c1-8ff9-acfaa664720f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-777']/span</value>
-      <webElementGuid>95047528-af40-4e59-94df-1c001d7cf201</webElementGuid>
+      <webElementGuid>fa97abd4-b35d-4c48-9275-ef6831b25ee7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Registered Company (Dated less than 3 Month)*'])[1]/following::span[1]</value>
-      <webElementGuid>38ffb78c-8fab-4524-8827-6487bb25a9e3</webElementGuid>
+      <webElementGuid>3cb5065e-ba7a-4e9e-b6dc-d5a1a56a0960</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Identity Documents*'])[2]/following::span[2]</value>
-      <webElementGuid>40481eee-c537-4f67-8ab6-ac7ac86e7255</webElementGuid>
+      <webElementGuid>8e1948cf-9186-4a69-a09f-76ec9fd8acbd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Directors (Dated less than 3 Month)*'])[1]/preceding::span[1]</value>
-      <webElementGuid>94b81ec8-eb23-4703-b09c-709a95731d7c</webElementGuid>
+      <webElementGuid>727355f2-cf48-42b6-8b40-134540488589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of UBO(Dated less than 3 Month)*'])[1]/preceding::span[2]</value>
-      <webElementGuid>4e467925-a290-43f0-98c7-bee307aaee38</webElementGuid>
+      <webElementGuid>ad9751f9-4bc3-4a5b-9fbd-7f19675186de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*']/parent::*</value>
-      <webElementGuid>143a3a93-c2d4-4232-9fa3-be07064ef168</webElementGuid>
+      <webElementGuid>8a957369-2399-46f4-856d-87add0f69484</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[3]/span</value>
-      <webElementGuid>3991af8c-27b5-45f5-b5b1-ec810c4a159e</webElementGuid>
+      <webElementGuid>6130763f-1f3d-49da-8afa-79b52285a6bf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Proof of Address of Place of Business (Dated less than 3 Month)* ' or . = 'Proof of Address of Place of Business (Dated less than 3 Month)* ')]</value>
-      <webElementGuid>a07192cd-854c-4c3b-bfe7-d4dc51394f39</webElementGuid>
+      <webElementGuid>63600451-ef03-44d4-a3d8-5a7e46e86bea</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

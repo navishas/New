@@ -6,12 +6,12 @@
    <elementGuidId>5042acdc-514e-4dcf-9fe9-4f8c5b451b03</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-775']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//mat-option[@id='mat-option-775']/span(.//*[normalize-space(text()) and normalize-space(.)='CEB - UBO'])[1]/preceding::span[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>d59603ae-3633-4332-a43f-6846fbe30166</webElementGuid>
+      <webElementGuid>22987419-e802-4d29-a92d-a575aa865c22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>946b37c9-899f-4919-9bce-caff01ff185a</webElementGuid>
+      <webElementGuid>c84ef606-386c-44d4-8bfd-d88d3d93ef6d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>CWA - UBO	 </value>
-      <webElementGuid>c8832300-1c97-424b-aa72-de4c7a78fc97</webElementGuid>
+      <webElementGuid>498b1868-4b93-4e75-8414-927199e8c36a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-775&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>1c63e7eb-e20c-48d3-af03-097c4e0865d7</webElementGuid>
+      <webElementGuid>eca25726-2d11-4700-9b1f-264961812863</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-775']/span</value>
-      <webElementGuid>a88a0633-5347-4064-9342-1e195d3c5cb6</webElementGuid>
+      <webElementGuid>be1ee2b5-54a4-4f38-80df-1e245bd807b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='JUL 2020'])[1]/following::span[1]</value>
-      <webElementGuid>6869d173-e88d-46fb-b4c3-996bd9620ee0</webElementGuid>
+      <webElementGuid>2cb1dfe0-a711-4ba7-9813-97bf2eca7d6a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'mat-option-775', '&quot;', ')/span[@class=', '&quot;', 'mat-option-text', '&quot;', ']')])[1]/following::span[1]</value>
-      <webElementGuid>5b19c621-af96-48f8-beb0-c131c796634c</webElementGuid>
+      <webElementGuid>f87cd9ec-aac7-4fcc-95c3-9d1a548d9039</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CEB - UBO'])[1]/preceding::span[1]</value>
-      <webElementGuid>67c6ba72-07e5-4443-b7d3-ef398228ba8a</webElementGuid>
+      <webElementGuid>9fe9bb61-f6c7-446d-a303-4a0118ddb73b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EMTEL - UBO'])[1]/preceding::span[2]</value>
-      <webElementGuid>bbea2365-efb4-40b9-b8eb-bd0a5fb218d0</webElementGuid>
+      <webElementGuid>9e2cfd55-e19f-4270-815b-8c9d3d37b4f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='CWA - UBO']/parent::*</value>
-      <webElementGuid>19450db0-bca0-47df-aa56-675c0558d206</webElementGuid>
+      <webElementGuid>0072bfc7-0fee-46ab-bd87-b168b53ab61f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>3cb2a037-92a2-4737-a46e-8eef16b381fc</webElementGuid>
+      <webElementGuid>dd8adc94-00fa-4e66-9148-0387e83893f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'CWA - UBO	 ' or . = 'CWA - UBO	 ')]</value>
-      <webElementGuid>13319655-fdc3-4b4c-ab11-796752d1b05f</webElementGuid>
+      <webElementGuid>e9c68cd7-0e32-4331-8bf9-dae9b8e20850</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

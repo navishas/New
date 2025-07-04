@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-select[@id='mat-select-40']/div/div[2]/div</value>
+         <value>//mat-select/div/div[2]/div</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>2bff09b7-b1ec-4109-806c-b1492db24081</webElementGuid>
+      <webElementGuid>8235857d-a252-4d96-a4d0-2c34d05f0fbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-arrow ng-tns-c90-122</value>
-      <webElementGuid>c4a4a65f-fa10-4144-bb0d-9a49f709c522</webElementGuid>
+      <webElementGuid>a45efd95-fb06-4477-a713-65dbf70bde09</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-select-40&quot;)/div[@class=&quot;mat-select-trigger ng-tns-c90-122&quot;]/div[@class=&quot;mat-select-arrow-wrapper ng-tns-c90-122&quot;]/div[@class=&quot;mat-select-arrow ng-tns-c90-122&quot;]</value>
-      <webElementGuid>921f875e-4eab-4576-b50e-2e882454cb2e</webElementGuid>
+      <webElementGuid>52e082fa-9dbc-45af-9802-743c4a698478</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-select[@id='mat-select-40']/div/div[2]/div</value>
-      <webElementGuid>12b90f62-a07f-43b4-9b30-1cc7aae9904c</webElementGuid>
+      <webElementGuid>22a743b0-9fb5-4d60-a576-14370208591e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-select/div/div[2]/div</value>
-      <webElementGuid>f2a23000-3f34-4c2f-bdee-255769b9fe76</webElementGuid>
+      <webElementGuid>b95c9df4-2f54-4b48-9253-824c7d1fe75a</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

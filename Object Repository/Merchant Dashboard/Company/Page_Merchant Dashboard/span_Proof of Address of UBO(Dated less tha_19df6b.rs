@@ -6,12 +6,12 @@
    <elementGuidId>0c01bacd-e713-44c1-b67a-21332c1c9e55</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-770']/span</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#mat-option-770 > span.mat-option-text</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Authorised Signatories (Dated less than 3 Month)*'])[1]/preceding::span[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>afddacb0-7ac5-4fa8-ae11-f127b492c11d</webElementGuid>
+      <webElementGuid>6e8a4ca2-0b57-4596-a149-fd7e1fb2b135</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>42fdae14-7a6e-47fa-8f0d-03da36aa4fa0</webElementGuid>
+      <webElementGuid>ffa82337-daf7-4c90-8348-fb58835afbf3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Proof of Address of UBO(Dated less than 3 Month)* </value>
-      <webElementGuid>66b8a005-a56f-4fae-9433-f332415636e8</webElementGuid>
+      <webElementGuid>080742d0-e816-47c1-98ba-192c3be3aa79</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-770&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>64c9051b-83d6-4438-9c03-f6e6ede62d29</webElementGuid>
+      <webElementGuid>835fbc90-c248-449e-9381-d781bd3f399c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-770']/span</value>
-      <webElementGuid>29bf0ef5-c224-49b5-a78b-54c0ab4c1557</webElementGuid>
+      <webElementGuid>95b169f0-f1da-45bc-a92d-6bab2e537c3f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Directors (Dated less than 3 Month)*'])[1]/following::span[1]</value>
-      <webElementGuid>3eccfa0e-2565-4872-84cf-448cb7cba5e1</webElementGuid>
+      <webElementGuid>7b7d4533-4759-426f-9e44-c33df4643e68</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Place of Business (Dated less than 3 Month)*'])[1]/following::span[2]</value>
-      <webElementGuid>e93ec0b0-38f4-43bb-b452-eb5e92b14d5f</webElementGuid>
+      <webElementGuid>1020791c-904b-451f-b122-7567d20a814f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Shareholders (Dated less than 3 Month)*'])[1]/preceding::span[1]</value>
-      <webElementGuid>3bce7fc2-5869-4812-9663-8624019cd5c3</webElementGuid>
+      <webElementGuid>aed4545a-6c7f-478a-b846-43cdc341017a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Proof of Address of Authorised Signatories (Dated less than 3 Month)*'])[1]/preceding::span[2]</value>
-      <webElementGuid>76b802ba-a058-4851-a2e2-d8789cda637e</webElementGuid>
+      <webElementGuid>dd0ad10a-edae-4710-b57d-c25a3d7d44e5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Proof of Address of UBO(Dated less than 3 Month)*']/parent::*</value>
-      <webElementGuid>1cca34b9-adac-4dd8-84c9-e57a5329802c</webElementGuid>
+      <webElementGuid>591344f9-7f57-4e71-9847-f0a83577e520</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option[5]/span</value>
-      <webElementGuid>5ee7639c-14d9-4d17-a349-aa5cb7fc1d3d</webElementGuid>
+      <webElementGuid>07f8b2fa-d99d-404a-8a27-952c734a52db</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Proof of Address of UBO(Dated less than 3 Month)* ' or . = 'Proof of Address of UBO(Dated less than 3 Month)* ')]</value>
-      <webElementGuid>b0a2427b-2aa8-4444-ba95-224f6f933c01</webElementGuid>
+      <webElementGuid>10333527-f365-4f45-90ac-c570bfff5081</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

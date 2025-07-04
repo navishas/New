@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//mat-option[@id='mat-option-18']/span</value>
+         <value>//span[(text() = ' BLACK RIVER ' or . = ' BLACK RIVER ')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>19c1087b-d0ce-4a3e-bdb3-0fb8f48b8756</webElementGuid>
+      <webElementGuid>304b550c-94fd-4b6c-8acb-143174b8f4ac</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>09918e99-aaf6-49ed-a69c-4e8421de2a50</webElementGuid>
+      <webElementGuid>32ef8bc5-85fa-49a9-aa72-039a02377d4f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value> BLACK RIVER </value>
-      <webElementGuid>123339a4-b7ae-4591-84d0-a6b015ac2646</webElementGuid>
+      <webElementGuid>5c3f80cf-9de4-422f-b675-74797cca1d99</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mat-option-18&quot;)/span[@class=&quot;mat-option-text&quot;]</value>
-      <webElementGuid>71a6d292-56fe-4dbc-8f9b-4d4e44a2cc9a</webElementGuid>
+      <webElementGuid>153e9d28-d0ff-489a-8992-6ca7eb494e49</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//mat-option[@id='mat-option-18']/span</value>
-      <webElementGuid>86cf4ee5-3dd4-43c9-b2e1-1416d9c00a73</webElementGuid>
+      <webElementGuid>7783caa9-6653-4a25-ba04-a7973d5bf0d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Nationality'])[2]/following::span[1]</value>
-      <webElementGuid>2c3e561c-381b-470c-a80f-a3caa5c6cdac</webElementGuid>
+      <webElementGuid>bbbd6a48-58cf-4611-bb4f-80c7687d0606</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Sub - Locality'])[2]/following::span[1]</value>
-      <webElementGuid>4d3a9aff-aadc-4da1-a633-f905f73819c9</webElementGuid>
+      <webElementGuid>fd186b77-bbcf-4aba-b27a-0779022d04d2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='FLACQ'])[1]/preceding::span[1]</value>
-      <webElementGuid>2a375af5-2625-402d-add2-ac148b762ef5</webElementGuid>
+      <webElementGuid>79758b38-75b2-4395-9a43-bf2fec254b3d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='GRAND PORT'])[1]/preceding::span[2]</value>
-      <webElementGuid>e9d64d28-98f7-435d-9df2-2558f38397cf</webElementGuid>
+      <webElementGuid>c4bb5578-4800-4104-8a70-785d9ab1d2f9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='BLACK RIVER']/parent::*</value>
-      <webElementGuid>e5e089fe-d7e7-47a1-accf-e7412570133d</webElementGuid>
+      <webElementGuid>46cbb5c6-ddcd-43ed-aded-eb483f32f4a7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//mat-option/span</value>
-      <webElementGuid>25a24e3a-4f34-4230-a282-f6b49f8e6061</webElementGuid>
+      <webElementGuid>6db569ac-d381-4389-942e-22f82f7a27b5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = ' BLACK RIVER ' or . = ' BLACK RIVER ')]</value>
-      <webElementGuid>a64f3fe4-4829-4c18-9fef-6fc8920a4f99</webElementGuid>
+      <webElementGuid>720513c4-4148-46c7-ad10-8d2c07109c5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

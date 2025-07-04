@@ -90,6 +90,12 @@
       <value></value>
       <variableId>c1d16baf-b539-4325-a9ca-ed18e075ad5c</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b60ec203-9686-49e5-a66f-79c169f84921</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -187,5 +193,12 @@
       <id>c1d16baf-b539-4325-a9ca-ed18e075ad5c</id>
       <masked>false</masked>
       <name>KYC_Document_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>'D:\\OneDrive - Indium Software India Private Limited\\CimFin\\LEASE_AGREEMENT.pdf'</defaultValue>
+      <description></description>
+      <id>b60ec203-9686-49e5-a66f-79c169f84921</id>
+      <masked>false</masked>
+      <name>path</name>
    </variable>
 </TestCaseEntity>

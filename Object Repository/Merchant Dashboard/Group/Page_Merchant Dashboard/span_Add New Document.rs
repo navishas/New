@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='dynamicComponentParent']/app-documents-details/div/div/section/button/span</value>
+         <value>//span[contains(text(),'Add New Document')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>4e6ebfc5-7a76-4ae5-9e44-d1cafb53d106</webElementGuid>
+      <webElementGuid>98b068d5-88fb-445b-8a0c-c718cc437ba9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>94b18beb-f90a-48d7-a70d-4958ff487b8a</webElementGuid>
+      <webElementGuid>c2618108-198c-432d-ba8d-e162a39a2f1e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -41,7 +41,7 @@
       <value>
             
          Add New Document </value>
-      <webElementGuid>5e6f9e05-ef63-4b6e-8716-257e57e86859</webElementGuid>
+      <webElementGuid>22e6b2b1-0474-40fb-9e16-f89a870d03e7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -49,7 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-4&quot;]/section[1]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]/span[@class=&quot;mat-button-wrapper&quot;]</value>
-      <webElementGuid>8c83f199-828b-47a4-ba8a-bb19179178ba</webElementGuid>
+      <webElementGuid>a82c56f8-c477-44e7-9ebf-bbc6cea067d4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/app-documents-details/div/div/section/button/span</value>
-      <webElementGuid>04f88e2d-fd1f-411c-97a1-20ccff80897f</webElementGuid>
+      <webElementGuid>cf1bab60-cc50-4fa1-859a-fbd850ed29ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Business Document'])[2]/following::span[4]</value>
-      <webElementGuid>00c2e1ee-0522-4427-8611-4b4838eb284d</webElementGuid>
+      <webElementGuid>6ef4e2c1-d8ff-47f8-af3d-7b22cb1486d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::span[4]</value>
-      <webElementGuid>eb914007-b62d-43a3-b769-65c4d6065521</webElementGuid>
+      <webElementGuid>c45f9887-bf7a-4eca-9e9f-3c05161f16cf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Document Uploaded'])[1]/preceding::span[3]</value>
-      <webElementGuid>ed2b5fef-d49a-4a41-bb82-b5efc62b2a90</webElementGuid>
+      <webElementGuid>cf117a62-dca7-4615-917c-588282839564</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Next Steps'])[1]/preceding::span[3]</value>
-      <webElementGuid>a826a5c0-09f2-46bd-90ca-0607a8220b5b</webElementGuid>
+      <webElementGuid>0392a451-62a0-4b2f-a9b6-0d949ae4aa4f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Add New Document']/parent::*</value>
-      <webElementGuid>e0f7a10c-9f13-410b-8452-e11848936f09</webElementGuid>
+      <webElementGuid>be44723c-69c7-4545-927e-e5ccee4506f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,18 +105,18 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/button/span</value>
-      <webElementGuid>e6f00557-40e3-47a1-aef7-36082e16f7f2</webElementGuid>
+      <webElementGuid>03b342b6-37a9-4e03-9dac-8961b3131af4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//span[(text() = '
-            
-         Add New Document ' or . = '
-            
+      <value>//span[(text() = '&#xd;
+            &#xd;
+         Add New Document ' or . = '&#xd;
+            &#xd;
          Add New Document ')]</value>
-      <webElementGuid>5c20aea2-ffab-48f5-8879-fc4a0e05bab5</webElementGuid>
+      <webElementGuid>c7f6abbc-144e-4a19-a48e-b87efd72af1b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

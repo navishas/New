@@ -123,6 +123,12 @@
       <value>Account_Holder_Name</value>
       <variableId>898ed6ee-b4af-44b4-ac76-0f76330eeb2e</variableId>
    </variableLinks>
+   <variableLinks>
+      <testDataLinkId>0b17dafd-907a-4c20-8316-2448f105060a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Mobile_Number</value>
+      <variableId>6324dd3a-6960-44a3-a9a4-94e707bae929</variableId>
+   </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
@@ -206,5 +212,12 @@
       <id>898ed6ee-b4af-44b4-ac76-0f76330eeb2e</id>
       <masked>false</masked>
       <name>Account_Holder_Name</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6324dd3a-6960-44a3-a9a4-94e707bae929</id>
+      <masked>false</masked>
+      <name>Mobile_Number</name>
    </variable>
 </TestCaseEntity>

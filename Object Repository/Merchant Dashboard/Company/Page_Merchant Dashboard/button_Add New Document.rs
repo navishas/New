@@ -6,12 +6,12 @@
    <elementGuidId>56929282-6fcd-458a-a5c8-0554cc2ff948</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//button[@type='button'])[2]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>button.mat-focus-indicator.mat-stroked-button.mat-button-base.mat-primary.ng-star-inserted.cdk-focused.cdk-mouse-focused</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//section/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>5dccc0d3-e54e-498f-875d-6aaff58adb08</webElementGuid>
+      <webElementGuid>bbbb9d39-1f20-408d-b154-9945439b030f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>color</name>
       <type>Main</type>
       <value>primary</value>
-      <webElementGuid>1526e8b8-b856-4f31-af71-f41d201654f4</webElementGuid>
+      <webElementGuid>7f8de16c-2367-4bf2-baad-27b93e41d7a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3401b2aa-2f5d-4716-988b-34c8c7f96c95</webElementGuid>
+      <webElementGuid>b8bed196-1f89-427a-8b1f-3abcdcca7d62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused</value>
-      <webElementGuid>0c7a1721-e4d5-4dac-bb6d-3f86c4ab800e</webElementGuid>
+      <webElementGuid>b543aa6f-0027-4b2a-9d14-7d526f60f688</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -57,7 +57,7 @@
       <value>
             
          Add New Document </value>
-      <webElementGuid>8858e411-0570-4e2f-8fd6-47ba8da5c3d9</webElementGuid>
+      <webElementGuid>3a975b0f-126e-45ef-9206-007baf618f8c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -65,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;dynamicComponentParent&quot;)/app-documents-details[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;ng-star-inserted&quot;]/div[@class=&quot;mb-4&quot;]/section[1]/button[@class=&quot;mat-focus-indicator mat-stroked-button mat-button-base mat-primary ng-star-inserted cdk-focused cdk-mouse-focused&quot;]</value>
-      <webElementGuid>34bd18ef-7a47-4da1-b7c6-1455c5aae872</webElementGuid>
+      <webElementGuid>84085da4-1de3-4abd-9d71-9934fb3156de</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -73,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//button[@type='button'])[2]</value>
-      <webElementGuid>3a2d7a12-8fe7-48a1-b4d2-52b1426ec57c</webElementGuid>
+      <webElementGuid>4e2e7a6b-610e-4385-9d29-abf790e16703</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +81,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/app-documents-details/div/div/section/button</value>
-      <webElementGuid>6947f5dc-02b8-400d-914b-131c9c6735d8</webElementGuid>
+      <webElementGuid>dc51726e-9980-43cc-962a-4fcde822583d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Business Document'])[2]/following::button[2]</value>
-      <webElementGuid>4e3efe95-0efe-41b3-91f5-1ba23ad557e0</webElementGuid>
+      <webElementGuid>b57ed27b-f201-4469-acc0-cd105c3c20fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +97,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Assessment Checklist'])[1]/following::button[2]</value>
-      <webElementGuid>8f45c3de-7f11-45d2-afb2-51205aeb6824</webElementGuid>
+      <webElementGuid>1b8a19c2-6fba-4759-8a46-6ac98ec5d9be</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +105,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No Document Uploaded'])[1]/preceding::button[1]</value>
-      <webElementGuid>66db3f58-f6b3-4ce5-8be3-6833889a4e41</webElementGuid>
+      <webElementGuid>da1c6197-933a-4ecc-8295-602154e6ffdd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,18 +113,18 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section/button</value>
-      <webElementGuid>8549cb14-8155-4c3f-b3cf-625bbc752125</webElementGuid>
+      <webElementGuid>6b692bfa-8dd1-487f-89f5-5f11ace2290c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'button' and (text() = '
-            
-         Add New Document ' or . = '
-            
+      <value>//button[@type = 'button' and (text() = '&#xd;
+            &#xd;
+         Add New Document ' or . = '&#xd;
+            &#xd;
          Add New Document ')]</value>
-      <webElementGuid>bc8b9c53-28af-4b14-9aa1-f2dde0044e0f</webElementGuid>
+      <webElementGuid>c364f584-a9f0-4788-bf6f-6b7711bd35af</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

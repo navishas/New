@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Group_Signup</name>
+   <name>Soletrader_Signup</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ca94328e-76f7-4fdd-b5cd-fd6dec26534a</testCaseGuid>
+   <testCaseGuid>1b747e26-00b2-4bd9-96da-4f36020cf82a</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
       <id>550c8099-4ad4-40ee-a768-32db5f837aa9</id>
@@ -19,38 +19,38 @@
       <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Full_Name</value>
-      <variableId>27a765cb-124a-4513-9b87-28059d0445c0</variableId>
+      <variableId>bb3da229-1e18-42e0-9720-33f524a01622</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Email_Id</value>
-      <variableId>28289ddb-62bf-4184-81d9-63435cf8952a</variableId>
+      <variableId>49890bf0-e131-4474-a23e-dfadffaa0d01</variableId>
    </variableLinks>
    <variableLinks>
       <testDataLinkId>550c8099-4ad4-40ee-a768-32db5f837aa9</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Mobile_Number</value>
-      <variableId>efa40308-26fd-46ad-9a7c-2e9822eec0a0</variableId>
+      <variableId>c1f67465-02b9-4a51-8a88-a67b6db99857</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>27a765cb-124a-4513-9b87-28059d0445c0</id>
+      <id>bb3da229-1e18-42e0-9720-33f524a01622</id>
       <masked>false</masked>
       <name>Full_Name</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>28289ddb-62bf-4184-81d9-63435cf8952a</id>
+      <id>49890bf0-e131-4474-a23e-dfadffaa0d01</id>
       <masked>false</masked>
       <name>Email_Id</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
-      <id>efa40308-26fd-46ad-9a7c-2e9822eec0a0</id>
+      <id>c1f67465-02b9-4a51-8a88-a67b6db99857</id>
       <masked>false</masked>
       <name>Mobile_Number</name>
    </variable>
