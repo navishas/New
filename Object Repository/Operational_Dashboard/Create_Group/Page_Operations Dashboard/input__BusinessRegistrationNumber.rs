@@ -6,12 +6,12 @@
    <elementGuidId>896ded28-9f24-432f-81f5-8ca4a433262c</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#gst_address_line_1</value>
+         <key>XPATH</key>
+         <value>//input[@id=&quot;gst&quot;]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id=&quot;gst&quot;]</value>
+         <key>CSS</key>
+         <value>#gst_address_line_1</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>dd8335c6-3138-450f-b59e-4dabf578a458</webElementGuid>
+      <webElementGuid>bd22ad87-0582-4471-8d25-cf2daa002de9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>f96699a3-d707-4e44-b858-480b8b85ce63</webElementGuid>
+      <webElementGuid>6a093dbb-aa97-418d-81d4-4a2fcd2599a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>81d19ad5-4a5f-4edd-8e6e-94d02ec5bfd7</webElementGuid>
+      <webElementGuid>f3a23e0f-53eb-4979-aac9-b583d939aed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>65583f43-4147-407a-8209-b70b5028920a</webElementGuid>
+      <webElementGuid>8ec6182e-4062-4ece-92ed-0d4a8e536818</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>gst_address_line_1</value>
-      <webElementGuid>142c78c9-3869-4f4b-8992-989173febf8d</webElementGuid>
+      <webElementGuid>8b56c339-80af-4835-a2e5-f73812d4aed8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>370d7764-05d4-4109-998a-7e0cb2107782</webElementGuid>
+      <webElementGuid>0b9c9514-6fc5-4e0f-b995-0b9fb1a09943</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;gst_address_line_1&quot;)</value>
-      <webElementGuid>09ccbd85-28ab-4a9a-95d3-59a809de8502</webElementGuid>
+      <webElementGuid>159a32fc-cacc-47ac-975c-42cdb3784d46</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='gst_address_line_1']</value>
-      <webElementGuid>b8fb4dee-8eec-49bd-95b8-862152b9723b</webElementGuid>
+      <webElementGuid>e8602745-9c61-46ef-8a64-add26a7973e2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>fc536a87-e51a-4f1d-b766-12695ce47322</webElementGuid>
+      <webElementGuid>7a2de53f-7021-450c-9b5c-728c27d83125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>8c354579-07c8-41be-a963-6d473672602e</webElementGuid>
+      <webElementGuid>083048df-92c0-4556-887f-fa6be7837560</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'gst_address_line_1']</value>
-      <webElementGuid>07fe05ca-c194-4e76-9759-8b9c91455ba4</webElementGuid>
+      <webElementGuid>0c918ac9-ec0a-4872-9ea9-6f36ec9aacb9</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

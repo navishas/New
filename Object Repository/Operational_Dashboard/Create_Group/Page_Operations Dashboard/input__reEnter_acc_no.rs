@@ -6,12 +6,12 @@
    <elementGuidId>96d7e4ca-e0a2-440b-900e-53f872a510b4</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#reEnter_acc_no</value>
+         <key>XPATH</key>
+         <value>//input[@id='reEnter_acc_no']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='reEnter_acc_no']</value>
+         <key>CSS</key>
+         <value>#reEnter_acc_no</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9bf5e5d0-ba8e-4fa2-8f7b-4de78f16c684</webElementGuid>
+      <webElementGuid>b6b5173b-96a7-490f-9257-246c96acc219</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>b29729ab-cb9d-4f22-b5b9-5517c3fd7613</webElementGuid>
+      <webElementGuid>13c1b8fc-a4e7-4464-a4ec-80f92b23050f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched cdk-text-field-autofill-monitored ng-star-inserted ng-dirty ng-valid</value>
-      <webElementGuid>0de65955-5490-44fb-b7c9-3e34c42dc74e</webElementGuid>
+      <webElementGuid>dc4c72e2-ddaa-4e38-a935-def91320c758</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>8b5bb61d-68d0-494f-aad9-8e1e7989d133</webElementGuid>
+      <webElementGuid>49334c42-d9fc-475b-a74a-d6fbbc253a43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>reEnter_acc_no</value>
-      <webElementGuid>b30af73b-a83c-412c-9daf-cad0472a36e9</webElementGuid>
+      <webElementGuid>b9758b73-05a3-4ea4-a715-c4cdf049a9e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>72ee69b5-05bc-416a-b964-3838a2f4afeb</webElementGuid>
+      <webElementGuid>780fe9bb-cc1a-4a2f-8b7a-7f6fffcf64fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>aria-invalid</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>9dc2e0e3-2307-4e6f-bff3-d0a967a757f8</webElementGuid>
+      <webElementGuid>fbfb0eb1-30f5-484d-bb23-b3e952ff2c80</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;reEnter_acc_no&quot;)</value>
-      <webElementGuid>6ffd8d32-2228-4929-aad7-84f90127d0e9</webElementGuid>
+      <webElementGuid>c189f54a-c179-459a-b61a-0d2c015c0cc2</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='reEnter_acc_no']</value>
-      <webElementGuid>571cc6b0-5069-4707-a917-ef2e9920c231</webElementGuid>
+      <webElementGuid>4df914ed-89b2-4226-ba14-5730ee6de9f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>bba393df-6bba-41d9-b93f-786015225daa</webElementGuid>
+      <webElementGuid>8808b76d-13a7-4e3d-b394-108e10f51b20</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>dc930853-0192-40ec-b3ea-c979b58b6ab6</webElementGuid>
+      <webElementGuid>d60db775-6525-4aa2-afd5-14c617eca9b4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +111,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'password' and @id = 'reEnter_acc_no']</value>
-      <webElementGuid>05cb96a2-9974-4408-9144-2b832fbe0437</webElementGuid>
+      <webElementGuid>7d0d2f0b-8eb8-475d-bc91-e8ce214f3292</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

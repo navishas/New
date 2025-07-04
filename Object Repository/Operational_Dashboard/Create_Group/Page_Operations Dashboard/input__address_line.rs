@@ -6,12 +6,12 @@
    <elementGuidId>0b3700e6-01a5-4378-968a-2f168baa8327</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#address_line</value>
+         <key>XPATH</key>
+         <value>//input[@id='address_line']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id='address_line']</value>
+         <key>CSS</key>
+         <value>#address_line</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>2a81ac4a-1de2-4566-9053-625c3cc4b64e</webElementGuid>
+      <webElementGuid>17fc5d17-7120-4b4c-abaa-2ebb588d05a0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>5552816e-15c6-44d3-8852-b190a00b6c00</webElementGuid>
+      <webElementGuid>c801bc56-7c74-4e97-ba96-9eb08917159d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>1c7233c2-db38-492c-87c0-5b5c97825bfa</webElementGuid>
+      <webElementGuid>dd3aface-f18e-4ba9-87eb-38912145799c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>e9536afa-c82a-412f-a6ea-450b5cd67fff</webElementGuid>
+      <webElementGuid>dc4224dc-30a7-459e-b201-b5f58a62ea3a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>id</name>
       <type>Main</type>
       <value>address_line</value>
-      <webElementGuid>3bcc5c57-2c51-4129-b514-92592ff95d03</webElementGuid>
+      <webElementGuid>7afb47cb-d12f-49d8-8098-448c8325cf12</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>3a5daadd-706c-4d49-829d-bd9699075e0d</webElementGuid>
+      <webElementGuid>40c73711-47be-4746-9ab4-92d14019cb67</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;address_line&quot;)</value>
-      <webElementGuid>81e34b62-4924-4003-90c3-0256c3d2ab73</webElementGuid>
+      <webElementGuid>094519d0-b40e-466b-b58b-2cb2155dde31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='address_line']</value>
-      <webElementGuid>504f48b4-b80c-4435-b057-3c901940254a</webElementGuid>
+      <webElementGuid>429a8a1b-62b0-45e4-93b7-6335b0bcc891</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[7]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>99956fd4-2c65-483c-ad4d-9284048397fe</webElementGuid>
+      <webElementGuid>920f930a-8431-46af-8807-8b8cf6c9a786</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[7]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>d3a3cd49-f8ac-41c6-a293-85f048415ad5</webElementGuid>
+      <webElementGuid>f97703a7-7233-4bd3-882b-f54cc90d7bda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'address_line']</value>
-      <webElementGuid>51167a3c-bbe0-4fef-8ee7-4c7acadd68ae</webElementGuid>
+      <webElementGuid>fac29ca8-0bee-4c00-bdd1-09dc68a523e0</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

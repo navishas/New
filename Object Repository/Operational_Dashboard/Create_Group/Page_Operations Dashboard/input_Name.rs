@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//span[contains(text(),'Name')]/ancestor::span/parent::div/textarea</value>
+         <value>//input[@id='name']</value>
       </entry>
       <entry>
          <key>BASIC</key>

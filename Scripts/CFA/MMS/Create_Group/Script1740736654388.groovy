@@ -53,8 +53,6 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 WebUI.delay(10)
 
 //Primary Contact details page
-WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Primary Contact Details Representative'),3)
-
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Primary Contact Details Representative'))
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/span_Owner'))
@@ -757,7 +755,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group
 WebUI.waitForElementVisible(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_Risk_Category'), 
     30, FailureHandling.OPTIONAL)
 
-String RiskCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_onboarding').getValue('Risk_Category', 
+String RiskCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Risk_Category', 
     1 // Example for first row
     )
 
@@ -773,7 +771,7 @@ WebUI.waitForElementClickable(Risk, 10)
 
 WebUI.click(Risk)
 
-String MerchantCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_onboarding').getValue('Merchant_Category', 
+String MerchantCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('Merchant_Category', 
     1 // Example for first row
     )
 
@@ -789,7 +787,7 @@ WebUI.waitForElementClickable(Category2, 10)
 
 WebUI.click(Category2)
 
-String CIMCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Group_onboarding').getValue('CIM_Category', 1 // Example for first row
+String CIMCategory = findTestData('Data Files/Operational_Dashboard/Group_Merchant/Sign_up').getValue('CIM_Category', 1 // Example for first row
     )
 
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Group/Page_Operations Dashboard/div_CIM_Category'))

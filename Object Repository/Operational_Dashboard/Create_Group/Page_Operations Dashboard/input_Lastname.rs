@@ -6,11 +6,12 @@
    <elementGuidId>1a3e1cfe-ceb4-4343-95e4-76a6bb6b2a23</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//textarea[@id=&quot;last_name&quot;]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//input[@type=&quot;text&quot; and @id=&quot;last_name&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

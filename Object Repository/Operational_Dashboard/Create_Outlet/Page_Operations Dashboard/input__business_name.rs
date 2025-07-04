@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='business_name']</value>
+         <value>//input[@id='business_name']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>d0bbae73-04f0-44b1-8686-3422be52867a</webElementGuid>
+      <webElementGuid>a305d296-c45a-4b28-b62f-487f1f8dcfb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>7b0bde6b-db92-42b7-8c86-a8dcb7129fff</webElementGuid>
+      <webElementGuid>087adbaf-acfa-469a-9f02-a02e3e234a70</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-untouched ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted</value>
-      <webElementGuid>53e1b74d-fde6-4bf9-89f9-96d4c0eb191b</webElementGuid>
+      <webElementGuid>df7e2443-d1bf-455e-b2ed-921c989790a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>fa863338-1244-4f1b-9723-0f9ef6ffa94c</webElementGuid>
+      <webElementGuid>53590e5a-6ecf-4b07-b633-e3073eee8c0f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>business_name</value>
-      <webElementGuid>0808af84-b92d-470f-aad7-90697bc78315</webElementGuid>
+      <webElementGuid>0c41c869-4251-4a10-abcb-ae053c4bc242</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>61fd6b2d-5e79-4102-88cf-0b260a4b58ce</webElementGuid>
+      <webElementGuid>3e4538aa-e640-4664-aa8c-909d3d0f6e7e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;business_name&quot;)</value>
-      <webElementGuid>89a48f0d-7dc6-4ec5-94eb-6cdabbbb7607</webElementGuid>
+      <webElementGuid>0e1bf0aa-8025-4c98-91ad-b456dd558f09</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='business_name']</value>
-      <webElementGuid>7f121586-b469-4273-b41a-194a7b74ddaa</webElementGuid>
+      <webElementGuid>0ecb9e96-e9e0-4a5a-bc06-7e5a5a199812</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[2]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>b5962d83-b7ea-484d-9e9c-fd02dc3e5bdd</webElementGuid>
+      <webElementGuid>3f7fd132-2172-433e-8e13-390e4a17711f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//input</value>
-      <webElementGuid>7b4ab98b-f874-41ac-af9b-2462464b459c</webElementGuid>
+      <webElementGuid>12331db6-c734-43fb-8858-f34767a602b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +102,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'business_name']</value>
-      <webElementGuid>3a0fc15e-0b1b-4afe-acfc-32cb25fb0f1c</webElementGuid>
+      <webElementGuid>0f2faeac-2f79-4b81-bc3a-e7d1b300f61d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

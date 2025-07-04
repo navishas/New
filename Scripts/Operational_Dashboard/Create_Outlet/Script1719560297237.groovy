@@ -132,7 +132,7 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Out
     Nature_Of_Business)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__gst_address_line_1'), 
-    Address_Line)
+    Address_Line1)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/div__District'), 
     30)
@@ -191,7 +191,7 @@ WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Out
     Account_Number)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__reEnter_acc_no'), 
-    Account_Number)
+    ReEnter_AccountNo)
 
 WebUI.scrollToElement(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input__acc_holder_name'), 
     30)
@@ -256,7 +256,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Bank Statement - Business'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - KYC - Outlet - Sub Type_I_e7d96f'), 
-    Document_Name)
+    Document_Name1)
 
 WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Document_Name_KYC_Doc'), 
     5, FailureHandling.OPTIONAL)
@@ -281,7 +281,7 @@ WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outle
 WebUI.click(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_VAT Certificate'))
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - Additional_ID Number'), 
-    Document_Name)
+    Document_Name2)
 
 WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/span_Document_Name_Reviewer_Doc'), 
     5, FailureHandling.OPTIONAL)
@@ -449,7 +449,7 @@ WebUI.scrollToElement(findTestObject('Operational_Dashboard/Create_Outlet/Page_O
     5)
 
 WebUI.setText(findTestObject('Object Repository/Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/input_Documents - Additional_ID Number_1'), 
-    Document_Name)
+    Document_Name3)
 
 WebUI.uploadFile(findTestObject('Operational_Dashboard/Create_Outlet/Page_Operations Dashboard/button_Upload File_Verifier_Doc'), 
     Path)

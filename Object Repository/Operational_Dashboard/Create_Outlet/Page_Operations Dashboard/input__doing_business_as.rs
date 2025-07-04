@@ -11,11 +11,10 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@id='doing_business_as']</value>
+         <value>//input[@id='doing_business_as']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
-   <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>a6bbe7c5-b27b-418a-8bb7-19c32e54f8fd</webElementGuid>
+      <webElementGuid>832ef9b6-43b2-498c-88c1-badd36302232</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>new-password</value>
-      <webElementGuid>e38b2a66-8d39-438a-bda1-97342805091e</webElementGuid>
+      <webElementGuid>9b471e17-55bc-42df-9a45-76bea5482db5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-input-element mat-form-field-autofill-control ng-pristine ng-invalid cdk-text-field-autofill-monitored ng-star-inserted ng-touched</value>
-      <webElementGuid>f6b091de-61e6-4b5b-bc3c-cb4709aa42c3</webElementGuid>
+      <webElementGuid>e2275f73-cddc-4ed3-905c-d8b23528e817</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +46,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>f2a20b50-f2d1-4ded-93e7-927eb9a60d8f</webElementGuid>
+      <webElementGuid>a626a68d-ea8d-4797-a195-1406b19ea258</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +54,7 @@
       <name>id</name>
       <type>Main</type>
       <value>doing_business_as</value>
-      <webElementGuid>919cf61a-fac7-4f6b-b76f-d030f28d5a41</webElementGuid>
+      <webElementGuid>e16184b0-fbe6-4986-931b-d488a4f7db2f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +62,7 @@
       <name>aria-required</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>23dc72d3-19ae-485e-b927-8e3fce8b4c6e</webElementGuid>
+      <webElementGuid>ba2e5332-d756-4a45-be75-5f0304a99201</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +70,7 @@
       <name>aria-describedby</name>
       <type>Main</type>
       <value>mat-error-11</value>
-      <webElementGuid>26c270e5-05d3-4212-aabe-e2fc73c144d6</webElementGuid>
+      <webElementGuid>c7d0537b-480e-4060-b1e3-8ef50fb1ba11</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +78,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;doing_business_as&quot;)</value>
-      <webElementGuid>fe85f2dc-13e7-4b43-8ce6-ff0207e291f3</webElementGuid>
+      <webElementGuid>f7c7e442-6cb5-43e9-ba4d-8550b4550283</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -87,7 +86,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='doing_business_as']</value>
-      <webElementGuid>00a4cbc2-135d-44c0-9e39-0364eb9aa938</webElementGuid>
+      <webElementGuid>11d07598-ce4b-456b-bc41-6e731b50593e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +94,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='dynamicComponentParent']/source-details/div/div/div/app-update-source-detail/div/div/form/div/div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>bae50dad-bcf5-4f14-b236-9b0d350b685c</webElementGuid>
+      <webElementGuid>b4b64d41-d08c-43c5-8014-cfe98c15588e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +102,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/mat-form-field/div/div/div/input</value>
-      <webElementGuid>760e4bea-401b-4b89-aee5-ed2dcc912ea5</webElementGuid>
+      <webElementGuid>560f6031-7f6b-43e6-9885-12c6bd670061</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,6 +110,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'text' and @id = 'doing_business_as']</value>
-      <webElementGuid>fa0274d4-c5c3-4865-8a9a-b994d2157412</webElementGuid>
+      <webElementGuid>8a1f00c0-2270-48ff-a8e8-9e0464c52303</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

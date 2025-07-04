@@ -6,58 +6,160 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>5d63e2eb-2c9b-47f0-b20f-5a8f64e614c3</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>a385ebcd-7e63-4131-9d5b-5f8a52331580</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Assessment_Checklist</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>8dc0243a-3a84-4558-9524-9f03f42954a0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Bank_Details</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>01968eac-760d-4a25-8ee1-1e05ca4653b7</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Business_Document</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>69d4a1b9-1fa1-4953-a485-b71fd32c218a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/KYC_Document</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2a3be225-61d4-47a6-9602-ae703832b06a</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Merchant_Categorization</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>f9127098-54b4-4246-87c8-d129df9981d6</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Outlet_Details</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>b5c9b207-26b4-49e9-9d30-9f53954a65f0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Primary_Contact</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>213b315b-c9ec-4301-9f9c-c02f2e5e2622</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Reviewer_Document</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>1f05cb06-2aaf-48ea-b30a-b3f4a16125fd</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Selecting_ParentMerchant</testDataId>
+   </testDataLinks>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>620b4b2e-b76b-4c47-8cfb-e16a9ba6a824</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Operational_Dashboard/Outlet_Merchant/Verifier_Documents</testDataId>
+   </testDataLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b5c9b207-26b4-49e9-9d30-9f53954a65f0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Email</value>
       <variableId>4d6f3cf4-994c-4917-9700-f79cd05935f1</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b5c9b207-26b4-49e9-9d30-9f53954a65f0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PhoneNumber</value>
       <variableId>1402a3bf-edf8-40a3-adbd-3fd650b90c93</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>b5c9b207-26b4-49e9-9d30-9f53954a65f0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Address_Line</value>
       <variableId>c8a9ef6f-24a9-4819-900d-6ecc9340b18a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f9127098-54b4-4246-87c8-d129df9981d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Outlet_Name</value>
       <variableId>dccf3c28-11d8-4db2-b403-44f136a858cb</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f9127098-54b4-4246-87c8-d129df9981d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Nature_Of_Business</value>
       <variableId>bf6a0e18-e8fb-4444-bc72-1c395706ba72</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>f9127098-54b4-4246-87c8-d129df9981d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Address_Line1</value>
+      <variableId>99a00221-15d7-4c13-b5b2-a27d99a13fb2</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>f9127098-54b4-4246-87c8-d129df9981d6</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Description_Goods_Services</value>
       <variableId>af679fa8-ee2a-4a37-bc12-27a9fa9680f2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>8dc0243a-3a84-4558-9524-9f03f42954a0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Account_Number</value>
       <variableId>b72d1e31-7f99-400d-b08b-d99fa43e138b</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>8dc0243a-3a84-4558-9524-9f03f42954a0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>ReEnter_AccountNo</value>
+      <variableId>72a7a755-3b58-4874-98f8-49315b9b9037</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>8dc0243a-3a84-4558-9524-9f03f42954a0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>AccountHolder_Name</value>
       <variableId>2bec59db-b5cd-456f-90ba-705aad5545fa</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>01968eac-760d-4a25-8ee1-1e05ca4653b7</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Document_Name</value>
       <variableId>c52f9132-d2d5-4778-86a5-27431a4bf226</variableId>
    </variableLinks>
    <variableLinks>
@@ -67,34 +169,34 @@
       <variableId>6fe82c30-b5ba-4aaf-9289-633bc2ed933f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>69d4a1b9-1fa1-4953-a485-b71fd32c218a</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Document_Name1</value>
+      <variableId>52f93568-91ab-4190-844c-62bc63ed8161</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>213b315b-c9ec-4301-9f9c-c02f2e5e2622</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Document_Name2</value>
+      <variableId>7cfcbf57-9f40-40df-9084-72411625567d</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>620b4b2e-b76b-4c47-8cfb-e16a9ba6a824</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Document_Name3</value>
+      <variableId>d4827a24-659e-49f5-b053-285bc2eb6909</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>b5c9b207-26b4-49e9-9d30-9f53954a65f0</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Name</value>
       <variableId>0e52555f-0460-4ce2-99f4-b3133db42561</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
+      <testDataLinkId>1f05cb06-2aaf-48ea-b30a-b3f4a16125fd</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Parent_ID</value>
       <variableId>63c7c821-8c73-4cac-878d-6edded02d58b</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>78a3f45e-b005-477d-99f1-2cf35edd7e13</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>d9f6f5b9-5437-4024-a840-d8da910a7ee0</variableId>
-   </variableLinks>
-   <variableLinks>
-      <testDataLinkId></testDataLinkId>
-      <type>DEFAULT</type>
-      <value></value>
-      <variableId>716dd889-ab4b-4117-8487-b813185369de</variableId>
    </variableLinks>
    <variable>
       <defaultValue>''</defaultValue>
@@ -134,6 +236,13 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>99a00221-15d7-4c13-b5b2-a27d99a13fb2</id>
+      <masked>false</masked>
+      <name>Address_Line1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>af679fa8-ee2a-4a37-bc12-27a9fa9680f2</id>
       <masked>false</masked>
       <name>Description_Goods_Services</name>
@@ -144,6 +253,13 @@
       <id>b72d1e31-7f99-400d-b08b-d99fa43e138b</id>
       <masked>false</masked>
       <name>Account_Number</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>72a7a755-3b58-4874-98f8-49315b9b9037</id>
+      <masked>false</masked>
+      <name>ReEnter_AccountNo</name>
    </variable>
    <variable>
       <defaultValue>''</defaultValue>
@@ -169,6 +285,27 @@
    <variable>
       <defaultValue>''</defaultValue>
       <description></description>
+      <id>52f93568-91ab-4190-844c-62bc63ed8161</id>
+      <masked>false</masked>
+      <name>Document_Name1</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>7cfcbf57-9f40-40df-9084-72411625567d</id>
+      <masked>false</masked>
+      <name>Document_Name2</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d4827a24-659e-49f5-b053-285bc2eb6909</id>
+      <masked>false</masked>
+      <name>Document_Name3</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
       <id>0e52555f-0460-4ce2-99f4-b3133db42561</id>
       <masked>false</masked>
       <name>Name</name>
@@ -179,26 +316,5 @@
       <id>63c7c821-8c73-4cac-878d-6edded02d58b</id>
       <masked>false</masked>
       <name>Parent_ID</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>78a3f45e-b005-477d-99f1-2cf35edd7e13</id>
-      <masked>false</masked>
-      <name>District</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>d9f6f5b9-5437-4024-a840-d8da910a7ee0</id>
-      <masked>false</masked>
-      <name>Locality</name>
-   </variable>
-   <variable>
-      <defaultValue>''</defaultValue>
-      <description></description>
-      <id>716dd889-ab4b-4117-8487-b813185369de</id>
-      <masked>false</masked>
-      <name>Sub_Locality</name>
    </variable>
 </TestCaseEntity>
