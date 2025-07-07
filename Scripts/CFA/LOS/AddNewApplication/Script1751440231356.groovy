@@ -383,7 +383,6 @@ WebUI.click(DistrictNamevalue)
 
 WebUI.delay(2)
 
-TestObject blankArea = findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/Blank_preEligibility')
 WebUI.click(blankArea)
 
 WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-69'), 2)

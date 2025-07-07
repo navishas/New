@@ -8,7 +8,7 @@
    <testCaseGuid>7676e577-823f-4dab-a633-89c01121365a</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>f610d70a-166d-4295-9d65-c518beb329bd</id>
+      <id>94137a03-c7bb-4b68-9466-e8166c9b9c5f</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
@@ -16,277 +16,277 @@
       <testDataId>Data Files/CFA_LOS/Add_New_Application/Add_New_Application</testDataId>
    </testDataLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>NIC_Number</value>
       <variableId>89320216-0737-48e7-9af2-69dc14f4032f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Sales_Amount</value>
       <variableId>5acd7f84-1145-4a00-af55-3fae0f1abb7e</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>CIM_Product</value>
       <variableId>9598ace5-44d0-4f03-8749-3124945dc537</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Sourcing_Channel</value>
       <variableId>139b49e7-ab5b-4643-88d1-35fcdead557c</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Counter_Name</value>
       <variableId>3393d72c-ab93-446c-865c-0863efe4a199</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Tenure_Months</value>
       <variableId>86f0ece7-c759-4c2b-be68-ec8f0fbaf816</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Merchant_Name</value>
       <variableId>2f847dfb-a556-43b1-beb2-137af8141c64</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Deposit_Amount</value>
       <variableId>81ce6d1d-afb1-43e2-99c8-2df09edeff1f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Promo_Code</value>
       <variableId>c839a493-735e-4bca-9a7e-c0b22f268dec</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Insurance</value>
       <variableId>85ed422c-0f83-47e3-869c-221e6e81be0a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>First_Name</value>
       <variableId>6c6875b8-6a26-4496-8a24-e2877a7f973f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Last_Name</value>
       <variableId>47dbfd89-caa8-4585-8067-73b2e7ebc2be</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Marital_Status</value>
       <variableId>92142f66-43b7-4182-aa2a-29fc40912f46</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Gender</value>
       <variableId>fc96aa56-2c4f-4124-a690-0d276cf77183</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Mobile_Number</value>
       <variableId>aee38c2a-8f1d-49ed-b534-1a6281638d63</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Employment_Type</value>
       <variableId>8aa216c5-5609-40da-aa39-c3e31e3b3234</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>PEP</value>
       <variableId>0c779542-2cd3-4dea-a03f-996379d7fea6</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>District_Name</value>
       <variableId>8169b751-bcda-43ac-b2e7-79dc5ac3bbc4</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Area_Name</value>
       <variableId>514b4109-6b0d-4c53-a5f9-d30ae095e270</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Postal_Code</value>
       <variableId>3db22250-6de6-429b-ac3e-aa4bb68bc9c6</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Years_of_stay</value>
       <variableId>65f1f3e1-22f5-46cc-a99f-ac9662451625</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Product_Category</value>
       <variableId>ecf62201-31d2-402a-9b22-69dcbceef3dc</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Product_SubCategory</value>
       <variableId>c1228a71-7172-4769-91eb-3a33fe237b06</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Unit_Price</value>
       <variableId>bfb14217-9c6e-4f80-b666-68960a9a9326</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Product_Description</value>
       <variableId>2492c74d-23b9-4c0a-91a3-40a955080425</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Quantity</value>
       <variableId>342ffc24-45aa-4c52-9b41-8d5e744daf70</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Business_Type</value>
       <variableId>a0afee9c-9456-470f-a356-3630016a4d70</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Employer_Name</value>
       <variableId>a9097780-7b56-4934-8b9a-4ab9fe24efa0</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Industry_Name</value>
       <variableId>b175c93c-07bc-4ec2-9721-0a1e4d1d475f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Nature_of_Business</value>
       <variableId>abb4ad91-b41a-4ca6-9a6e-738095b129c2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Job_Type</value>
       <variableId>9dcb2fae-b309-45c9-ac74-960aa8bcceb5</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Occupation_Value</value>
       <variableId>29a29f69-6541-4cf6-a708-2871b518b592</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Sector_Name</value>
       <variableId>ee30ce56-14f9-40f1-83de-c104ccabf3eb</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Job_Title</value>
       <variableId>6787103b-f81a-44e9-8e45-86413ce39884</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Total_Work_Experience</value>
       <variableId>fa6cf647-dfe1-45b5-a8d6-88ae4cf74cb6</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Address_Line1</value>
       <variableId>9bd70aaa-5ed8-4fd3-809b-98363f1d98f2</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Basic_Salary</value>
       <variableId>d61cb0d3-ccdd-4366-81d2-95e686bf3193</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Fixed_Allowance</value>
       <variableId>03ffbfbc-d7aa-4db6-9c79-1b69ffea7281</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>No_of_Payslips</value>
       <variableId>9f12d6bd-d8e5-46cb-b21e-ae30f93a4807</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Average_Commission</value>
       <variableId>cb0c46a7-96b3-4b0f-98c7-6404f936de1f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>MutualAidDeducted</value>
       <variableId>72afbda1-5628-4137-8b08-57909358829f</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Variable_Allowance</value>
       <variableId>470d8dfa-5ab2-4ee5-9c21-d466991be9af</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Deductions</value>
       <variableId>382fe34a-4d4f-4e20-9b1f-374109498f16</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Other_Income</value>
       <variableId>f0d4eb11-457a-44b4-92b3-2cd924c0cdd6</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Household_Cost</value>
       <variableId>1713584e-2e09-45cf-aed4-326008f2d55c</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>f610d70a-166d-4295-9d65-c518beb329bd</testDataLinkId>
+      <testDataLinkId>94137a03-c7bb-4b68-9466-e8166c9b9c5f</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>Receipt_Number</value>
       <variableId>4468e347-1d11-427f-8516-d211d0f1d0b9</variableId>
