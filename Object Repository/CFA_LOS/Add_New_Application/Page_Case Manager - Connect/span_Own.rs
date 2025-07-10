@@ -6,12 +6,12 @@
    <elementGuidId>aee1bdf4-7eca-40e1-91f5-805f0a162938</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>.mat-option:nth-child(1) .mat-option-text</value>
+         <key>XPATH</key>
+         <value>//span[contains(text(),' Own ')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+         <key>CSS</key>
+         <value>.mat-option:nth-child(1) .mat-option-text</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>f947e98e-b682-4860-a29a-c1ffead50f90</webElementGuid>
+      <webElementGuid>affe4edf-521e-4a75-8ec5-23408290b475</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>c32718af-3c9b-4eaa-953f-7c68011a459a</webElementGuid>
+      <webElementGuid>a79e0744-e180-476f-a458-006c261f9c28</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Own</value>
-      <webElementGuid>0ca329ea-703c-448c-9cfe-92e7d3c6cee8</webElementGuid>
+      <webElementGuid>433e53bf-16f0-4623-8112-d54421c0de8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>NIC</value>
-      <webElementGuid>fffb6c93-7703-4268-9751-1db9eb33ff26</webElementGuid>
+      <webElementGuid>9d8757ac-7ee6-4038-8ff1-6969541c12c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-4cbbc464fa32429c75434aed229f9a75</value>
-      <webElementGuid>a53d5e66-9668-4620-a2cc-c37b7700844b</webElementGuid>
+      <webElementGuid>480bdf95-fc18-48a5-ae86-f65afe369b40</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>ac49a80c-b126-4837-9df7-ccc1ab72aede</webElementGuid>
+      <webElementGuid>5160049e-d10c-4225-a92e-c6b20b5a1bb4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>3d0fb37a-e6e1-4e75-8ce7-a40203b0fc9e</webElementGuid>
+      <webElementGuid>b5216884-348c-45f9-a130-9c79531375ae</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Own' or . = 'Own')]</value>
-      <webElementGuid>8e411942-3d17-45b2-9b58-69fe2731f577</webElementGuid>
+      <webElementGuid>551036df-2a6c-4dd1-a86a-e98939fc3605</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

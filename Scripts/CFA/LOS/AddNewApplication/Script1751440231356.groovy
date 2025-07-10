@@ -33,9 +33,7 @@ WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/button_Sign in'))
 
-WebUI.delay(4)
-
-WebUI.delay(10)
+WebUI.delay(5)
 
 //Initiating Add new Application Flow
 
@@ -326,6 +324,8 @@ WebUI.click(blankArea)
 
 String PEP = findTestData('Data Files/CFA_LOS/Add_New_Application/Add_New_Application').getValue('PEP', 1 )
 
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_PEP'), 2)
+
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_PEP'))
 
 TestObject PEPvalue = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + PEP) +
@@ -375,13 +375,13 @@ TestObject DistrictNamevalue = new TestObject().addProperty('xpath', ConditionTy
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(DistrictNamevalue, 2)
+
 WebUI.waitForElementVisible(DistrictNamevalue, 10)
 
 WebUI.waitForElementClickable(DistrictNamevalue, 10)
 
 WebUI.click(DistrictNamevalue)
-
-WebUI.delay(2)
 
 WebUI.click(blankArea)
 
@@ -403,8 +403,6 @@ WebUI.waitForElementClickable(AreaNamevalue, 10)
 
 WebUI.click(AreaNamevalue)
 
-WebUI.delay(2)
-
 WebUI.click(blankArea)
 
 String PostalCode = findTestData('Data Files/CFA_LOS/Add_New_Application/Add_New_Application').getValue('Postal_Code', 1 )
@@ -421,15 +419,15 @@ WebUI.waitForElementClickable(PostalCodevalue, 10)
 
 WebUI.click(PostalCodevalue)
 
-WebUI.delay(2)
-
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-73'))
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Mauritius'))
 
 WebUI.delay(2)
 
-WebUI.click(blankArea)
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-75'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Own'))
 
 String OwnershipType = findTestData('Data Files/CFA_LOS/Add_New_Application/Add_New_Application').getValue('Ownership_Type', 1 )
 
@@ -439,13 +437,12 @@ TestObject OwnershipTypevalue = new TestObject().addProperty('xpath', ConditionT
 	'\')]')
 
 // Wait for the option to be visible and clickable
-WebUI.scrollToElement(OwnershipTypevalue, 2)
 
-WebUI.waitForElementVisible(OwnershipTypevalue, 10)
+WebUI.waitForElementVisible(OwnershipTypevalue, 2)
 
-WebUI.waitForElementClickable(OwnershipTypevalue, 10)
+WebUI.waitForElementClickable(OwnershipTypevalue, 2)
 
-WebUI.click(OwnershipTypevalue)
+WebUI.enhancedClick(OwnershipTypevalue)
 
 WebUI.delay(2)
 
@@ -454,13 +451,11 @@ WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Applicat
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Years of Stay'), 
     Years_of_stay)
 
-WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/button_Next'))
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-77'),2)
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-77'))
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_text_Yes'))
-
-WebUI.delay(2)
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save'))
 
@@ -532,8 +527,6 @@ WebUI.waitForElementClickable(ProductSubCategoryvalue, 10)
 
 WebUI.click(ProductSubCategoryvalue)
 
-WebUI.delay(3)
-
 WebUI.click(blankArea)
 
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Unit Price'), 
@@ -553,42 +546,44 @@ WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Applicatio
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
-//------------------------------------------------------------------------------------------------------------------------------------------------------------------
-//Upload Employment Details page
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-93'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Bank Statement'))
-
-WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
-    'Bank Statement')
-
-WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
-
-WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
-    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document_1'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-95'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Income Statement (Salary Slips)'))
-
-WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
-    'SalarySlip')
-
-WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
-
-WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
-    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
+////------------------------------------------------------------------------------------------------------------------------------------------------------------------
+////Upload Employment Details page
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document'))
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-93'))
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Bank Statement'))
+//
+//WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
+//    'Bank Statement')
+//
+//WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
+//
+//WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
+//    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
+//
+//WebUI.delay(2)
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document_1'))
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-95'))
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Income Statement (Salary Slips)'))
+//
+//WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
+//    'SalarySlip')
+//
+//WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
+//
+//WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
+//    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
+//
+//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
 //Employment Details Page
 
@@ -610,10 +605,6 @@ WebUI.waitForElementClickable(BusinessTypevalue, 10)
 
 WebUI.click(BusinessTypevalue)
 
-WebUI.delay(2)
-
-WebUI.click(blankArea)
-
 
 //Employer Name
 
@@ -625,13 +616,13 @@ TestObject EmployerNamevalue = new TestObject().addProperty('xpath', ConditionTy
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(EmployerNamevalue, 2)
+
 WebUI.waitForElementVisible(EmployerNamevalue, 10)
 
 WebUI.waitForElementClickable(EmployerNamevalue, 10)
 
 WebUI.click(EmployerNamevalue)
-
-WebUI.delay(2)
 
 
 //Industry
@@ -644,13 +635,14 @@ TestObject Industryvalue = new TestObject().addProperty('xpath', ConditionType.E
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(Industryvalue, 2)
+
 WebUI.waitForElementVisible(Industryvalue, 10)
 
 WebUI.waitForElementClickable(Industryvalue, 10)
 
 WebUI.click(Industryvalue)
 
-WebUI.delay(2)
 
 
 //Sector
@@ -663,13 +655,13 @@ TestObject Sectorvalue = new TestObject().addProperty('xpath', ConditionType.EQU
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(Sectorvalue, 2)
+
 WebUI.waitForElementVisible(Sectorvalue, 10)
 
 WebUI.waitForElementClickable(Sectorvalue, 10)
 
 WebUI.click(Sectorvalue)
-
-WebUI.delay(2)
 
 
 //Nature_of_Business
@@ -682,13 +674,13 @@ TestObject NatureOfBusinessvalue = new TestObject().addProperty('xpath', Conditi
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(NatureOfBusinessvalue, 2)
+
 WebUI.waitForElementVisible(NatureOfBusinessvalue, 10)
 
 WebUI.waitForElementClickable(NatureOfBusinessvalue, 10)
 
 WebUI.click(NatureOfBusinessvalue)
-
-WebUI.delay(2)
 
 
 //Job_Type
@@ -701,9 +693,11 @@ TestObject JobTypevalue = new TestObject().addProperty('xpath', ConditionType.EQ
 	'\')]')
 
 // Wait for the option to be visible and clickable
-WebUI.waitForElementVisible(JobTypevalue, 10)
+WebUI.scrollToElement(JobTypevalue, 2)
 
-WebUI.waitForElementClickable(JobTypevalue, 10)
+WebUI.waitForElementVisible(JobTypevalue, 2)
+
+WebUI.waitForElementClickable(JobTypevalue, 2)
 
 WebUI.click(JobTypevalue)
 
@@ -719,6 +713,8 @@ TestObject Occupationvalue = new TestObject().addProperty('xpath', ConditionType
 	'\')]')
 
 // Wait for the option to be visible and clickable
+WebUI.scrollToElement(JobTypevalue, 2)
+
 WebUI.waitForElementVisible(Occupationvalue, 10)
 
 WebUI.waitForElementClickable(Occupationvalue, 10)
@@ -731,15 +727,16 @@ WebUI.delay(2)
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Job Title'), 
     Job_Title)
 
-WebUI.click(blankArea)
 
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Total Work Experience (Months)_'), 
     Total_Work_Experience)
 
-WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Next'))
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Office Address Line 1'), 2)
 
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Office Address Line 1'), 
     Address_Line1)
+
+WebUI.delay(2)
 
 String DistrictName2 = findTestData('Data Files/CFA_LOS/Add_New_Application/Add_New_Application').getValue('District_Name', 1 )
 
@@ -761,25 +758,25 @@ WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_C
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_MAURITIUS (1)'))
 
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-139'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_PROVIDENCE'))
+WebUI.delay(2)
 
 String PostalCode2 = findTestData('Data Files/CFA_LOS/Add_New_Application/Add_New_Application').getValue('Postal_Code', 1 )
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-145'))
 
-TestObject PostalCodevalue2 = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + PostalCode2) +
+TestObject PostalCode2value = new TestObject().addProperty('xpath', ConditionType.EQUALS, ('//span[contains(text(),\'' + PostalCode2) +
 	'\')]')
 
 // Wait for the option to be visible and clickable
-WebUI.waitForElementVisible(PostalCodevalue2, 10)
+WebUI.waitForElementVisible(PostalCode2value, 10)
 
-WebUI.waitForElementClickable(PostalCodevalue2, 10)
+WebUI.waitForElementClickable(PostalCode2value, 10)
+
+WebUI.click(PostalCode2value)
 
 WebUI.delay(2)
 
-WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Next_1'))
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Basic Salary or Income'), 2)
 
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_Basic Salary or Income'), 
     Basic_Salary)
@@ -808,7 +805,11 @@ WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page
 WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/textarea_HouseholdCost'),
 	Household_Cost)
 
+WebUI.delay(2)
+
 WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Update'))
+
+WebUI.delay(3)
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
@@ -830,27 +831,21 @@ WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Applicatio
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
+WebUI.delay(2)
+
 //Final Agreement Details
-
-WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/svg_svg'))
-
-WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/div_mat-select-value-7_1'))
-
-//For now we are choose Yes option by default
-
-WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Yes'))
-
-WebUI.setText(findTestObject('Object Repository/Page_Case Manager - Connect/textarea_Receipt Number'), Receipt_Number)
-
-WebUI.enhancedClick(findTestObject('Object Repository/Page_Case Manager - Connect/span_Update'))
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
 
-//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Bank Details Page
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/svg_svg'))
 
-WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Next_1_2'))
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Case Manager - Connect/div_mat-select-value-9'),2)
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/div_mat-select-value-9'))
 
@@ -864,11 +859,44 @@ WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/div_ma
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Savings'))
 
+WebUI.scrollToElement(findTestObject('Object Repository/Page_Case Manager - Connect/span_Update'), 2)
+
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Update'))
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
 
+WebUI.delay(2)
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Disbursment Details Page
+
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
 
-WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_400 Bad Request__responseStatus_success_,_'))
+WebUI.delay(2)
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Loan Booking Details Details Page
+
+WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
+
+WebUI.delay(2)
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+//Agreement Activation Page
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_AgreementStatus'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Active'))
+
+WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Update'))
+
+WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
+
+WebUI.delay(2)
+
+
+
 
