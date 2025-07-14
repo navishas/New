@@ -76,6 +76,10 @@ WebUI.delay(4)
 
 //Pre Eligibility Calculator Page
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/mat_icon_EditPreEligibilty'), 5)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/mat_icon_EditPreEligibilty'), 5)
+
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/mat_icon_EditPreEligibilty'))
 
 WebUI.delay(3)
@@ -546,44 +550,44 @@ WebUI.enhancedClick(findTestObject('Object Repository/CFA_LOS/Add_New_Applicatio
 
 WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
-////------------------------------------------------------------------------------------------------------------------------------------------------------------------
-////Upload Employment Details page
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-93'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Bank Statement'))
-//
-//WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
-//    'Bank Statement')
-//
-//WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
-//
-//WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
-//    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
-//
-//WebUI.delay(2)
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document_1'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-95'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Income Statement (Salary Slips)'))
-//
-//WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
-//    'SalarySlip')
-//
-//WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
-//
-//WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
-//    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
-//
-//WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
+//------------------------------------------------------------------------------------------------------------------------------------------------------------------
+//Upload Employment Details page
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-93'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Bank Statement'))
+
+WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
+    'Bank Statement')
+
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
+
+WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
+    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
+
+WebUI.delay(2)
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Add New Document_1'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/div_mat-select-value-95'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Income Statement (Salary Slips)'))
+
+WebUI.setText(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Document Name'), 
+    'SalarySlip')
+
+WebUI.scrollToElement(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Upload File'), 2)
+
+WebUI.uploadFile(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/input_Front Image Input'), 
+    'D:/OneDrive - Indium Software India Private Limited/CimFin/LEASE_AGREEMENT.PDF')
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Save_1'))
+
+WebUI.click(findTestObject('Object Repository/CFA_LOS/Add_New_Application/Page_Case Manager - Connect/span_Proceed'))
 
 //Employment Details Page
 
@@ -836,7 +840,6 @@ WebUI.delay(2)
 //Final Agreement Details
 
 WebUI.click(findTestObject('Object Repository/Page_Case Manager - Connect/span_Proceed'))
-
 
 
 //---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

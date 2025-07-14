@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+         <value>//mat-option//span[contains(text(),'NIC')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2629100e-817d-4eff-9b35-11e22886ec86</webElementGuid>
+      <webElementGuid>a5c92fbf-100e-499a-a77c-99562e8a8441</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>49b4ffdd-00b7-4a74-9db2-fe832f0b051f</webElementGuid>
+      <webElementGuid>e790959a-bae7-4ecc-9730-a19e2eed46c2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NIC</value>
-      <webElementGuid>fd4b23e3-8315-4aa4-92a6-e0740565e3d2</webElementGuid>
+      <webElementGuid>581c270f-a0c2-4aa6-95c7-f7d1855168e4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>NIC</value>
-      <webElementGuid>986555ed-fe6f-4b66-b400-b4b18dd1fa72</webElementGuid>
+      <webElementGuid>20f8f932-0d08-4c7d-a6e9-d12fea734dfc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-4cbbc464fa32429c75434aed229f9a75</value>
-      <webElementGuid>63f766ca-5521-496d-a8e7-051925ca9295</webElementGuid>
+      <webElementGuid>42187942-7641-46a1-b6c6-7c3a2ae360a6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>f9a9616f-a925-438f-b481-2b97ca7873d0</webElementGuid>
+      <webElementGuid>ef21706b-b023-4700-9c39-841f9493cd7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>601115cf-667c-47eb-ba9d-676bab458ded</webElementGuid>
+      <webElementGuid>04458886-2f54-4e14-aafe-60e233ebd2f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'NIC' or . = 'NIC')]</value>
-      <webElementGuid>da756ec2-deaf-4ddd-88d1-372197be72b3</webElementGuid>
+      <webElementGuid>31ea58ce-47b5-4b8a-8635-09d538f5e21f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

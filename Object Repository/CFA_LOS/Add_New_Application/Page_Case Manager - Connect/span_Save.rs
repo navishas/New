@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+         <value>//button//span[contains(text(),'Save')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>49e47a04-c35d-412e-a2e7-e962a110a98b</webElementGuid>
+      <webElementGuid>d85c4795-806e-4793-b6ed-10048845a1fd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>64731d17-3a56-4044-9bb2-c914e1867e9f</webElementGuid>
+      <webElementGuid>f130dc48-4791-4f48-afea-75660c3b27de</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>dc054af5-b811-4634-9cc4-4aceaabc3d0c</webElementGuid>
+      <webElementGuid>0a0c51e6-5ce1-4f56-8e2f-52532318ee54</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>Save</value>
-      <webElementGuid>52fd7def-dcd2-44a8-ad21-5b87124681bb</webElementGuid>
+      <webElementGuid>e9740911-f7f9-4a97-a812-6115eed7026c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-2003cc3fbddd401a05c16a20099914fa</value>
-      <webElementGuid>7ac9ffdf-215a-49c4-b75f-ccb989ba2cc3</webElementGuid>
+      <webElementGuid>c88a3a70-c414-4607-9135-2495e62377d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
-      <webElementGuid>e76a79d2-6168-4374-a73d-762cc04b7c35</webElementGuid>
+      <webElementGuid>c61d88a8-4e86-47f1-bba1-a3d02b87f921</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@aria-label = '`${multiRowData.actionType === 'add' ? 'Save' : 'Update'}` Data Table']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
-      <webElementGuid>ccc3bae8-75ab-4eba-9464-683417b24a2f</webElementGuid>
+      <webElementGuid>c6920122-7e4b-4eab-8dcc-553e54b75805</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Save' or . = 'Save')]</value>
-      <webElementGuid>d208a9fe-19a8-496f-8e21-226fd54014c3</webElementGuid>
+      <webElementGuid>829394f5-6961-4a70-8432-7c72749f309f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

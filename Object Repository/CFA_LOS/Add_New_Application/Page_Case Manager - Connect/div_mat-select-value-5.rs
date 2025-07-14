@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@aria-labelledby = 'mat-form-field-label-11 mat-select-value-5']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-select-value ')]</value>
+         <value>//span[contains(text(),'ID Type')]/ancestor::span/parent::div/mat-select</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5182102f-56d7-4160-a303-9688ad257e97</webElementGuid>
+      <webElementGuid>e4d8d468-706c-4fe0-907e-a4122126e71a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-select-value ng-tns-c92-34</value>
-      <webElementGuid>5dd00da8-c8be-408a-86b4-c6b164d839b5</webElementGuid>
+      <webElementGuid>12f807b2-abc6-4a22-b69c-c86b673a2f8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mat-select-value-5</value>
-      <webElementGuid>24400584-f7b3-4c7b-923e-6de8e9fa7b47</webElementGuid>
+      <webElementGuid>361392fe-ec6e-44a2-8851-c53b712ae95f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>mat-select-value-5</value>
-      <webElementGuid>782ce3fa-9a6b-4499-86ab-e8730359c1f1</webElementGuid>
+      <webElementGuid>e852d323-faf1-4cd9-a746-7b31cc99c969</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-a31ab9c051638dfde0109ca611c975e3</value>
-      <webElementGuid>514b1ea9-e836-4fbf-b650-2b1f2eda42a0</webElementGuid>
+      <webElementGuid>3105e0ce-71bf-4311-a13a-9da66b04975f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@aria-labelledby = 'mat-form-field-label-11 mat-select-value-5']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-select-value ')]</value>
-      <webElementGuid>a5dbcff1-3335-4877-a71d-fb1441677b05</webElementGuid>
+      <webElementGuid>93fad1eb-f6ff-41e4-b51b-e67248f34b78</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@aria-labelledby = 'mat-form-field-label-11 mat-select-value-5']//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-select-value ')]</value>
-      <webElementGuid>318907c4-cab0-4116-a223-1994c2271b77</webElementGuid>
+      <webElementGuid>fe8dbf87-12ff-4a37-8711-02eebfa74baa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[@id = 'mat-select-value-5' and (text() = 'mat-select-value-5' or . = 'mat-select-value-5')]</value>
-      <webElementGuid>ecdc4998-a8cf-48b4-8497-293c800620dc</webElementGuid>
+      <webElementGuid>2173ab15-b2da-406a-bac1-bececa44d4a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

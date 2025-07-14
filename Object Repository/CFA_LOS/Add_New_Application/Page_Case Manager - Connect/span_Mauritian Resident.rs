@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
+         <value>//mat-option//span[contains(text(),' Mauritian Resident')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>2153ed31-b981-4dfb-aac5-411ebe883179</webElementGuid>
+      <webElementGuid>47dc125f-62d9-4060-84c7-7f5e38d5e9d4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-option-text</value>
-      <webElementGuid>5e2a8b93-d7d8-47b3-b73c-484e600352a3</webElementGuid>
+      <webElementGuid>68c64a3b-d169-4843-801d-f5ad692896aa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Mauritian Resident</value>
-      <webElementGuid>1f41f6e0-86cf-44ac-99a1-02a367307218</webElementGuid>
+      <webElementGuid>7ecdaf16-4251-4e73-9d3d-00d044d7a354</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>NIC</value>
-      <webElementGuid>18b897da-4f9b-428e-b6f8-570eae4cad6f</webElementGuid>
+      <webElementGuid>4b74d73c-5eb8-40c0-920c-fe367d3b231e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-4cbbc464fa32429c75434aed229f9a75</value>
-      <webElementGuid>54bf276a-15de-4ef7-9ce9-459217015cd5</webElementGuid>
+      <webElementGuid>9f5a3602-7e69-48bb-9dd5-60de6186cc16</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>d58914cf-2636-4e05-aad6-bbf4849ba603</webElementGuid>
+      <webElementGuid>26c9d554-b179-44b7-82ee-d966cc729d2b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option ') and (position() = 1)]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-option-text ')]</value>
-      <webElementGuid>18085166-8930-42da-b20e-13c2f2c00816</webElementGuid>
+      <webElementGuid>d149a3b8-cc5f-4cd0-aeaf-66b9d8165d57</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Mauritian Resident' or . = 'Mauritian Resident')]</value>
-      <webElementGuid>77a27456-94c6-4462-b0ef-6cbe30908602</webElementGuid>
+      <webElementGuid>962e3a76-069d-4e31-902a-7003c7a8ab51</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

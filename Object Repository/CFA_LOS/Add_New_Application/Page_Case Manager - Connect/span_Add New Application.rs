@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//*[(@mat-flat-button = '') and (@type = 'button')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
+         <value>//span[contains(text(),'Add New Application')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>91cd7c0f-f85b-44b9-aefc-a5d190b8f796</webElementGuid>
+      <webElementGuid>9015a660-341b-4524-bdfb-1a5435211ba7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>mat-button-wrapper</value>
-      <webElementGuid>3d182686-40ca-4c9f-b751-5cf22140a8c3</webElementGuid>
+      <webElementGuid>9d5745f6-fe9e-40aa-9a6e-d686fba39775</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Add New Application</value>
-      <webElementGuid>654a27f0-969a-474b-abf3-5cdcca3028dc</webElementGuid>
+      <webElementGuid>275e1292-24b2-4db2-aed6-201602b15c6c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>@text</name>
       <type>Main</type>
       <value>Add New Application</value>
-      <webElementGuid>52552983-f94c-410e-ba17-28c58e5267cd</webElementGuid>
+      <webElementGuid>b4d9d34b-bc7e-4e1b-83b8-8191017f68d6</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>parent</name>
       <type>Main</type>
       <value>md5.v1-de2e037819cc920e6b27637136b62aa5</value>
-      <webElementGuid>1634eb46-8b89-41d9-a32c-52eacb9a2a20</webElementGuid>
+      <webElementGuid>84061470-2941-4815-9bf7-3586665d054b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[(@mat-flat-button = '') and (@type = 'button')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
-      <webElementGuid>971150e7-b9ee-48e9-b6d1-05c9d574af90</webElementGuid>
+      <webElementGuid>995cb9f5-fa73-48b2-9c4a-431d7868dc14</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//*[(@mat-flat-button = '') and (@type = 'button')]//*[@class and contains(concat(' ', normalize-space(@class), ' '), ' mat-button-wrapper ')]</value>
-      <webElementGuid>e1c2b332-89a2-4034-a151-7964a449d4a8</webElementGuid>
+      <webElementGuid>63686a64-2ef0-43d0-adbc-84ed6b502e00</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,6 +85,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Add New Application' or . = 'Add New Application')]</value>
-      <webElementGuid>60cb248c-bb8d-4f76-b2e1-c466ed27bfdf</webElementGuid>
+      <webElementGuid>2a7dd0bf-f168-4740-91fb-51ae2f7d7910</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
